@@ -2,7 +2,7 @@
 
 $(window).ready(function(){
 
-	// ---------------- HOMEPAGE --------------------
+	// ---------------- HOMEPAGE -------------------
 
 	// Typing text
 
