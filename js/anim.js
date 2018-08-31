@@ -105,6 +105,13 @@ $(window).ready(function(){
 
 	// ---------------- NAVIGATION ----------------------
 
+	// Redirect HOMEPAGE
+
+	$('.logo').click(function() {
+    window.location.href = 'http://www.alexlakas.com';
+    return false;
+});
+
 
 	// Show central nav stuff
 
