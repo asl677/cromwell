@@ -215,6 +215,8 @@ span.snip.anim_1{
 .homepage .box_style_2  {
   /* margin: 0 0vw 2vw 2vw !important; */
   background-color: transparent;
+  /* margin: 0 5vw 0 3vw !important;
+  width: 44% !important; */
   /* box-shadow: 0 0 0 10px #fff; */
   /* border-right: 3px solid rgba(0,0,0,.03) !important; */
 }
@@ -226,6 +228,7 @@ span.snip.anim_1{
 
 .homepage .box_style_2 + .box_style_2  {
   border-right: 0 !important;
+  /* margin: 0 0 0 3vw !important; */
 }
 
 .homepage .box_style_2.full-width {

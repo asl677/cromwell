@@ -4309,8 +4309,10 @@ opacity: 0 !important;
 	transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
 }
 
-.disable {
-	pointer-events: none;
+.homepage .box_style_2.disable.black-float {
+    pointer-events: none;
+    /* margin: 0 0 0 4.5vw !important;
+    width: calc(50% - 6.7vw) !important; */
 }
 
 .avatar.anim {
