@@ -543,7 +543,7 @@ font-family:"maven_b";
 .title_box_in_style_3.maven_b + div,
 .subby + .white-links.show {
 	color: #111;
-	margin: 0 0 24px 0 !important
+	/* margin: 0 0 24px 0 !important */
 }
 
 .title_box_in_style_3.maven_b.clients.skills {
