@@ -1411,7 +1411,7 @@ padding: 5vw;
   text-transform: none !important;
   position: fixed;
   opacity: 1 !important;
-  font-size: 28px !important;
+  font-size: inherit !important;
   line-height: 36px !important;
   text-align: center;
   padding: 4vw;
