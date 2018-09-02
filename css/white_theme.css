@@ -98,6 +98,7 @@ a,
 
 a.ftr-link {
   font-size: large !important;
+  font-weight: 600 !important;
   width: fit-content !important;
   font-family: 'Nunito Sans', sans-serif !important;
   margin-left: 0 !important;
@@ -124,6 +125,7 @@ a.ftr-link:after {
     margin-left: 10px !important;
     float: right !important;
 
+
     -webkit-transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
        -moz-transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
          -o-transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
@@ -139,7 +141,7 @@ a.ftr-link:hover {
     box-shadow: none !important;
     -webkit-box-shadow: none !important;
     -moz-box-shadow:  none !important;
-    border: 2px solid #eee;
+    border: 2px solid #000;
     opacity: 1 !important;
     background: #fff;
     padding: 15px 40px 15px 40px !important;
@@ -153,7 +155,7 @@ a.ftr-link:hover:after {
   display: block;
   content: '→';
   width: fit-content;
-  margin-left: 20px !important;
+  margin-left: 23px !important;
   color: #000;
 }
 
