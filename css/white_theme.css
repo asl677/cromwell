@@ -1725,6 +1725,35 @@ display: none !important;
 /* Everything mobile */
 
 
+@media (-webkit-min-device-pixel-ratio: 1) and (min-width: 1460px) {
+  .box_in_style_3.box_in_style_4.anim_box_1-5.introduction {
+    padding: 10vmax 25% !important;
+  }
+
+  .center .photo_min.medium.full-width.rouge.hero4,
+  .center .photo_min.medium.full-width.rouge.hero4.extra.medium {
+    background-size: 50% !important;
+  }
+
+  .center .photo_min.medium.full-width.hero4,
+  .homepage .box_style_2,
+  .homepage .box_style_2.disable.black-float {
+    height: 20vw !important;
+  }
+
+  .project_snippet.dropOut {
+    line-height: 10vw !important;
+  }
+
+  .project_snippet.dropOut:after,
+  .project_text .project_snippet:after {
+    display: none !important;
+    opacity: 0 !important;
+  }
+
+}
+
+
 @media (-webkit-min-device-pixel-ratio: 1) and (max-width: 1024px) {
 
   .photo_min.disable.full-width.blackandwhite.hero7 {

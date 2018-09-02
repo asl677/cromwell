@@ -349,7 +349,7 @@
     transition : 'fade', // The style of the transition
     transitionSpeed : 300, // This is the speed that each animation will take, not the entire transition
 
-    autoPlay : true, // Toggle auto rotate
+    autoplay controls : true, // Toggle auto rotate
     autoPlaySpeed : '3400', // Duration before each transition: either milliseconds or 'auto' to determine by quote length
     pauseOnHover : true, // Should the auto rotate pause on hover
     stopOnHover : false, // Should the auto rotate stop on hover (and not continue after hover)
