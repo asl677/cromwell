@@ -261,13 +261,14 @@ span.section:after {
   /* top: 24%; */
 }
 
-span.section.anim.openline {
+/* span.section.anim.openline {
   width: 40px !important;
-}
+} */
 
 span.section.openline:after {
   width: 40px !important;
 }
+
 /* span.section.openline:after {
   width: 40px !important;
   left: 0 !important;

@@ -363,7 +363,7 @@ $(window).ready(function(){
 
 		setTimeout(function() {
 			ScrollReveal().reveal('div', { origin: 'left', distance: '30px' });
-			$('section, a').removeClass('anim anim_1');
+			//$('section, a').removeClass('anim anim_1');
 			//$('.details').removeClass('anim anim_1');
 		}, 920);
 		//ScrollReveal().reveal('div', { distance: '30px' });
@@ -371,23 +371,24 @@ $(window).ready(function(){
 	} else {
 		setTimeout(function() {
 			$('div, .cap_label').addClass('anim show');
-			$('section, a').removeClass('anim anim_1');
+			$('span, a').removeClass('anim anim_1');
 		}, 920);
 	}
 
-	// $(window).resize(function() {
-	//
-	// 		if (width > 900) {
-	// 			ScrollReveal().reveal('div', { distance: '30px' });
-	// 		} else {
-	// 					$('div').addClass('anim anim_1');
-	// 					$('.fixed-nav, span').removeClass('anim anim_1');
-	//
-	// 					setTimeout(function() {
-	// 					}, 0);
-	// 		}
-	//
-	// 	});
+	$(window).resize(function() {
+
+			if (width > 900) {
+				//$('a, span, div').addClass('anim anim_1');
+				//ScrollReveal().reveal('div', { origin: 'left', distance: '30px' });
+			} else {
+				//$('div, .cap_label').addClass('anim show');
+				//$('section, a, span, div').addClass('anim anim_1');
+
+						setTimeout(function() {
+						}, 0);
+			}
+
+		});
 
 
 	// 	ScrollReveal.prototype.handler = function( event ) {
