@@ -230,7 +230,7 @@ $(window).ready(function(){
 
 	setTimeout(function() {
 		$('hr').addClass('open');
-	}, 900);
+	}, 1400);
 
 	setTimeout(function() {
 		$('.arrow').addClass('hide');
