@@ -1066,6 +1066,20 @@ ul.intro-links .trigger {
 	pointer-events: none;
 }
 
+/* .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.ftr.black-everything:after {
+	content: "";
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	z-index: 44;
+	background: #000 !important;
+	opacity: 1;
+	pointer-events: none;
+} */
+
 .fixed-nav + .fixed-nav > .bitmoji.nav {
 	display: none;
 }
