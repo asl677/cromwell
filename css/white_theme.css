@@ -1412,7 +1412,7 @@ padding: 5vw;
   text-transform: none !important;
   position: fixed;
   opacity: 1 !important;
-  font-size: inherit !important;
+  font-size: 28px !important;
   line-height: 36px !important;
   text-align: center;
   padding: 4vw;
@@ -2050,7 +2050,7 @@ border-bottom: 1px solid #e5e5e5 !important;
 }
 
 .project_text.cap_label .project_snippet {
-  /* font-size: inherit !important; */
+  font-size: inherit !important;
   line-height: inherit !important;
   font-family: 'Nunito Sans', sans-serif !important;
 }
