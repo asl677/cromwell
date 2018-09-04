@@ -2642,6 +2642,7 @@ display: block !important;
 
 .intro-links li a:hover {
 	/* padding-left: 0.7vw; */
+	color: #fff !important;
 }
 
 .fixed-nav .logo.trigger.bitmoji.fast {
