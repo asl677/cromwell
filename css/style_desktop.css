@@ -2641,7 +2641,7 @@ display: block !important;
 }
 
 .intro-links li a:hover {
-	padding-left: 0.7vw;
+	/* padding-left: 0.7vw; */
 }
 
 .fixed-nav .logo.trigger.bitmoji.fast {
