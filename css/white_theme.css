@@ -366,6 +366,7 @@ display: block !important
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   height: 45vw !important;
+  pointer-events: none;
   /*background-size: cover !important;
   background-position: 20% 30% !important;*/
 }
@@ -2360,6 +2361,10 @@ span.section:after {
 
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction {
     padding: 6vmax 15% !important;
+}
+
+.center .photo_min.medium.full-width.hero4 {
+  pointer-events: auto;
 }
 
 /* .title_box_in_style_3.maven_b + div {
