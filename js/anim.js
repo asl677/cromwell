@@ -105,10 +105,10 @@ $(window).ready(function(){
 
 	// ---------------- NAVIGATION ----------------------
 
-	// Redirect HOMEPAGE
+	// Redirect HOMEPAGE from logo
 
 	$('.logo').click(function() {
-    window.location.href = 'http://www.alexlakas.com';
+    window.location.href = 'http://www.alexlakas.com/';
     return false;
 });
 
