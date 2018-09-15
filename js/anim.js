@@ -362,19 +362,19 @@ $(window).ready(function(){
 	if ($(window).width() > 900) {
 
 		setTimeout(function() {
-			ScrollReveal().reveal('div', { origin: 'left', distance: '30px' });
+			ScrollReveal().reveal('div', { origin: 'left', distance: '20px' });
 			//$('section, a').removeClass('anim anim_1');
 			//$('.details').removeClass('anim anim_1');
 		}, 920);
 		//ScrollReveal().reveal('div', { distance: '30px' });
 		//$('div').addClass('anim anim_1');
 	} else {
-		ScrollReveal().reveal('div', { origin: 'left', distance: '30px' });
+		//ScrollReveal().reveal('div', { origin: 'left', distance: '30px' });
 
-		// setTimeout(function() {
-		// 	$('div, .cap_label').addClass('anim show');
-		// 	$('span, a').removeClass('anim anim_1');
-		// }, 920);
+		setTimeout(function() {
+			$('div, .cap_label').addClass('anim show');
+			$('span, a').removeClass('anim anim_1');
+		}, 920);
 	}
 
 	$(window).resize(function() {
