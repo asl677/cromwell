@@ -369,7 +369,7 @@ $(window).ready(function(){
 		//ScrollReveal().reveal('div', { distance: '30px' });
 		//$('div').addClass('anim anim_1');
 	} else {
-		//ScrollReveal().reveal('div', { origin: 'left', distance: '30px' });
+		ScrollReveal().reveal('div', { origin: 'left', distance: '20px' });
 
 		setTimeout(function() {
 			$('div, .cap_label').addClass('anim show');
