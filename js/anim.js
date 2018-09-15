@@ -370,12 +370,12 @@ $(window).ready(function(){
 		//$('div').addClass('anim anim_1');
 	} else {
 
-		ScrollReveal().reveal('div', { origin: 'left', distance: '0' });
+		//ScrollReveal().reveal('div', { origin: 'left', distance: '0' });
 
-		// setTimeout(function() {
-		// 	$('a').addClass('anim show');
-		// 	$('span, a').removeClass('anim anim_1');
-		// }, 920);
+		setTimeout(function() {
+			$('a').addClass('anim show');
+			$('span, a').removeClass('anim anim_1');
+		}, 920);
 	}
 
 	$(window).resize(function() {
