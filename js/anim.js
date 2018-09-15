@@ -369,13 +369,13 @@ $(window).ready(function(){
 		//ScrollReveal().reveal('div', { distance: '30px' });
 		//$('div').addClass('anim anim_1');
 	} else {
-		
-		ScrollReveal().reveal('div', { origin: 'left', distance: '10px' });
 
-		setTimeout(function() {
-			$('a').addClass('anim show');
-			//$('span, a').removeClass('anim anim_1');
-		}, 920);
+		ScrollReveal().reveal('div', { origin: 'left', distance: '5px' });
+
+		// setTimeout(function() {
+		// 	$('a').addClass('anim show');
+		// 	$('span, a').removeClass('anim anim_1');
+		// }, 920);
 	}
 
 	$(window).resize(function() {
