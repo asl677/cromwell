@@ -369,10 +369,12 @@ $(window).ready(function(){
 		//ScrollReveal().reveal('div', { distance: '30px' });
 		//$('div').addClass('anim anim_1');
 	} else {
-		setTimeout(function() {
-			$('div, .cap_label').addClass('anim show');
-			$('span, a').removeClass('anim anim_1');
-		}, 920);
+		ScrollReveal().reveal('div', { origin: 'left', distance: '30px' });
+
+		// setTimeout(function() {
+		// 	$('div, .cap_label').addClass('anim show');
+		// 	$('span, a').removeClass('anim anim_1');
+		// }, 920);
 	}
 
 	$(window).resize(function() {
