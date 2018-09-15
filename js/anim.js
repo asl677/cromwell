@@ -370,7 +370,7 @@ $(window).ready(function(){
 		//$('div').addClass('anim anim_1');
 	} else {
 
-		ScrollReveal().reveal('div', { origin: 'left', distance: '5px' });
+		ScrollReveal().reveal('div', { origin: 'left', distance: '0' });
 
 		// setTimeout(function() {
 		// 	$('a').addClass('anim show');
