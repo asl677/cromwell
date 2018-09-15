@@ -70,7 +70,7 @@ $(window).ready(function(){
 
 	function showNextQuote() {
 		++quoteIndex;
-		quotes.eq(quoteIndex % quotes.length).fadeIn(1500).delay(2700).fadeOut(1500, showNextQuote);
+		quotes.eq(quoteIndex % quotes.length).fadeIn(1500).delay(3300).fadeOut(1500, showNextQuote);
 
 	}
 
