@@ -371,6 +371,10 @@ display: block !important
   background-position: 20% 30% !important;*/
 }
 
+.center .photo_min.medium.full-width.hero4 iframe {
+  pointer-events: auto;
+}
+
 .center .photo_min.medium.full-width.hero4.proto {
   background-size: 63% !important;
   margin: 8vw 0 2vw 0 !important;
