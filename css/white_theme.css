@@ -2364,7 +2364,7 @@ span.section:after {
 }
 
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction {
-    padding: 6vmax 15% !important;
+    padding: 8vmax 15% 12vmax 15% !important;
 }
 
 .center .photo_min.medium.full-width.hero4 {
