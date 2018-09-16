@@ -3949,7 +3949,8 @@ opacity: 1 !important;
 
 .project_text .project_snippet {
 	color: #fff;
-	font-size: 1vw;
+	font-size: 36px !important;
+	line-height: 46px !important;
 	opacity: 0 !important;
 	text-align: center;
 	text-transform: normal;
@@ -3982,6 +3983,7 @@ opacity: 1 !important;
 	justify-content: center;
 	align-items: center;
 	margin-top: 0 !important;
+	padding: 12vw 15% !important;
 	/* border-radius: 20px !important;
 	-webkit-border-radius: 20px !important;
 	-moz-border-radius: 20px !important; */
@@ -4326,9 +4328,14 @@ opacity: 0 !important;
 
 .homepage .box_style_2.disable.black-float {
     pointer-events: none;
+		width: 100% !important;
     /* margin: 0 0 0 4.5vw !important;
     width: calc(50% - 6.7vw) !important; */
 }
+
+/* .homepage .box_style_2.disable.black-float span {
+		padding: 0 15% !important;
+} */
 
 .avatar.anim {
 	animation:box_anim 0.5s ease forwards;
