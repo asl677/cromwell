@@ -2065,7 +2065,8 @@ border-bottom: 1px solid #e5e5e5 !important;
 }
 
 .project_text.cap_label .project_snippet {
-  /* font-size: 4vmin !important; */
+  font-size: 6vmin !important;
+  padding: 0 10vw !important;
   line-height: inherit !important;
   /* font-family: 'Nunito Sans', sans-serif !important; */ font-family: 'Quicksand', sans-serif !important;
 }
