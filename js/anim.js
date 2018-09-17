@@ -367,8 +367,8 @@ $(window).ready(function(){
 				distance: '30px',
 				//reset: true,
 				duration: 1000,
-				delay: 30,
-			  viewFactor: 0.05
+				delay: 20,
+			  viewFactor: 0.01
 			  //viewOffset: { top: 100, bottom: 100 }
 			});
 			//$('section, a').removeClass('anim anim_1');
