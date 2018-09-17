@@ -362,7 +362,15 @@ $(window).ready(function(){
 	if ($(window).width() > 900) {
 
 		setTimeout(function() {
-			ScrollReveal().reveal('div, video', { origin: 'right', distance: '30px' });
+			ScrollReveal().reveal('div, video', {
+				origin: 'left',
+				distance: '30px',
+				//reset: true,
+				duration: 1000,
+				delay: 30,
+			  viewFactor: 0.05
+			  //viewOffset: { top: 100, bottom: 100 }
+			});
 			//$('section, a').removeClass('anim anim_1');
 			//$('.details').removeClass('anim anim_1');
 		}, 920);
