@@ -1034,18 +1034,6 @@ ul.intro-links .trigger {
 	background: transparent !important;
 }
 
-.box_in_style_3.box_in_style_4.anim_box_1-5.introduction.black-everything:after {
-	content: '';
-	display: block;
-	position: absolute;
-	background-color: #000;
-	opacity: 0.54;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -55;
-}
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.black-everything .maven_b,
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.ftr.black-everything .ftr_wrap,
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.ftr.black-everything.anim_1 .ftr_wrap .fa a {
@@ -3937,6 +3925,14 @@ svg + img {
 opacity: 1 !important;
 }*/
 
+/* .introduction.main_block.client-wrap.ftr.black_everything {
+  background: #000 !important;
+} */
+
+.anim_box_1-5.introduction.black-everything {
+	  background: #000 !important;
+}
+
 .poster > .devices {
 	position: absolute;
 	left: 0;
@@ -4332,6 +4328,22 @@ opacity: 0 !important;
 		width: 100% !important;
     /* margin: 0 0 0 4.5vw !important;
     width: calc(50% - 6.7vw) !important; */
+}
+
+/* Home hero floats */
+
+.homepage > .photo_min.box_style_2.disable.black-float {
+  height: 80vh !important;
+	/* padding: 12vw 0 !important; */
+}
+
+.homepage > .photo_min.box_style_2.disable.black-float .project_text .project_snippet {
+	font-size: 36px !important;
+	line-height: 46px !important;
+}
+
+.homepage > .photo_min.box_style_2.disable.black-float .project_text .scrim {
+	background-position: center;
 }
 
 /* .homepage .box_style_2.disable.black-float span {
@@ -5090,13 +5102,6 @@ footer
 	float: left;
 	width: 101%;
 	z-index: 222222;
-	/*box-shadow: 0 0px 0px rgba(0,0,0,0.2);
-	-moz-box-shadow: 0 0px 0px rgba(0,0,0,0.2);
-	-webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.2);
-	border: 0 solid #fff;*/
-	/* -webkit-border-radius: .7vw;
-	border-radius: .7vw;
-	-moz-border-radius: .7vw; */
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
 	-o-transition: all 0.2s ease;

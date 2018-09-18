@@ -179,7 +179,7 @@ $(window).ready(function(){
 
 	setTimeout(function() {
 		$('.container_box, .container_box_2').addClass('anim');
-	}, 900);
+	}, 100);
 
 	setTimeout(function() {
 		$('.showbox').addClass('hide');
@@ -361,15 +361,15 @@ $(window).ready(function(){
 
 	if ($(window).width() > 900) {
 
+		// window.sr = ScrollReveal();
+		// sr.reveal('div');
+
 		setTimeout(function() {
 			ScrollReveal().reveal('div, video', {
-				origin: 'left',
+				origin: 'bottom',
 				distance: '30px',
-				//reset: true,
-				duration: 1000,
-				delay: 20,
-			  viewFactor: 0.01
-			  //viewOffset: { top: 100, bottom: 100 }
+				//reset: false,
+				duration: 1000
 			});
 			//$('section, a').removeClass('anim anim_1');
 			//$('.details').removeClass('anim anim_1');

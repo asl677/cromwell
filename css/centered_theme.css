@@ -3,7 +3,6 @@
 
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
-  /*font-weight:*/ 300;
 }
 
 /*.gif_bg {
@@ -214,7 +213,7 @@ span.snip.anim_1{
 
 .homepage .box_style_2  {
   /* margin: 0 0vw 2vw 2vw !important; */
-  background-color: transparent;
+  /* background-color: transparent; */
   /* margin: 0 5vw 0 3vw !important;
   width: 44% !important; */
   /* box-shadow: 0 0 0 10px #fff; */

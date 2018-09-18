@@ -80,7 +80,7 @@ html  {
 .container_box_2,
 .anim_box_1-5.introduction.client-wrap,
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction {
-  background: none !important;
+  /* background: none !important; */
   background-size: cover !important;
   background-position: center center !important;
 }
