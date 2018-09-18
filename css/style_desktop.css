@@ -886,10 +886,10 @@ ul.intro-links .trigger {
 	/*top: calc(100% - 3vw);*/
 	/* margin: -63px 0 !important; */
 	padding: 10px 0 48px 0 !important;
-	-webkit-transition: all .4s cubic-bezier(0.500, -0.010, 0.000, 1.005);
-	-moz-transition: all .4s cubic-bezier(0.500, -0.010, 0.000, 1.005);
-	-o-transition: all .4s cubic-bezier(0.500, -0.010, 0.000, 1.005);
-	transition: all .4s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+	-webkit-transition: all 1s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+	-moz-transition: all 1s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+	-o-transition: all 1s cubic-bezier(0.500, -0.010, 0.000, 1.005);
+	transition: all 1s cubic-bezier(0.500, -0.010, 0.000, 1.005);
 
 	/* padding-top: 5vw; */
 }
@@ -4316,11 +4316,11 @@ opacity: 0 !important;
 	opacity: 1 !important;
 	/* margin-top: -2.3vw;
 	bottom: 8vw; */
-	-webkit-transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
-	-moz-transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
-	-ms-transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
-	-o-transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
-	transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-webkit-transition: all 2s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-moz-transition: all 2s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-ms-transition: all 2s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-o-transition: all 2s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	transition: all 2s cubic-bezier(0.190, 1.000, 0.220, 1.000);
 }
 
 .homepage .box_style_2.disable.black-float {

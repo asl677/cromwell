@@ -226,7 +226,7 @@ $(window).ready(function(){
 	//
 	setTimeout(function() {
 		$('.fixed-nav').addClass('anim');
-	}, 1200);
+	}, 1500);
 
 	setTimeout(function() {
 		$('hr').addClass('open');
