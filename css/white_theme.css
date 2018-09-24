@@ -2443,12 +2443,16 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
 }
 
 .homepage > .photo_min.box_style_2.disable.black-float {
-    height: 40vh !important;
+    /* height: 40vh !important; */
     /* padding: 12vw 0 !important; */
 }
 
 .homepage > .photo_min.box_style_2.disable.black-float.testimonial {
   height: 50vmax !important;
+}
+
+.homepage > .photo_min.box_style_2.disable.black-float.testimonial span.scrim {
+  background-image: #000 !important;
 }
 
 .homepage > .photo_min.box_style_2.disable.black-float.testimonial .project_text .project_snippet {
