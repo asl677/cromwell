@@ -79,7 +79,7 @@ a,
   color: #fff;
   top: 0;
   left: calc(50% - 70px);
-  z-index: 33333;
+  z-index: 333;
   margin: 48px 0 !important;
   text-transform: uppercase;
   letter-spacing: 6px;
@@ -2510,6 +2510,23 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
   line-height: 32px !important;
   text-align: left;
 }
+
+
+.logo.text {
+  margin-top: 0 !important;
+  opacity: 1;
+  /* top: -25px !important; */
+  position: absolute;
+  color: #fff;
+  top: 0;
+  left: calc(50% - 70px);
+  z-index: 3333333333333;
+  margin: 48px 0 !important;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 11px;
+}
+
 
 /* .homepage .box_style_2.disable.black-float span,
 .homepage .box_style_2.disable.black-float .project_text.cap_label .project_snippet {
