@@ -86,6 +86,19 @@ a,
   font-size: 11px;
 }
 
+.logo.text:after {
+  content: "\A";
+  width: 30px;
+  height: 1px;
+  /* border-radius: 50%; */
+  background: #fff;
+  display: inline-block;
+  margin: 3em 5em;
+  left: 0 !important;
+  /* float: inherit; */
+  position: absolute;
+}
+
 .clients.problem .logo.trigger.bitmoji.anim_1 {
   text-align: center;
   margin: 0 auto;
