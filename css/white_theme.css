@@ -78,8 +78,8 @@ a,
   position: absolute;
   color: #fff;
   top: 0;
-  left: calc(50% - 75px);
-  z-index: 222;
+  left: calc(50% - 70px);
+  z-index: 22222222;
   margin: 48px 0 !important;
   text-transform: uppercase;
   letter-spacing: 6px;
@@ -512,6 +512,17 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
   font-size: 1.5vw !important;
   line-height: 2.5vw !important;
   letter-spacing: normal !important;
+}
+
+/* use case hero */
+
+.box_in_style_3.box_in_style_4.anim_box_1-5.introduction.use-case {
+  background: #000 !important;
+}
+
+.box_in_style_3.box_in_style_4.anim_box_1-5.introduction.use-case .maven_b.clients {
+  color: #fff !important;
+  text-align: center;
 }
 
 /* white grid */
@@ -1477,8 +1488,16 @@ padding: 5vw;
   font-weight: inherit !important;
 }
 
+/* .fixed-nav.avatary + .photo_min.box_style_2.disable.black-float .project_text.cap_label .project_snippet {
+  position: relative !important;
+} */
+
 .homepage > .photo_min.box_style_2.disable.black-float.testimonial {
   height: 45vmax !important;
+}
+
+.homepage > .photo_min.box_style_2.disable.black-float.testimonial .scrim {
+  background: #000 !important;
 }
 
 .black-float.testimonial .cap_label:after {
@@ -1890,6 +1909,7 @@ display: none !important;
     height: 30vw !important;
   }
 
+  .project_snippet,
   .photo_min.xmedium.black-float .project_snippet,
   .center .photo_min.xmedium.black-float .project_snippet {
     font-size: 18px !important;
