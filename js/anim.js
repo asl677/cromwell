@@ -366,7 +366,7 @@ $(window).ready(function(){
 
 		setTimeout(function() {
 			ScrollReveal().reveal('div, video', {
-				origin: 'bottom',
+				origin: 'right',
 				distance: '30px',
 				//reset: false,
 				duration: 600
