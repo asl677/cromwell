@@ -77,13 +77,30 @@ a,
   /* top: -25px !important; */
   position: absolute;
   color: #fff;
-  top: 0;
-  left: calc(50% - 50px);
+  background: none;
+  top: 0 !important;
+  left: 0;
+  width: 100%;
+  text-align: center;
   z-index: 33 !important;
-  margin: 48px 0 !important;
+  padding: 4vw 0 !important;
   font-style: italic;
   font-family: 'Georgia', 'sans-serif' !important;
   text-transform: lowercase !important;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.logo.text.pin-logo {
+  background: #fff;
+  position: fixed;
+  color: #000;
+  padding: 1vw 0 !important;
+  box-shadow: 0 0px 30px rgba(0,0,0,.09);
+  -webkit-box-shadow: 0 0px 30px rgba(0,0,0,.09);
+  -moz-box-shadow: 0 0px 30px rgba(0,0,0,.09);
 }
 
 .logo.text:after {
@@ -94,7 +111,7 @@ a,
   background: #fff;
   display: inline-block;
   margin: 46px 30px;
-  left: 0 !important;
+  left: calc(50% - 50px) !important;
   /* float: inherit; */
   position: absolute
 }
@@ -2476,7 +2493,7 @@ span.section:after {
 }
 
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction {
-    padding: 8vmax 15% 12vmax 15% !important;
+    padding: 10vmax 15% 12vmax 15% !important;
 }
 
 .center .photo_min.medium.full-width.hero4 {

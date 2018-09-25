@@ -63,6 +63,19 @@ $(window).ready(function(){
 		document.body.appendChild(css);
 	};
 
+
+// ---------------- SHOW HEADER ON SCROLL ----------------------
+
+
+	$(window).scroll(function() {
+    if ($(this).scrollTop() > 400) {
+        //fade bg in
+				$('.logo.text').addClass('pin-logo');
+    } else {
+				$('.logo.text').removeClass('pin-logo');
+		}
+});
+
 	// ---------------- QUOTES ----------------------
 
 	var quotes = $(".quotes");
