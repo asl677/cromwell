@@ -1645,7 +1645,7 @@ display: none !important;
 
 .introduction.client-wrap.first.short {
   /* padding-top: 6vw !important; */
-  padding-bottom: 0 !important;
+  /* padding-bottom: 0 !important; */
   padding-top: 12vw !important;
 }
 
