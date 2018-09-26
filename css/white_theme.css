@@ -2535,6 +2535,10 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
   z-index: 333333333 !important;
 }
 
+.homepage > .photo_min.box_style_2.disable.black-float {
+    height: 60vh !important;
+}
+
 
 /* .homepage .box_style_2.disable.black-float span,
 .homepage .box_style_2.disable.black-float .project_text.cap_label .project_snippet {
