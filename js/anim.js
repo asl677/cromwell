@@ -68,7 +68,7 @@ $(window).ready(function(){
 
 
 	$(window).scroll(function() {
-    if ($(this).scrollTop() > 450) {
+    if ($(this).scrollTop() > 500) {
         //fade bg in
 				$('.logo.text').addClass('pin-logo');
     } else {
