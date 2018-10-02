@@ -84,9 +84,9 @@ a,
   text-align: center;
   z-index: 33 !important;
   padding: 4vw 0 !important;
-  font-style: italic;
+  /* font-style: italic;
   font-family: 'Georgia', 'sans-serif' !important;
-  text-transform: lowercase !important;
+  text-transform: lowercase !important; */
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   -o-transition: all .3s ease;
