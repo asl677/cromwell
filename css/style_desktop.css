@@ -4321,7 +4321,7 @@ opacity: 0 !important;
 	-ms-transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
 	-o-transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
 	transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
-	transition-delay: 0.6s;
+	transition-delay: 0.4s;
 }
 
 .homepage .box_style_2.disable.black-float {

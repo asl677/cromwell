@@ -382,7 +382,7 @@ $(window).ready(function(){
 				origin: 'bottom',
 				distance: '15px',
 				//reset: false,
-				duration: 700
+				duration: 600
 			});
 			//$('section, a').removeClass('anim anim_1');
 			//$('.details').removeClass('anim anim_1');
