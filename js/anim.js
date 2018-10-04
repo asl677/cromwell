@@ -70,9 +70,9 @@ $(window).ready(function(){
 	$(window).scroll(function() {
     if ($(this).scrollTop() > 500) {
         //fade bg in
-				$('.logo.text').addClass('pin-logo');
+				//$('.logo.text').addClass('pin-logo');
     } else {
-				$('.logo.text').removeClass('pin-logo');
+				//$('.logo.text').removeClass('pin-logo');
 		}
 });
 
