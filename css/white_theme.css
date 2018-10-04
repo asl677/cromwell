@@ -2427,7 +2427,7 @@ span.section.openline:after {
 .project_text .project_snippet:after {
   content: 'more' !important;
   left: auto;
-  top: calc(100% - 8vw);
+  top: calc(100% - 11vw);
   opacity: 1;
   color: #fff;
   font-weight: 400;
