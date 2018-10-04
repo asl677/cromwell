@@ -2534,14 +2534,15 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
 
 .logo.text {
   z-index: 333333333 !important;
+  margin-top: 20px !important;
 }
 
 .homepage > .photo_min.box_style_2.disable.black-float {
-    height: 80vh !important;
+    height: 85vh !important;
 }
 
 .arrow {
-  top: 80vh !important;
+  top: 76vh !important;
 }
 
 
