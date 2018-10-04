@@ -4341,6 +4341,7 @@ opacity: 0 !important;
 .homepage > .photo_min.box_style_2.disable.black-float .project_text .project_snippet {
 	font-size: 36px !important;
 	line-height: 46px !important;
+	font-weight: 600 !important;
 }
 
 .homepage > .photo_min.box_style_2.disable.black-float .project_text .scrim {
