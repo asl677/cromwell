@@ -876,7 +876,7 @@ ul.intro-links .trigger {
 
 .fixed-nav {
 	position: fixed;
-	bottom: -15vw !important;
+	bottom: -25vw !important;
 	left: 5vw;
 	right: 5vw;
 	top: auto !important;
@@ -896,7 +896,7 @@ ul.intro-links .trigger {
 
 .fixed-nav {
   position: fixed;
-	bottom: -15vw !important;
+	bottom: -25vw !important;
   left: 0;
   top: auto !important;
   margin: 0;
@@ -4316,11 +4316,12 @@ opacity: 0 !important;
 	opacity: 1 !important;
 	/* margin-top: -2.3vw;
 	bottom: 8vw; */
-	-webkit-transition: all 2s cubic-bezier(0.190, 1.000, 0.220, 1.000);
-	-moz-transition: all 2s cubic-bezier(0.190, 1.000, 0.220, 1.000);
-	-ms-transition: all 2s cubic-bezier(0.190, 1.000, 0.220, 1.000);
-	-o-transition: all 2s cubic-bezier(0.190, 1.000, 0.220, 1.000);
-	transition: all 2s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-webkit-transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-moz-transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-ms-transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	-o-transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	transition: all 1s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	transition-delay: 0.6s;
 }
 
 .homepage .box_style_2.disable.black-float {

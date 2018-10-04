@@ -2050,7 +2050,7 @@ font-size: 20px !important;
 .fixed-nav.anim {
   /*margin-top: 4vw;*/
   /*top: calc(100% - 12vw);*/
-  bottom: 0 !important;
+  /* bottom: 0 !important; */
 }
 
 .fixed-nav.scrolled {
