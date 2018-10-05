@@ -1551,7 +1551,7 @@ padding: 5vw;
   /* -webkit-border-radius: 8px; */
   /* -moz-border-radius: 8px; */
   background-size: cover !important;
-  filter: brightness(40%);
+  filter: brightness(20%);
   /* height: 100%; */
   /* background: #fff !important; */
   /* z-index: -4; */
@@ -2506,8 +2506,8 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
   /* transform: scale(1.8);
   background-position: top center !important;
   margin: 20vw 0 !important;
-  height: 70vw !important;
   overflow: hidden; */
+  height: 70vw !important;
 }
 
 .homepage .box_style_2.disable.black-float {
@@ -2557,6 +2557,10 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
 /* Thumb images in detail views */
 .center .photo_min.medium.full-width.hero4 {
     height: 100vw !important;
+}
+
+.center .photo_min.medium.full-width.hero4.contain {
+    height: inherit !important;
 }
 
 
