@@ -2503,7 +2503,11 @@ span.section:after {
 }
 
 video.photo_min.box_style_2.medium.full-width.hero4 {
-  height: auto !important;
+  /* transform: scale(1.8);
+  background-position: top center !important;
+  margin: 20vw 0 !important;
+  height: 70vw !important;
+  overflow: hidden; */
 }
 
 .homepage .box_style_2.disable.black-float {
@@ -2543,6 +2547,16 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
 
 .arrow {
   top: 70vh !important;
+}
+
+.homepage > .photo_min.box_style_2.disable.black-float .project_text .project_snippet {
+    font-size: 46px !important;
+    line-height: 56px !important;
+}
+
+/* Thumb images in detail views */
+.center .photo_min.medium.full-width.hero4 {
+    height: 100vw !important;
 }
 
 
