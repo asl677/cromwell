@@ -430,6 +430,15 @@ $(window).ready(function(){
 	//
 	// };
 
+	// Bouncey arrow anchor
+
+	$("a[href^='#']").click(function(){
+	    $('html, body').animate({
+	        scrollTop: $( $(this).attr('href') ).offset().top
+	    }, 400);
+	    return false;
+	});
+
 
 	// ---------------- CASE NAVI ----------------------
 
