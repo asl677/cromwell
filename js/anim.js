@@ -380,9 +380,9 @@ $(window).ready(function(){
 		setTimeout(function() {
 			ScrollReveal().reveal('div, video', {
 				origin: 'left',
-				distance: '25px',
+				distance: '30px',
 				//reset: false,
-				duration: 800
+				duration: 900
 			});
 			//$('section, a').removeClass('anim anim_1');
 			//$('.details').removeClass('anim anim_1');
