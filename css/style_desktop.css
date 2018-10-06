@@ -133,10 +133,20 @@ ul {
 	/* opacity:0 !important; */
 }
 
+.ftr.black-everything .maven_b {
+	text-align: center !important;
+}
+
+.ftr.black-everything + div {
+	text-align: center !important;
+	margin: 0 auto;
+}
+
 .footer-social-icons {
 	width: auto;
 	display: inline-flex;
 	z-index: 2222222222;
+	text-align: center;
 }
 
 .footer-social-icons li {
@@ -217,10 +227,11 @@ margin-top: 25vw !important;
 
 .footer-social-icons.show {
 	opacity: 1 !important;
+	height: auto !important;
 	/* float: left; */
-	top: 13vw;
+	/* top: 13vw;
 	position: absolute;
-	left: 14%;
+	left: 14%; */
 }
 
 /* .fa.fa-angle-down.show {
@@ -4335,7 +4346,7 @@ opacity: 0 !important;
 /* Home hero floats */
 
 .homepage > .photo_min.box_style_2.disable.black-float {
-  height: 90vh !important;
+  height: 91vh !important;
 	/* padding: 12vw 0 !important; */
 }
 

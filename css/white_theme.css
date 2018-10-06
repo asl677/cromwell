@@ -630,6 +630,7 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
   transition: all 0.3s ease;
 }
 
+.white-links.show.ftr_wrap,
 .full-width + .photo_min.anim_box_3.disable {
   display: none !important;
 }
@@ -849,6 +850,7 @@ width:calc(10%) !important;
 .social-icons a,
 #spin {
   color: #aaa !important;
+  width: 100%;
 }
 
 .project_text .project_snippet {
@@ -2137,7 +2139,6 @@ zoom: 3;
 .problem.hide,
 .source_r.white-links.center.hide,
 .featured,
-.footer-social-icons,
 .social-icons.upper_nav,
 .more,
 .center .photo_min.medium.full-width.hero4.hide,
@@ -2317,6 +2318,10 @@ color: #fff !important;
 
 .subby + .white-links.show, .social-icons.upper_nav, .title_box_in_style_3.maven_b + div {
   width: 100%;
+}
+
+.title_box_in_style_3.maven_b + .footer-social-icons {
+    height: 14vh !important;
 }
 
 /* .title_box_in_style_3.maven_b + div {

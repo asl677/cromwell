@@ -64,17 +64,17 @@ $(window).ready(function(){
 	};
 
 
-// ---------------- SHOW HEADER ON SCROLL ----------------------
+	// ---------------- SHOW HEADER ON SCROLL ----------------------
 
 
 	$(window).scroll(function() {
-    if ($(this).scrollTop() > 500) {
-        //fade bg in
-				//$('.logo.text').addClass('pin-logo');
-    } else {
-				//$('.logo.text').removeClass('pin-logo');
+		if ($(this).scrollTop() > 500) {
+			//fade bg in
+			//$('.logo.text').addClass('pin-logo');
+		} else {
+			//$('.logo.text').removeClass('pin-logo');
 		}
-});
+	});
 
 	// ---------------- QUOTES ----------------------
 
@@ -121,9 +121,9 @@ $(window).ready(function(){
 	// Redirect HOMEPAGE from logo
 
 	$('.logo').click(function() {
-    window.location.href = 'http://www.alexlakas.com/';
-    return false;
-});
+		window.location.href = 'http://www.alexlakas.com/';
+		return false;
+	});
 
 
 	// Show central nav stuff
@@ -400,18 +400,18 @@ $(window).ready(function(){
 
 	$(window).resize(function() {
 
-			if (width > 900) {
-				//$('a, span, div').addClass('anim anim_1');
-				//ScrollReveal().reveal('div', { origin: 'left', distance: '30px' });
-			} else {
-				//$('div, .cap_label').addClass('anim show');
-				//$('section, a, span, div').addClass('anim anim_1');
+		if (width > 900) {
+			//$('a, span, div').addClass('anim anim_1');
+			//ScrollReveal().reveal('div', { origin: 'left', distance: '30px' });
+		} else {
+			//$('div, .cap_label').addClass('anim show');
+			//$('section, a, span, div').addClass('anim anim_1');
 
-						setTimeout(function() {
-						}, 0);
-			}
+			setTimeout(function() {
+			}, 0);
+		}
 
-		});
+	});
 
 
 	// 	ScrollReveal.prototype.handler = function( event ) {
@@ -431,7 +431,7 @@ $(window).ready(function(){
 	// };
 
 
-  // ---------------- CASE NAVI ----------------------
+	// ---------------- CASE NAVI ----------------------
 
 
 	// Show central nav stuff
