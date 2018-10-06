@@ -2301,9 +2301,8 @@ display: block !important;
 	z-index: 2222222;
 }
 
-.white-links a,
-.section.black a {
-	color: rgba(0,0,0,.54) !important;
+.white-links a {
+	color: #000 !important;
 	transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
 	-webkit-transition: all 0.2s ease;
@@ -2313,7 +2312,7 @@ display: block !important;
 	font-family: inherit !important;
 	/* font-size: 18px !important; */
 	line-height: 28px !important;
-	text-align: left;
+	text-align: center;
 	/* border: 1px solid #fff; */
 }
 
@@ -2980,7 +2979,7 @@ a#scroll {
 .quotes {
 	text-align: left !important;
 	display: none;
-	position: absolute;
+	/* position: absolute; */
 	/* width: 50%;
 	padding-right: 12vw; */
 }

@@ -1572,6 +1572,7 @@ padding: 5vw;
 /* Rotating home text */
 
 h1,h2,
+.quotes a,
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction .maven_b,
 .quotes-block .white-links a,
 .title_box_in_style_3.title_box_in_style_4.maven_b.clients.hide.gradient {
@@ -1579,6 +1580,10 @@ h1,h2,
   line-height: 50px !important;
   font-weight: 600 !important;
   /* font-family: 'Nunito Sans', sans-serif !important; */  font-family: 'Quicksand', 'Helvetica', sans-serif !important;
+}
+
+.quotes a {
+  color: #fff !important;
 }
 
 /* h1 { font-size: 3.5em; } */
