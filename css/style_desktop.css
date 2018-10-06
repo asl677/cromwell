@@ -434,7 +434,7 @@ display: inline-block !important;
 .fa,
 .fas {
 	letter-spacing: none;
-	font-size: 1.3vw !important;
+	font-size: 15px !important;
 	display: block !important;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
@@ -442,6 +442,19 @@ display: inline-block !important;
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
+
+.arrow .fa,
+.arrow .fas {
+	letter-spacing: none;
+	font-size: 28px !important;
+	display: block !important;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
 .fa:hover {
 	/*color: rgba(0,0,0,.54);*/
 	/*color: rgba(0,0,0,.54);*/
