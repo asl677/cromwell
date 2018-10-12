@@ -380,7 +380,7 @@ $(window).ready(function(){
 		setTimeout(function() {
 			ScrollReveal().reveal('div, video', {
 				origin: 'bottom',
-				distance: '35px',
+				distance: '30px',
 				//reset: false,
 				duration: 900
 			});
