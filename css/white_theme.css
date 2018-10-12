@@ -555,6 +555,10 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
   text-align: center;
 }
 
+.maven_b.clients.expanded {
+  width: 100% !important;
+}
+
 /* white grid */
 
 .anim_box_3.black.white > div .title_box_in_style_3.maven_b.clients.skills {
