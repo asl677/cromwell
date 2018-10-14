@@ -882,7 +882,7 @@ width:calc(10%) !important;
   height: 100%;
   /* font-size: 28px !important; */
   font-family: inherit !important;
-  line-height: 13vh !important;
+  line-height: 24vh !important;
   font-weight: 600 !important;
   /* font-family: 'Nunito Sans', sans-serif !important; */  font-family: 'Quicksand', 'Helvetica', sans-serif !important;
 }
@@ -902,7 +902,7 @@ display: inline-block;
   content: 'see more' !important;
   left: calc(50% - 3vw);
   display: block;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   position: absolute;
   margin: 0 auto;
   bottom: 8vw !important;
