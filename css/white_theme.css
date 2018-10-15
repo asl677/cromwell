@@ -906,8 +906,9 @@ display: inline-block;
   font-size: 1.3vw;
   position: absolute;
   margin: 0 auto;
-  bottom: 8vw !important;
+  bottom: 14vh !important;
   color: rgba(255,255,255,0.54);
+  display: none;
   /*padding: 2vh 2vw !important;*/
   /*padding: 1.1vw 1.4vw !important;*/
 }
@@ -954,8 +955,6 @@ span.txt-rotate .wrap {
  */
 
  /* margin-top: -60px !important; */
-  line-height: 12vw !important;
-  transition: .3s all ease !important;
 }
 
 .float-left .project_text .project_snippet {

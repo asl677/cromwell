@@ -387,9 +387,9 @@ $(window).ready(function(){
 		setTimeout(function() {
 			ScrollReveal().reveal('div, video', {
 				origin: 'bottom',
-				distance: '40px',
+				distance: '30px',
 				//reset: false,
-				duration: 800
+				duration: 750
 			});
 			//$('section, a').removeClass('anim anim_1');
 			//$('.details').removeClass('anim anim_1');
