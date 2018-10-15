@@ -168,9 +168,16 @@ $(window).ready(function(){
 	$('a.filler_link, .ftr-link, .mobile-links a, a.social-icon, .case-study-nav ul li a').click(function(e) {
 		e.preventDefault();
 		newLocation = this.href;
-		$('body').fadeOut('fast', newpage);
-		$('.anim_box_1-5.client-wrap.first').addClass('slideMeOut');
-		$('.box_in_style_3.box_in_style_4.anim_box_1-5.introduction').addClass('slideMeOut');
+		$('body').fadeOut('400', newpage);
+		//$('div').addClass('slideMeOut');
+		//$('div, .cap_label').addClass('anim show');
+		$('.fixed-nav').removeClass('anim anim_1');
+
+		// setTimeout(function() {
+		// 	newpage()
+		// }, 1200);
+		//$('.anim_box_1-5.client-wrap.first').addClass('slideMeOut');
+		//$('.box_in_style_3.box_in_style_4.anim_box_1-5.introduction').addClass('slideMeOut');
 	});
 	function newpage() {
 		window.location = newLocation;
