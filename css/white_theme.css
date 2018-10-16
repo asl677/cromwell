@@ -74,7 +74,7 @@ body.slideMeOut {
 .logo.bitmoji{
   color: #353535 !important;
   /*background: rgba(0,0,0,.03);*/
-  background: #fafafa;
+  background: none;
 }
 
 .logo.text {
@@ -556,9 +556,14 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
   background: #000 !important;
 }
 
-.box_in_style_3.box_in_style_4.anim_box_1-5.introduction.use-case .maven_b.clients {
+.box_in_style_3.box_in_style_4.anim_box_1-5.introduction.use-case .maven_b.clients,
+.quotes a {
   color: #fff !important;
+  font-weight: 600 !important;
   text-align: center;
+  font-size: 46px !important;
+  line-height: 56px !important;
+  font-family: 'Quicksand', 'Helvetica', sans-serif !important;
 }
 
 .maven_b.clients.expanded {
@@ -1585,14 +1590,14 @@ padding: 5vw;
 /* Rotating home text */
 
 h1,h2,
-.quotes a,
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction .maven_b,
 .quotes-block .white-links a,
 .title_box_in_style_3.title_box_in_style_4.maven_b.clients.hide.gradient {
   font-size: 26px !important;
   line-height: 36px !important;
   font-weight: 600 !important;
-  /* font-family: 'Nunito Sans', sans-serif !important; */  font-family: 'Quicksand', 'Helvetica', sans-serif !important;
+  /* font-family: 'Nunito Sans', sans-serif !important; */
+  font-family: 'Quicksand', 'Helvetica', sans-serif !important;
 }
 
 .quotes a {
@@ -2423,8 +2428,8 @@ a.ftr-link:after {
 }
 
 .logo.bitmoji.nav {
-  height: 48px;
-  width: 48px;
+  height: 60px;
+  width: 60px;
   position: fixed;
   z-index: 9999999999999;
   top: auto !important;
@@ -2441,7 +2446,7 @@ a.ftr-link:after {
   position: absolute;
   z-index: 999999999;
   top: 20px !important;
-  left: 20px;
+  /* left: 20px; */
 }
 
 .box_in_style_4.main_block.anim_box_1-5.roles {
