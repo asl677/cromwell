@@ -168,8 +168,8 @@ $(window).ready(function(){
 	$('a.filler_link, .ftr-link, .mobile-links a, a.social-icon, .case-study-nav ul li a').click(function(e) {
 		e.preventDefault();
 		newLocation = this.href;
-		$('body').fadeOut('400', newpage);
-		//$('div').addClass('slideMeOut');
+		$('body').fadeOut('slow', newpage);
+		$('body').addClass('slideMeOut');
 		//$('div, .cap_label').addClass('anim show');
 		$('.fixed-nav').removeClass('anim anim_1');
 
@@ -389,7 +389,7 @@ $(window).ready(function(){
 				origin: 'bottom',
 				distance: '30px',
 				//reset: false,
-				duration: 750
+				duration: 600
 			});
 			//$('section, a').removeClass('anim anim_1');
 			//$('.details').removeClass('anim anim_1');

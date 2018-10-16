@@ -23,9 +23,14 @@ a,
 
 .anim_box_1-5.client-wrap.first.slideMeOut,
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.slideMeOut,
-div.slideMeOut {
+body.slideMeOut {
   opacity: 0 !important;
-  margin-top: 40px !important;
+  margin-top: 30px !important;
+  -o-transition: .6s ease;
+  -ms-transition: .6s ease;
+  -moz-transition: .6s ease;
+  -webkit-transition: .6s ease;
+  transition: .6s ease;
 }
 
 .bg_cover,
