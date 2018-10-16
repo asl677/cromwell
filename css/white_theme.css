@@ -27,10 +27,10 @@ body.slideMeOut {
   opacity: 0 !important;
   margin-top: 30px !important;
   -o-transition: .6s ease;
-  -ms-transition: .6s ease;
-  -moz-transition: .6s ease;
-  -webkit-transition: .6s ease;
-  transition: .6s ease;
+  -ms-transition: .4s ease;
+  -moz-transition: .4s ease;
+  -webkit-transition: .4s ease;
+  transition: .s ease;
 }
 
 .bg_cover,
