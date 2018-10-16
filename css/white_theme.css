@@ -30,7 +30,7 @@ body.slideMeOut {
   -ms-transition: .4s ease;
   -moz-transition: .4s ease;
   -webkit-transition: .4s ease;
-  transition: .s ease;
+  transition: .4s ease;
 }
 
 .bg_cover,
@@ -417,7 +417,7 @@ display: block !important
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
-   height: 44vw !important;
+   height: 58vh !important;
   pointer-events: none;
   max-height: inherit !important;
   /*background-size: cover !important;
@@ -1873,6 +1873,20 @@ display: none !important;
 
 
 @media (-webkit-min-device-pixel-ratio: 1) and (min-width: 1460px) {
+
+  .box_in_style_3.box_in_style_4.anim_box_1-5.introduction {
+      padding: 10vmax 20% 12vmax 20% !important;
+  }
+
+  .homepage > .photo_min.box_style_2.disable.black-float {
+      height: 62vh !important;
+  }
+
+  .arrow {
+    top: 52vh !important;
+  }
+
+
 /*
 .center .photo_min.medium.full-width.rouge.hero4.extra.medium {
     height: 30vw !important;
