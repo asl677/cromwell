@@ -370,7 +370,7 @@ a.body_link {
   border: 0 solid transparent;
   display: block !important;
   position: absolute;
-  left: calc(50% - 1.8em);
+  left: calc(50% - 2em);
   z-index: 9;
   /* box-shadow: 0 0 0 4px #fff;
   -moz-box-shadow: 0 0 0 4px #fff;
