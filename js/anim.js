@@ -168,7 +168,7 @@ $(window).ready(function(){
 	$('a.filler_link, .ftr-link, .mobile-links a, a.social-icon, .case-study-nav ul li a').click(function(e) {
 		e.preventDefault();
 		newLocation = this.href;
-		$('body').fadeOut('400', newpage);
+		$('body').fadeOut('200', newpage);
 		$('body').addClass('slideMeOut');
 		//$('div, .cap_label').addClass('anim show');
 		$('.fixed-nav').removeClass('anim anim_1');
@@ -441,7 +441,7 @@ $(window).ready(function(){
 
 	$("a[href^='#']").click(function(){
 	    $('html, body').animate({
-	        scrollTop: $( $(this).attr('href') ).offset().top + 2
+	        scrollTop: $( $(this).attr('href') ).offset().top + 10
 	    }, 200);
 	    return false;
 	});

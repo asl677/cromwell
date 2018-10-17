@@ -25,12 +25,12 @@ a,
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.slideMeOut,
 body.slideMeOut {
   opacity: 0 !important;
-  margin-top: 30px !important;
-  -o-transition: .6s ease;
-  -ms-transition: .4s ease;
-  -moz-transition: .4s ease;
-  -webkit-transition: .4s ease;
-  transition: .4s ease;
+  margin-top: 20px !important;
+  -o-transition: .3s ease;
+  -ms-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
 }
 
 .bg_cover,
@@ -1558,12 +1558,12 @@ padding: 5vw;
   white-space: nowrap;
 }
 .marquee img {
-  height: 150%;
+  height: 110%;
   display: inline-block;
   position: relative;
   left: -100%;
   background-size: cover;
-  animation: marquee 70s linear infinite;
+  animation: marquee 50s linear infinite;
 }
 
 .marquee img:nth-child(1) {
@@ -2647,7 +2647,7 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
 }
 
 .arrow {
-  top: 70vh !important;
+  top: 58vh !important;
 }
 
 .homepage > .photo_min.box_style_2.disable.black-float .project_text .project_snippet {
