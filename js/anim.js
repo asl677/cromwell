@@ -238,7 +238,7 @@ $(window).ready(function(){
 	//
 	setTimeout(function() {
 		$('.logo.bitmoji').addClass('anim_1');
-	}, 2000);
+	}, 1000);
 	//
 	// setTimeout(function() {
 	// 	$('.center.subby').addClass('anim_1');
