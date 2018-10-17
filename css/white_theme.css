@@ -561,8 +561,8 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
   color: #fff !important;
   font-weight: 600 !important;
   text-align: center;
-  font-size: 46px !important;
-  line-height: 56px !important;
+  font-size: 36px !important;
+  line-height: 46px !important;
   font-family: 'Quicksand', 'Helvetica', sans-serif !important;
 }
 
@@ -2647,7 +2647,7 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
 }
 
 .arrow {
-  top: 58vh !important;
+  top: 70vh !important;
 }
 
 .homepage > .photo_min.box_style_2.disable.black-float .project_text .project_snippet {
