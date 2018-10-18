@@ -365,12 +365,18 @@ a.body_link {
   line-height: inherit;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
 .logo.bitmoji.nav {
   display: block;
   border: 0 solid transparent;
   display: block !important;
   position: absolute;
-  left: calc(50% - 35px);
+  /* left: calc(50% - 35px); */
   z-index: 9;
   /* box-shadow: 0 0 0 4px #fff;
   -moz-box-shadow: 0 0 0 4px #fff;
