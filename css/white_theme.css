@@ -555,6 +555,9 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
 
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.use-case {
   background: #000 !important;
+  filter: brightness(30%);
+  -webkit-filter: brightness(25%);
+  -moz-filter: brightness(25%);
 }
 
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.use-case .maven_b.clients,
@@ -1727,6 +1730,7 @@ display: none !important;
   box-shadow: none !important;
   border-radius: 0;
   padding-left: 15% !important;
+  border: none;
 }
 
 .short.half-panel .title_box_in_style_3.maven_b + div {
@@ -1743,7 +1747,7 @@ display: none !important;
   width: 33%;
   float: left;
   margin-right: 0 !important;
-  padding: 6vw 6% 6vw 6% !important;
+  padding: 4vw 5% 4vw 5% !important;
   /* box-shadow: 0 2px 20px rgba(0,0,0,.1) !important;
   -moz-box-shadow: 0 2px 20px rgba(0,0,0,.1) !important;
   -webkit-box-shadow: 0 2px 20px rgba(0,0,0,.1) !important; */
