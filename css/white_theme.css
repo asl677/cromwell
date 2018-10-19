@@ -1722,12 +1722,12 @@ display: none !important;
 
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.client-wrap.half-panel {
   padding-bottom: 6vw !important;
-  width: 41%;
+  width: 35%;
   float: left;
   margin-right: 0 !important;
-  padding: 3vw 4% 3vw 4% !important;
-  box-shadow: 0 2px 30px rgba(0,0,0,.1) !important;
-  margin: 3vw 6vw 3vw 6vw;
+  padding: 4vw 4% 4vw 4% !important;
+  box-shadow: 0 2px 20px rgba(0,0,0,.1) !important;
+  margin: 4vw 10vw 4vw 10vw;
   border-radius: 6px;
 }
 
