@@ -1721,13 +1721,14 @@ display: none !important;
 }
 
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.client-wrap.half-panel {
-  padding-bottom: 6vw !important;
-  width: 35%;
+  width: 38%;
   float: left;
   margin-right: 0 !important;
   padding: 4vw 4% 4vw 4% !important;
   box-shadow: 0 2px 20px rgba(0,0,0,.1) !important;
-  margin: 4vw 10vw 4vw 10vw;
+  -moz-box-shadow: 0 2px 20px rgba(0,0,0,.1) !important;
+  -webkit-box-shadow: 0 2px 20px rgba(0,0,0,.1) !important;
+  margin: 4vw 8vw 4vw 8vw;
   border-radius: 6px;
 }
 
@@ -2694,4 +2695,10 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
   margin-top: 6vw !important;
 } */
 
+}
+
+@media screen and (max-height: 600px) {
+  .logo {
+    display: none;
+  }
 }
