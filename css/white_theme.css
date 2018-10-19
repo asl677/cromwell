@@ -1551,6 +1551,11 @@ padding: 5vw;
   background: #000 !important;
 }
 
+.source_r.white-links ul li {
+  list-style: circle;
+  padding-left: 10px;
+}
+
 /* animated background images */
 
 .marquee {
