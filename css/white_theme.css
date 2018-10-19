@@ -1720,16 +1720,40 @@ display: none !important;
   padding-top: 12vw !important;
 }
 
+.box_in_style_3.box_in_style_4.anim_box_1-5.introduction.client-wrap.short.half-panel {
+  width: 50%;
+  float: left;
+  box-shadow: none !important;
+  border-radius: 0;
+  padding-left: 15% !important;
+}
+
+.short.half-panel .title_box_in_style_3.maven_b + div {
+  text-align: left !important;
+}
+
+.box_in_style_3.box_in_style_4.anim_box_1-5.introduction.client-wrap.half-panel.expanded {
+  width: calc(100% - 30%) !important;
+  margin: 4vw 15% 4vw 15%;
+  float: none !important;
+}
+
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.client-wrap.half-panel {
-  width: 38%;
+  width: 33%;
   float: left;
   margin-right: 0 !important;
-  padding: 4vw 4% 4vw 4% !important;
+  padding: 6vw 6% 6vw 6% !important;
   box-shadow: 0 2px 20px rgba(0,0,0,.1) !important;
   -moz-box-shadow: 0 2px 20px rgba(0,0,0,.1) !important;
   -webkit-box-shadow: 0 2px 20px rgba(0,0,0,.1) !important;
-  margin: 4vw 8vw 4vw 8vw;
-  border-radius: 6px;
+  margin: 4vw 15% 4vw 15%;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
+
+.box_in_style_3.box_in_style_4.anim_box_1-5.introduction.client-wrap.half-panel + div {
+  margin-left: 4vw !important;
 }
 
 .half-panel .title_box_in_style_3.maven_b + div {
@@ -2229,7 +2253,9 @@ zoom: 3;
 
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.client-wrap.half-panel + div {
   height: 80vw;
-  padding: 6vw 10% 12vw 10% !important
+  padding: 6vw 10% 12vw 10% !important;
+  margin: 0 !important;
+  width: 100% !important;
 }
 
 .half-panel.hide,
