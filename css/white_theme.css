@@ -1722,11 +1722,18 @@ display: none !important;
 
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.client-wrap.half-panel {
   padding-bottom: 6vw !important;
-  width: 50%;
+  width: 41%;
   float: left;
   margin-right: 0 !important;
-  padding-right: 6vw !important;
-  padding-top: 6vw !important;
+  padding: 3vw 4% 3vw 4% !important;
+  box-shadow: 0 2px 30px rgba(0,0,0,.1) !important;
+  margin: 3vw 6vw 3vw 6vw;
+  border-radius: 6px;
+}
+
+.half-panel .title_box_in_style_3.maven_b + div {
+  text-align: center !important;
+  height: auto !important;
 }
 
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.client-wrap.half-panel .clients {
@@ -2220,8 +2227,8 @@ zoom: 3;
 }
 
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.client-wrap.half-panel + div {
-  height: 80vw !important;
-  padding-top: 0 !important;
+  height: 80vw;
+  padding: 6vw 10% 12vw 10% !important
 }
 
 .half-panel.hide,
@@ -2662,6 +2669,14 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
 
 .center .photo_min.medium.full-width.hero4.contain {
     height: inherit !important;
+}
+
+.box_in_style_3.box_in_style_4.anim_box_1-5.introduction.client-wrap.half-panel {
+  box-shadow: none !important;
+  border-bottom: 1px solid #e5e5e5;
+  clear: both;
+  margin: 0;
+  padding: 12vw !important;
 }
 
 
