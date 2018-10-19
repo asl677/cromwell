@@ -1753,10 +1753,10 @@ display: none !important;
   float: left;
   margin-right: 0 !important;
   padding: 4vw 5% 4vw 5% !important;
-  /* box-shadow: 0 2px 20px rgba(0,0,0,.1) !important;
+  box-shadow: 0 2px 20px rgba(0,0,0,.1) !important;
   -moz-box-shadow: 0 2px 20px rgba(0,0,0,.1) !important;
-  -webkit-box-shadow: 0 2px 20px rgba(0,0,0,.1) !important; */
-  border: 2px solid rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 2px 20px rgba(0,0,0,.1) !important;
+  /* border: 2px solid rgba(0,0,0,0.1); */
   margin: 4vw 15% 4vw 15%;
   border-radius: 8px;
   -moz-border-radius: 8px;
