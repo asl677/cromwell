@@ -2693,11 +2693,11 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
 }
 
 .homepage > .photo_min.box_style_2.disable.black-float {
-    height: 92vh !important;
+    height: 85vh !important;
 }
 
 .arrow {
-  top: 85vh !important;
+  top: 80vh !important;
 }
 
 .homepage > .photo_min.box_style_2.disable.black-float .project_text .project_snippet {
@@ -2709,7 +2709,7 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
 .center .photo_min.medium.full-width.hero4 {
   height: 80vw !important;
   /* width: 100% !important; */
-  background-size: 130% !important;
+  background-size: 150% !important;
 }
 
 .center .photo_min.medium.full-width.hero4.contain {
