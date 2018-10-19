@@ -2262,7 +2262,7 @@ zoom: 3;
 
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.client-wrap.half-panel,
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.client-wrap.half-panel + div {
-  padding-bottom: 6vw !important;
+  /* padding-bottom: 6vw !important; */
   width: 100% !important;
   float: none;
 }
@@ -2636,7 +2636,7 @@ span.section.openline:after {
 }
 
 .white-links > ul li {
-    height: 48px;
+    /* height: 48px; */
     overflow: hidden;
 }
 
@@ -2693,11 +2693,11 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
 }
 
 .homepage > .photo_min.box_style_2.disable.black-float {
-    height: 85vh !important;
+    height: 75vh !important;
 }
 
 .arrow {
-  top: 80vh !important;
+  top: 67vh !important;
 }
 
 .homepage > .photo_min.box_style_2.disable.black-float .project_text .project_snippet {
