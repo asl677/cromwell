@@ -2447,13 +2447,13 @@ color: #111;
 	color: #fff;
 	vertical-align: middle;
 	background: rgba(255,255,255,.08);
-	width: 80px;
-	height: 80px;
+	width: 100px;
+	height: 100px;
 	overflow: hidden;
 	/* height: 48px; */
-	border-radius: 80px !important;
-	-moz-border-radius: 80px !important;
-	-webkit-border-radius: 80px !important;
+	border-radius: 100px !important;
+	-moz-border-radius: 100px !important;
+	-webkit-border-radius: 100px !important;
 	transition: .6s all ease !important;
 	display: none;
 }
@@ -3101,7 +3101,7 @@ opacity: 0;
 	/*font-family: 'Source Sans Pro', serif !important;*/
 	letter-spacing: normal;
 	color: #232323;
-	margin: 1vw 0 1vw 0 !important;
+	margin: 0 0 1vw 0 !important;
 	font-size: 9vw !important;
 }
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction .maven_b.hide-title{

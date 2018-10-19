@@ -408,9 +408,11 @@ $(window).ready(function(){
 	$(window).resize(function() {
 
 		if (width > 900) {
+			//$('span.section').hide();
 			//$('a, span, div').addClass('anim anim_1');
 			//ScrollReveal().reveal('div', { origin: 'left', distance: '30px' });
 		} else {
+			//$('span.section').show();
 			//$('div, .cap_label').addClass('anim show');
 			//$('section, a, span, div').addClass('anim anim_1');
 
