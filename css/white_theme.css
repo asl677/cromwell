@@ -418,7 +418,7 @@ display: block !important
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
-   height: 58vh !important;
+  height: 65vh !important;
   pointer-events: none;
   max-height: inherit !important;
   /*background-size: cover !important;
