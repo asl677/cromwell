@@ -1731,12 +1731,18 @@ display: none !important;
 
 /* Quote sections */
 
+.box_in_style_3.box_in_style_4.main_block.anim_box_1-5.introduction.client-wrap.black_everything {
+  background: #000 !important;
+  padding: 7vw 6% !important;
+}
+
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.client-wrap.short.half-panel {
   width: 50%;
   float: left;
   box-shadow: none !important;
   border-radius: 0;
-  padding-left: 15% !important;
+  padding: 0 !important;
+  /* padding-left: 15% !important; */
   border: none;
 }
 
@@ -1752,9 +1758,9 @@ display: none !important;
   width: 50%;
   float: left;
   margin-right: 0 !important;
-  padding: 8vw 8% 8vw 8% !important;
-  background: #000 !important;
-  border-right: 1px solid #222;
+  padding: 0 !important;
+  /* background: #000 !important; */
+  /* border-right: 1px solid #222; */
   /* box-shadow: 0 2px 20px rgba(0,0,0,.1) !important; */
   /* -moz-box-shadow: 0 2px 20px rgba(0,0,0,.1) !important; */
   /* -webkit-box-shadow: 0 2px 20px rgba(0,0,0,.1) !important; */
@@ -1781,6 +1787,7 @@ display: none !important;
 
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.client-wrap.half-panel + .half-panel {
   /* margin-left: 4vw !important; */
+  border: none;
 }
 
 .half-panel .title_box_in_style_3.maven_b + div {
@@ -2749,8 +2756,11 @@ video.photo_min.box_style_2.medium.full-width.hero4 {
   border: none;
   border-bottom: 2px solid #222;
   border-radius: 0;
-  clear: both;
   padding: 12vw !important;
+}
+
+.box_in_style_3.box_in_style_4.main_block.anim_box_1-5.introduction.client-wrap.black_everything {
+  padding: 12vw 6% !important;
 }
 
 .box_in_style_3.box_in_style_4.anim_box_1-5.introduction.client-wrap.half-panel.expanded {
