@@ -1,556 +1,157 @@
-<!-- <!DOCTYPE html> -->
-<html>
-
+<!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Sat Nov 10 2018 22:25:38 GMT+0000 (UTC)  -->
+<html data-wf-page="5bd6053369305d1004ea081d" data-wf-site="5bd6053369305dfbbcea081e">
 <head>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-35944917-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-35944917-1');
-  </script>
-
-<title>Alex S. Lakas</title>
-
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
-<meta name="viewport" content="width=device-width,initial-scale=1">
-
-<link rel="stylesheet" type="text/css" href=" css/style_desktop.css"/>
-
-<!-- <link rel="stylesheet" type="text/css" href=" css/style_responsive.css"/> -->
-
-<link rel="stylesheet" type="text/css" href=" css/font-awesome.css"/>
-
-<link rel="stylesheet" type="text/css" href=" css/font-awesome.min.css"/>
-
-<link rel="stylesheet" type="text/css" id="alt_style" href=" css/black_theme.css"/>
-
-<link rel="stylesheet" type="text/css" id="alt_style" href=" css/centered_theme.css"/>
-
-<link rel="stylesheet" type="text/css" id="alt_style" href=" css/white_theme.css"/>
-
-<script type="text/javascript" src=" js/jquery-1.11.1.min.js"></script>
-
-<script type="text/javascript" src=" js/anim.js"></script>
-
-<!-- <script type="text/javascript" src=" js/scrol.js"></script>
-
-<script type="text/javascript" src=" js/scrol.min.js"></script>
-
-<script type="text/javascript" src=" js/scrol.es.js"></script> -->
-
-<!-- <script src="https://unpkg.com/scrol/dist/scrol.min.js"></script> -->
-
-<script src="https://unpkg.com/scrollreveal"></script>
-
-<script>
-  ScrollReveal({ reset: true });
-</script>
-
-<script src="https://use.fontawesome.com/e9d7f143c3.js"></script>
-
-<!-- <script type="text/javascript" src=" js/jquery.min.js"></script> -->
-
-<!-- <script type="text/javascript" src=" js/jquery.infinitescroll.js"></script>
-
-<script type="text/javascript" src=" js/manual-trigger.js"></script>
-
-<script type="text/javascript" src=" js/Chart.min.js"></script>-->
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
-
-<link rel="icon" type="image/png" href=" img/favicon.ico" />
-
-<!-- <script src="dist/js/smooth-scroll.js"></script> -->
-
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-
-<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300' rel='stylesheet' type='text/css'>
-
-<link href="https://fonts.googleapis.com/css?family=Poiret+One:100,200,300,400,600,800" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css?family=Rasa" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css?family=Nixie+One" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400|Life+Savers|Quicksand:300" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700" rel="stylesheet">
-
+  <meta charset="utf-8">
+  <title>Alex&#x27;s Portfolio</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/alexlakas-portfolio.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Changa One:400,400italic","Exo:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Droid Sans:400,700"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/Artboard-Copy.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/Artboard.png" rel="apple-touch-icon">
+  <style>
+.w-webflow-badge {
+	display: none !important;
+}
+.link-block.gal_block {
+	/*-webkit-transform:translate3d(0,0,0);
+  -webkit-transform-style: preserve-3d;*/
+  -webkit-backface-visibility:hidden
+}
+</style>
 </head>
-
-<body class="center homepage">
-
-  <div class="bg_cover real_time"></div>
-
-  <!-- <img class="logo trigger bitmoji nav" src=" img/me-side.png"/> -->
-
-  <span class="logo">
-    <img class="logo trigger bitmoji nav" src="img/me-side.png"/>
-  </span>
-
-  <div class="case-study-nav">
-    <span>Case Studiess</span>
-    <ul>
-      <li>
-        <a href="work/wait-times/" style="background-image: url(img/waittimes.gif)"></a>
-      </li>
-      <li>
-        <a href="work/my-business/" style="background-image: url(img/gmb-spread.jpg)"></a>
-      </li>
-      <li>
-        <a href="work/zero-tap/" style="background-image: url(img/zero_complete.gif)"></a>
-      </li>
-      <li>
-        <a href="work/bookings/" style="background-image: url(img/bookings_hero.png)"></a>
-      </li>
-      <li>
-        <a href="work/mod/" style="background-image: url(img/mod_proto.gif)"></a>
-      </li>
-    <ul>
-  </div>
-
-  <div class="fixed-nav">
-    <!-- <span class="show-cases social-icon"><i class="fa fa-bars"></i></span> -->
-    <span class="show-cases social-icon">
-      <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="40" onclick="this.classList.toggle('active')">
-<path
-      class="line top"
-      d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
-<path
-      class="line middle"
-      d="m 30,50 h 40" />
-<path
-      class="line bottom"
-      d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
-</svg>
-</span>
-    <!-- <a href="../../work/wait-times/" class="social-icon trigger next"> <i class="fa fa-caret-right"></i></a>
-    <a href="../../work/bookings/" class="social-icon trigger prev"> <i class="fa fa-caret-left"></i></a> -->
-  </div>
-
-    <!-- desktop nav -->
-
-    <div class="intro-links wrapper">
-      <ul class="links">
-        <li><a class="logo" alt="Alex Lakas" target="_self" title="Alex Lakas" href=" ">Alex Lakas</a></li>
-        <!--<li><a alt="case studies" target="_blank" title="case studies" href="https://docs.google.com/presentation/d/1efP1DTxcG7YYw5K96hCpG9O1ri1b6y7R3By_zljAFjE/present?slide=id.g1806e33e01_0_1">case studies</a></li>-->
-        <li><a alt="work" target="_blank" title="work" href="https://dribbble.com/alex2pt0">work</a></li>
-        <li><a alt="contact" target="_blank" title="contact" href="https://www.linkedin.com/in/latenights">contact</a></li>
-      </ul>
-      <a title="back to top" href="#top" class="fab desktop mobile"></a>
-    </div>
-
-    <!-- mobile nav -->
-
-    <ul class="intro-links mobile-links">
-      <ul>
-        <li><a href="#/" class="social-icon trigger"> <i class="fa fa-chevron-circle-up"></i></a></li>
-        <li><a class="link one" target="_self" href="index.html">home</a></li>
-        <li><a class="link three" target="_self" href="work/work">work</a></li>
-        <li><a class="link four" target="_self" href="work/about/">about</a></li>
-        <li><a class="link five" target="_blank" href="https://www.linkedin.com/in/latenights">contact</a></li>
-        <li><a class="link five" target="_blank" href="https://docs.google.com/document/d/17SPk8bBzvSodLnPVzxrA8ar02UWUaAzfAMMKysGLBBs/edit?usp=sharing">resum&eacute;</a></li>
-      </ul>
-    </ul>
-
-
-    <!-- name -->
-    <!-- <span class="name home">
-    <img class="avatar" src="img/avatar.jpg"/><br/>
-    <span class="snip">I'm Alex, <span class="black">an interaction designer</span> at Google</span>
-  </span> -->
-
-  <!-- name -->
-  <span class="name">
-    <!-- <img class="avatar" src="../../img/avatar.jpg"/><br/> -->
-    <img class="logo trigger bitmoji" src="../../img/me-side.png"/>
-    <span class="snip"><span class="black">Why, hello there</span></span>
-  </span>
-
-<div id="top">
-
-  <div class="showbox">
-    <div class="loader">
-      <svg class="circular" viewBox="25 25 50 50">
-        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10"/>
-      </svg>
+<body data-w-id="5bbfd278ce8d7eb9e7cc03bf" class="body color">
+  <div data-animation="over-right" class="navbar-2 nav_bg_wrap w-nav" data-easing2="ease-out-quart" data-easing="ease-in-out-quart" data-collapse="all" data-w-id="7b5c50f7-a90d-3572-1c3d-82f099435963" data-no-scroll="1" data-duration="300" data-doc-height="1"><img src="images/melaughing.png" srcset="images/melaughing-p-500.png 500w, images/melaughing.png 763w" sizes="(max-width: 479px) 50px, 80px" alt="" class="image-8 mobile_quote_img nav_avatar mobile_hdr_avatar">
+    <nav role="navigation" class="nav-menu w-nav-menu"><a href="index.html" class="nav-link w-nav-link w--current">Home</a><a href="about.html" class="nav-link w-nav-link">About</a><a href="work.html" class="nav-link w-nav-link">Work</a><a href="https://www.linkedin.com/in/latenights/" class="nav-link w-nav-link">Linkedin</a><a href="https://dribbble.com/alex2pt0" class="nav-link w-nav-link">Dribbble</a><a href="https://instagram.com/late.niights/" class="nav-link w-nav-link">Instagram</a></nav>
+    <div class="menu-button-2 open_menu protected w-nav-button">
+      <div class="icon white_icon w-icon-nav-menu"></div>
     </div>
   </div>
-
-  <!-- HOME -->
-
-  <div id="big-b" class="home">
-
-    <div class="rectangle_blanc_background_anim"></div>
-
-    <div class="container_svg_round_img">
-      <svg class="svg_round_img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1111/xlink" x="0px" y="0px"
-      viewBox="0 0 1001 78" enable-background="new 0 0 1001 78" xml:space="preserve">
-      <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFF" d="M1001,0H0v78C0,78,81.3,1.1,498.9,1.1S1001,78,1001,78V0z"/>
-    </svg>
-  </div>
-  <div class="container_background_img_home">
-    <!-- All hero images from unsplash.com / Unsplash API  -->
-    <!-- <div class="background_img_home" style="background-image:url(https://source.unsplash.com/rhVD9wlnO_I/1600x900)"> -->
-    <div class="background_img_home" style="background-image:url(https://source.unsplash.com/collection/475225/1600x900)">
-      <span></span>
-      <!-- <img src="https://source.unsplash.com/category/nature/1600x900"> -->
+  <div class="inner_section reveal">
+    <div class="columns mobile_col w-row">
+      <div data-w-id="d8da8ba1-f671-254a-a40f-aa3b57a67a7e" style="opacity:0;-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="column-2 reveal hdr_show w-col w-col-6 w-col-stack w-col-small-small-stack">
+        <h1 id="w-node-aa3b57a67a7f-04ea081d" class="heading"><strong data-w-id="d8da8ba1-f671-254a-a40f-aa3b57a67a80" class="bold-text white-text desktop_hdr">Making tech great again</strong></h1>
+      </div>
+      <div data-w-id="d8da8ba1-f671-254a-a40f-aa3b57a67a82" class="column reveal hdr_show w-col w-col-6 w-col-stack w-col-small-small-stack">
+        <p data-w-id="d8da8ba1-f671-254a-a40f-aa3b57a67a83" style="opacity:0;-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="paragraph white-text intro_text">Google Maps. B2B. Ecommerce. Social gaming -- and all things product design. East coast native, and illustrator at heart turned user experience designer.</p><a style="opacity:0;-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" href="work.html" class="main_cta w-button">View some work</a></div>
     </div>
   </div>
-
-  <div class="title_home">heywussupello</div> <!-- 18 CHAR MAX -->
-  <a id="scroll"></a>
-</div>
-
-
-<!-- WHITE SPACE
-
--->
-
-<div class="container_box homepage" id="content">
-
-  <div class="photo_min box_style_2 anim_box_3 disable black-float" data-photo="photo_2" style="height: 50vh;">
-    <span class="project_text cap_label">
-      <span class="project_snippet">A product designer with 12+ years experience</span>
-      <span class="scrim" style="background:url(https://source.unsplash.com/collection/454732) #000; background-size: cover; background-position: center bottom"></span>
-    </span>
-  </div>
-
-  <div class="arrow bounce">
-    <a href="#top-section" class="fa fa-angle-down" href="#"></a>
-  </div>
-<!--
-  <div class="box_in_style_3 box_in_style_4 anim_box_1-5 introduction main_block show black-everything" style="background-image: url(https://source.unsplash.com/collection/454732) !important; height: 45vh;">
-    <span id="top-of-work"></span>
-    <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients problem">
-      <span class="section">I'm <a href="https://www.linkedin.com/in/latenights">Alex</a> and I enjoy</span>
-    </div>
-    <div class="title_box_in_style_3 title_box_in_style_4 maven_b home-white clients">
-      Delightful + scaleable design
-    </div>
-
-    <span class="arrow bounce">
-      <a href="#top-section" class="fa fa-angle-down" href="#"></a>
-    </span>
-
-    <div class="details">
-      <ul>
-        <li class="title">when</li>
-        <li>2016</li>
-      </ul>
-      <ul>
-        <li class="title">client</li>
-        <li>Google</li>
-      </ul>
-      <ul>
-        <li class="title">role</li>
-        <li>UX lead</li>
-      </ul>
-      <ul>
-        <li class="title">more</li>
-        <li>
-          <a href="#" target="_blank">
-            <i id="spin" class="fa fa-dribbble"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div> -->
-
-  <!-- <div class="box_in_style_3 box_in_style_4 main_block anim_box_1-5 introduction client-wrap first" style="background: none;">
-    <div class="subtitle_box_in_style_3 source_r white-links show intro" style="font-style: normal;">
-      👋 🤙 ✌️ 🤘
+  <div class="inner_section reveal extra_wide hero_wide">
+    <div class="columns gal_columns w-row">
+      <div class="column-2 reveal mobile_col _3_col first_col_home w-col w-col-6 w-col-stack"><a style="opacity:0;-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" href="live-times.html" class="gal_block w-inline-block"><img src="images/Photo33-small.gif" alt="" class="image-15"><div class="thumb_text_container"><h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Live Popular Times on Google<br></strong></h1></div></a><a href="https://dribbble.com/shots/5095670-Dark-UI" class="link-block gal_block w-inline-block"><img src="images/darkui.png" srcset="images/darkui-p-500.png 500w, images/darkui-p-800.png 800w, images/darkui-p-1080.png 1080w, images/darkui.png 1600w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 90vw, (max-width: 991px) 92vw, 48vw" alt=""><div class="thumb_text_container"><h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Dark UI<br></strong></h1></div></a><a href="bookings.html" class="link-block gal_block w-inline-block"><img src="images/bookings_hero.png" srcset="images/bookings_hero-p-500.png 500w, images/bookings_hero-p-800.png 800w, images/bookings_hero-p-1080.png 1080w, images/bookings_hero-p-1600.png 1600w, images/bookings_hero.png 2200w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 90vw, (max-width: 991px) 92vw, 48vw" alt=""><div class="thumb_text_container"><h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Bookings across Google<br></strong></h1></div></a><a href="https://www.instagram.com/p/BopuZovl2Iu/" target="_blank" class="link-block gal_block w-inline-block"><img src="images/mochi.jpg" alt=""><div class="thumb_text_container"><h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Mochi<br></strong></h1></div></a></div>
+      <div class="column-2 reveal mobile_col _3_col quote_hdr w-col w-col-6 w-col-stack"><a style="opacity:0;-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" href="#https://www.instagram.com/p/Bo7TzsVFkfZ/" target="_blank" class="gal_block w-inline-block"><img src="images/44458660_10161208487015193_2587787928360976384_n.jpg" srcset="images/44458660_10161208487015193_2587787928360976384_n-p-500.jpeg 500w, images/44458660_10161208487015193_2587787928360976384_n.jpg 960w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 90vw, (max-width: 991px) 92vw, 50vw" alt=""><div class="thumb_text_container"><h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Alfa Romeo Alfasud Ti<br></strong></h1></div></a><a href="zero-suggest.html" class="link-block gal_block w-inline-block"><img src="images/zero_hero-2.png" srcset="images/zero_hero-2-p-500.png 500w, images/zero_hero-2-p-800.png 800w, images/zero_hero-2-p-1080.png 1080w, images/zero_hero-2-p-1600.png 1600w, images/zero_hero-2-p-2000.png 2000w, images/zero_hero-2.png 2159w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 90vw, (max-width: 991px) 92vw, 50vw" alt=""><div class="thumb_text_container"><h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Zero Suggest on Google Maps<br></strong></h1></div></a><a href="mod.html" class="link-block gal_block w-inline-block"><img src="images/mod_hero.png" srcset="images/mod_hero-p-500.png 500w, images/mod_hero-p-800.png 800w, images/mod_hero-p-1080.png 1080w, images/mod_hero-p-1600.png 1600w, images/mod_hero.png 1667w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 90vw, (max-width: 991px) 92vw, 50vw" alt=""><div class="thumb_text_container"><h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Modernizing Nav Search on Google<br></strong></h1></div></a><a href="wait-times.html" class="link-block gal_block w-inline-block"><img src="images/Screen-Shot-2018-11-09-at-11.19.59-AM.png" srcset="images/Screen-Shot-2018-11-09-at-11.19.59-AM-p-500.png 500w, images/Screen-Shot-2018-11-09-at-11.19.59-AM-p-800.png 800w, images/Screen-Shot-2018-11-09-at-11.19.59-AM-p-1080.png 1080w, images/Screen-Shot-2018-11-09-at-11.19.59-AM.png 1556w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 90vw, (max-width: 991px) 92vw, 50vw" alt=""><div class="thumb_text_container"><h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Wait Times across Google<br></strong></h1></div></a></div>
     </div>
   </div>
-
-  <hr> -->
-
-  <!-- <div class="box_in_style_3 box_in_style_4 main_block anim_box_1-5 introduction client-wrap hide use-case" style="background-color: #000;">
-    <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients">
-      Specializing in user experience, visual and interaction design (sometimes I like to write code)
+  <div class="inner_section reveal extra_wide hero_wide">
+    <div class="section_label w-container">
+      <div class="paragraph white-text section_label">clients + friends</div>
     </div>
-  </div> -->
-
-<div id="top-section" class="box_in_style_3 box_in_style_4 main_block anim_box_1-5 introduction client-wrap first" style="background: none;">
-  <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients problem">
-    <span class="section">So, who is this guy?</span>
-  </div>
-  <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients">
-   A little about myself + the work that I do
-  </div>
-  <div class="subtitle_box_in_style_3 source_r white-links show" style="color: rgba(0,0,0,.54) !important; margin-top: 2vw;">
-    Google Maps. B2B. Ecommerce. Social gaming -- and all things product design. East coast native, and illustrator at heart turned user experience designer - with a heavy focus on visual design, prototyping and front end development. <br/><br/>
-   <!-- <a target="_self" class="fa ftr-link" href="work/about">Learn even more</a> -->
-  </div>
-</div>
-
-  <!-- WHITE SPACE
-
--->
-<div class="photo_min box_style_2 anim_box_3 disable full-width hero7 first" data-photo="photo_2" style="background-image: url(img/bmwbw.jpg); background-position: bottom !important; height: 45vh; margin-top: 0; background: #fff !important; filter:brightness(100%);">
-<a class="filler_link" target="_self" title="Wait Times on Google" href="work/wait-times/"></a>
-<div class="project_text">
-  <span class="project_snippet">I'm Alex, a Product Designer at Google<span class="fa fa-angle-right"></span></span>
-  <span class="scrim"></span>
-</div>
-</div>
-
-<div class="photo_min box_style_2 anim_box_3 x_visual fadeIn" data-photo="photo_2" style="background-image: url(img/mod_hero.png); height: 50vh;">
-  <a class="filler_link" target="_self"  title="Modernizing Nav Search" href="work/mod/"></a>
-  <div class="project_text">
-    <span class="project_snippet">Modernizing Nav Search <i id="spin" class="fa fa-dribbble"></i></span>
-    <span class="scrim"></span>
-  </div>
-</div>
-
-<div class="photo_min box_style_2 anim_box_3 second fadeIn" data-photo="photo_2" style="background-image: url(img/waittimes.gif); height: 45vh; margin-top: 0;">
-  <span id="top-of-work"></span>
-  <a class="filler_link" target="_self"  title="Wait Times on Google" href="work/wait-times/"></a>
-  <div class="project_text">
-    <span class="project_snippet">Wait Times on Google<span class="fa fa-angle-right"></span></span>
-    <span class="scrim"></span>
-  </div>
-</div>
-
-<!--
-<div class="box_in_style_3 box_in_style_4 main_block anim_box_1-5 introduction client-wrap half-panel" style="background: none;">
-  <img alt="Alex Lakas" class="logo trigger bitmoji" src="img/sergio.jpeg"/>
-  <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients problem">
-    <span class=""></span>
-  </div>
-  <div class="subtitle_box_in_style_3 source_r white-links show" style="color: rgba(0,0,0,.54) !important; margin-top: 2vw;">
-   He is the best UX designer I've ever worked with....10/10 would work with him again if I have the chance to
-  </div>
-</div>
-
-<div class="box_in_style_3 box_in_style_4 main_block anim_box_1-5 introduction client-wrap half-panel" style="background: none; margin-bottom: 12vw !important;">
-  <img alt="Alex Lakas" class="logo trigger bitmoji" src="img/vlad_avatar.jpg"/>
-  <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients problem">
-    <span class=""></span>
-  </div>
-  <div class="subtitle_box_in_style_3 source_r white-links show" style="color: rgba(0,0,0,.54) !important; margin-top: 2vw;">
-    There will for undoubtedly be some hugely successful creations coming from Alex's hands -- he's one to watch
-  </div>
-</div> -->
-
-<!-- <div class="box_in_style_3 box_in_style_4 main_block anim_box_1-5 introduction client-wrap use-case" style="background-color: #000;">
-  <div class="subtitle_box_in_style_3 source_r center">
-  <span class="title_box_in_style_3 title_box_in_style_4 clients skills center quotes">
-    <img alt="Alex Lakas" class="logo trigger bitmoji" src="img/rob.jpeg"/>
-    <a target="_blank" class="" href="https://www.linkedin.com/in/latenights/">" I really enjoy working with Alex. He's a fun person and has a wide range of skills for UX design. </a>
-  </span>
-  <span class="title_box_in_style_3 title_box_in_style_4 clients skills center quotes">
-    <img alt="Alex Lakas" class="logo trigger bitmoji" src="img/sergio.jpeg"/>
-    <a target="_blank" class="" href="https://www.linkedin.com/in/latenights/">" He is the best UX designer I've ever worked with....10/10 would work with him again if I have the chance to</a>
-  </span>
-  <span class="title_box_in_style_3 title_box_in_style_4 clients skills center quotes">
-    <a target="_blank" href="https://www.linkedin.com/in/latenights/">" Alex is phenomenal to work with.. his work encapsulated everything we had hoped for.. he's a rare talent</a>
-  </span>
-  <span class="title_box_in_style_3 title_box_in_style_4 clients skills center quotes">
-    <a target="_blank" href="https://www.linkedin.com/in/latenights/">" Alex is phenomenal to work with.. his work encapsulated everything we had hoped for.. he's a rare talent</a>
-  </span>
-</div>
-</div> -->
-
-<div class="box_in_style_3 box_in_style_4 main_block anim_box_1-5 introduction client-wrap" style="background: none;">
-  <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients problem">
-    <span class="section">Well, what does he do?</span>
-  </div>
-  <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients">
-    I like solving problems at scale, through simple + delightful design
-  </div>
-  <div class="subtitle_box_in_style_3 source_r white-links show" style="color: rgba(0,0,0,.54) !important; margin-top: 2vw;">
-   My work has been featured on <a target="_blank" href="https://www.youtube.com/watch?v=QIbPZgH1zRY">The Tonight Show with Jimmy Fallon</a>, The Today's Show, <a target="_blank" href="https://isl.co/">UX Design Weekly</a> and the <a target="_blank" href="https://aiga.org">AIGA</a>. <br/><br/> I've tackled quintessential needs such as day planning, dining, B2B engagement, and improving on Local Search across Google Maps. I also enjoy mechanical and software engineering, as well as transportation and industrial design. <br/>
-    <a target="_blank" class="fa ftr-link" href="https://www.linkedin.com/in/latenights/">Scope my Linkedin</a>
-  </div>
-</div><!-- BOX -->
-<!-- <hr/> -->
-
-<div class="photo_min box_style_2 anim_box_3 x_ux fadeIn" data-photo="photo_2" style="background-image: url(img/gmb-spread.jpg); height: 50vh;">
-  <a class="filler_link" target="_self"  title="Google My Business" href="work/my-business"></a>
-  <div class="project_text">
-    <span class="project_snippet">Google My Business<i id="spin" class="fa fa-dribbble"></i></span>
-    <span class="scrim"></span>
-  </div>
-</div>
-
-<div class="photo_min box_style_2 anim_box_3 fadeIn" data-photo="photo_2" style="background-image: url(img/live-pt.gif); height: 45vh; margin-top: 0;">
-  <span id="top-of-work"></span>
-  <a class="filler_link" target="_self"  title="Live Popular Times on google" href="work/real-time"></a>
-  <div class="project_text">
-    <span class="project_snippet">Live Popular Times on google<span class="fa fa-angle-right"></span></span>
-    <span class="scrim"></span>
-  </div>
-</div>
-
-<div class="box_in_style_3 box_in_style_4 main_block anim_box_1-5 introduction client-wrap" style="background: none;">
-  <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients problem">
-    <span class="section">In good company</span>
-  </div>
-  <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients">
-    Folks I've helped, worked with + learned from
-  </div>
-  <div class="subtitle_box_in_style_3 source_r white-links show" style="color: rgba(0,0,0,.54) !important; margin-top: 2vw;">
-    Google, <a target="_blank" href="http://www.ueno.co">Ueno.co</a>, <a target="_blank" href="https://www.sapientrazorfish.com/">Sapient Razorfish</a>, <a target="_blank" href="https://creativeda.sh /">Creative Dash</a>, <a target="_blank" href="https://isl.co/">iStrategyLabs</a>,  <a target="_blank" href="http://gsvlabs.com/">GSV Labs</a> and even the <a target="_blank" href="https://www.aiga.org">AIGA</a>. I've had the privilege of working with some awesome people on some awesome projects over the years.
-    <br/>
-    <a target="_self" class="fa ftr-link" href="work/work">See highlighted work</a>
-  </div>
-  </div><!-- BOX -->
-<!--
-  <div class="box_in_style_3 box_in_style_4 main_block anim_box_1-5 introduction client-wrap" style="background: none;">
-    <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients problem">
-      <span class="section">Word on the street</span>
+    <div class="columns gal_columns w-row">
+      <div class="column-2 reveal mobile_col _3_col client w-col w-col-3 w-col-stack"><a href="https://www.google.com/" target="_blank" class="link-block gal_block margin_top w-inline-block"><img src="images/google.png" srcset="images/google-p-500.png 500w, images/google-p-800.png 800w, images/google-p-1080.png 1080w, images/google-p-1600.png 1600w, images/google-p-2000.png 2000w, images/google.png 2396w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 69vw, (max-width: 991px) 76vw, 17vw" alt=""></a></div>
+      <div class="column-2 reveal mobile_col _3_col client w-col w-col-3 w-col-stack"><a href="https://ueno.co/" target="_blank" class="link-block gal_block margin_top w-inline-block"><img src="images/ueno.png" srcset="images/ueno-p-500.png 500w, images/ueno-p-800.png 800w, images/ueno-p-1080.png 1080w, images/ueno-p-1600.png 1600w, images/ueno-p-2000.png 2000w, images/ueno.png 2482w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 69vw, (max-width: 991px) 76vw, 17vw" alt=""></a></div>
+      <div class="client w-col w-col-3 w-col-stack"><a href="https://www.sapientrazorfish.com/" target="_blank" class="link-block gal_block margin_top w-inline-block"><img src="images/sapient.png" srcset="images/sapient-p-500.png 500w, images/sapient-p-800.png 800w, images/sapient-p-1080.png 1080w, images/sapient-p-1600.png 1600w, images/sapient-p-2000.png 2000w, images/sapient.png 2398w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 69vw, (max-width: 991px) 76vw, 17vw" alt=""></a></div>
+      <div class="client w-col w-col-3 w-col-stack"><a href="https://www.zippo.com/" target="_blank" class="link-block gal_block margin_top w-inline-block"><img src="images/Bitmap.png" srcset="images/Bitmap-p-500.png 500w, images/Bitmap-p-800.png 800w, images/Bitmap-p-1080.png 1080w, images/Bitmap-p-1600.png 1600w, images/Bitmap-p-2000.png 2000w, images/Bitmap.png 2288w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 69vw, (max-width: 991px) 76vw, 17vw" alt=""></a></div>
     </div>
-    <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients">
-      What others have said about working with me
+  </div>
+  <div data-w-id="1dad5182-eaf6-cfb2-6186-212589f34f5c" style="opacity:0" class="inner_section reveal">
+    <div class="section_label w-container">
+      <div class="paragraph white-text section_label">Stuff I can do</div>
     </div>
-    <div class="subtitle_box_in_style_3 source_r white-links center">
-  <span class="title_box_in_style_3 title_box_in_style_4 clients skills center quotes">
-    <img alt="Alex Lakas" class="logo trigger bitmoji" src="img/rob.jpeg"/>
-    <a target="_blank" class="" href="https://www.linkedin.com/in/latenights/">I really enjoy working with Alex. He's a fun person and has a wide range of skills for UX design. Alex has tackled many very complex flows at Google... everyone wants him on their team... master of prototyping and interaction motion design</a>
-  </span>
-  <span class="title_box_in_style_3 title_box_in_style_4 clients skills center quotes">
-    <img alt="Alex Lakas" class="logo trigger bitmoji" src="img/sergio.jpeg"/>
-    <a target="_blank" class="" href="https://www.linkedin.com/in/latenights/"> worked with Alex extensively in building Google My Business for iOS, along with some internal projects. Let me just say that he is the best UX designer I've ever worked with....10/10 would work with him again if I have the chance to.</a>
-  </span>
-  <span class="title_box_in_style_3 title_box_in_style_4 clients skills center quotes">
-    <a target="_blank" href="https://www.linkedin.com/in/latenights/">Having someone so talented from an artistic standpoint yet so understanding and capable from a technical standpoint is a borderline impossible find. There will for undoubtedly be some hugely successful creations coming from Alex's hands -- he's one to watch closely.</a>
-  </span>
-  <span class="title_box_in_style_3 title_box_in_style_4 clients skills center quotes">
-    <a target="_blank" href="https://www.linkedin.com/in/latenights/">Alex is phenomenal to work with. We hired him to design the UI for a new mobile product and his work encapsulated everything we had hoped for. He's proficient in the latest technological and visual trends... I would hire Alex again without reservation. He's a rare talent.</a>
-  </span>
-</div>
-</div> -->
-<!-- BOX -->
-  <!-- <hr/> -->
-
-  <!-- <div class="photo_min box_style_2 anim_box_3 disable medium label full-width rouge hero4 hide" data-photo="photo_2" style="background-image: url( img/rt_cases.png); height: 45vh; margin-bottom: 0 !important; padding-bottom: 0 !important;">
-  <div class="project_text" style="padding-bottom: 5vw;">
-  <span class="project_snippet">High-level user flow<span class="fa fa-angle-right"></span></span>
-  <span class="scrim"></span>
-</div>
-</div> -->
-<div class="box_in_style_3 box_in_style_4 main_block anim_box_1-5 introduction client-wrap black_everything" style="margin: 0 !important;">
-<div class="box_in_style_3 box_in_style_4 main_block anim_box_1-5 introduction client-wrap half-panel black_everything" style="background: none;">
-  <img alt="Alex Lakas" class="logo trigger bitmoji" src="img/sergio.jpeg"/>
-  <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients problem">
-    <span class=""></span>
+    <div class="columns mobile_col padding w-row">
+      <div data-w-id="9893d714-1963-b25a-e0a8-c1e499dc329b" class="column-2 reveal mobile_col padding_bottom w-col w-col-4 w-col-stack">
+        <h1 class="heading"><strong class="bold-text white-text column_hdr">User experience<br></strong></h1>
+        <p class="paragraph white-text">Journey mapping, wire framing and user research to help map out and discover ways to improve on the experience needed.</p>
+      </div>
+      <div data-w-id="9893d714-1963-b25a-e0a8-c1e499dc32a2" class="column-2 reveal mobile_col padding_bottom w-col w-col-4 w-col-stack">
+        <h1 class="heading"><strong class="bold-text white-text column_hdr">Visual design</strong></h1>
+        <p class="paragraph white-text">UI kits, system specs, north star explorations and style libraries - I have a passion for it all and then some more</p>
+      </div>
+      <div data-w-id="9893d714-1963-b25a-e0a8-c1e499dc32a8" class="column-2 reveal mobile_col w-col w-col-4 w-col-stack">
+        <h1 class="heading"><strong class="bold-text white-text column_hdr">Interaction design</strong></h1>
+        <p class="paragraph white-text">Prototyping hundreds of interaction models using front end development and tools like Principle, Invision and After Effects</p>
+      </div>
+    </div>
+    <div class="columns mobile_col padding second_column w-row">
+      <div data-w-id="c2741c25-c886-39ac-552d-a43c796b4bef" style="opacity:0" class="column-2 reveal mobile_col padding_bottom w-col w-col-4 w-col-stack">
+        <h1 class="heading"><strong class="bold-text white-text column_hdr">Production design<br></strong></h1>
+        <p class="paragraph white-text">While not necessarily my strength, if it needs to cut - specked or produced, I can handle it or triage to the appropriate expert</p>
+      </div>
+      <div data-w-id="c2741c25-c886-39ac-552d-a43c796b4bf6" style="opacity:0" class="column-2 reveal mobile_col padding_bottom w-col w-col-4 w-col-stack">
+        <h1 class="heading"><strong class="bold-text white-text column_hdr">Mentorship + guidence</strong></h1>
+        <p class="paragraph white-text">Workshops, salon chats and early stage startup assistance - I like helping others learn and learn by helping others</p>
+      </div>
+      <div data-w-id="c2741c25-c886-39ac-552d-a43c796b4bfc" style="opacity:0" class="column-2 reveal mobile_col w-col w-col-4 w-col-stack">
+        <h1 class="heading"><strong class="bold-text white-text column_hdr">Front-end development</strong></h1>
+        <p class="paragraph white-text">I like getting my hands dirty with a little bit of code - from CSS to Javascript, I like testing and exploring across devices</p>
+      </div>
+    </div>
   </div>
-  <div class="subtitle_box_in_style_3 source_r white-links show">
-    He is the best UX designer I've ever worked with... 10/10 would work with him again if I have the chance
+  <div data-w-id="7000d8a0-aaab-ac5b-317f-551e4947f3a5" style="opacity:0" class="inner_section reveal border_top">
+    <div class="paragraph white-text section_label">Colleague quotes</div>
+    <div class="columns mobile_col padding w-row">
+      <div data-w-id="7000d8a0-aaab-ac5b-317f-551e4947f3a7" style="opacity:0" class="column-2 reveal mobile_col padding_bottom w-col w-col-4 w-col-stack">
+        <h1 class="heading"><strong class="bold-text white-text column_hdr">He&#x27;s a fun person and has a wide range of skills for UX design.<br></strong></h1>
+        <div class="container-3 quote_main_wrap w-container"><img src="images/rob.jpeg" alt="" class="avatar_quote">
+          <h1 class="heading"><strong class="bold-text white-text quote_text">Sr Interaction Designer, Google<br></strong></h1>
+        </div>
+      </div>
+      <div data-w-id="7000d8a0-aaab-ac5b-317f-551e4947f3ae" style="opacity:0" class="column-2 reveal mobile_col padding_bottom w-col w-col-4 w-col-stack">
+        <h1 class="heading"><strong class="bold-text white-text column_hdr">Let me just say that he is the best UX designer I&#x27;ve ever worked with.<br></strong></h1>
+        <div class="container-3 quote_main_wrap w-container"><img src="images/sergio.jpeg" alt="" class="avatar_quote">
+          <h1 class="heading"><strong class="bold-text white-text quote_text">Software Engineer, Google<br></strong></h1>
+        </div>
+      </div>
+      <div data-w-id="7000d8a0-aaab-ac5b-317f-551e4947f3b4" style="opacity:0" class="column-2 reveal mobile_col w-col w-col-4 w-col-stack">
+        <h1 class="heading"><strong class="bold-text white-text column_hdr">He is very creative, fast and always standout with his unique designs. </strong></h1>
+        <div class="container-3 quote_main_wrap w-container"><img src="images/sal.jpeg" alt="" class="avatar_quote">
+          <h1 class="heading"><strong class="bold-text white-text quote_text">CEO, Cubix Labs<br></strong></h1>
+        </div>
+      </div>
+    </div>
   </div>
-  <span class="quote_author">- Software Engineer, Google</span>
-</div>
-
-<div class="box_in_style_3 box_in_style_4 main_block anim_box_1-5 introduction client-wrap half-panel black_everything" style="background: none;">
-  <img alt="Alex Lakas" class="logo trigger bitmoji" src="img/rob.jpeg"/>
-  <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients problem">
-    <span class=""></span>
+  <div class="inner_section reveal extra_wide hero_wide">
+    <div class="columns gal_columns w-row">
+      <div class="column-2 reveal mobile_col _3_col w-col w-col-6 w-col-stack"><a data-w-id="686dc296-8246-3d5d-a116-ada331aa06ee" style="opacity:0" href="#" class="link-block gal_block w-inline-block"><img src="images/drive.jpg" alt="" class="image-16"></a></div>
+      <div class="column-2 reveal mobile_col _3_col w-col w-col-6 w-col-stack"><a href="mod.html" class="link-block gal_block margin_top w-inline-block"><img src="images/group.jpg" srcset="images/group-p-500.jpeg 500w, images/group-p-800.jpeg 800w, images/group-p-1080.jpeg 1080w, images/group.jpg 1600w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 90vw, (max-width: 991px) 92vw, 48vw" alt=""></a></div>
+    </div>
   </div>
-  <div class="subtitle_box_in_style_3 source_r white-links show">
-    I really enjoy working with Alex, he's a fun person and has a wide range of skills for UX design.
+  <div class="inner_section">
+    <div id="w-node-6dbb739c127d-04ea081d" class="columns mobile_col padding w-row">
+      <div class="column-2 reveal hdr_show basic_section w-col w-col-6 w-col-stack">
+        <h1 id="w-node-6dbb739c127f-04ea081d" class="heading"><strong class="bold-text white-text desktop_hdr sub_hdr">Seen enough already? Drop me a line to chat more.<br></strong></h1>
+      </div>
+      <div class="column reveal hdr_show basic_section w-col w-col-6 w-col-stack">
+        <p style="opacity:0;-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="paragraph white-text intro_text">I’m always open to new gigs and meeting awesome people, so feel free to drop me a line whenever and wherever your idea wants to take you.<a href="http://alexlakas-portfolio.webflow.io/#"><br></a></p><a data-w-id="0a0e42c5-b2fa-1d5f-a03d-cdcc952a25d9" href="https://www.linkedin.com/in/latenights/" target="_blank" class="main_cta w-button">Say, Hey on Linkedin</a></div>
+    </div>
   </div>
-  <span class="quote_author">- Sr. Interaction Designer, Google</span>
-</div>
-</div>
-
-<div class="box_in_style_3 box_in_style_4 main_block anim_box_1-5 introduction client-wrap main_block show" style="background: none;">
-  <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients">
-    <span class="section">Thanks for stopping by</span>
+  <div class="inner_section reveal reveal_body ftr_wrap">
+    <h1 class="bold-text white-text desktop_hdr sub_hdr ftr_left_aligned"><strong data-w-id="0ea0d70d-f7d1-c631-6f65-67563cc910f5" class="ftr_bold_text">More work</strong><br></h1>
+    <div data-w-id="0ea0d70d-f7d1-c631-6f65-67563cc910f8" class="columns mobile_col padding more_projects w-row">
+      <div data-w-id="0ea0d70d-f7d1-c631-6f65-67563cc910f9" class="column-2 reveal mobile_col padding_bottom ftr_reveal w-col w-col-4 w-col-stack"><a href="live-times.html" class="heading ftr_text_link"><strong class="bold-text-2 ftr_sub_link">Live Popular Times on Google</strong></a></div>
+      <div data-w-id="0ea0d70d-f7d1-c631-6f65-67563cc910fd" class="column-2 reveal mobile_col padding_bottom ftr_reveal w-col w-col-4 w-col-stack"><a href="zero-suggest.html" class="heading ftr_text_link"><strong class="bold-text-2 ftr_sub_link">Zero Suggest on Google Maps</strong></a></div>
+      <div data-w-id="0ea0d70d-f7d1-c631-6f65-67563cc91101" class="column-2 reveal mobile_col padding_bottom ftr_reveal w-col w-col-4 w-col-stack"><a href="mod.html" class="heading ftr_text_link"><strong class="bold-text-2 ftr_sub_link">Modernizing Nav Search on Google</strong></a></div>
+    </div>
+    <div class="columns mobile_col padding w-row">
+      <div data-w-id="0ea0d70d-f7d1-c631-6f65-67563cc91106" class="column-2 reveal mobile_col padding_bottom ftr_reveal w-col w-col-4 w-col-stack">
+        <h1 class="heading"><strong class="bold-text white-text">Linkedin<br></strong></h1>
+        <p class="paragraph white-text">Resume and work experience galore</p><a href="https://www.linkedin.com/in/latenights/" class="main_cta w-button">View Linkedin</a></div>
+      <div data-w-id="0ea0d70d-f7d1-c631-6f65-67563cc9110f" class="column-2 reveal mobile_col padding_bottom ftr_reveal w-col w-col-4 w-col-stack">
+        <h1 class="heading"><strong class="bold-text white-text">Dribbble</strong></h1>
+        <p class="paragraph white-text">Recent and past design work, explorations and experimental</p><a href="https://dribbble.com/alex2pt0" class="main_cta w-button">View Dribbble</a></div>
+      <div data-w-id="0ea0d70d-f7d1-c631-6f65-67563cc91117" class="column-2 reveal mobile_col padding_bottom ftr_reveal w-col w-col-4 w-col-stack">
+        <h1 class="heading"><strong class="bold-text white-text">Instagram</strong></h1>
+        <p class="paragraph white-text">Photography, my travels and the off screen lifestyle I lead</p><a href="https://www.instagram.com/late.niights/" class="main_cta w-button">View Instagram</a></div>
+    </div>
   </div>
-  <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients">
-    Interested in connecting? Feel free to say hello
-  </div>
-  <div class="subtitle_box_in_style_3 source_r white-links show" style="margin-top: 2vw;">
-Should you be interested in learning more, feel free to drop me a line or message me on Linkedin.
-<br/>
-<a target="_self" class="fa ftr-link" href="work/about">Learn a little more</a>
-  </div>
-</div>
-
-<!-- <div class="photo_min box_style_2 anim_box_4 x_illo fadeIn" data-photo="photo_2" style="background-image: url(img/sat.jpg); height: 30vh;">
-  <a class="filler_link" target="_blank"  title="Saturday" href="https://www.instagram.com/p/BbHnYzklRn7/?taken-by=late.niights"></a>
-  <div class="project_text">
-    <span class="project_snippet">Saturday illo<i class="fa fa-instagram"></i></span>
-    <span class="scrim"></span>
-  </div>
-</div>
-
-<div class="photo_min box_style_2 anim_box_3 fadeIn" data-photo="photo_2" style="background-image: url(img/eatdrink.gif); height: 50vh;">
-  <a class="filler_link" target="_blank"  title="Eat + Drink on Google Search" href="https://dribbble.com/shots/3389227-Eat-Drink-Mini-app-on-Google-Search"></a>
-  <div class="project_text">
-    <span class="project_snippet">Eat + Drink on Google Search<span class="fa fa-angle-right"></span></span>
-    <span class="scrim"></span>
-  </div>
-</div> -->
-<!-- BOX -->
-
-<!-- <hr> -->
-
-<div class="box_in_style_3 box_in_style_4 anim_box_1-5 introduction main_block show ftr black-everything" style="background: none; height: auto;">
-  <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients">
-    More projects
-  </div>
-</div>
-
-<div class="photo_min box_style_2 anim_box_3 fadeIn" data-photo="photo_2" style="background-image: url(img/zero_outcome.png); height: 63vh;">
-  <a class="filler_link" target="_self"  title="Zero tap on Google Maps" href="work/zero-tap"></a>
-  <div class="project_text">
-    <span class="project_snippet">Zero tap on Google Maps<span class="fa fa-angle-right"></span></span>
-    <span class="scrim"></span>
-  </div>
-</div>
-
-<div class="photo_min box_style_2 anim_box_3 fadeIn" data-photo="photo_2" style="background-image: url(img/bookings_hero.png); height: 50vh;">
-  <a class="filler_link" target="_self"  title="Bookings on Google" href="work/bookings"></a>
-  <div class="project_text">
-    <span class="project_snippet">Bookings on Google<span class="fa fa-angle-right"></span></span>
-    <span class="scrim"></span>
-  </div>
-</div>
-
-<div class="box_in_style_3 box_in_style_4 main_block anim_box_1-5 introduction client-wrap ftr black-everything" style="background: none;">
-  <div class="title_box_in_style_3 title_box_in_style_4 maven_b clients">
-    <!-- <span class="section">Take-aways</span> -->
-  </div>
-
-  <div class="footer-social-icons">
-    <ul class="social-icons">
-      <li><a alt="dribbble" title="dribbble" href="https://dribbble.com/alex2pt0" class="social-icon"> <i class="fa fa-dribbble" id="spin"></i></a></li>
-      <li><a alt="linkedin" title="linkedin" href="https://www.linkedin.com/in/latenights" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-      <li><a alt="instagram" title="instagram" href="https://www.instagram.com/late.niights" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
-      <li><a alt="twitter" title="twitter" href="https://twitter.com/alex2pt0" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
-    </ul>
-  </div>
-
-  <div class="subtitle_box_in_style_3 source_r white-links show ftr_wrap" style="margin-top: 2vw;">
-    &copy; 2018 | Alex S. Lakas
-  </div>
-</div><!-- BOX -->
-</div>
-</div>
-</div>
-
-
-<!-- END BOX -->
-
-
-<!-- END LOADER -->
-
-<script type="text/javascript" src=" js/box.js"></script>
-<script type="text/javascript" src=" js/svg4everybody.min.js"></script>
-
-<!-- <script type="text/javascript" src=" js/jquery-2.0.2.min.js"></script>
-
-<script type="text/javascript" src=" js/picasso.js"></script> -->
-
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
-
 </html>
