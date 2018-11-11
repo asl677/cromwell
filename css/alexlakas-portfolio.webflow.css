@@ -2480,6 +2480,9 @@ figcaption {
     -webkit-align-content: flex-start;
     -ms-flex-line-pack: start;
     align-content: flex-start;
+    font-family: Exo, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
   }
   .bold-text.white-text.quote_text.list_item {
     margin-left: 0px;
@@ -2515,7 +2518,9 @@ figcaption {
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
+    font-family: Exo, sans-serif;
     font-size: 38px;
+    font-weight: 300;
   }
   .heading.ftr_heading {
     -webkit-box-flex: 0;
