@@ -899,6 +899,10 @@ figcaption {
   text-shadow: 1px 1px 170px rgba(0, 0, 0, .48);
 }
 
+.heading.reveal {
+  display: block;
+}
+
 .image-7 {
   display: inline-block;
 }
@@ -3269,7 +3273,7 @@ figcaption {
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-971cdd1649fa-3c4141de {
+  #w-node-6e72ba790ae4-3c4141de {
     -ms-grid-column: 2;
     grid-column-start: 2;
     -ms-grid-column-span: 1;
