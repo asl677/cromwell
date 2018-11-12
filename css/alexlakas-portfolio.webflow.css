@@ -1750,6 +1750,7 @@ figcaption {
 }
 
 .unordered-list {
+  padding-left: 0px;
   line-height: 20px;
 }
 
@@ -1892,6 +1893,14 @@ figcaption {
   margin: 0px auto;
   padding: 40px;
   text-align: center;
+}
+
+.image-23 {
+  width: 100%;
+}
+
+.full_screen {
+  width: 100%;
 }
 
 @media (max-width: 991px) {
@@ -2504,8 +2513,10 @@ figcaption {
     margin-left: 70px;
   }
   .paragraph.white-text.section_label {
-    margin: 0px 40px;
-    padding: 0px;
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+    padding: 40px 40px 0px;
   }
   .paragraph.white-text.section_label.flip_black {
     padding-right: 20px;
