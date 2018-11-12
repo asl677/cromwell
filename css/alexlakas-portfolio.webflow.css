@@ -277,6 +277,10 @@ figcaption {
   position: static;
 }
 
+.column-2.reveal.mobile_col.padding_bottom {
+  position: relative;
+}
+
 .column-3 {
   height: 300px;
 }
@@ -1652,6 +1656,7 @@ figcaption {
 }
 
 .mod_intro.mobile_img {
+  position: relative;
   display: block;
   width: 100%;
   margin-left: 0px;
@@ -1851,6 +1856,7 @@ figcaption {
 }
 
 .mock_img {
+  height: auto;
   margin-bottom: 80px;
   box-shadow: 0 1px 31px 0 rgba(0, 0, 0, .09);
 }
