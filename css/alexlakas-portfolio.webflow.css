@@ -1235,7 +1235,7 @@ figcaption {
   display: inline-block;
   width: auto;
   margin-top: 0px;
-  padding: 40px 60px;
+  padding: 80px;
   background-color: #1d1d1d;
   text-align: center;
 }
@@ -1259,6 +1259,10 @@ figcaption {
 .nav-link {
   display: block;
   padding: 1vh 0px;
+  -webkit-transition: -webkit-transform 200ms ease;
+  transition: -webkit-transform 200ms ease;
+  transition: transform 200ms ease;
+  transition: transform 200ms ease, -webkit-transform 200ms ease;
   font-family: Exo, sans-serif;
   color: hsla(0, 0%, 100%, .54);
   font-size: 30px;
@@ -1269,7 +1273,11 @@ figcaption {
 }
 
 .nav-link:hover {
-  color: #fff;
+  opacity: 0.54;
+  -webkit-transform: translate(-5px, 0px);
+  -ms-transform: translate(-5px, 0px);
+  transform: translate(-5px, 0px);
+  color: hsla(0, 0%, 100%, .54);
 }
 
 .nav-link.w--current {
@@ -1820,6 +1828,10 @@ figcaption {
   text-decoration: none;
 }
 
+.gal_block.above_fold:hover {
+  opacity: 1;
+}
+
 .bold-text-2 {
   font-family: Exo, sans-serif;
   color: #fff;
@@ -2136,7 +2148,7 @@ figcaption {
 }
 
 .wide_video.reveal {
-  position: static;
+  position: relative;
   display: block;
   overflow: hidden;
   padding-top: 0px;
@@ -2989,6 +3001,9 @@ figcaption {
     border-radius: 6px;
     text-align: center;
   }
+  .main_cta.hero_cta {
+    margin-bottom: 40px;
+  }
   .avatar_quote {
     overflow: visible;
     float: left;
@@ -3379,7 +3394,7 @@ figcaption {
     align-items: center;
   }
   .mod_intro.mobile_img {
-    margin-top: 40px;
+    margin-top: 0px;
     margin-left: 0px;
     padding: 0px;
   }
@@ -3441,7 +3456,7 @@ figcaption {
   }
   .mock_img {
     margin-bottom: 40px;
-    padding: 40px 0px 0px;
+    padding: 0px;
   }
   .skills.reveal {
     padding: 20px 40px;
