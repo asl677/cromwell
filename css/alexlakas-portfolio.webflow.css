@@ -238,6 +238,13 @@ figcaption {
   justify-content: flex-start;
 }
 
+.column-2.reveal.mobile_col._3_col.quote_hdr.first_col_home {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 .column-2.reveal.mobile_col._3_col.ftr_column {
   text-align: left;
 }
@@ -703,6 +710,17 @@ figcaption {
   background-color: #000;
 }
 
+.main_cta.reveal {
+  display: inline-block;
+  margin-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.main_cta.hero_cta.reveal {
+  display: inline-block;
+}
+
 .video {
   position: absolute;
   left: 0px;
@@ -1085,7 +1103,7 @@ figcaption {
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 0px;
+  padding-top: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1111,6 +1129,8 @@ figcaption {
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 0vh;
+  padding-bottom: 0vh;
 }
 
 .navbar {
@@ -1164,7 +1184,7 @@ figcaption {
   display: inline-block;
   width: auto;
   margin-top: 0px;
-  padding: 40px 80px;
+  padding: 40px;
   background-color: #1d1d1d;
   text-align: center;
 }
@@ -1190,18 +1210,18 @@ figcaption {
   padding: 1vh 0px;
   font-family: Exo, sans-serif;
   color: hsla(0, 0%, 100%, .54);
-  font-size: 36px;
-  line-height: 66px;
-  font-weight: 200;
+  font-size: 30px;
+  line-height: 56px;
+  font-weight: 300;
   text-align: right;
   text-decoration: none;
 }
 
 .nav-link.w--current {
   color: #fff;
-  font-size: 36px;
-  line-height: 56px;
-  font-weight: 700;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -1880,6 +1900,8 @@ figcaption {
   max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
+  line-height: 56px;
+  font-weight: 200;
 }
 
 .float_img.reveal {
@@ -1919,6 +1941,7 @@ figcaption {
   top: 0px;
   right: 0px;
   bottom: 0px;
+  z-index: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2136,10 +2159,10 @@ figcaption {
     padding: 40px;
   }
   .main_cta {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: inline-block;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -2153,6 +2176,11 @@ figcaption {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
+    text-align: center;
+  }
+  .main_cta.hero_cta.reveal {
+    display: block;
+    clear: none;
   }
   .heading {
     position: relative;
@@ -2277,13 +2305,34 @@ figcaption {
     width: 100%;
     max-width: auto;
   }
+  .container-3.quote_main_wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
   .mod_intro.mobile_img {
     width: 100%;
     margin-left: 0px;
   }
+  .gal_block.above_fold.no_caption {
+    width: 100%;
+    margin-bottom: 20px;
+  }
   .unordered-list {
     width: 100%;
     padding-left: 0px;
+  }
+  .image-15 {
+    width: 100%;
   }
   .client {
     padding: 80px;
@@ -2301,7 +2350,17 @@ figcaption {
     width: 100%;
   }
   .skills.reveal {
+    position: static;
+    display: block;
+    overflow: visible;
     padding: 40px;
+    clear: none;
+  }
+  .centered_cta.reveal {
+    position: static;
+    display: block;
+    clear: none;
+    text-align: left;
   }
 }
 
@@ -2322,11 +2381,19 @@ figcaption {
   .columns.gal_columns {
     padding: 0px;
   }
+  .main_cta {
+    width: 100%;
+    text-align: center;
+  }
   .main_cta.reveal {
     position: static;
+    width: 100%;
     margin-top: 0px;
     padding: 20px;
     text-align: center;
+  }
+  .main_cta.hero_cta.reveal {
+    width: 100%;
   }
   .gallery_img {
     width: auto;
@@ -2459,8 +2526,7 @@ figcaption {
     padding-right: 0px;
   }
   .column-2.reveal.mobile_col._3_col.quote_hdr.mocks {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding: 0px 40px;
   }
   .column-2.reveal.mobile_col._3_col.client {
     padding: 20px 80px;
@@ -2819,8 +2885,11 @@ figcaption {
     padding-bottom: 0vh;
   }
   .inner_section.reveal {
+    display: block;
     max-width: none;
-    padding-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
     padding-bottom: 40px;
   }
   .inner_section.reveal.extra_wide {
@@ -2992,6 +3061,9 @@ figcaption {
   .link-block.gal_block.reveal {
     margin-bottom: 0px;
   }
+  .link-block.gal_block.reveal.no_caption {
+    margin-bottom: 20px;
+  }
   .lightbox_gallery_img {
     display: -webkit-box;
     display: -webkit-flex;
@@ -3073,6 +3145,9 @@ figcaption {
   .gal_block.first.thumb_hover {
     text-align: center;
   }
+  .gal_block.above_fold.no_caption {
+    margin-bottom: 20px;
+  }
   .ftr_bold_text {
     font-weight: 300;
   }
@@ -3125,7 +3200,23 @@ figcaption {
     padding: 0px;
   }
   .centered_cta {
+    position: static;
+    display: block;
     margin: 0px auto;
+    padding-right: 40px;
+    padding-left: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+  }
+  .loader_container {
+    z-index: 0;
   }
 }
 
