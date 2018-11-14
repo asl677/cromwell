@@ -116,6 +116,10 @@ figcaption {
   flex: 0 auto;
 }
 
+.column.reveal.hdr_show {
+  position: relative;
+}
+
 .column.reveal.mod_img_1 {
   position: static;
   left: auto;
@@ -2060,6 +2064,7 @@ figcaption {
 }
 
 ._2_col_img.reveal {
+  display: block;
   width: 100%;
 }
 
