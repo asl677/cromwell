@@ -677,6 +677,10 @@ figcaption {
   text-align: center;
 }
 
+.bold-text.white-text.desktop_hdr.sub_hdr.centered.add_black {
+  font-weight: 300;
+}
+
 .bold-text.white-text.desktop_hdr.sub_hdr.ftr_left_aligned {
   margin-top: 40px;
   margin-bottom: 100px;
@@ -684,7 +688,11 @@ figcaption {
 }
 
 .bold-text.white-text.desktop_hdr.sub_hdr.add_black {
-  font-weight: 200;
+  font-weight: 300;
+}
+
+.bold-text.white-text.desktop_hdr.sub_hdr.add_black.revea {
+  text-align: center;
 }
 
 .bold-text.white-text.quote_text {
@@ -720,13 +728,13 @@ figcaption {
 }
 
 .bold-text.white-text.sub_hdr {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .bold-text.white-text.column_hdr {
   font-size: 32px;
   line-height: 42px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .bold-text.white-text.skills.centered {
@@ -765,6 +773,19 @@ figcaption {
 
 .main_cta.hero_cta.reveal {
   display: inline-block;
+}
+
+.main_cta.multi_cta {
+  position: static;
+  display: inline-block;
+  overflow: visible;
+  margin-top: 0px;
+  margin-left: 20px;
+  clear: none;
+  border-style: solid;
+  border-width: 0px;
+  border-color: hsla(0, 0%, 100%, .54);
+  background-color: hsla(0, 0%, 100%, .09);
 }
 
 .video {
@@ -1961,6 +1982,7 @@ figcaption {
   display: block;
   height: auto;
   margin-bottom: 80px;
+  padding: 0px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
@@ -3009,6 +3031,13 @@ figcaption {
   .main_cta.hero_cta {
     margin-bottom: 40px;
   }
+  .main_cta.multi_cta {
+    margin-left: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: hsla(0, 0%, 100%, .54);
+    background-color: transparent;
+  }
   .avatar_quote {
     overflow: visible;
     float: left;
@@ -3500,6 +3529,7 @@ figcaption {
   }
   .video_thumb.reveal {
     display: block;
+    margin-top: 40px;
   }
   .video_column_float {
     display: block;
