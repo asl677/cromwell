@@ -1308,7 +1308,7 @@ figcaption {
   -webkit-transform: translate(-5px, 0px);
   -ms-transform: translate(-5px, 0px);
   transform: translate(-5px, 0px);
-  color: hsla(0, 0%, 100%, .54);
+  color: #fff;
 }
 
 .nav-link.w--current {
@@ -2227,16 +2227,10 @@ figcaption {
 }
 
 .nav-menu-2 {
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  display: block;
-  overflow: visible;
-  width: auto;
-  margin: 0px;
   padding: 80px;
-  float: none;
   background-color: #0a31ff;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
 }
 
 .preloader_img {
