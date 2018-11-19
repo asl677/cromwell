@@ -2752,7 +2752,7 @@ figcaption {
     padding: 20px 0px;
   }
   .nav-menu-2 {
-    width: 100%;
+    width: auto;
   }
 }
 
@@ -3643,8 +3643,8 @@ figcaption {
     display: block;
   }
   .nav-menu-2 {
-    width: 100%;
-    padding: 40px;
+    width: auto;
+    padding: 60px;
   }
   .preloader_img {
     height: 2px;
