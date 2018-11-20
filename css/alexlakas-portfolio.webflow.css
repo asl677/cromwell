@@ -1655,6 +1655,7 @@ figcaption {
 .image-12 {
   position: static;
   display: block;
+  width: 100%;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
@@ -2236,10 +2237,15 @@ figcaption {
 .preloader_img {
   position: static;
   display: block;
-  height: 3px;
+  width: 90px;
+  height: auto;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+}
+
+.column_img_padding {
+  padding: 40px;
 }
 
 @media (max-width: 991px) {
