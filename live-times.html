@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Nov 20 2018 03:28:33 GMT+0000 (UTC)  -->
+<!--  Last Published: Tue Nov 20 2018 20:22:09 GMT+0000 (UTC)  -->
 <html data-wf-page="5be3c04fee0076c4d11ea536" data-wf-site="5bd6053369305dfbbcea081e">
 <head>
   <meta charset="utf-8">
@@ -153,29 +153,46 @@
       <div class="paragraph white-text section_label reveal">Even More</div>
     </div>
     <div class="columns mobile_col padding w-row">
-      <div class="skills reveal w-col w-col-4 w-col-stack"><a href="wait-times.html" class="heading ftr_text_link"><strong class="bold-text-2 ftr_sub_link">Wait Times on Google</strong></a></div>
-      <div class="skills reveal w-col w-col-4 w-col-stack"><a href="zero-suggest.html" class="heading ftr_text_link"><strong class="bold-text-2 ftr_sub_link">Zero Suggest on Google Maps</strong></a></div>
-      <div class="skills reveal w-col w-col-4 w-col-stack"><a href="mod.html" class="heading ftr_text_link"><strong class="bold-text-2 ftr_sub_link">Modern Nav Search on Google</strong></a></div>
+      <div class="skills reveal w-col w-col-6 w-col-stack">
+        <h1 id="w-node-cfcf511b4b81-3cc910f3" class="heading"><strong class="bold-text white-text desktop_hdr sub_hdr">Projects<br></strong></h1>
+        <p class="paragraph white-text hero_intro">Wanna see more? Here&#x27;s a few more ways to see some additional work. Some covered here, some on my Dribbble page. <br><br>Take a gander and enjoy!<br></p>
+      </div>
+      <div class="skills reveal w-col w-col-6 w-col-stack">
+        <ul class="unordered-list">
+          <li class="bold-text white-text quote_text list_item"><a data-w-id="07c63fb4-3b13-f4f1-48f1-cfcf511b4b90" href="wait-times.html" class="body_link text_hover">Wait Times across Google</a></li>
+          <li class="bold-text white-text quote_text list_item"><a href="zero-suggest.html" class="body_link text_hover">Zero Suggest on Google Maps</a></li>
+          <li class="bold-text white-text quote_text list_item"><a href="wait-times.html" class="body_link text_hover">Wait Times across Google</a></li>
+          <li class="bold-text white-text quote_text list_item"><a href="bookings.html" target="_blank" class="body_link text_hover">Bookings across Google</a></li>
+          <li class="bold-text white-text quote_text list_item"><a href="mod.html" class="body_link text_hover">Modernizing Nav Search on Google</a></li>
+          <li class="bold-text white-text quote_text list_item"><a href="google-my-business.html" class="body_link text_hover">Google My Business</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="columns mobile_col padding more_projects w-row">
-      <div class="skills reveal w-col w-col-4 w-col-stack"><a href="live-times.html" class="heading ftr_text_link w--current"><strong class="bold-text-2 ftr_sub_link">Live Popular Times on Google</strong></a></div>
-      <div class="skills reveal w-col w-col-4 w-col-stack"><a href="google-my-business.html" class="heading ftr_text_link"><strong class="bold-text-2 ftr_sub_link">Google My Business</strong></a></div>
-      <div class="skills reveal w-col w-col-4 w-col-stack"><a href="bookings.html" class="heading ftr_text_link"><strong class="bold-text-2 ftr_sub_link">Bookings across Google</strong></a></div>
-    </div>
-    <div class="columns mobile_col padding w-row">
+    <div class="columns mobile_col padding ftr_wrap w-row">
       <div class="skills reveal w-col w-col-4 w-col-stack">
         <h1 class="heading"><strong class="bold-text white-text">Linkedin<br></strong></h1>
-        <p class="paragraph white-text">Resume and work experience galore</p><a href="https://www.linkedin.com/in/latenights/" class="main_cta w-button">View Linkedin</a></div>
+        <p class="paragraph white-text">Resume and work experience galore</p><a href="https://www.linkedin.com/mynetwork/" target="_blank" class="main_cta hero_cta w-button">View Linkedin</a></div>
       <div class="skills reveal w-col w-col-4 w-col-stack">
         <h1 class="heading"><strong class="bold-text white-text">Dribbble</strong></h1>
-        <p class="paragraph white-text">Recent and past design work, explorations and experimental</p><a href="https://dribbble.com/alex2pt0" class="main_cta w-button">View Dribbble</a></div>
+        <p class="paragraph white-text">Recent and past design work, explorations and experimental</p><a href="https://dribbble.com/alex2pt0" target="_blank" class="main_cta hero_cta w-button">View Dribbble</a></div>
       <div class="skills reveal w-col w-col-4 w-col-stack">
         <h1 class="heading"><strong class="bold-text white-text">Instagram</strong></h1>
-        <p class="paragraph white-text">Photography, my travels and the off screen lifestyle I lead</p><a href="https://www.instagram.com/late.niights/" class="main_cta w-button">View Instagram</a></div>
+        <p class="paragraph white-text">Photography, my travels and the off screen lifestyle I lead</p><a href="https://www.instagram.com/late.niights/" target="_blank" class="main_cta hero_cta w-button">View Instagram</a></div>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script>
+    $('a').click(function(e) {    
+        if ($(this).hasClass("to-page")) {
+           e.preventDefault();
+           var goTo = this.getAttribute("href");
+           window.setTimeout(function(){
+               window.location = goTo;
+           }, 1500);
+        }   
+  });
+</script>
 </body>
 </html>
