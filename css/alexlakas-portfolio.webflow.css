@@ -506,7 +506,15 @@ figcaption {
   line-height: 26px;
 }
 
+.paragraph.white-text.section_label.reveal {
+  font-weight: 500;
+}
+
 .paragraph.white-text.loader {
+  text-align: center;
+}
+
+.paragraph.white-text.centered {
   text-align: center;
 }
 
@@ -646,6 +654,20 @@ figcaption {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
+}
+
+.columns.gal_columns.column_no_bottom {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.columns.gal_columns.client_list {
+  max-width: 1000px;
+}
+
+.columns.gal_columns.client_list.no_bottom_margin {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .columns.add_black {
@@ -2723,6 +2745,10 @@ figcaption {
     padding-right: 0px;
     padding-bottom: 0px;
   }
+  .paragraph.white-text.centered {
+    padding: 40px;
+    text-align: left;
+  }
   .columns {
     width: auto;
     max-width: none;
@@ -3007,6 +3033,10 @@ figcaption {
   }
   .paragraph.white-text.section_label.reveal.flip_black {
     padding-bottom: 40px;
+  }
+  .paragraph.white-text.centered {
+    padding: 40px;
+    text-align: left;
   }
   .section_spacing {
     margin: 20px;
