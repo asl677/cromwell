@@ -1324,12 +1324,8 @@ figcaption {
 .nav-link {
   display: block;
   padding: 0vh 0px;
-  -webkit-transition: -webkit-transform 200ms ease;
-  transition: -webkit-transform 200ms ease;
-  transition: transform 200ms ease;
-  transition: transform 200ms ease, -webkit-transform 200ms ease;
   font-family: Exo, sans-serif;
-  color: hsla(0, 0%, 100%, .54);
+  color: #fff;
   font-size: 32px;
   line-height: 10vh;
   font-weight: 400;
@@ -1348,7 +1344,7 @@ figcaption {
   color: #fff;
   font-size: 32px;
   line-height: 10vh;
-  font-weight: 300;
+  font-weight: 400;
   text-decoration: none;
 }
 
