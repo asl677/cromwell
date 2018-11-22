@@ -1338,10 +1338,7 @@ figcaption {
 }
 
 .nav-link:hover {
-  opacity: 0.54;
-  -webkit-transform: translate(-5px, 0px);
-  -ms-transform: translate(-5px, 0px);
-  transform: translate(-5px, 0px);
+  opacity: 1;
   color: #fff;
 }
 
