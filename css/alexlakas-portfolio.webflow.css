@@ -706,7 +706,7 @@ figcaption {
 .bold-text.white-text.desktop_hdr.sub_hdr.centered {
   display: block;
   max-width: 1000px;
-  margin: 0px auto 100px;
+  margin: 0px auto;
   padding-top: 40px;
   padding-right: 0px;
   padding-bottom: 40px;
