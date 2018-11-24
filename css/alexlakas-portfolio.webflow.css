@@ -615,8 +615,10 @@ figcaption {
 
 .columns.mobile_col {
   max-width: 1000px;
-  margin-top: 40px;
+  margin-top: 0px;
   margin-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 0px;
 }
 
 .columns.mobile_col.padding {
@@ -2054,6 +2056,10 @@ figcaption {
   font-weight: 200;
 }
 
+.skills.reveal.centered_skills {
+  font-weight: 300;
+}
+
 .float_img.reveal {
   opacity: 1;
 }
@@ -3188,6 +3194,7 @@ figcaption {
     margin-bottom: 40px;
   }
   .main_cta.multi_cta {
+    margin-bottom: 40px;
     margin-left: 0px;
     border-style: solid;
     border-width: 2px;
