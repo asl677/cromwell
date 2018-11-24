@@ -3938,19 +3938,6 @@ figcaption {
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-8a275a8057fc-3c4141de {
-    -ms-grid-column: 2;
-    grid-column-start: 2;
-    -ms-grid-column-span: 1;
-    grid-column-end: 3;
-    -ms-grid-row: 1;
-    grid-row-start: 1;
-    -ms-grid-row-span: 1;
-    grid-row-end: 2;
-  }
-}
-
-@media screen and (max-width: 479px) {
   #w-node-6e72ba790ae4-3c4141de {
     -ms-grid-column: 2;
     grid-column-start: 2;
