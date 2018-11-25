@@ -507,6 +507,7 @@ figcaption {
 }
 
 .paragraph.white-text.section_label.reveal {
+  padding-bottom: 20px;
   font-weight: 500;
 }
 
@@ -1247,6 +1248,10 @@ figcaption {
 
 .inner_section.reveal.border_top {
   border-top: 2px solid hsla(0, 0%, 100%, .11);
+}
+
+.inner_section.reveal.rt_findings_block {
+  padding-bottom: 20px;
 }
 
 .inner_section.extra_wide {
@@ -3202,6 +3207,7 @@ figcaption {
     background-color: transparent;
   }
   .avatar_quote {
+    display: block;
     overflow: visible;
     float: left;
   }
@@ -3338,6 +3344,8 @@ figcaption {
   }
   .inner_section.reveal.extra_wide {
     display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .inner_section.reveal.extra_wide.hero_wide {
     margin-bottom: 0px;
