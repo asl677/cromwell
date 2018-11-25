@@ -2411,7 +2411,7 @@ figcaption {
     position: static;
     display: block;
     overflow: visible;
-    padding: 40px;
+    padding: 40px 40px 0px;
     clear: none;
   }
   .column-2.reveal.mobile_col._3_col.client {
@@ -2514,6 +2514,9 @@ figcaption {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 40px;
+  }
+  .bold-text.white-text.quote_text.list_item {
+    margin-left: 0px;
   }
   .bold-text.white-text.skills.centered {
     margin-top: 0px;
@@ -2656,7 +2659,7 @@ figcaption {
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
-    padding: 40px;
+    padding: 0px;
   }
   .image-12.extra_wide.thumb {
     margin-top: 0px;
@@ -2685,6 +2688,8 @@ figcaption {
   .mod_intro.mobile_img {
     width: 100%;
     margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .gal_block.above_fold.no_caption {
     width: 100%;
@@ -2702,6 +2707,9 @@ figcaption {
   }
   .mock_img {
     width: 100%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .image-20 {
     width: 100%;
