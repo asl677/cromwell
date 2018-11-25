@@ -2913,6 +2913,9 @@ figcaption {
     padding-right: 0px;
     padding-bottom: 40px;
   }
+  .column-2.reveal.hdr_show.float_img.float_img_mobile {
+    padding-top: 0px;
+  }
   .column-2.reveal.mobile_col {
     display: inline;
     margin-bottom: 0px;
@@ -3225,6 +3228,10 @@ figcaption {
     display: block;
     overflow: visible;
     float: left;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
   }
   .heading {
     display: -webkit-box;
@@ -3627,6 +3634,9 @@ figcaption {
     width: auto;
     height: 100%;
     margin-left: 0px;
+  }
+  .mod_intro.mobile_img.reveal.mock_img.floated_img_mobile {
+    margin-top: 0px;
   }
   .gal_block.first.thumb_hover {
     text-align: center;
