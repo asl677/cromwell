@@ -326,6 +326,7 @@ figcaption {
 }
 
 .column-2.reveal.mobile_col._3_col.first_col_home {
+  padding: 20px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
