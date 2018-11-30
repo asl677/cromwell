@@ -1,3 +1,19 @@
+.w-embed-youtubevideo {
+  width: 100%;
+  position: relative;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: url('../images/youtube-placeholder.svg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.w-embed-youtubevideo:empty {
+  min-height: 75px;
+  padding-bottom: 56.25%;
+}
+
 p {
   margin-bottom: 10px;
 }
@@ -794,12 +810,17 @@ figcaption {
 }
 
 .bold-text.white-text.skills.centered.flip_black.reveal {
+  color: #fff;
   font-weight: 300;
 }
 
 .bold-text.white-text.skills.centered.reveal.flip_black {
   max-width: none;
   padding-left: 40px;
+}
+
+.bold-text.white-text.skills.centered.reveal.black {
+  color: #000;
 }
 
 .main_cta {
@@ -3918,7 +3939,7 @@ figcaption {
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-8837d4e86e73-b473d55b {
+  #w-node-e1bbbedbda18-b473d55b {
     -ms-grid-column: 2;
     grid-column-start: 2;
     -ms-grid-column-span: 1;
