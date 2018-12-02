@@ -368,13 +368,49 @@ figcaption {
   justify-content: center;
 }
 
+.column-2.mobile_col.ftr_projects_col_wrap {
+  padding-top: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
 .column-3 {
-  height: 300px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .column-3.mocks {
   height: auto;
   padding: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 .column-4 {
@@ -527,7 +563,7 @@ figcaption {
 .paragraph.white-text.section_label {
   position: relative;
   display: block;
-  padding-top: auto;
+  padding-top: 20px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -758,6 +794,36 @@ figcaption {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 0px;
+}
+
+.columns.gal_columns.ftr_projects_label {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  margin-bottom: 0px;
+  padding: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
 }
 
 .columns.add_black {
@@ -1119,7 +1185,8 @@ figcaption {
 .heading {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 20px;
   font-family: 'Droid Sans', sans-serif;
   color: #fff;
   font-size: 30px;
@@ -1756,6 +1823,7 @@ figcaption {
 }
 
 .link-block.gal_block.reveal {
+  width: 100%;
   opacity: 1;
 }
 
@@ -1763,6 +1831,16 @@ figcaption {
   width: 16%;
   padding: 10px;
   text-align: left;
+}
+
+.link-block.gal_block.reveal.ftr_image_link {
+  width: auto;
+  padding: 0px;
+}
+
+.link-block.gal_block.ftr_image_link {
+  width: 16%;
+  margin-bottom: 0px;
 }
 
 .lightbox-link {
@@ -2530,9 +2608,22 @@ figcaption {
   position: fixed;
   left: 0px;
   right: 0px;
-  bottom: -360px;
+  bottom: -95px;
+  display: block;
+  height: 95px;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
   padding: 20px;
   background-color: #0a31ff;
+}
+
+.navbar-5 {
+  height: 40px;
+}
+
+.column-9 {
+  padding: 0px;
 }
 
 @media (max-width: 991px) {
@@ -3208,6 +3299,9 @@ figcaption {
   .column-2.reveal.mobile_col._3_col.first_col_home {
     padding: 0px;
   }
+  .column-2.reveal.mobile_col._3_col.first_col_home.collage {
+    padding-bottom: 20px;
+  }
   .column-2.reveal.mobile_col.quote_hdr {
     padding-top: 40px;
   }
@@ -3300,6 +3394,9 @@ figcaption {
     padding-bottom: 40px;
   }
   .paragraph.white-text.section_label.reveal.flip_black {
+    padding-bottom: 40px;
+  }
+  .paragraph.white-text.section_label.hero {
     padding-bottom: 40px;
   }
   .paragraph.white-text.centered {
@@ -3928,7 +4025,7 @@ figcaption {
     text-align: center;
   }
   .gal_block.above_fold.no_caption {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   .ftr_bold_text {
     font-weight: 300;
@@ -4004,6 +4101,9 @@ figcaption {
     padding: 0px;
   }
   .float_col.reveal {
+    padding: 0px;
+  }
+  ._3_col_spacing {
     padding: 0px;
   }
   .centered_cta {
