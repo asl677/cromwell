@@ -1017,6 +1017,14 @@ figcaption {
   display: inline-block;
 }
 
+.main_cta.hero_cta.second_cta {
+  margin-left: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: hsla(0, 0%, 100%, .09);
+  background-color: transparent;
+}
+
 .main_cta.multi_cta {
   position: static;
   display: inline-block;
@@ -1240,6 +1248,10 @@ figcaption {
   display: block;
 }
 
+.heading.icon_column {
+  padding-bottom: 10px;
+}
+
 .image-7 {
   display: inline-block;
 }
@@ -1403,7 +1415,7 @@ figcaption {
 
 .inner_section.reveal.reveal_body.ftr_wrap {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 160px;
   border-style: none;
   border-width: 2px;
   border-color: hsla(0, 0%, 100%, .09);
@@ -2280,6 +2292,7 @@ figcaption {
   max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
+  padding: 10px;
   line-height: 56px;
   font-weight: 200;
 }
@@ -2611,11 +2624,11 @@ figcaption {
   bottom: -95px;
   display: block;
   height: 95px;
-  max-width: 1000px;
+  max-width: 1050px;
   margin-right: auto;
   margin-left: auto;
-  padding: 20px;
-  background-color: #0a31ff;
+  padding: 10px;
+  background-color: #1b1b1b;
 }
 
 .navbar-5 {
@@ -2865,6 +2878,9 @@ figcaption {
   .main_cta.hero_cta.reveal {
     display: block;
     clear: none;
+  }
+  .main_cta.hero_cta.second_cta {
+    margin-left: 0px;
   }
   .heading {
     position: relative;
@@ -3562,6 +3578,9 @@ figcaption {
   .main_cta.hero_cta {
     margin-bottom: 40px;
   }
+  .main_cta.hero_cta.second_cta {
+    margin-left: 0px;
+  }
   .main_cta.multi_cta {
     margin-bottom: 40px;
     margin-left: 0px;
@@ -3819,7 +3838,7 @@ figcaption {
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: Exo, sans-serif;
-    color: hsla(0, 0%, 100%, .54);
+    color: #fff;
     font-size: 32px;
     line-height: 6vh;
     text-align: right;
@@ -3834,6 +3853,9 @@ figcaption {
     border-width: 2px;
     font-size: 36px;
     line-height: 56px;
+  }
+  .nav-link.internal_link {
+    color: #fff;
   }
   .container {
     position: static;
