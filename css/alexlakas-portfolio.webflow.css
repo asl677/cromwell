@@ -728,6 +728,7 @@ figcaption {
 
 .columns.mobile_col.padding {
   max-width: 1000px;
+  min-width: 100%;
 }
 
 .columns.mobile_col.padding.more_projects {
@@ -924,6 +925,13 @@ figcaption {
   text-align: center;
   text-decoration: none;
   text-shadow: none;
+}
+
+.bold-text.white-text.quote_text.thumb_subtext.case_study_text_inner {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
 }
 
 .bold-text.white-text.sub_hdr {
@@ -1460,7 +1468,11 @@ figcaption {
 }
 
 .inner_section.reveal.border_top {
-  border-top: 2px solid hsla(0, 0%, 100%, .11);
+  border-style: none none solid;
+  border-top-width: 2px;
+  border-top-color: hsla(0, 0%, 100%, .11);
+  border-bottom-width: 2px;
+  border-bottom-color: hsla(0, 0%, 100%, .09);
 }
 
 .inner_section.reveal.rt_findings_block {
@@ -2202,6 +2214,10 @@ figcaption {
 
 .thumb_text_container.ftr_text {
   text-align: left;
+}
+
+.thumb_text_container.case_study_text {
+  position: absolute;
 }
 
 .image-16 {
