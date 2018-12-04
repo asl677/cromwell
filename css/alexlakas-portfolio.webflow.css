@@ -1455,6 +1455,10 @@ figcaption {
   padding-top: 0px;
 }
 
+.inner_section.reveal.extra_wide.no_top_padding {
+  padding-top: 0px;
+}
+
 .inner_section.reveal.border_top {
   border-top: 2px solid hsla(0, 0%, 100%, .11);
 }
@@ -2624,6 +2628,7 @@ figcaption {
   left: 0px;
   right: 0px;
   bottom: -95px;
+  z-index: 0;
   display: block;
   height: 80px;
   max-width: 1050px;
