@@ -563,7 +563,7 @@ figcaption {
 .paragraph.white-text.section_label {
   position: relative;
   display: block;
-  padding-top: 20px;
+  padding-top: 10px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -2298,6 +2298,7 @@ figcaption {
 }
 
 .skills.reveal.centered_skills {
+  line-height: 45px;
   font-weight: 300;
 }
 
@@ -2547,6 +2548,7 @@ figcaption {
 }
 
 .nav-menu-2 {
+  width: 30vw;
   padding: 80px;
   background-color: #0a31ff;
   -webkit-transition: opacity 200ms ease;
@@ -2623,7 +2625,7 @@ figcaption {
   right: 0px;
   bottom: -95px;
   display: block;
-  height: 95px;
+  height: 80px;
   max-width: 1050px;
   margin-right: auto;
   margin-left: auto;
@@ -3095,6 +3097,9 @@ figcaption {
     padding: 40px;
     background-color: transparent;
   }
+  .nav-menu-2 {
+    width: 40vw;
+  }
 }
 
 @media (max-width: 767px) {
@@ -3113,6 +3118,9 @@ figcaption {
   .column-2.reveal.hdr_show.float_img {
     padding-right: 0px;
     padding-bottom: 0px;
+  }
+  .paragraph.white-text.section_label.hero {
+    padding-bottom: 20px;
   }
   .paragraph.white-text.centered {
     padding: 40px;
@@ -3413,7 +3421,7 @@ figcaption {
     padding-bottom: 40px;
   }
   .paragraph.white-text.section_label.hero {
-    padding-bottom: 40px;
+    padding: 20px;
   }
   .paragraph.white-text.centered {
     padding: 40px;
@@ -3505,6 +3513,7 @@ figcaption {
     line-height: 60px;
   }
   .bold-text.white-text.desktop_hdr.sub_hdr {
+    padding-bottom: 20px;
     font-size: 40px;
     line-height: 50px;
   }
