@@ -2552,7 +2552,7 @@ figcaption {
 }
 
 .nav-menu-2 {
-  width: 30vw;
+  width: 25vw;
   padding: 80px;
   background-color: #0a31ff;
   -webkit-transition: opacity 200ms ease;
@@ -2628,7 +2628,7 @@ figcaption {
   left: 0px;
   right: 0px;
   bottom: -95px;
-  z-index: 0;
+  z-index: 2;
   display: block;
   height: 80px;
   max-width: 1050px;
