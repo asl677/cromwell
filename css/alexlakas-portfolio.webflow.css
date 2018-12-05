@@ -1997,6 +1997,8 @@ figcaption {
 }
 
 .image-12.extra_wide.reveal {
+  display: block;
+  height: 100%;
   margin-top: 20px;
 }
 
@@ -2713,6 +2715,11 @@ figcaption {
 
 .column-9 {
   padding: 0px;
+}
+
+.image-25 {
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 991px) {
