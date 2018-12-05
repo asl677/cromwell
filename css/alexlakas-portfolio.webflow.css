@@ -1363,6 +1363,9 @@ figcaption {
 .inner_section {
   display: block;
   height: auto;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 100px;
   padding-bottom: 100px;
   grid-column-gap: 16px;
