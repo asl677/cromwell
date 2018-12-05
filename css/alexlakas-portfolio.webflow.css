@@ -526,6 +526,7 @@ figcaption {
 
 .paragraph.white-text.intro_text {
   padding-top: 0px;
+  padding-right: 40px;
   padding-bottom: 0px;
   font-family: Exo, sans-serif;
   color: #fff;
@@ -539,6 +540,10 @@ figcaption {
   font-size: 16px;
   line-height: 26px;
   font-weight: 300;
+}
+
+.paragraph.white-text.intro_text.fake_list {
+  line-height: 55px;
 }
 
 .paragraph.white-text.ftr_date {
@@ -629,6 +634,7 @@ figcaption {
 .paragraph.white-text.section_label.reveal {
   padding-top: 40px;
   padding-bottom: 80px;
+  color: #fff;
   font-weight: 500;
 }
 
@@ -663,6 +669,10 @@ figcaption {
 
 .paragraph.white-text.centered_column {
   text-align: center;
+}
+
+.paragraph.white-text.centered_column.fake_list {
+  line-height: 60px;
 }
 
 .text-block {
@@ -1514,9 +1524,8 @@ figcaption {
 
 .inner_section.reveal.border_top {
   border-style: none none solid;
-  border-top-width: 2px;
+  border-width: 2px;
   border-top-color: hsla(0, 0%, 100%, .11);
-  border-bottom-width: 2px;
   border-bottom-color: hsla(0, 0%, 100%, .09);
 }
 
