@@ -264,15 +264,19 @@ figcaption {
   display: flex;
   height: 100%;
   padding-right: 20px;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .column-2.reveal.mobile_col._3_col.quote_hdr {
@@ -2825,6 +2829,9 @@ figcaption {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+  .column-2.reveal.mobile_col._3_col.wt_grid_wrap {
+    height: auto;
   }
   .column-2.quote_hdr {
     padding: 0px;
