@@ -647,6 +647,20 @@ figcaption {
   padding-bottom: 80px;
 }
 
+.paragraph.white-text.section_label.ftr_section_label_2 {
+  position: relative;
+  display: block;
+  width: 15vw;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 25px;
+  background-color: #0a31ff;
+}
+
+.paragraph.white-text.flip_black.ftr_center_paragraph {
+  text-align: center;
+}
+
 .paragraph.white-text.hero_intro.disclaimer {
   border-style: solid none none;
   border-top-width: 2px;
@@ -664,11 +678,12 @@ figcaption {
 }
 
 .paragraph.white-text.centered {
+  padding-top: 20px;
   text-align: center;
 }
 
 .paragraph.white-text.centered_column {
-  text-align: center;
+  text-align: left;
 }
 
 .paragraph.white-text.centered_column.fake_list {
@@ -1000,7 +1015,7 @@ figcaption {
 
 .bold-text.white-text.column_hdr.centered_column {
   padding-right: 0px;
-  text-align: center;
+  text-align: left;
 }
 
 .bold-text.white-text.skills.centered {
@@ -1083,6 +1098,20 @@ figcaption {
   border-width: 2px;
   border-color: hsla(0, 0%, 100%, .09);
   background-color: transparent;
+}
+
+.main_cta.hero_cta.second_cta.ftr_center_cta {
+  display: block;
+  width: 160px;
+  margin: 0px auto;
+  border-style: none;
+  background-color: #0a31ff;
+  text-align: center;
+}
+
+.main_cta.hero_cta.centered_blue_btn {
+  display: inline-block;
+  text-align: left;
 }
 
 .main_cta.multi_cta {
@@ -1520,6 +1549,10 @@ figcaption {
 
 .inner_section.reveal.extra_wide.no_top_padding {
   padding-top: 0px;
+}
+
+.inner_section.reveal.extra_wide.big_center_with_cta {
+  text-align: center;
 }
 
 .inner_section.reveal.border_top {
@@ -2151,6 +2184,11 @@ figcaption {
   margin: 0px;
 }
 
+.mod_intro.mobile_img.narrow {
+  padding-right: 20px;
+  padding-left: 0px;
+}
+
 .reveal.extra_wide {
   margin-top: 40px;
 }
@@ -2678,9 +2716,7 @@ figcaption {
 .column_icon {
   display: block;
   width: 48px;
-  margin-right: auto;
   margin-bottom: 40px;
-  margin-left: auto;
 }
 
 .column_icon.smaller_icon {
@@ -2707,15 +2743,16 @@ figcaption {
   position: fixed;
   left: 0px;
   right: 0px;
-  bottom: -95px;
+  bottom: -140px;
   z-index: 2;
-  display: block;
-  height: 80px;
-  max-width: 1050px;
+  display: inline-block;
+  height: 140px;
+  max-width: 1000px;
   margin-right: auto;
+  margin-bottom: 0px;
   margin-left: auto;
-  padding: 10px;
-  background-color: #1b1b1b;
+  padding: 20px;
+  background-color: transparent;
 }
 
 .navbar-5 {
@@ -2729,6 +2766,11 @@ figcaption {
 .image-25 {
   width: 100%;
   height: 100%;
+}
+
+.columns-3 {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 @media (max-width: 991px) {
@@ -2892,8 +2934,19 @@ figcaption {
     padding: 0px 40px;
   }
   .columns.mobile_col.padding {
+    max-width: auto;
+    min-width: auto;
     margin: 0px;
     padding: 0px 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
   .columns.mobile_col.backwards {
     padding-right: 0px;
@@ -2993,10 +3046,10 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -3040,6 +3093,7 @@ figcaption {
     justify-content: center;
   }
   .inner_section.reveal.border_top {
+    max-width: auto;
     padding-top: 80px;
   }
   .inner_section.extra_wide {
@@ -3256,6 +3310,12 @@ figcaption {
   }
   .main_cta.multi_cta {
     margin-left: 0px;
+  }
+  .heading.icon_column {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
   .gallery_img {
     width: auto;
@@ -3768,10 +3828,10 @@ figcaption {
     display: flex;
   }
   .heading.icon_column {
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
   .image-6 {
     position: static;
@@ -4274,6 +4334,9 @@ figcaption {
   }
   .preloader_img {
     height: 2px;
+  }
+  .extra_narrow.reveal {
+    padding: 0px 20px 20px;
   }
   .column_icon {
     width: 48px;
