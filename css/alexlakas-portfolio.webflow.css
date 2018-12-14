@@ -514,9 +514,9 @@ figcaption {
   align-items: center;
   font-family: Exo, sans-serif;
   color: #fff;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 400;
   text-align: left;
 }
 
@@ -549,9 +549,9 @@ figcaption {
   padding-bottom: 0px;
   font-family: Exo, sans-serif;
   color: #fff;
-  font-size: 18px;
-  line-height: 32px;
-  font-weight: 300;
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 400;
 }
 
 .paragraph.white-text.intro_text.add_black {
@@ -651,6 +651,7 @@ figcaption {
 }
 
 .paragraph.white-text.section_label.reveal {
+  display: none;
   padding-top: 40px;
   padding-bottom: 80px;
   color: #fff;
@@ -680,6 +681,10 @@ figcaption {
   text-align: center;
 }
 
+.paragraph.white-text.hero_intro {
+  font-weight: 500;
+}
+
 .paragraph.white-text.hero_intro.disclaimer {
   border-style: solid none none;
   border-top-width: 2px;
@@ -687,9 +692,9 @@ figcaption {
   border-bottom-width: 2px;
   border-bottom-color: hsla(0, 0%, 100%, .09);
   color: hsla(0, 0%, 100%, .54);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 30px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .paragraph.white-text.loader {
@@ -947,21 +952,21 @@ figcaption {
   font-family: Exo, sans-serif;
   color: #fff;
   font-size: 35px;
-  line-height: 55px;
-  font-weight: 300;
+  line-height: 45px;
+  font-weight: 400;
   text-align: left;
 }
 
 .bold-text.white-text.desktop_hdr {
-  font-size: 65px;
-  line-height: 75px;
+  font-size: 60px;
+  line-height: 70px;
   font-weight: 200;
 }
 
 .bold-text.white-text.desktop_hdr.sub_hdr {
   font-size: 35px;
   line-height: 45px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .bold-text.white-text.desktop_hdr.sub_hdr.centered {
@@ -999,7 +1004,7 @@ figcaption {
   font-family: Exo, sans-serif;
   font-size: 20px;
   line-height: 30px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .bold-text.white-text.quote_text.list_item {
@@ -1039,18 +1044,21 @@ figcaption {
 
 .bold-text.white-text.sub_hdr {
   line-height: 45px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .bold-text.white-text.column_hdr {
   font-size: 30px;
-  line-height: 42px;
-  font-weight: 300;
+  line-height: 40px;
+  font-weight: 400;
   text-align: left;
 }
 
 .bold-text.white-text.column_hdr.centered_column {
   padding-right: 0px;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
   text-align: left;
 }
 
@@ -1069,6 +1077,8 @@ figcaption {
 
 .bold-text.white-text.skills.centered.reveal {
   padding-bottom: 80px;
+  line-height: 45px;
+  font-weight: 400;
 }
 
 .bold-text.white-text.skills.centered.reveal.flip_black {
@@ -1318,7 +1328,7 @@ figcaption {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   font-family: 'Droid Sans', sans-serif;
   color: #fff;
   font-size: 30px;
@@ -1482,8 +1492,7 @@ figcaption {
   max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0px;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   -ms-grid-columns: 1fr 1fr;
@@ -1565,8 +1574,8 @@ figcaption {
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -3621,6 +3630,7 @@ figcaption {
     line-height: 20px;
   }
   .paragraph.white-text.intro_text {
+    padding-right: 0px;
     color: #fff;
     font-size: 18px;
     line-height: 28px;
@@ -3645,7 +3655,12 @@ figcaption {
     padding-left: 20px;
   }
   .paragraph.white-text.section_label.reveal {
+    overflow: visible;
+    width: 100%;
+    max-width: none;
     padding-bottom: 40px;
+    float: none;
+    clear: none;
   }
   .paragraph.white-text.section_label.reveal.flip_black {
     padding-bottom: 40px;
@@ -4008,6 +4023,9 @@ figcaption {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+  .inner_section.extra_wide {
+    opacity: 1;
   }
   .navbar {
     margin-top: 0px;
