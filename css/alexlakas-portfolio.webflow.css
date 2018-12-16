@@ -135,7 +135,7 @@ figcaption {
 
 .column.reveal.hdr_show {
   position: relative;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -183,7 +183,7 @@ figcaption {
 }
 
 .column.reveal.col_video_wrap.float_img {
-  padding-left: 40px;
+  padding: 0px 0px 0px 100px;
 }
 
 .column-2 {
@@ -253,6 +253,10 @@ figcaption {
   padding: 0px 40px 0px 0px;
 }
 
+.column-2.reveal.hdr_show.float_img.float_img_mobile {
+  padding-right: 100px;
+}
+
 .column-2.reveal.mobile_col {
   display: block;
   padding-right: 20px;
@@ -315,7 +319,7 @@ figcaption {
 }
 
 .column-2.reveal.mobile_col._3_col.quote_hdr.mocks {
-  padding: 40px;
+  padding: 0px 40px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -520,7 +524,7 @@ figcaption {
   color: #fff;
   font-size: 15px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 500;
   text-align: left;
 }
 
@@ -556,14 +560,14 @@ figcaption {
   color: #fff;
   font-size: 15px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .paragraph.white-text.intro_text.add_black {
   color: #fff;
   font-size: 15px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .paragraph.white-text.intro_text.fake_list {
@@ -656,7 +660,7 @@ figcaption {
 }
 
 .paragraph.white-text.section_label.reveal {
-  display: block;
+  display: none;
   padding-top: 40px;
   padding-bottom: 80px;
   color: #fff;
@@ -666,7 +670,7 @@ figcaption {
 }
 
 .paragraph.white-text.section_label.reveal.flip_black {
-  display: block;
+  display: none;
 }
 
 .paragraph.white-text.section_label.reveal.ftr_section_label {
@@ -675,7 +679,8 @@ figcaption {
 }
 
 .paragraph.white-text.section_label.hero {
-  padding-bottom: 80px;
+  padding-top: 0px;
+  padding-bottom: 40px;
 }
 
 .paragraph.white-text.section_label.ftr_section_label_2 {
@@ -688,17 +693,25 @@ figcaption {
   background-color: #0a31ff;
 }
 
+.paragraph.white-text.flip_black {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .paragraph.white-text.flip_black.ftr_center_paragraph {
   text-align: center;
 }
 
 .paragraph.white-text.hero_intro {
+  padding-top: 0px;
   font-size: 15px;
   font-weight: 500;
 }
 
 .paragraph.white-text.hero_intro.disclaimer {
-  border-style: solid none none;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  border-style: none;
   border-top-width: 2px;
   border-top-color: hsla(0, 0%, 100%, .09);
   border-bottom-width: 2px;
@@ -715,8 +728,14 @@ figcaption {
 
 .paragraph.white-text.centered {
   padding-top: 20px;
-  padding-bottom: 0px;
+  padding-bottom: 20px;
   text-align: center;
+}
+
+.paragraph.white-text.centered.ftr_tab {
+  font-family: Gotham, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .paragraph.white-text.centered_column {
@@ -725,6 +744,16 @@ figcaption {
 
 .paragraph.white-text.centered_column.fake_list {
   line-height: 60px;
+}
+
+.paragraph.white-text.body_paragraph {
+  display: block;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: 500;
 }
 
 .text-block {
@@ -823,11 +852,19 @@ figcaption {
 }
 
 .columns.mobile_col {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   max-width: 950px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   opacity: 1;
 }
 
@@ -845,8 +882,16 @@ figcaption {
   border-bottom-style: solid;
 }
 
+.columns.mobile_col.padding.second_column {
+  margin-top: 40px;
+}
+
 .columns.mobile_col.padding.ftr_wrap {
   margin-top: 80px;
+}
+
+.columns.mobile_col.add_black {
+  max-width: 950px;
 }
 
 .columns.mobile_col.backwards {
@@ -859,16 +904,28 @@ figcaption {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .columns.mobile_col.wide_cols {
-  max-width: none;
+  max-width: 950px;
+}
+
+.columns.mobile_col.vertical_center {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .columns.gal_columns {
   max-width: 100vw;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-top: 40px;
   padding-bottom: 0px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -949,7 +1006,7 @@ figcaption {
 }
 
 .columns.add_black {
-  max-width: 1000px;
+  max-width: 950px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 0px;
@@ -962,29 +1019,30 @@ figcaption {
 .bold-text.white-text {
   display: block;
   padding-right: 40px;
-  font-family: Exo, sans-serif;
+  font-family: Gotham, sans-serif;
   color: #fff;
-  font-size: 35px;
-  line-height: 45px;
-  font-weight: 400;
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 300;
   text-align: left;
 }
 
 .bold-text.white-text.desktop_hdr {
-  font-size: 50px;
-  line-height: 60px;
+  font-family: Gotham, sans-serif;
+  font-size: 45px;
+  line-height: 55px;
   font-weight: 200;
 }
 
 .bold-text.white-text.desktop_hdr.sub_hdr {
-  font-size: 35px;
-  line-height: 45px;
-  font-weight: 400;
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 300;
 }
 
 .bold-text.white-text.desktop_hdr.sub_hdr.centered {
   display: block;
-  max-width: 1000px;
+  max-width: 950px;
   margin: 0px auto;
   padding-top: 40px;
   padding-right: 0px;
@@ -993,7 +1051,8 @@ figcaption {
 }
 
 .bold-text.white-text.desktop_hdr.sub_hdr.centered.add_black {
-  font-weight: 300;
+  padding-top: 20px;
+  font-weight: 400;
 }
 
 .bold-text.white-text.desktop_hdr.sub_hdr.ftr_left_aligned {
@@ -1004,8 +1063,8 @@ figcaption {
 
 .bold-text.white-text.desktop_hdr.sub_hdr.add_black {
   padding-bottom: 20px;
-  line-height: 45px;
-  font-weight: 400;
+  line-height: 34px;
+  font-weight: 300;
 }
 
 .bold-text.white-text.desktop_hdr.sub_hdr.add_black.revea {
@@ -1044,9 +1103,9 @@ figcaption {
   padding: 0px;
   direction: ltr;
   font-family: Exo, sans-serif;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
   text-align: center;
   text-decoration: none;
   text-shadow: none;
@@ -1054,31 +1113,34 @@ figcaption {
 
 .bold-text.white-text.quote_text.thumb_subtext.case_study_text_inner {
   padding: 10px;
-  font-size: 16px;
-  line-height: 22px;
-  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
 }
 
 .bold-text.white-text.sub_hdr {
-  line-height: 45px;
-  font-weight: 400;
+  line-height: 34px;
+  font-weight: 300;
 }
 
 .bold-text.white-text.column_hdr {
-  font-size: 30px;
-  line-height: 40px;
-  font-weight: 400;
+  font-family: Gotham, sans-serif;
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 300;
   text-align: left;
 }
 
 .bold-text.white-text.column_hdr.reveal.add_black {
   padding-bottom: 20px;
+  font-weight: 300;
 }
 
 .bold-text.white-text.column_hdr.centered_column {
   padding-right: 0px;
-  font-size: 30px;
-  line-height: 40px;
+  font-family: Gotham, sans-serif;
+  font-size: 26px;
+  line-height: 34px;
   font-weight: 400;
   text-align: left;
 }
@@ -1108,9 +1170,10 @@ figcaption {
 }
 
 .bold-text.white-text.skills.centered.reveal.black {
+  max-width: 950px;
   padding-bottom: 80px;
   color: #000;
-  line-height: 45px;
+  line-height: 34px;
   font-weight: 400;
 }
 
@@ -1147,10 +1210,10 @@ figcaption {
 }
 
 .main_cta.hero_cta {
-  font-family: Exo, sans-serif;
+  font-family: Gotham, sans-serif;
   font-size: 18px;
-  line-height: 21px;
-  font-weight: 500;
+  line-height: 20px;
+  font-weight: 700;
 }
 
 .main_cta.hero_cta:hover {
@@ -1569,7 +1632,7 @@ figcaption {
   max-width: none;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 40px 0px;
+  padding: 100px 0px;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   -ms-grid-columns: 1fr 1fr;
@@ -1781,6 +1844,15 @@ figcaption {
   border-top-color: #292929;
   font-size: 36px;
   line-height: 46px;
+}
+
+.nav-link.internal_link {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: Gotham, sans-serif;
+  font-size: 18px;
+  line-height: 60px;
+  font-weight: 400;
 }
 
 .container {
@@ -2491,13 +2563,17 @@ figcaption {
 .mock_img {
   display: block;
   height: auto;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   padding: 0px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
   box-shadow: 0 1px 31px 0 rgba(0, 0, 0, .09);
+}
+
+.mock_img.reveal {
+  margin-bottom: 40px;
 }
 
 .video-4 {
@@ -2521,7 +2597,7 @@ figcaption {
 }
 
 .skills.reveal.centered_skills {
-  line-height: 45px;
+  line-height: 34px;
   font-weight: 400;
 }
 
@@ -2826,12 +2902,12 @@ figcaption {
 
 .column_icon {
   display: block;
-  width: 48px;
+  width: 36px;
   margin-bottom: 40px;
 }
 
 .column_icon.smaller_icon {
-  width: 42px;
+  width: 32px;
 }
 
 .navbar-4 {
@@ -2888,8 +2964,8 @@ figcaption {
   max-width: 950px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .background-video-5 {
@@ -3716,9 +3792,17 @@ figcaption {
   .paragraph.white-text.section_label.hero {
     padding: 20px;
   }
+  .paragraph.white-text.hero_intro {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
   .paragraph.white-text.centered {
     padding: 40px;
     text-align: center;
+  }
+  .paragraph.white-text.body_paragraph {
+    max-width: none;
+    padding: 0px 40px;
   }
   .section_spacing {
     margin: 20px;
@@ -3762,6 +3846,11 @@ figcaption {
     margin-top: 0vh;
     margin-bottom: 0vh;
     padding: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .columns.mobile_col.padding {
     padding: 0px;
@@ -3802,8 +3891,9 @@ figcaption {
     text-align: left;
   }
   .bold-text.white-text.desktop_hdr {
+    padding-bottom: 20px;
     font-size: 50px;
-    line-height: 60px;
+    line-height: 50px;
   }
   .bold-text.white-text.desktop_hdr.sub_hdr {
     padding-bottom: 20px;
@@ -5118,3 +5208,9 @@ figcaption {
   }
 }
 
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham-Bold-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
