@@ -3641,6 +3641,7 @@ figcaption {
   }
   .column-2.reveal.hdr_show.float_img.float_img_mobile {
     padding-top: 0px;
+    padding-right: 0px;
   }
   .column-2.reveal.mobile_col {
     display: inline;
@@ -3859,6 +3860,13 @@ figcaption {
   }
   .columns.mobile_col.padding.second_column {
     padding-top: 0px;
+  }
+  .columns.mobile_col.backwards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .columns.gal_columns {
     padding: 0px;
