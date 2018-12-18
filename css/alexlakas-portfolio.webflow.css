@@ -522,9 +522,9 @@ figcaption {
   align-items: center;
   font-family: Exo, sans-serif;
   color: #fff;
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400;
   text-align: left;
 }
 
@@ -558,16 +558,22 @@ figcaption {
   padding-bottom: 0px;
   font-family: Exo, sans-serif;
   color: #fff;
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.paragraph.white-text.intro_text.flip_black {
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400;
 }
 
 .paragraph.white-text.intro_text.add_black {
   color: #fff;
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400;
 }
 
 .paragraph.white-text.intro_text.fake_list {
@@ -681,6 +687,8 @@ figcaption {
 .paragraph.white-text.section_label.hero {
   padding-top: 0px;
   padding-bottom: 40px;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 .paragraph.white-text.section_label.ftr_section_label_2 {
@@ -696,6 +704,7 @@ figcaption {
 .paragraph.white-text.flip_black {
   padding-top: 0px;
   padding-bottom: 0px;
+  font-weight: 400;
 }
 
 .paragraph.white-text.flip_black.ftr_center_paragraph {
@@ -704,8 +713,10 @@ figcaption {
 
 .paragraph.white-text.hero_intro {
   padding-top: 0px;
-  font-size: 15px;
-  font-weight: 500;
+  font-family: Raleway, sans-serif;
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 300;
 }
 
 .paragraph.white-text.hero_intro.disclaimer {
@@ -716,9 +727,10 @@ figcaption {
   border-top-color: hsla(0, 0%, 100%, .09);
   border-bottom-width: 2px;
   border-bottom-color: hsla(0, 0%, 100%, .09);
-  color: hsla(0, 0%, 100%, .54);
-  font-size: 15px;
-  line-height: 24px;
+  font-family: Exo, sans-serif;
+  color: #fff;
+  font-size: 17px;
+  line-height: 26px;
   font-weight: 400;
 }
 
@@ -733,12 +745,15 @@ figcaption {
 }
 
 .paragraph.white-text.centered.ftr_tab {
-  font-family: Gotham, sans-serif;
-  font-size: 18px;
-  font-weight: 400;
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 600;
 }
 
 .paragraph.white-text.centered_column {
+  font-size: 17px;
+  line-height: 26px;
   text-align: left;
 }
 
@@ -753,7 +768,13 @@ figcaption {
   margin-left: auto;
   padding-top: 40px;
   padding-bottom: 40px;
-  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.paragraph.white-text.body_paragraph.flip_black {
+  font-weight: 400;
 }
 
 .text-block {
@@ -1020,25 +1041,26 @@ figcaption {
 .bold-text.white-text {
   display: block;
   padding-right: 40px;
-  font-family: Gotham, sans-serif;
+  font-family: Raleway, sans-serif;
   color: #fff;
-  font-size: 26px;
-  line-height: 36px;
-  font-weight: 300;
+  font-size: 33px;
+  line-height: 43px;
+  font-weight: 700;
   text-align: left;
 }
 
 .bold-text.white-text.desktop_hdr {
-  font-family: Gotham, sans-serif;
-  font-size: 45px;
-  line-height: 55px;
-  font-weight: 200;
+  font-family: Raleway, sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 100;
+  letter-spacing: -1px;
 }
 
 .bold-text.white-text.desktop_hdr.sub_hdr {
-  font-size: 26px;
-  line-height: 34px;
-  font-weight: 300;
+  font-size: 33px;
+  line-height: 43px;
+  font-weight: 700;
 }
 
 .bold-text.white-text.desktop_hdr.sub_hdr.centered {
@@ -1064,33 +1086,41 @@ figcaption {
 
 .bold-text.white-text.desktop_hdr.sub_hdr.add_black {
   padding-bottom: 20px;
-  line-height: 34px;
-  font-weight: 300;
+  font-size: 33px;
+  line-height: 43px;
+  font-weight: 700;
+  letter-spacing: 0px;
 }
 
 .bold-text.white-text.desktop_hdr.sub_hdr.add_black.revea {
   text-align: center;
 }
 
+.bold-text.white-text.desktop_hdr.bold_hdr {
+  font-size: 43px;
+  line-height: 50px;
+  font-weight: 600;
+}
+
 .bold-text.white-text.quote_text {
   margin-left: 20px;
   padding-right: 0px;
   font-family: Exo, sans-serif;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 17px;
+  line-height: 26px;
   font-weight: 400;
 }
 
 .bold-text.white-text.quote_text.list_item {
   margin-bottom: 0px;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 20px;
+  border-style: none;
   border-color: hsla(0, 0%, 100%, .11);
-  border-bottom-style: solid;
   border-bottom-width: 2px;
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400;
 }
 
 .bold-text.white-text.quote_text.list_item.last_child {
@@ -1104,9 +1134,9 @@ figcaption {
   padding: 0px;
   direction: ltr;
   font-family: Exo, sans-serif;
-  font-size: 15px;
-  line-height: 24px;
-  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400;
   text-align: center;
   text-decoration: none;
   text-shadow: none;
@@ -1120,30 +1150,34 @@ figcaption {
 }
 
 .bold-text.white-text.sub_hdr {
-  line-height: 34px;
-  font-weight: 300;
+  font-size: 33px;
+  line-height: 43px;
+  font-weight: 700;
 }
 
 .bold-text.white-text.column_hdr {
-  font-family: Gotham, sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 26px;
-  line-height: 34px;
-  font-weight: 300;
+  line-height: 36px;
+  font-weight: 700;
   text-align: left;
 }
 
 .bold-text.white-text.column_hdr.reveal.add_black {
   padding-bottom: 20px;
-  font-weight: 300;
+  font-size: 33px;
+  line-height: 43px;
+  font-weight: 700;
 }
 
 .bold-text.white-text.column_hdr.centered_column {
   padding-right: 0px;
-  font-family: Gotham, sans-serif;
-  font-size: 26px;
-  line-height: 34px;
-  font-weight: 400;
+  font-family: Raleway, sans-serif;
+  font-size: 33px;
+  line-height: 43px;
+  font-weight: 600;
   text-align: left;
+  letter-spacing: -1px;
 }
 
 .bold-text.white-text.skills.centered {
@@ -1211,14 +1245,21 @@ figcaption {
 }
 
 .main_cta.hero_cta {
-  font-family: Gotham, sans-serif;
-  font-size: 18px;
+  padding: 10px 0px 5px;
+  border-style: none none solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #0a31ff;
+  border-radius: 0px;
+  background-color: transparent;
+  font-family: Raleway, sans-serif;
+  color: #fff;
+  font-size: 17px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .main_cta.hero_cta:hover {
-  background-color: #0a31ff;
+  background-color: transparent;
 }
 
 .main_cta.hero_cta.reveal {
@@ -1227,10 +1268,11 @@ figcaption {
 
 .main_cta.hero_cta.second_cta {
   margin-left: 20px;
-  border-style: solid;
+  border-style: none none solid;
   border-width: 2px;
   border-color: hsla(0, 0%, 100%, .09);
   background-color: transparent;
+  color: #e7ebff;
 }
 
 .main_cta.hero_cta.second_cta.ftr_center_cta {
@@ -1243,6 +1285,9 @@ figcaption {
 
 .main_cta.hero_cta.centered_blue_btn {
   display: inline-block;
+  color: #000;
+  line-height: 30px;
+  font-weight: 600;
   text-align: left;
 }
 
@@ -1580,7 +1625,7 @@ figcaption {
 .inner_section {
   display: block;
   height: auto;
-  max-width: 950px;
+  max-width: 900px;
   margin-right: auto;
   margin-left: auto;
   padding: 100px 0px;
@@ -1850,10 +1895,10 @@ figcaption {
 .nav-link.internal_link {
   padding-top: 0px;
   padding-bottom: 0px;
-  font-family: Gotham, sans-serif;
-  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
   line-height: 60px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .container {
@@ -2598,8 +2643,8 @@ figcaption {
 }
 
 .skills.reveal.centered_skills {
-  line-height: 34px;
-  font-weight: 400;
+  line-height: 43px;
+  font-weight: 600;
 }
 
 .float_col.reveal {
@@ -2710,6 +2755,15 @@ figcaption {
   color: #fff;
   font-weight: 500;
   text-decoration: none;
+}
+
+.body_link.text_hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #0a31ff;
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 600;
 }
 
 .background-video-2 {
@@ -3690,6 +3744,7 @@ figcaption {
     padding: 0px;
   }
   .column-2.reveal.mobile_col._3_col.first_col_home.collage {
+    padding-right: 0px;
     padding-bottom: 20px;
   }
   .column-2.reveal.mobile_col.quote_hdr {
@@ -3979,6 +4034,8 @@ figcaption {
   }
   .main_cta.hero_cta {
     margin-bottom: 40px;
+    font-size: 20px;
+    text-align: left;
   }
   .main_cta.hero_cta.second_cta {
     margin-left: 0px;
@@ -5222,5 +5279,11 @@ figcaption {
   font-family: 'Gotham';
   src: url('../fonts/Gotham-Bold-Regular.ttf') format('truetype');
   font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham-Light-Regular.otf') format('opentype');
+  font-weight: 300;
   font-style: normal;
 }
