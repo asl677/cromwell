@@ -4028,6 +4028,8 @@ figcaption {
   }
   .bold-text.white-text.desktop_hdr.bold_hdr {
     padding-bottom: 40px;
+    font-size: 36px;
+    line-height: 46px;
   }
   .bold-text.white-text.quote_text {
     -webkit-box-orient: horizontal;
@@ -4284,6 +4286,10 @@ figcaption {
   }
   .inner_section.extra_wide {
     opacity: 1;
+  }
+  .inner_section.intro_hdr {
+    padding-top: 100px;
+    padding-bottom: 20px;
   }
   .navbar {
     margin-top: 0px;
