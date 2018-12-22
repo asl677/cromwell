@@ -1118,6 +1118,7 @@ figcaption {
 
 .bold-text.white-text.quote_text.list_item {
   display: block;
+  width: auto;
   margin-bottom: 0px;
   margin-left: 0px;
   padding-top: 10px;
@@ -1127,12 +1128,17 @@ figcaption {
   border-color: hsla(0, 0%, 100%, .11);
   border-bottom-width: 2px;
   font-size: 17px;
-  line-height: 28px;
+  line-height: 36px;
   font-weight: 400;
 }
 
 .bold-text.white-text.quote_text.list_item.last_child {
   border-style: none;
+}
+
+.bold-text.white-text.quote_text.list_item.list_hdr {
+  font-size: 17px;
+  line-height: 35px;
 }
 
 .bold-text.white-text.quote_text.thumb_subtext {
@@ -1779,7 +1785,7 @@ figcaption {
   border-style: none;
   border-bottom-width: 2px;
   border-bottom-color: hsla(0, 0%, 100%, .09);
-  opacity: 1;
+  opacity: 0;
 }
 
 .inner_section.extra_wide.hero_wide.ftr_global {
@@ -3086,6 +3092,13 @@ figcaption {
   position: relative;
   overflow: visible;
   margin: 100px 70px 70px;
+}
+
+.hdr_list {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 22px;
+  line-height: 28px;
 }
 
 @media (max-width: 991px) {
