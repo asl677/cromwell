@@ -1779,7 +1779,7 @@ figcaption {
   border-style: none;
   border-bottom-width: 2px;
   border-bottom-color: hsla(0, 0%, 100%, .09);
-  opacity: 0;
+  opacity: 1;
 }
 
 .inner_section.extra_wide.hero_wide.ftr_global {
@@ -3655,6 +3655,9 @@ figcaption {
   .mod_intro.mobile_img.reveal.mock_img {
     margin-top: 40px;
   }
+  .client.reveal {
+    padding: 10px 150px 30px;
+  }
   .skills.reveal {
     padding: 20px 0px;
   }
@@ -4373,7 +4376,7 @@ figcaption {
     background-color: transparent;
   }
   .menu-button-2.open_menu.protected {
-    padding: 12px;
+    padding: 15px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .1)), to(rgba(0, 0, 0, .1)));
     background-image: linear-gradient(180deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .1));
   }
@@ -4618,6 +4621,9 @@ figcaption {
     justify-content: flex-start;
     text-align: center;
   }
+  .thumb_text_container.case_study_text {
+    display: none;
+  }
   .section_label.reveal {
     padding-top: 40px;
   }
@@ -4642,8 +4648,7 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 10px 100px 40px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
