@@ -340,6 +340,9 @@ figcaption {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
 }
 
 .column-2.reveal.mobile_col._3_col.quote_hdr.first_col_home {
@@ -2779,6 +2782,7 @@ figcaption {
   top: 0px;
   right: 0px;
   bottom: 0px;
+  z-index: -1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
