@@ -997,6 +997,18 @@ figcaption {
   padding-bottom: 0px;
 }
 
+.columns.gal_columns.client_list.list_center_vertical {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .columns.gal_columns._3_col_rouge {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -2645,6 +2657,19 @@ figcaption {
 .client.reveal {
   padding-top: 20px;
   padding-bottom: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .image-17 {
