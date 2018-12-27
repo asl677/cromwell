@@ -3134,6 +3134,7 @@ figcaption {
 }
 
 .navbar-5 {
+  z-index: 3;
   height: 40px;
 }
 
@@ -3331,6 +3332,9 @@ figcaption {
     max-width: none;
     margin: 40px;
   }
+  .paragraph.white-text.body_paragraph {
+    max-width: 90%;
+  }
   .columns {
     width: auto;
     height: auto;
@@ -3491,6 +3495,11 @@ figcaption {
     margin-right: auto;
     margin-left: auto;
     padding-top: 120px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .inner_section.reveal.extra_wide.hero_wide {
     display: -webkit-box;
@@ -3607,6 +3616,10 @@ figcaption {
     margin-left: 0px;
     padding-right: 0px;
     padding-left: 0px;
+  }
+  .mod_intro.mobile_img.mock_img {
+    width: 100%;
+    margin-left: 0px;
   }
   .gal_block.above_fold.no_caption {
     width: 100%;
@@ -3754,6 +3767,10 @@ figcaption {
   .nav-link.w--current {
     font-size: 32px;
     line-height: 10vw;
+  }
+  .mod_intro.mobile_img.mock_img {
+    width: 100%;
+    margin-left: 0px;
   }
   .mod_intro.mobile_img.reveal.mock_img {
     margin-top: 40px;
