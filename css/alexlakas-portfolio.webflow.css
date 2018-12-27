@@ -4691,6 +4691,10 @@ figcaption {
     height: 100%;
     margin-left: 0px;
   }
+  .mod_intro.mobile_img.mock_img {
+    width: 100%;
+    margin-left: 0px;
+  }
   .mod_intro.mobile_img.reveal.mock_img.floated_img_mobile {
     margin-top: 0px;
   }
