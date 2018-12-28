@@ -1149,6 +1149,17 @@ figcaption {
   font-weight: 600;
 }
 
+.bold-text.white-text.desktop_hdr.bold_hdr.logo_hdr {
+  position: absolute;
+  display: block;
+  margin-left: 80px;
+  padding-right: 0px;
+  padding-left: 0px;
+  font-size: 28px;
+  line-height: 56px;
+  text-shadow: 0 1px 100px rgba(0, 0, 0, .56);
+}
+
 .bold-text.white-text.quote_text {
   margin-left: 20px;
   padding-right: 0px;
@@ -1855,7 +1866,7 @@ figcaption {
 }
 
 .inner_section.intro_hdr {
-  padding-top: 120px;
+  padding-top: 200px;
   padding-bottom: 120px;
 }
 
