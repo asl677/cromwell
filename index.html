@@ -1,278 +1,165 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Dec 31 2018 04:05:06 GMT+0000 (UTC)  -->
-<html data-wf-page="5bd6053369305d1004ea081d" data-wf-site="5bd6053369305dfbbcea081e">
+<!--  Last Published: Sat Jan 05 2019 01:54:44 GMT+0000 (UTC)  -->
+<html data-wf-page="5c2c6b1e4fdbba08abc60c20" data-wf-site="5c2c6b1e4fdbbaf4c1c60c1f">
 <head>
   <meta charset="utf-8">
-  <title>Alex&#x27;s Portfolio</title>
+  <title>Portfolio v2</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/alexlakas-portfolio.webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/portfolio-v2-32a69d.webflow.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Changa One:400,400italic","Exo:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Droid Sans:400,700","Gothic A1:regular,600","Raleway:100,300,regular,600"]  }});</script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Exo:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/Artboard-Copy.png" rel="shortcut icon" type="image/x-icon">
-  <link href="images/Artboard.png" rel="apple-touch-icon">
-  <style>
-  body.transition {
-  	transition: background-color .75s;
-    -webkit-transition: background-color .75s;
-    -moz-transition: background-color .75s; 
-	}
-  .ftr_global {
-    width: 100% !important;
-  }
-</style>
-  <style>
+  <link href="images/favicon2.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/favicon.png" rel="apple-touch-icon">
+  <style>  
 .w-webflow-badge {
 	display: none !important;
 }
-.link-block.gal_block {
-	/*-webkit-transform:translate3d(0,0,0);
-  -webkit-transform-style: preserve-3d;*/
-  -webkit-backface-visibility:hidden
+.tile {
+  animation: shimmy 10s infinite;
+  animation-direction: alternate;
+  }
+@keyframes shimmy {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate(70px, 50px) rotate(560deg);
+  }
 }
 </style>
 </head>
-<body data-w-id="5bbfd278ce8d7eb9e7cc03bf" class="body color">
-  <div data-collapse="all" data-animation="over-right" data-duration="600" data-easing="ease-out-quint" data-easing2="ease-in-quint" data-w-id="e660c9b6-3b87-f7a0-bcfb-c101cb588ddc" class="navbar-3 navbar-5 w-nav">
-    <div data-w-id="e660c9b6-3b87-f7a0-bcfb-c101cb588ddd" class="container-6 hdr_brand w-container"><img src="images/melaughing.png" srcset="images/melaughing-p-500.png 500w, images/melaughing.png 763w" sizes="(max-width: 479px) 50px, 60px" alt="" class="image-8 mobile_quote_img nav_avatar mobile_hdr_avatar">
-      <h1 data-w-id="45770309-3262-4003-72b1-4a875e1d51c3" class="heading hero_intro w-hidden-main w-hidden-medium w-hidden-small w-hidden-tiny"><strong class="bold-text white-text desktop_hdr bold_hdr logo_hdr">Alex Lakas</strong></h1>
-      <div class="menu-button-2 open_menu protected w-nav-button">
-        <div class="icon white_icon w-icon-nav-menu"></div>
-      </div>
-      <nav role="navigation" data-w-id="54520c04-0239-a904-3b09-3d39277a84e4" class="nav-menu-2 w-nav-menu"><a href="javascript:delay(&#x27;/&#x27;)" class="nav-link internal_link w-nav-link">Home</a><a href="javascript:delay(&#x27;about&#x27;)" class="nav-link internal_link w-nav-link">About</a><a href="https://docs.google.com/document/d/17SPk8bBzvSodLnPVzxrA8ar02UWUaAzfAMMKysGLBBs/edit" class="nav-link internal_link w-nav-link">CV</a></nav>
-    </div>
+<body>
+  <div data-w-id="f6fafa95-5006-b136-6d88-4d996836bf0c" style="opacity:0" class="confetti w-container">
+    <div class="tile other_tile"></div>
+    <div class="tile right_tile tile_c tile_g"></div>
+    <div class="tile left_tile tile_a"></div>
+    <div class="tile right_tile tile_c"></div>
+    <div class="tile left_tile tile_a tile_f"></div>
   </div>
-  <div data-w-id="a3981847-2a9a-bdec-ea78-1da48ab67dd9" class="loader_container w-container"><img src="images/peloader.gif" alt="" class="preloader_img"></div>
-  <div data-w-id="485a4a44-988c-d840-3ce0-a1aaf404f25b" class="inner_section intro_hdr">
-    <div data-w-id="485a4a44-988c-d840-3ce0-a1aaf404f25e" class="columns mobile_col w-row">
-      <div class="column-2 w-col w-col-6 w-col-stack w-col-small-small-stack">
-        <h1 id="w-node-a1aaf404f260-04ea081d" data-w-id="485a4a44-988c-d840-3ce0-a1aaf404f260" style="opacity:0;-webkit-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="heading hero_intro"><strong class="bold-text white-text desktop_hdr bold_hdr">I&#x27;m Alex, a product designer with over a decade of industry experience</strong></h1>
-      </div>
-      <div class="column w-col w-col-6 w-col-stack w-col-small-small-stack">
-        <p data-w-id="485a4a44-988c-d840-3ce0-a1aaf404f264" style="opacity:0;-webkit-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="paragraph white-text hero_intro w-hidden-small w-hidden-tiny">Google Maps, B2B. ecommerce, social gaming -- specializing in visual, interaction &amp; motion design.</p>
-        <ul class="unordered-list w-list-unstyled">
-          <li data-w-id="068216d9-2bc2-3bb8-accf-4ea41b25dd89" style="opacity:0;-webkit-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="bold-text white-text quote_text list_item"><a href="https://www.linkedin.com/in/latenights/" class="body_link text_hover">Let&#x27;s chat</a></li>
-          <li style="opacity:0;-webkit-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="bold-text white-text quote_text list_item"><a href="javascript:delay(&#x27;about&#x27;)" class="body_link text_hover">Learn a little more</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div data-w-id="6653e416-e17e-ac6b-b7e3-19c7cc9c20b0" class="inner_section extra_wide">
-    <div class="columns gal_columns w-row">
-      <div data-w-id="6653e416-e17e-ac6b-b7e3-19c7cc9c20b2" class="column-2 mobile_col w-col w-col-6 w-col-stack">
-        <a data-w-id="6653e416-e17e-ac6b-b7e3-19c7cc9c20b3" href="javascript:delay(&#x27;mod&#x27;)" class="gal_block above_fold w-inline-block">
-          <div class="thumb_text_container case_study_text">
-            <h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext case_study_text_inner">Case Study<br></strong></h1>
-          </div><img src="images/mod_testhero.png" srcset="images/mod_testhero-p-500.png 500w, images/mod_testhero-p-800.png 800w, images/mod_testhero-p-1080.png 1080w, images/mod_testhero-p-1600.png 1600w, images/mod_testhero.png 1709w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 46vw" alt="" class="rounded">
-          <div class="thumb_text_container">
-            <h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">A Modern Nav Search For Google<br></strong></h1>
-          </div>
-        </a><a data-w-id="6653e416-e17e-ac6b-b7e3-19c7cc9c20ba" href="https://dribbble.com/shots/5737282-Lyft-Connect-Interactions" class="gal_block above_fold w-inline-block"><img src="images/lyft_connect_start_chat_-4.gif" alt="" class="rounded"><div class="thumb_text_container"><h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Lyft Connect Interactions<br></strong></h1></div></a>
-        <a href="javascript:delay(&#x27;bookings&#x27;)" class="link-block gal_block reveal internal_page w-inline-block">
-          <div class="thumb_text_container case_study_text">
-            <h1 class="heading thumb_title w-hidden-small w-hidden-tiny"><strong class="bold-text white-text quote_text thumb_subtext case_study_text_inner">Case Study<br></strong></h1>
-          </div><img src="images/bookings_hero.png" srcset="images/bookings_hero-p-500.png 500w, images/bookings_hero-p-800.png 800w, images/bookings_hero-p-1080.png 1080w, images/bookings_hero-p-1600.png 1600w, images/bookings_hero.png 2200w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 46vw" alt="" class="rounded">
-          <div class="thumb_text_container">
-            <h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Bookings across Google<br></strong></h1>
-          </div>
-        </a>
-        <a data-w-id="6653e416-e17e-ac6b-b7e3-19c7cc9c20ec" href="javascript:delay(&#x27;wait-times&#x27;)" class="link-block gal_block reveal internal_page w-inline-block">
-          <div class="thumb_text_container case_study_text">
-            <h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext case_study_text_inner">Case Study<br></strong></h1>
-          </div><img src="images/wt_hero1.png" srcset="images/wt_hero1-p-500.png 500w, images/wt_hero1-p-800.png 800w, images/wt_hero1-p-1080.png 1080w, images/wt_hero1-p-1600.png 1600w, images/wt_hero1.png 1679w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 46vw" alt="" class="rounded">
-          <div class="thumb_text_container">
-            <h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Wait Times across Google<br></strong></h1>
-          </div>
-        </a>
-        <a href="javascript:delay(&#x27;google-my-business&#x27;)" class="link-block gal_block reveal internal_page w-inline-block">
-          <div class="thumb_text_container case_study_text">
-            <h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext case_study_text_inner">Case Study<br></strong></h1>
-          </div><img src="images/narrowhero.png" srcset="images/narrowhero-p-500.png 500w, images/narrowhero-p-800.png 800w, images/narrowhero-p-1080.png 1080w, images/narrowhero-p-1600.png 1600w, images/narrowhero-p-2000.png 2000w, images/narrowhero-p-2600.png 2600w, images/narrowhero.png 2948w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 46vw" alt="" class="rounded">
-          <div class="thumb_text_container">
-            <h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Google My Business<br></strong></h1>
-          </div>
-        </a><a href="https://dribbble.com/shots/1098722-Air-National-Guard" target="_blank" class="link-block gal_block reveal internal_page w-inline-block"><img src="images/air.jpg" srcset="images/air-p-500.jpeg 500w, images/air.jpg 800w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 46vw" alt="" class="rounded"><div class="thumb_text_container"><h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">The Air National Guard<br></strong></h1></div></a></div>
-      <div class="column-2 mobile_col right_col w-col w-col-6 w-col-stack"><a href="https://dribbble.com/shots/5697251-Spotify-Suggest" target="_blank" class="gal_block above_fold w-inline-block"><img src="images/screen_shot_2018-12-13_at_3.08.58_pm_4x.png" srcset="images/screen_shot_2018-12-13_at_3.08.58_pm_4x-p-500.png 500w, images/screen_shot_2018-12-13_at_3.08.58_pm_4x-p-800.png 800w, images/screen_shot_2018-12-13_at_3.08.58_pm_4x-p-1080.png 1080w, images/screen_shot_2018-12-13_at_3.08.58_pm_4x.png 1600w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 46vw" alt="" class="rounded"><div class="thumb_text_container"><h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Spotify Suggest Concept<br></strong></h1></div></a><a href="https://www.instagram.com/p/BmESMUTFF9V1eXz_B0H-sL_-WGLe-L_Z6NuKcs0/" class="link-block gal_block reveal internal_page w-inline-block"><img src="images/Screen-Shot-2018-12-29-at-12.13.11-PM.png" srcset="images/Screen-Shot-2018-12-29-at-12.13.11-PM-p-500.png 500w, images/Screen-Shot-2018-12-29-at-12.13.11-PM-p-800.png 800w, images/Screen-Shot-2018-12-29-at-12.13.11-PM-p-1080.png 1080w, images/Screen-Shot-2018-12-29-at-12.13.11-PM-p-1600.png 1600w, images/Screen-Shot-2018-12-29-at-12.13.11-PM-p-2000.png 2000w, images/Screen-Shot-2018-12-29-at-12.13.11-PM.png 2390w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 46vw" alt="" class="rounded"><div class="thumb_text_container"><h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Sittin&#x27; By The Fire<br></strong></h1></div></a>
-        <a href="javascript:delay(&#x27;zero-suggest&#x27;)" class="link-block gal_block reveal internal_page w-inline-block">
-          <div class="thumb_text_container case_study_text">
-            <h1 class="heading thumb_title w-hidden-small w-hidden-tiny"><strong class="bold-text white-text quote_text thumb_subtext case_study_text_inner">Case Study<br></strong></h1>
-          </div><img src="images/zero_hero-2.png" srcset="images/zero_hero-2-p-500.png 500w, images/zero_hero-2-p-800.png 800w, images/zero_hero-2-p-1080.png 1080w, images/zero_hero-2-p-1600.png 1600w, images/zero_hero-2-p-2000.png 2000w, images/zero_hero-2.png 2159w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 46vw" alt="" class="rounded">
-          <div class="thumb_text_container">
-            <h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Zero Suggest on Google Maps<br></strong></h1>
-          </div>
-        </a>
-        <a href="javascript:delay(&#x27;live-times&#x27;)" class="link-block gal_block reveal internal_page w-inline-block">
-          <div class="thumb_text_container case_study_text">
-            <h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext case_study_text_inner">Case Study<br></strong></h1>
-          </div><img src="images/Screen-Shot-2018-12-15-at-12.06.26-AM.png" srcset="images/Screen-Shot-2018-12-15-at-12.06.26-AM-p-500.png 500w, images/Screen-Shot-2018-12-15-at-12.06.26-AM-p-800.png 800w, images/Screen-Shot-2018-12-15-at-12.06.26-AM-p-1080.png 1080w, images/Screen-Shot-2018-12-15-at-12.06.26-AM-p-1600.png 1600w, images/Screen-Shot-2018-12-15-at-12.06.26-AM.png 1842w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 46vw" alt="" class="rounded">
-          <div class="thumb_text_container">
-            <h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Live Popular Times on google<br></strong></h1>
-          </div>
-        </a><a href="https://dribbble.com/shots/5760234-Sittin-By-The-Fire" target="_blank" class="link-block gal_block reveal w-inline-block"><img src="images/doggostest_4.gif" alt="" class="rounded"><div class="thumb_text_container"><h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Fetch App Interactions<br></strong></h1></div></a><a href="https://dribbble.com/shots/5698654-Spotify-Mac-App" target="_blank" class="link-block gal_block reveal internal_page w-inline-block"><img src="images/screen_shot_2018-12-13_at_11.05.43_pm_4x.png" srcset="images/screen_shot_2018-12-13_at_11.05.43_pm_4x-p-500.png 500w, images/screen_shot_2018-12-13_at_11.05.43_pm_4x-p-800.png 800w, images/screen_shot_2018-12-13_at_11.05.43_pm_4x-p-1080.png 1080w, images/screen_shot_2018-12-13_at_11.05.43_pm_4x.png 1600w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 46vw" alt="" class="rounded"><div class="thumb_text_container"><h1 class="heading thumb_title"><strong class="bold-text white-text quote_text thumb_subtext">Spotify Mac App UI Concept<br></strong></h1></div></a></div>
-    </div>
-  </div>
-  <div data-w-id="1dad5182-eaf6-cfb2-6186-212589f34f5c" class="inner_section reveal">
-    <div class="paragraph white-text section_label reveal">Stuff I can do</div>
-    <div class="columns mobile_col padding w-row">
-      <div class="skills reveal w-col w-col-4 w-col-stack"><img src="images/Bitmap-3.png" alt="" class="column_icon">
-        <h1 class="heading icon_column"><strong class="bold-text white-text column_hdr centered_column">User experience<br></strong></h1>
-        <p class="paragraph white-text centered_column">Journey mapping, wire framing and user research to help map out and discover ways to improve on the experience needed.</p>
-      </div>
-      <div class="skills reveal w-col w-col-4 w-col-stack"><img src="images/Bitmap-2.png" alt="" class="column_icon">
-        <h1 class="heading icon_column"><strong class="bold-text white-text column_hdr centered_column">Visual design</strong></h1>
-        <p class="paragraph white-text centered_column">Photography, UI kits, illustration, system specs, north star explorations and style libraries - I have a passion for it all and then some more</p>
-      </div>
-      <div class="skills reveal w-col w-col-4 w-col-stack"><img src="images/Bitmap-4.png" alt="" class="column_icon">
-        <h1 class="heading icon_column"><strong class="bold-text white-text column_hdr centered_column">Interaction design</strong></h1>
-        <p class="paragraph white-text centered_column">Prototyping hundreds of interaction models using front end development and tools like Principle and After Effects</p>
-      </div>
-    </div>
-    <div class="columns mobile_col padding second_column w-row">
-      <div class="skills reveal w-col w-col-4 w-col-stack"><img src="images/xfn-2.png" alt="" class="column_icon smaller_icon">
-        <h1 class="heading reveal icon_column"><strong class="bold-text white-text column_hdr centered_column">Cross-collaboration<br></strong></h1>
-        <p class="paragraph white-text centered_column">Years of working with other skill types. From a single designer to PM and engineering teams located across the world.</p>
-      </div>
-      <div class="skills reveal w-col w-col-4 w-col-stack"><img src="images/mentor-2.png" alt="" class="column_icon">
-        <h1 class="heading icon_column"><strong class="bold-text white-text column_hdr centered_column">Mentorship</strong></h1>
-        <p class="paragraph white-text centered_column">Workshops, salon chats and early stage startup assistance - I like helping others learn and learn by helping others</p>
-      </div>
-      <div class="skills reveal w-col w-col-4 w-col-stack"><img src="images/dev-2.png" alt="" class="column_icon smaller_icon">
-        <h1 class="heading icon_column"><strong class="bold-text white-text column_hdr centered_column">Front-end dev</strong></h1>
-        <p class="paragraph white-text centered_column">I like getting my hands dirty with a little bit of code - from CSS to Javascript, I like testing and exploring across devices</p>
-      </div>
-    </div>
-  </div>
-  <div class="inner_section reveal extra_wide hero_wide">
-    <div class="section_label reveal w-container">
-      <p class="paragraph white-text body_paragraph">I&#x27;ve been blessed to work with some awesome players on some awesome projects over the years. From agencies to start ups, features to frameworks,  Sapient to Google - it&#x27;s been a crazy ride, and hasn&#x27;t ended just yet.<br>‍</p>
-    </div>
-    <div class="columns gal_columns client_list list_center_vertical w-row">
-      <div class="client reveal w-col w-col-3 w-col-stack"><a href="https://www.google.com/" target="_blank" class="link-block gal_block margin_top reveal w-inline-block"><img src="images/google.png" srcset="images/google-p-500.png 500w, images/google-p-800.png 800w, images/google-p-1080.png 1080w, images/google-p-1600.png 1600w, images/google-p-2000.png 2000w, images/google.png 2396w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 9vw, 17vw" alt=""></a></div>
-      <div class="client reveal w-col w-col-3 w-col-stack"><a href="https://ueno.co/" target="_blank" class="link-block gal_block margin_top reveal w-inline-block"><img src="images/ueno.png" srcset="images/ueno-p-500.png 500w, images/ueno-p-800.png 800w, images/ueno-p-1080.png 1080w, images/ueno-p-1600.png 1600w, images/ueno-p-2000.png 2000w, images/ueno.png 2482w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 9vw, 17vw" alt=""></a></div>
-      <div class="client reveal w-col w-col-3 w-col-stack"><a href="https://www.sapientrazorfish.com/" target="_blank" class="link-block gal_block margin_top reveal w-inline-block"><img src="images/sapient.png" srcset="images/sapient-p-500.png 500w, images/sapient-p-800.png 800w, images/sapient-p-1080.png 1080w, images/sapient-p-1600.png 1600w, images/sapient-p-2000.png 2000w, images/sapient.png 2398w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 9vw, 17vw" alt=""></a></div>
-      <div class="client reveal w-col w-col-3 w-col-stack"><a href="https://www.converse.com/us/en_us/c/converse" target="_blank" class="link-block gal_block margin_top reveal w-inline-block"><img src="images/converse_logo.png" srcset="images/converse_logo-p-500.png 500w, images/converse_logo-p-800.png 800w, images/converse_logo-p-1080.png 1080w, images/converse_logo-p-1600.png 1600w, images/converse_logo-p-2000.png 2000w, images/converse_logo-p-2600.png 2600w, images/converse_logo-p-3200.png 3200w, images/converse_logo.png 4000w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 9vw, 17vw" alt=""></a></div>
-    </div>
-    <div class="columns gal_columns client_list list_center_vertical w-row">
-      <div class="client reveal w-col w-col-3 w-col-stack"><a href="https://www.zippo.com" target="_blank" class="link-block gal_block margin_top reveal w-inline-block"><img src="images/Bitmap.png" srcset="images/Bitmap-p-500.png 500w, images/Bitmap-p-800.png 800w, images/Bitmap-p-1080.png 1080w, images/Bitmap-p-1600.png 1600w, images/Bitmap-p-2000.png 2000w, images/Bitmap.png 2288w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 9vw, 17vw" alt=""></a></div>
-      <div class="client reveal w-col w-col-3 w-col-stack"><a href="https://www.creativeda.sh" target="_blank" class="link-block gal_block margin_top reveal w-inline-block"><img src="images/dash_logo.png" srcset="images/dash_logo-p-500.png 500w, images/dash_logo-p-800.png 800w, images/dash_logo-p-1080.png 1080w, images/dash_logo-p-1600.png 1600w, images/dash_logo-p-2000.png 2000w, images/dash_logo-p-2600.png 2600w, images/dash_logo.png 2743w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 9vw, 17vw" alt=""></a></div>
-      <div class="client reveal w-col w-col-3 w-col-stack"><a href="https://issuu.com/socialcubix/docs/social_cubix_profile" target="_blank" class="link-block gal_block margin_top reveal w-inline-block"><img src="images/canon_logo.png" srcset="images/canon_logo-p-500.png 500w, images/canon_logo-p-800.png 800w, images/canon_logo-p-1080.png 1080w, images/canon_logo-p-1600.png 1600w, images/canon_logo.png 1774w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 9vw, 17vw" alt=""></a></div>
-      <div class="client reveal w-col w-col-3 w-col-stack"><a href="https://www.journeys.com/" target="_blank" class="link-block gal_block margin_top reveal w-inline-block"><img src="images/journeys_logo.png" srcset="images/journeys_logo-p-500.png 500w, images/journeys_logo-p-800.png 800w, images/journeys_logo-p-1080.png 1080w, images/journeys_logo-p-1600.png 1600w, images/journeys_logo-p-2000.png 2000w, images/journeys_logo.png 2020w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 9vw, 17vw" alt=""></a></div>
-    </div>
-  </div>
-  <div class="inner_section">
-    <div class="paragraph white-text section_label reveal">NOTABLE THINGS</div>
-    <div class="columns mobile_col padding w-row">
-      <div class="skills reveal w-col w-col-6 w-col-stack">
-        <h1 id="w-node-395684d63e42-84d63e3d" class="heading"><strong class="bold-text white-text desktop_hdr sub_hdr">Mentorships, seminars + spotlights from over the years<br></strong></h1>
-      </div>
-      <div class="skills reveal w-col w-col-6 w-col-stack">
-        <ul class="unordered-list ftr_link_col">
-          <li class="bold-text white-text quote_text list_item list_link"><a data-w-id="c50d5830-471e-b42b-bf26-395684d63e51" href="http://gsvlabs.com/pioneer-accelerator/" target="_blank" class="body_link text_hover">UX mentorship instructor via GSV Labs at Google</a></li>
-          <li class="bold-text white-text quote_text list_item list_link"><a href="https://medium.com/@bestfolios/10-amazing-portfolio-websites-from-google-designers-2-c192c55a8cd9" target="_blank" class="body_link text_hover">10 Amazing Portfolio Websites from Google Designers</a></li>
-          <li class="bold-text white-text quote_text list_item list_link"><a href="https://www.youtube.com/watch?v=QIbPZgH1zRY" target="_blank" class="body_link text_hover">Live Popular Times featured on The Tonight Show with Jimmy Fallon</a></li>
-          <li class="bold-text white-text quote_text list_item list_link"><a href="https://twitter.com/aigadc/status/679316099767377921" target="_blank" class="body_link text_hover">AIGA Guest Lecturer - Max Adaptation: Keeping Your Career Ahead of the Curve</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="inner_section reveal">
-    <div class="paragraph white-text section_label reveal">Colleague quotes</div>
-    <div class="columns mobile_col padding w-row">
-      <div class="skills reveal w-col w-col-4 w-col-stack">
-        <h1 class="heading reveal"><strong class="bold-text white-text column_hdr">He&#x27;s a fun person and has a wide range of skills for UX design.<br></strong></h1>
-        <div class="container-3 quote_main_wrap w-container"><img src="images/rob.jpeg" alt="" class="avatar_quote">
-          <h1 class="heading"><strong class="bold-text white-text quote_text">Sr Interaction Designer, Google<br></strong></h1>
+  <div>
+    <div class="container_wrap w-container">
+      <div class="padding_80 hero_padding w-row">
+        <div data-w-id="87429dde-e973-bdc5-7b31-42d942515c86" style="opacity:0;-webkit-transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="hero_left w-col w-col-6">
+          <h1 class="heading">Over a decade of visual, interaction design &amp; illustration.</h1>
         </div>
-      </div>
-      <div class="skills reveal w-col w-col-4 w-col-stack">
-        <h1 class="heading reveal"><strong class="bold-text white-text column_hdr">Let me just say that he is the best UX designer I&#x27;ve ever worked with.<br></strong></h1>
-        <div class="container-3 quote_main_wrap w-container"><img src="images/sergio.jpeg" alt="" class="avatar_quote">
-          <h1 class="heading"><strong class="bold-text white-text quote_text">Software Engineer, Google<br></strong></h1>
-        </div>
-      </div>
-      <div class="skills reveal w-col w-col-4 w-col-stack">
-        <h1 class="heading reveal"><strong class="bold-text white-text column_hdr">He is very creative, fast and always standout with his unique designs. </strong></h1>
-        <div class="container-3 quote_main_wrap w-container"><img src="images/sal.jpeg" alt="" class="avatar_quote">
-          <h1 class="heading"><strong class="bold-text white-text quote_text">CEO, Cubix Labs<br></strong></h1>
+        <div data-w-id="87429dde-e973-bdc5-7b31-42d942515c87" style="opacity:0;-webkit-transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="hero_right w-col w-col-6">
+          <h1 class="heading thin">Having worked with Google, Ueno, Creative Dash, Zippo &amp; Journeys.<br></h1>
         </div>
       </div>
     </div>
   </div>
-  <div class="inner_section reveal reveal_body ftr_wrap">
-    <div class="section_label reveal w-container">
-      <div class="paragraph white-text section_label reveal">Case Studies</div>
+  <div>
+    <div class="container_wrap w-container"><img src="images/meblack.png" srcset="images/meblack-p-500.png 500w, images/meblack-p-800.png 800w, images/meblack-p-1080.png 1080w, images/meblack-p-1600.png 1600w, images/meblack.png 1952w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 940px" data-w-id="5f10e1b3-86d6-410b-8895-2f48edd7e7e5" style="-webkit-transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 60PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" alt="" class="thumb full_width hero_anim"></div>
+    <div class="container_wrap w-container">
+      <p class="paragraph padding_80">From wireframes and pitch decks to UI Kits and extensive prototyping -- I&#x27;ve been blessed to work with some awesome players on some awesome projects over the years. From agencies to start ups, features to frameworks, Sapient to Google - it&#x27;s been a crazy ride, and the opportunities continue to grow. I also enjoy mentorship and pushing the boundaries, yet typically using data and research to back up my crazy ideas.<br></p>
+      <div class="w-layout-grid grid client_grid"><a id="w-node-c4e590b8c5dc-abc60c20" href="#" class="link-block w-inline-block"><img src="images/google-copy.png" srcset="images/google-copy-p-500.png 500w, images/google-copy-p-800.png 800w, images/google-copy-p-1080.png 1080w, images/google-copy-p-1600.png 1600w, images/google-copy-p-2000.png 2000w, images/google-copy.png 2396w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 940px" alt="" class="thumb client"></a><a id="w-node-c4e590b8c5de-abc60c20" href="#" class="link-block w-inline-block"><img src="images/ueno-copy.png" srcset="images/ueno-copy-p-500.png 500w, images/ueno-copy-p-800.png 800w, images/ueno-copy-p-1080.png 1080w, images/ueno-copy-p-1600.png 1600w, images/ueno-copy-p-2000.png 2000w, images/ueno-copy.png 2482w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 940px" alt="" class="thumb client"></a><a id="w-node-c4e590b8c5e0-abc60c20" href="#" class="link-block w-inline-block"><img src="images/Group-26-Copy-2.png" srcset="images/Group-26-Copy-2-p-500.png 500w, images/Group-26-Copy-2-p-800.png 800w, images/Group-26-Copy-2-p-1080.png 1080w, images/Group-26-Copy-2-p-1600.png 1600w, images/Group-26-Copy-2.png 1893w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 940px" alt="" class="thumb client"></a><a id="w-node-c4e590b8c5e2-abc60c20" href="#" class="link-block w-inline-block"><img src="images/Group-25-Copy.png" srcset="images/Group-25-Copy-p-500.png 500w, images/Group-25-Copy-p-800.png 800w, images/Group-25-Copy-p-1080.png 1080w, images/Group-25-Copy-p-1600.png 1600w, images/Group-25-Copy-p-2000.png 2000w, images/Group-25-Copy.png 2020w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 940px" alt="" class="thumb client"></a><a id="w-node-c4e590b8c5e4-abc60c20" href="#" class="link-block w-inline-block"><img src="images/Bitmap-Copy-3.png" srcset="images/Bitmap-Copy-3-p-500.png 500w, images/Bitmap-Copy-3-p-800.png 800w, images/Bitmap-Copy-3-p-1080.png 1080w, images/Bitmap-Copy-3-p-1600.png 1600w, images/Bitmap-Copy-3-p-2000.png 2000w, images/Bitmap-Copy-3.png 2398w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 940px" alt="" class="thumb client"></a><a id="w-node-c4e590b8c5e6-abc60c20" href="#" class="link-block w-inline-block"><img src="images/Bitmap-Copy-2.png" srcset="images/Bitmap-Copy-2-p-500.png 500w, images/Bitmap-Copy-2-p-800.png 800w, images/Bitmap-Copy-2-p-1080.png 1080w, images/Bitmap-Copy-2-p-1600.png 1600w, images/Bitmap-Copy-2-p-2000.png 2000w, images/Bitmap-Copy-2.png 2288w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 940px" alt="" class="thumb client"></a></div>
+      <div class="padding_80 w-row">
+        <div class="column-5 w-col w-col-6">
+          <h1 class="heading">Visual Design</h1>
+        </div>
+        <div class="column w-col w-col-6">
+          <h1 class="heading thin">Soft, clean, scalable UI&#x27;s that work with today&#x27;s moving market.<br></h1><a href="https://dribbble.com/alex2pt0" class="body_link">See More</a></div>
+      </div>
+      <div class="w-layout-grid grid"><a id="w-node-9eb21f92ef9c-abc60c20" href="https://dribbble.com/shots/5764349-Profile" target="_blank" class="link-block w-inline-block"><img src="images/leaderboard_4x.png" srcset="images/leaderboard_4x-p-500.png 500w, images/leaderboard_4x-p-800.png 800w, images/leaderboard_4x-p-1080.png 1080w, images/leaderboard_4x.png 1600w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 940px" alt="" class="thumb"></a><a id="w-node-d776f8f4f8b2-abc60c20" href="https://dribbble.com/shots/5697251-Spotify-Suggest" target="_blank" class="link-block w-inline-block"><img src="images/screen_shot_2018-12-13_at_3.08.58_pm_4x.png" srcset="images/screen_shot_2018-12-13_at_3.08.58_pm_4x-p-500.png 500w, images/screen_shot_2018-12-13_at_3.08.58_pm_4x-p-800.png 800w, images/screen_shot_2018-12-13_at_3.08.58_pm_4x-p-1080.png 1080w, images/screen_shot_2018-12-13_at_3.08.58_pm_4x.png 1600w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 940px" alt="" class="thumb"></a><a id="w-node-fdb1a105d12a-abc60c20" data-w-id="06a1e693-9a4d-e294-e685-fdb1a105d12a" href="https://dribbble.com/shots/5729837-Social-Component-Kit" target="_blank" class="link-block w-inline-block"><img src="images/componentss_4x.png" srcset="images/componentss_4x-p-500.png 500w, images/componentss_4x-p-800.png 800w, images/componentss_4x-p-1080.png 1080w, images/componentss_4x.png 1600w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 940px" alt="" class="thumb"></a><a id="w-node-1a64948bbc44-abc60c20" href="https://dribbble.com/shots/5726477-Nearby-App" target="_blank" class="link-block w-inline-block"><img src="images/test_4x.png" srcset="images/test_4x-p-500.png 500w, images/test_4x-p-800.png 800w, images/test_4x-p-1080.png 1080w, images/test_4x.png 1600w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 940px" alt="" class="thumb"></a><a id="w-node-77d5899adc57-abc60c20" href="https://dribbble.com/shots/2852583-Zero-Tap-in-Google-Maps" target="_blank" class="link-block w-inline-block"><img src="images/Screen-Shot-2019-01-03-at-11.09.01-PM.png" srcset="images/Screen-Shot-2019-01-03-at-11.09.01-PM-p-500.png 500w, images/Screen-Shot-2019-01-03-at-11.09.01-PM-p-800.png 800w, images/Screen-Shot-2019-01-03-at-11.09.01-PM-p-1080.png 1080w, images/Screen-Shot-2019-01-03-at-11.09.01-PM-p-1600.png 1600w, images/Screen-Shot-2019-01-03-at-11.09.01-PM.png 1786w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 940px" alt="" class="thumb"></a><a id="w-node-73a38b789aa0-abc60c20" href="https://dribbble.com/shots/5085802-Modernizing-Nav-Search-on-Google" target="_blank" class="link-block w-inline-block"><img src="images/06_4x.png" srcset="images/06_4x-p-500.png 500w, images/06_4x-p-800.png 800w, images/06_4x-p-1080.png 1080w, images/06_4x.png 1600w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 940px" alt="" class="thumb"></a></div>
     </div>
-    <div class="columns mobile_col padding w-row">
-      <div class="skills reveal w-col w-col-6 w-col-stack">
-        <h1 id="w-node-cfcf511b4b81-3cc910f3" class="heading"><strong class="bold-text white-text desktop_hdr sub_hdr">Case Studies<br></strong></h1>
-        <p class="paragraph white-text hero_intro disclaimer">Portfolio iconography and imagery from Unsplash, Font Awesome and The Noun Project.<br></p>
+    <div class="container_wrap w-container">
+      <div class="padding_80 w-row">
+        <div class="column-5 w-col w-col-6">
+          <h1 class="heading">Interaction Design</h1>
+        </div>
+        <div class="column w-col w-col-6">
+          <h1 class="heading thin">Combining visual with motion design into prototyping to iterate on concepts<br></h1><a href="https://dribbble.com/alex2pt0" class="body_link">See More</a></div>
       </div>
-      <div class="skills reveal w-col w-col-6 w-col-stack">
-        <ul class="unordered-list ftr_link_col">
-          <li class="bold-text white-text quote_text list_item list_link"><a href="javascript:delay(&#x27;live-times&#x27;)" class="body_link text_hover">Live PopularTimes across Google</a></li>
-          <li class="bold-text white-text quote_text list_item list_link"><a href="javascript:delay(&#x27;zero-suggest&#x27;)" class="body_link text_hover">Zero Suggest on Google Maps</a></li>
-          <li class="bold-text white-text quote_text list_item list_link"><a href="javascript:delay(&#x27;wait-times&#x27;)" class="body_link text_hover">Wait Times across Google</a></li>
-          <li class="bold-text white-text quote_text list_item list_link"><a href="javascript:delay(&#x27;bookings&#x27;)" class="body_link text_hover">Bookings across Google</a></li>
-          <li class="bold-text white-text quote_text list_item list_link"><a href="javascript:delay(&#x27;mod&#x27;)" class="body_link text_hover">Modernizing Nav Search on Google</a></li>
-          <li class="bold-text white-text quote_text list_item list_link"><a href="javascript:delay(&#x27;google-my-business&#x27;)" class="body_link text_hover">Google My Business</a></li>
-        </ul>
-      </div>
+      <div class="w-layout-grid grid"><a id="w-node-afd29dc61c6e-abc60c20" href="https://dribbble.com/shots/5737282-Lyft-Connect-Interactions" target="_blank" class="link-block w-inline-block"><img src="images/lyft_connect_start_chat_-4.gif" alt="" class="thumb"></a><a id="w-node-afd29dc61c70-abc60c20" href="https://dribbble.com/shots/3113692-Live-Popular-Times-on-Google" target="_blank" class="link-block w-inline-block"><img src="images/live.gif" alt="" class="thumb"></a><a id="w-node-afd29dc61c72-abc60c20" href="https://dribbble.com/shots/5724541-Fetch-App-Interactions" target="_blank" class="link-block w-inline-block"><img src="images/doggostest_4.gif" alt="" class="thumb"></a><a id="w-node-afd29dc61c74-abc60c20" href="https://dribbble.com/shots/5751969-Dots-Motion-Component" target="_blank" class="link-block w-inline-block"><img src="images/dots.gif" alt="" class="thumb"></a><a id="w-node-afd29dc61c76-abc60c20" href="https://dribbble.com/shots/3106334-Components" target="_blank" class="link-block w-inline-block"><img src="images/google_components_loader.gif" alt="" class="thumb"></a><a id="w-node-afd29dc61c78-abc60c20" href="https://dribbble.com/shots/3389227-Eat-Drink-Mini-app-on-Google-Search" target="_blank" class="link-block w-inline-block"><img src="images/phone2_2.gif" alt="" class="thumb"></a></div>
     </div>
-    <div class="columns mobile_col padding ftr_wrap w-row">
-      <div class="skills reveal w-col w-col-4 w-col-stack">
-        <h1 class="heading"><strong class="bold-text white-text">Linkedin<br></strong></h1>
-        <p class="paragraph white-text">Resume, skills and work experience galore</p>
-        <ul class="unordered-list ftr_link_col">
-          <li class="bold-text white-text quote_text list_item"><a href="https://www.linkedin.com/in/latenights/" class="body_link text_hover">View my Linkedin</a></li>
-        </ul>
+    <div class="container_wrap w-container">
+      <div class="padding_80 w-row">
+        <div class="column-5 w-col w-col-6">
+          <h1 class="heading">Illustration</h1>
+        </div>
+        <div class="column w-col w-col-6">
+          <h1 class="heading thin">Organic &amp; original, hand-drawn people, places &amp; things<br></h1><a href="https://dribbble.com/alex2pt0" class="body_link">See More</a></div>
       </div>
-      <div class="skills reveal w-col w-col-4 w-col-stack">
-        <h1 class="heading"><strong class="bold-text white-text">Dribbble</strong></h1>
-        <p class="paragraph white-text">Recent and past design work, explorations and experimental</p>
-        <ul class="unordered-list ftr_link_col">
-          <li class="bold-text white-text quote_text list_item"><a href="https://dribbble.com/alex2pt0" class="body_link text_hover">View my Dribbble</a></li>
-        </ul>
-      </div>
-      <div class="skills reveal w-col w-col-4 w-col-stack">
-        <h1 class="heading"><strong class="bold-text white-text">Instagram</strong></h1>
-        <p class="paragraph white-text">Photography, my travels and the off screen lifestyle I lead</p>
-        <ul class="unordered-list ftr_link_col">
-          <li class="bold-text white-text quote_text list_item"><a href="https://instagram.com/late.niights" class="body_link text_hover">View my Instagram</a></li>
-        </ul>
-      </div>
+      <div class="w-layout-grid grid"><a id="w-node-b6dfae4f093e-abc60c20" href="https://dribbble.com/shots/5764325-Bodacious-Dude-Drives-Car" target="_blank" class="link-block w-inline-block"><img src="images/driving_4x-1.png" srcset="images/driving_4x-1-p-500.png 500w, images/driving_4x-1-p-800.png 800w, images/driving_4x-1-p-1080.png 1080w, images/driving_4x-1.png 1599w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 940px" alt="" class="thumb"></a><a id="w-node-b6dfae4f0940-abc60c20" href="https://dribbble.com/shots/1236310-iOS7-Folder" target="_blank" class="link-block w-inline-block"><img src="images/ios7-recovered.png" srcset="images/ios7-recovered-p-500.png 500w, images/ios7-recovered.png 800w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 800px" alt="" class="thumb"></a><a id="w-node-b6dfae4f0942-abc60c20" href="https://dribbble.com/shots/5760234-Sittin-By-The-Fire" target="_blank" class="link-block w-inline-block"><img src="images/sittinbythefire_4x.png" srcset="images/sittinbythefire_4x-p-500.png 500w, images/sittinbythefire_4x-p-800.png 800w, images/sittinbythefire_4x-p-1080.png 1080w, images/sittinbythefire_4x.png 1599w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 940px" alt="" class="thumb"></a><a id="w-node-b6dfae4f0944-abc60c20" href="https://dribbble.com/shots/5755280-Man-Slips-On-Banana" target="_blank" class="link-block w-inline-block"><img src="images/guyfalling_4x.png" srcset="images/guyfalling_4x-p-500.png 500w, images/guyfalling_4x-p-800.png 800w, images/guyfalling_4x-p-1080.png 1080w, images/guyfalling_4x.png 1599w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 940px" alt="" class="thumb"></a><a id="w-node-b6dfae4f0946-abc60c20" href="https://dribbble.com/shots/1047741-Atari-Joystick-iOS-Icon" target="_blank" class="link-block w-inline-block"><img src="images/atari-joystick-icon.png" srcset="images/atari-joystick-icon-p-500.png 500w, images/atari-joystick-icon.png 800w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 800px" alt="" class="thumb"></a><a id="w-node-b6dfae4f0948-abc60c20" href="https://dribbble.com/shots/947420-Cloud-Icon" target="_blank" class="link-block w-inline-block"><img src="images/cloud-icon-2-tn.png" srcset="images/cloud-icon-2-tn-p-500.png 500w, images/cloud-icon-2-tn.png 800w" sizes="(max-width: 479px) 87vw, (max-width: 767px) 88vw, (max-width: 991px) 728px, 800px" alt="" class="thumb"></a></div>
     </div>
   </div>
-  <div data-w-id="8de75695-12a1-cc6d-292f-8b42aaa00eb3" class="inner_section extra_wide hero_wide ftr_global w-hidden-medium w-hidden-small w-hidden-tiny">
-    <p class="paragraph white-text centered ftr_tab">Case Studies<br></p>
-    <div data-w-id="8de75695-12a1-cc6d-292f-8b42aaa00eb7" class="columns gal_columns mod_searches ftr_col_wrap w-row">
-      <div class="column-2 reveal mobile_col _3_col first_col_home collage w-col w-col-2"><a href="javascript:delay(&#x27;mod&#x27;)" class="gal_block above_fold w-inline-block"><img src="images/Screen-Shot-2018-12-15-at-12.48.02-PM.png" srcset="images/Screen-Shot-2018-12-15-at-12.48.02-PM-p-500.png 500w, images/Screen-Shot-2018-12-15-at-12.48.02-PM-p-800.png 800w, images/Screen-Shot-2018-12-15-at-12.48.02-PM-p-1080.png 1080w, images/Screen-Shot-2018-12-15-at-12.48.02-PM-p-1600.png 1600w, images/Screen-Shot-2018-12-15-at-12.48.02-PM-p-2000.png 2000w, images/Screen-Shot-2018-12-15-at-12.48.02-PM.png 2366w" sizes="(max-width: 991px) 100vw, 16vw" alt="" class="extra_narrow"></a></div>
-      <div class="column-2 reveal mobile_col _3_col quote_hdr first_col_home collage w-col w-col-2"><a href="javascript:delay(&#x27;bookings&#x27;)" class="gal_block above_fold w-inline-block"><img src="images/bookings_hero.png" srcset="images/bookings_hero-p-500.png 500w, images/bookings_hero-p-800.png 800w, images/bookings_hero-p-1080.png 1080w, images/bookings_hero-p-1600.png 1600w, images/bookings_hero.png 2200w" sizes="(max-width: 991px) 100vw, 16vw" alt="" class="extra_narrow"></a></div>
-      <div class="column-2 reveal mobile_col _3_col quote_hdr first_col_home collage w-col w-col-2"><a href="javascript:delay(&#x27;live-times&#x27;)" class="gal_block above_fold w-inline-block"><img src="images/Screen-Shot-2018-12-15-at-12.06.26-AM.png" srcset="images/Screen-Shot-2018-12-15-at-12.06.26-AM-p-500.png 500w, images/Screen-Shot-2018-12-15-at-12.06.26-AM-p-800.png 800w, images/Screen-Shot-2018-12-15-at-12.06.26-AM-p-1080.png 1080w, images/Screen-Shot-2018-12-15-at-12.06.26-AM-p-1600.png 1600w, images/Screen-Shot-2018-12-15-at-12.06.26-AM.png 1842w" sizes="(max-width: 991px) 100vw, 16vw" alt="" class="extra_narrow"></a></div>
-      <div class="column-2 reveal mobile_col _3_col quote_hdr first_col_home collage w-col w-col-2"><a href="javascript:delay(&#x27;wait-times&#x27;)" class="gal_block above_fold w-inline-block"><img src="images/waittimesnew2.gif" alt="" class="extra_narrow"></a></div>
-      <div class="column-2 reveal mobile_col _3_col quote_hdr first_col_home collage w-col w-col-2"><a href="javascript:delay(&#x27;zero-suggest&#x27;)" class="gal_block above_fold w-inline-block"><img src="images/Screen-Shot-2018-12-09-at-8.44.57-PM.png" srcset="images/Screen-Shot-2018-12-09-at-8.44.57-PM-p-500.png 500w, images/Screen-Shot-2018-12-09-at-8.44.57-PM-p-800.png 800w, images/Screen-Shot-2018-12-09-at-8.44.57-PM-p-1080.png 1080w, images/Screen-Shot-2018-12-09-at-8.44.57-PM-p-1600.png 1600w, images/Screen-Shot-2018-12-09-at-8.44.57-PM.png 1904w" sizes="(max-width: 991px) 100vw, 16vw" alt="" class="extra_narrow"></a></div>
-      <div class="column-2 reveal mobile_col _3_col quote_hdr first_col_home collage w-col w-col-2"><a href="javascript:delay(&#x27;google-my-business&#x27;)" class="gal_block above_fold w-inline-block"><img src="images/narrowhero.png" srcset="images/narrowhero-p-500.png 500w, images/narrowhero-p-800.png 800w, images/narrowhero-p-1080.png 1080w, images/narrowhero-p-1600.png 1600w, images/narrowhero-p-2000.png 2000w, images/narrowhero-p-2600.png 2600w, images/narrowhero.png 2948w" sizes="(max-width: 991px) 100vw, 16vw" alt="" class="extra_narrow"></a></div>
+  <div>
+    <div class="container_wrap w-container">
+      <div class="padding_80 w-row">
+        <div class="column-5 w-col w-col-6">
+          <h1 class="heading">Speaking &amp; Spotlights</h1>
+        </div>
+        <div class="column w-col w-col-6">
+          <ul class="header_style_list">
+            <li class="listy_item">
+              <a href="http://gsvlabs.com/pioneer-accelerator/" target="_blank" class="list_link w-inline-block">
+                <h1 class="heading thin list_thin">UX mentorship instructor via GSV Labs at Google<br></h1>
+              </a>
+            </li>
+            <li class="listy_item">
+              <a href="https://medium.com/@bestfolios/10-amazing-portfolio-websites-from-google-designers-2-c192c55a8cd9" target="_blank" class="list_link w-inline-block">
+                <h1 class="heading thin list_thin">10 Amazing Portfolio Websites from Google Designers<br></h1>
+              </a>
+            </li>
+            <li class="listy_item">
+              <a href="https://www.youtube.com/watch?v=QIbPZgH1zRY" target="_blank" class="list_link w-inline-block">
+                <h1 class="heading thin list_thin">Live Popular Times featured on The Tonight Show with Jimmy Fallon<br></h1>
+              </a>
+            </li>
+            <li class="listy_item">
+              <a href="https://twitter.com/aigadc/status/679316099767377921" target="_blank" class="list_link w-inline-block">
+                <h1 class="heading thin list_thin">AIGA Guest Lecturer - Max Adaptation: Keeping Your Career Ahead of the Curve<br></h1>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container_wrap footer w-container">
+      <div class="padding_80 w-row">
+        <div class="column-5 w-col w-col-6">
+          <h1 class="heading">Feel free to drop me a line or gander more work on my Dribbble</h1>
+        </div>
+        <div class="column w-col w-col-6">
+          <ul class="header_style_list">
+            <li class="listy_item">
+              <a href="https://dribbble.com/alex2pt0" class="list_link w-inline-block">
+                <h1 class="heading thin list_thin">Dribbble / Latest work<br></h1>
+              </a>
+            </li>
+            <li class="listy_item">
+              <a href="https://www.behance.net/alexlakas" class="list_link w-inline-block">
+                <h1 class="heading thin list_thin">Behance / Older work<br></h1>
+              </a>
+            </li>
+            <li class="listy_item">
+              <a href="https://www.linkedin.com/in/latenights/" class="list_link w-inline-block">
+                <h1 class="heading thin list_thin">Linkedin / Work experience<br></h1>
+              </a>
+            </li>
+            <li class="listy_item">
+              <a href="https://www.facebook.com/alex.s.lakas" class="list_link w-inline-block">
+                <h1 class="heading thin list_thin">Facebook / I&#x27;m not a robot<br></h1>
+              </a>
+            </li>
+            <li class="listy_item">
+              <a href="https://www.instagram.com/late.niights/" class="list_link w-inline-block">
+                <h1 class="heading thin list_thin">Instagram / My photo life<br></h1>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-  <script>
-// Delay page transition to show animation
-function delay (URL) {
-setTimeout( function() { 
-  window.location = URL }
-     , 800 );
-}
-// Add and remove body color transition property after page is done loading
-$('body').addClass("transition");
-setTimeout(function() {
-    $('body').removeClass("transition");
-  }, 4000);
-</script>
 </body>
 </html>
