@@ -182,7 +182,7 @@ a {
 }
 
 .column-5 {
-  padding: 0px;
+  padding: 0px 30px 0px 0px;
 }
 
 .body_link {
@@ -348,6 +348,10 @@ a {
   .padding_80.hero_padding {
     padding: 0px;
   }
+  .heading.thin {
+    font-size: 28px;
+    line-height: 38px;
+  }
   .grid.client_grid {
     margin-bottom: 30px;
   }
@@ -388,6 +392,10 @@ a {
     position: static;
     display: block;
     overflow: visible;
+  }
+  .heading.thin {
+    font-size: 28px;
+    line-height: 38px;
   }
   .grid {
     display: block;
