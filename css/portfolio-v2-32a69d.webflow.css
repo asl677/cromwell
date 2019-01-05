@@ -321,6 +321,10 @@ a {
   background-color: rgba(37, 37, 255, .69);
 }
 
+.confetti {
+  position: fixed;
+}
+
 @media (max-width: 991px) {
   .image_hero {
     margin-top: 30px;
