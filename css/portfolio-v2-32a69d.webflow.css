@@ -253,6 +253,8 @@ a {
 }
 
 .body_link {
+  display: inline-block;
+  padding-top: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid #2525ff;
   -webkit-transition: color 200ms ease;
