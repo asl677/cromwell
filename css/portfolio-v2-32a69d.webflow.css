@@ -137,6 +137,10 @@ a {
   text-decoration: none;
 }
 
+.heading.quote_heading {
+  margin-top: 160px;
+}
+
 .grid {
   -webkit-box-pack: start;
   -webkit-justify-content: start;
@@ -169,6 +173,12 @@ a {
   padding-top: 160px;
 }
 
+.grid.padding_80.quote_grid {
+  padding-top: 30px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 .link-block {
   display: block;
   -webkit-align-self: auto;
@@ -177,6 +187,19 @@ a {
   align-self: auto;
   color: #000;
   text-decoration: none;
+}
+
+.link-block.quote_block {
+  padding: 20px;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, .17);
+  border-radius: 10px;
+  background-color: transparent;
 }
 
 .thumb {
@@ -527,9 +550,15 @@ a {
     margin-bottom: 0px;
     padding-top: 10px;
     padding-bottom: 0px;
-    border-top-style: solid;
+    border-style: none;
   }
   .grid.client_grid {
+    margin-bottom: 30px;
+  }
+  .grid.padding_80.quote_grid {
+    display: block;
+  }
+  .link-block.quote_block {
     margin-bottom: 30px;
   }
   .thumb.client {
@@ -540,6 +569,9 @@ a {
   }
   .hero_right {
     padding: 0px;
+  }
+  .avatar {
+    max-width: 10vw;
   }
 }
 
@@ -582,6 +614,9 @@ a {
     padding-top: 0px;
     border-style: none;
   }
+  .heading.quote_heading {
+    margin-top: 0px;
+  }
   .grid {
     display: block;
     width: 100%;
@@ -593,6 +628,10 @@ a {
   .grid.client_grid {
     margin-top: 30px;
     margin-bottom: 60px;
+  }
+  .grid.padding_80.quote_grid {
+    margin-bottom: 30px;
+    padding-top: 0px;
   }
   .link-block {
     margin-top: 30px;
