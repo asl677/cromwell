@@ -629,6 +629,7 @@ a {
     grid-template-rows: auto auto;
   }
   .grid.client_grid {
+    display: block;
     margin-top: 30px;
     margin-bottom: 60px;
   }
@@ -640,7 +641,8 @@ a {
     margin-top: 30px;
   }
   .thumb.client {
-    padding: 30px;
+    max-width: 70%;
+    padding: 15px 30px 15px 0px;
   }
   .column-2 {
     position: static;
