@@ -525,17 +525,18 @@ a {
 }
 
 .body_color {
-  background-color: #111;
+  background-color: #fff;
 }
 
 .hero_page {
-  position: fixed;
+  position: absolute;
   left: 0px;
   top: 0px;
   right: 0px;
   bottom: 0px;
   z-index: -1;
-  background-color: #fff;
+  height: 100%;
+  background-color: #1b1b1d;
 }
 
 @media (max-width: 991px) {
