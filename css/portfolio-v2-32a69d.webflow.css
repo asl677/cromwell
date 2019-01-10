@@ -249,7 +249,6 @@ a {
 
 .thumb {
   display: inline-block;
-  width: 100%;
   max-width: 100%;
   border-radius: 0px;
 }
@@ -590,6 +589,10 @@ a {
   bottom: 0px;
   z-index: -1;
   background-color: #1b1b1d;
+}
+
+.footer_wrap {
+  background-color: #fff;
 }
 
 @media (max-width: 991px) {
