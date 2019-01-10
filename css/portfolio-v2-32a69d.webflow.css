@@ -34,7 +34,14 @@ a {
   border-radius: 10px;
 }
 
+.column {
+  position: static;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 .paragraph {
+  margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -60,8 +67,14 @@ a {
 }
 
 .padding_80 {
-  margin-left: 0px;
-  padding: 100px 40px;
+  position: static;
+  display: block;
+  overflow: visible;
+  width: auto;
+  margin: 0px;
+  padding: 100px 10px;
+  float: none;
+  clear: none;
 }
 
 .padding_80.hero_padding {
@@ -75,6 +88,8 @@ a {
 }
 
 .heading {
+  position: static;
+  display: block;
   margin-top: 0px;
   margin-bottom: 20px;
   font-family: Exo, sans-serif;
@@ -192,7 +207,21 @@ a {
 }
 
 .grid.padding_80.quote_grid {
+  display: -ms-grid;
+  display: grid;
   padding: 0px 0px 30px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.grid.project_grid {
+  margin-bottom: 0px;
+  padding-bottom: 60px;
 }
 
 .link-block {
@@ -219,6 +248,9 @@ a {
 }
 
 .thumb {
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
   border-radius: 0px;
 }
 
@@ -229,14 +261,26 @@ a {
 .thumb.full_width.hero_anim {
   display: block;
   width: 95%;
-  margin-right: auto;
-  margin-bottom: 60px;
-  margin-left: auto;
+  height: auto;
+  max-width: 95%;
+  margin: 0px auto 60px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   border-radius: 0px;
+}
+
+.thumb.full_width.hero_anim.main {
+  width: 95%;
+  max-width: 95%;
 }
 
 .thumb.client {
   padding: 20px 40px;
+}
+
+.thumb.body_wide_thumb {
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .list-item {
@@ -302,6 +346,7 @@ a {
 }
 
 .column-5 {
+  position: relative;
   padding: 0px 30px 0px 0px;
 }
 
@@ -544,7 +589,6 @@ a {
   right: 0px;
   bottom: 0px;
   z-index: -1;
-  height: 100%;
   background-color: #1b1b1d;
 }
 
@@ -726,6 +770,9 @@ a {
   .thumb.client {
     max-width: 100%;
     padding: 15px 50px;
+  }
+  .thumb.body_wide_thumb {
+    margin-bottom: 0px;
   }
   .column-2 {
     position: static;
