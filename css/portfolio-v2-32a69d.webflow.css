@@ -77,8 +77,10 @@ a {
 
 .paragraph.case_study_label {
   position: absolute;
-  margin: 30px;
-  padding: 0px;
+  display: block;
+  width: 100%;
+  margin: 0px;
+  padding: 15px;
   background-color: transparent;
   color: #000;
   font-size: 20px;
@@ -227,7 +229,7 @@ a {
 }
 
 .grid.client_grid {
-  margin-top: 80px;
+  margin-top: 30px;
   margin-bottom: 30px;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -691,7 +693,7 @@ a {
 
 .column-8 {
   display: block;
-  padding: 0px 6px 6px 0px;
+  padding: 0px 4px 4px 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -714,12 +716,12 @@ a {
 
 .column-9 {
   padding-right: 0px;
-  padding-bottom: 7px;
+  padding-bottom: 4px;
   padding-left: 7px;
 }
 
 .grid-2 {
-  margin-right: 6px;
+  margin-right: 0px;
   margin-left: 0px;
   padding-top: 0px;
   -ms-grid-columns: 1fr 1fr;
@@ -741,10 +743,11 @@ a {
 }
 
 .case_study_label {
-  position: absolute;
+  position: relative;
   display: block;
-  width: 50%;
-  margin-top: 10px;
+  overflow: visible;
+  width: auto;
+  margin-top: 0px;
 }
 
 .back_btn {
@@ -784,6 +787,11 @@ a {
   display: -ms-flexbox;
   display: flex;
   background-color: red;
+}
+
+.background-video {
+  overflow: hidden;
+  height: 30.1vw;
 }
 
 @media (max-width: 991px) {
