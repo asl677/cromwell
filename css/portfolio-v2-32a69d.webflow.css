@@ -123,11 +123,15 @@ a {
   margin-bottom: 20px;
   font-family: Exo, sans-serif;
   color: #000;
+  font-size: 48px;
+  line-height: 58px;
   font-weight: 600;
 }
 
 .heading.thin {
   color: #000;
+  font-size: 38px;
+  line-height: 48px;
   font-weight: 200;
 }
 
