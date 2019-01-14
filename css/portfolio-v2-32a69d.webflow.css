@@ -357,6 +357,24 @@ a {
   padding-right: 0px;
 }
 
+.thumb.body_wide_thumb.anim {
+  position: static;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  clear: none;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  border: 10px none #fff;
+}
+
 .thumb.body_wide_thumb.anim.column_vid {
   position: static;
 }
@@ -369,6 +387,11 @@ a {
   min-height: 660px;
   margin-top: 20px;
   background-color: transparent;
+}
+
+.thumb.case_study_thumb.anim {
+  height: 720px;
+  margin-top: 0px;
 }
 
 .thumb.shorter_video {
@@ -693,6 +716,7 @@ a {
 
 .column-8 {
   display: block;
+  overflow: hidden;
   padding: 0px 4px 4px 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -712,6 +736,29 @@ a {
 .column-8.right_col {
   padding-right: 0px;
   padding-left: 10px;
+}
+
+.column-8.split_col {
+  display: block;
+  overflow: hidden;
+  padding: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
 }
 
 .column-9 {
