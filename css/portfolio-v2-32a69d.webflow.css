@@ -701,7 +701,7 @@ a {
 }
 
 .hero_page {
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 0px;
   right: 0px;
@@ -954,6 +954,9 @@ a {
   .container_wrap {
     padding: 30px;
   }
+  .container_wrap.intro_header {
+    padding-top: 60px;
+  }
   .image_hero {
     margin-top: 30px;
   }
@@ -1099,6 +1102,9 @@ a {
   }
   .avatar {
     max-width: 16vw;
+  }
+  .hero_page {
+    position: fixed;
   }
   .column-8 {
     padding-right: 0px;
