@@ -409,10 +409,10 @@ a {
 
 .thumb.case_study_thumb.anim.shorter_vid {
   position: relative;
-  display: none;
+  display: block;
   overflow: hidden;
   width: 100%;
-  height: 490px;
+  height: 720px;
   max-width: 100%;
   min-height: auto;
   clear: none;
