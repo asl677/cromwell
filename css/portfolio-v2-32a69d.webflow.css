@@ -407,6 +407,30 @@ a {
   margin-top: 0px;
 }
 
+.thumb.case_study_thumb.anim.shorter_vid {
+  position: relative;
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  height: 490px;
+  max-width: 100%;
+  min-height: auto;
+  clear: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
 .thumb.shorter_video {
   position: relative;
   display: inline-block;
