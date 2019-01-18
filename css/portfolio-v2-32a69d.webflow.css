@@ -517,7 +517,7 @@ a {
 
 .listy_item.link_listy_item {
   display: block;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   color: #2525ff;
 }
 
@@ -566,8 +566,9 @@ a {
   padding-top: 0px;
   padding-bottom: 0px;
   border-bottom: 1px solid #2525ff;
-  -webkit-transition: color 200ms ease;
-  transition: color 200ms ease;
+  box-shadow: inset 0 -20px 0 -20px rgba(36, 36, 255, .15);
+  -webkit-transition: all 400ms cubic-bezier(.215, .61, .355, 1);
+  transition: all 400ms cubic-bezier(.215, .61, .355, 1);
   font-family: Exo, sans-serif;
   color: #2525ff;
   font-size: 20px;
@@ -577,7 +578,8 @@ a {
 }
 
 .body_link:hover {
-  color: #000;
+  box-shadow: inset 0 -70px 0 0 rgba(36, 36, 255, .15);
+  color: #2525ff;
 }
 
 .body_link.white_link {
