@@ -407,12 +407,19 @@ a {
   display: block;
   overflow: visible;
   width: 100%;
-  height: 720px;
+  height: 610px;
   max-width: auto;
   min-height: auto;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0px;
+  float: none;
+  clear: none;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
 }
 
 .thumb.case_study_thumb.anim.shorter_vid {
@@ -970,8 +977,26 @@ a {
 }
 
 .video_wrap {
+  display: block;
   overflow: hidden;
   height: auto;
+  padding: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
 }
 
 @media (max-width: 991px) {
@@ -1635,6 +1660,17 @@ a {
   grid-column-start: 3;
   -ms-grid-column-span: 1;
   grid-column-end: 4;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-ca669d6c6b30-0def9b80 {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 1;
