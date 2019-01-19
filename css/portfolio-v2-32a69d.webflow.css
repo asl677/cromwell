@@ -974,9 +974,14 @@ a {
   padding: 10px 12px;
   background-color: rgba(0, 0, 0, .07);
   background-image: none;
-  -webkit-transition-property: none;
-  transition-property: none;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
   color: #a3a3a3;
+}
+
+.back_btn.next_project:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .back_btn.next_project.prev_project {
