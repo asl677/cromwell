@@ -902,6 +902,10 @@ a {
   padding-top: 5px;
 }
 
+.grid-2.footer_grid {
+  display: none;
+}
+
 .columns {
   display: -webkit-box;
   display: -webkit-flex;
@@ -960,9 +964,11 @@ a {
 }
 
 .back_btn.next_project {
-  right: 0px;
-  bottom: 0px;
-  display: none;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: block;
   margin-bottom: 30px;
   margin-left: 0px;
   padding: 10px 12px;
