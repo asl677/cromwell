@@ -422,9 +422,9 @@ a {
   display: block;
   overflow: hidden;
   width: 100%;
-  min-height: 710px;
+  min-height: 10px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   padding: 0px;
   float: none;
   clear: none;
@@ -886,7 +886,7 @@ a {
   display: -ms-grid;
   display: grid;
   margin-right: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   margin-left: 0px;
   padding-top: 20px;
   padding-bottom: 0px;
@@ -2115,6 +2115,17 @@ a {
   grid-column-start: 3;
   -ms-grid-column-span: 1;
   grid-column-end: 4;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-0dae8c6cbd85-4bfced8b {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 1;
