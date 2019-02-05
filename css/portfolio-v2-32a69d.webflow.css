@@ -133,6 +133,10 @@ a {
   padding-bottom: 22vh;
 }
 
+.padding_80.black_bg {
+  background-color: #000;
+}
+
 .paragraph-2 {
   font-family: Exo, sans-serif;
 }
