@@ -128,7 +128,7 @@ img {
   overflow: visible;
   width: auto;
   margin: 0px;
-  padding: 100px 10px;
+  padding: 100px 0px;
   float: none;
   clear: none;
 }
@@ -375,9 +375,9 @@ img {
   display: block;
   width: 1100px;
   height: auto;
+  max-width: 95%;
   margin: 0px auto 60px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding: 0px;
   border-radius: 8px;
 }
 
@@ -1135,7 +1135,7 @@ img {
   }
   .thumb.full_width.hero_anim {
     width: 100%;
-    border-radius: 0px;
+    border-radius: 8px;
   }
   .thumb.body_wide_thumb {
     display: inline-block;
@@ -1222,7 +1222,7 @@ img {
   }
   .thumb.full_width.hero_anim {
     width: 100%;
-    border-radius: 0px;
+    border-radius: 8px;
   }
   .thumb.full_width.anim {
     margin-top: 20px;
@@ -1391,6 +1391,7 @@ img {
   }
   .thumb.full_width.hero_anim {
     width: 100%;
+    max-width: 100%;
     margin-bottom: 30px;
     border-radius: 0px;
   }
