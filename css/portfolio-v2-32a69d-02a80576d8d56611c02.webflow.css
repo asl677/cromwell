@@ -1592,7 +1592,7 @@ img {
     line-height: 58px;
   }
   .heading.white {
-    text-align: center;
+    text-align: left;
   }
   .grid {
     display: block;
@@ -1634,6 +1634,11 @@ img {
   }
   .grid.client_grid.hide {
     display: none;
+  }
+  .grid.client_grid.space {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .grid.padding_80.quote_grid {
     margin-top: 0px;
@@ -1685,7 +1690,8 @@ img {
   .thumb.full_width.hero_anim {
     width: 100%;
     max-width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    padding-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
     border-radius: 0px;
@@ -1716,11 +1722,12 @@ img {
     max-width: 100%;
   }
   .header_style_list {
-    margin: 10px;
-    padding: 0px;
+    margin: 0px;
+    padding: 20px;
   }
   .list_link {
     width: 100%;
+    text-align: left;
   }
   .column-2 {
     position: static;
@@ -1748,7 +1755,7 @@ img {
     width: 100%;
     padding: 10px;
     border-radius: 0px;
-    text-align: center;
+    text-align: left;
   }
   .hero_right {
     padding: 0px;
@@ -1818,6 +1825,9 @@ img {
     display: block;
     padding-right: 0px;
     padding-left: 0px;
+  }
+  .case_study_label {
+    width: 70%;
   }
   .wrap.floaty {
     padding: 0px;
