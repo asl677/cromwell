@@ -1350,6 +1350,16 @@ img {
     -ms-grid-rows: auto;
     grid-template-rows: auto;
   }
+  .grid.client_grid {
+    display: block;
+    -webkit-box-pack: start;
+    -webkit-justify-content: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    -webkit-align-content: start;
+    -ms-flex-line-pack: start;
+    align-content: start;
+  }
   .grid.padding_80.quote_grid {
     display: block;
   }
@@ -1397,6 +1407,9 @@ img {
   }
   .columns-2 {
     margin: 0px;
+  }
+  .footer_bg_wrap {
+    background-color: #000;
   }
 }
 
@@ -1525,6 +1538,9 @@ img {
     position: relative;
     float: none;
     clear: none;
+  }
+  .footer_bg_wrap {
+    background-color: #000;
   }
 }
 
@@ -1837,6 +1853,7 @@ img {
   }
   .footer_bg_wrap {
     padding-top: 60px;
+    background-color: #000;
   }
   .preloader_img {
     height: 2px;
