@@ -1145,7 +1145,7 @@ img {
 }
 
 .wrap.black_bg {
-  background-color: #121212;
+  background-color: #1c1c1c;
 }
 
 .back_btn {
@@ -1512,6 +1512,10 @@ img {
   .thumb.case_study_thumb {
     display: block;
   }
+  .header_style_list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   .body_link {
     padding-bottom: 0px;
   }
@@ -1565,7 +1569,9 @@ img {
     padding: 0px;
   }
   .paragraph.heading.sub_heading {
-    padding: 0px;
+    padding: 20px 0px 0px;
+    font-size: 18px;
+    line-height: 28px;
     text-align: left;
   }
   .padding_80 {
@@ -1769,6 +1775,7 @@ img {
   .body_link {
     overflow: visible;
     width: 100%;
+    margin-top: 0px;
     padding: 10px;
     border-radius: 0px;
     text-align: left;
@@ -1847,6 +1854,9 @@ img {
   }
   .wrap.floaty {
     padding: 0px;
+  }
+  .wrap.black_bg {
+    background-color: #1c1c1c;
   }
   .box {
     margin-top: -80px;
