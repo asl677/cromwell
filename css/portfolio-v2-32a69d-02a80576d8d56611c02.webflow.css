@@ -1105,6 +1105,10 @@ img {
   grid-template-rows: auto;
 }
 
+.grid-2.space {
+  padding-bottom: 20px;
+}
+
 .columns {
   display: -webkit-box;
   display: -webkit-flex;
