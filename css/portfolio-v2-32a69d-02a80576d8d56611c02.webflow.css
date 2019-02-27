@@ -845,11 +845,11 @@ img {
 }
 
 .tile.left_tile.tile_a {
-  width: 14px;
-  height: 9px;
+  width: 19px;
+  height: 3px;
   margin-top: 60vh;
   margin-left: 30%;
-  border-radius: 24px;
+  border-radius: 0px;
   background-color: rgba(0, 0, 0, .77);
   opacity: 0.6;
   -webkit-filter: blur(4px);
@@ -906,13 +906,14 @@ img {
   z-index: 3;
   height: 10px;
   margin-right: 18%;
+  border-radius: 0px;
   background-color: #000;
   opacity: 1;
 }
 
 .tile.right_tile.tile_c.tile_g {
-  width: 10px;
-  height: 5px;
+  width: 9px;
+  height: 4px;
   margin-top: 70vh;
   margin-right: 29%;
   background-color: #000;
@@ -928,7 +929,7 @@ img {
   width: 12px;
   height: 16px;
   margin: 5% auto 0vh 5%;
-  border-radius: 3px;
+  border-radius: 0px;
   background-color: rgba(0, 0, 0, .73);
 }
 
