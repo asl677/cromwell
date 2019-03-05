@@ -472,6 +472,7 @@ img {
 
 .link-block.block_hero {
   position: relative;
+  overflow: hidden;
   margin-bottom: 0px;
   padding: 0px;
   border: 2px none #fff;
@@ -815,7 +816,7 @@ img {
 .body_link.inline_link {
   margin-top: 0px;
   font-size: 10vh;
-  line-height: 6vh;
+  line-height: 8vh;
   font-weight: 700;
 }
 
@@ -1195,6 +1196,9 @@ img {
   width: 40%;
   height: auto;
   margin-top: 0px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  text-align: left;
 }
 
 .wrap {
@@ -1408,8 +1412,18 @@ img {
 }
 
 .case_study_label {
+  color: #000;
   font-size: 30px;
   line-height: 40px;
+  text-align: left;
+}
+
+.case_study_label.white {
+  font-weight: 400;
+}
+
+.case_study_label.paragraph {
+  font-weight: 400;
 }
 
 .link {
@@ -1526,7 +1540,7 @@ img {
     line-height: 5vh;
   }
   .body_link.inline_link {
-    line-height: 6vh;
+    line-height: 8vh;
   }
   .image {
     width: 50px;
@@ -1635,8 +1649,8 @@ img {
     margin-top: 30px;
   }
   .heading.intro_hdr {
-    font-size: 10vh;
-    line-height: 11vh;
+    font-size: 7vh;
+    line-height: 8vh;
     text-align: left;
   }
   .heading.sub_heading {
@@ -1652,7 +1666,8 @@ img {
     line-height: 5vh;
   }
   .heading.white {
-    line-height: 9vh;
+    font-size: 7vh;
+    line-height: 8vh;
     text-align: left;
   }
   .grid.client_grid {
@@ -1720,8 +1735,8 @@ img {
   .body_link.inline_link {
     margin-top: 0px;
     border-radius: 0px;
-    font-size: 10vh;
-    line-height: 6vh;
+    font-size: 7vh;
+    line-height: 7vh;
   }
   .hero_right {
     padding: 0px;
@@ -1836,8 +1851,8 @@ img {
     margin-top: 0px;
   }
   .heading.intro_hdr {
-    font-size: 6vh;
-    line-height: 7vh;
+    font-size: 5vh;
+    line-height: 6vh;
   }
   .heading.sub_heading {
     font-size: 3vh;
@@ -2024,8 +2039,8 @@ img {
   .body_link.inline_link {
     width: auto;
     margin-bottom: 0px;
-    font-size: 6vh;
-    line-height: 7vh;
+    font-size: 5vh;
+    line-height: 6vh;
   }
   .hero_right {
     padding: 0px;
