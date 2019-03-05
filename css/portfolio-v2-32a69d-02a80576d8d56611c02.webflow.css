@@ -305,8 +305,8 @@ img {
 
 .heading.intro_hdr {
   font-family: 'PT Sans', sans-serif;
-  font-size: 84px;
-  line-height: 92px;
+  font-size: 78px;
+  line-height: 88px;
   font-weight: 700;
 }
 
@@ -1742,8 +1742,8 @@ img {
     margin-top: 0px;
   }
   .heading.intro_hdr {
-    font-size: 38px;
-    line-height: 44px;
+    font-size: 48px;
+    line-height: 50px;
   }
   .heading.sub_heading.white {
     line-height: 32px;
