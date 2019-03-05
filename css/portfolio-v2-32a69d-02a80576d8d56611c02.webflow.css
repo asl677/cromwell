@@ -181,13 +181,12 @@ img {
 }
 
 .padding_80.intro_header {
-  padding-top: 15vh;
-  padding-bottom: 17vh;
+  padding: 140px 40px;
 }
 
 .padding_80.intro_header.centered {
-  padding: 100px;
-  text-align: center;
+  padding: 140px 0px;
+  text-align: left;
 }
 
 .padding_80.intro_header.centered.footer_padding {
@@ -228,7 +227,7 @@ img {
   font-size: 8vh;
   line-height: 9vh;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
 }
 
 .heading.thin {
@@ -314,6 +313,7 @@ img {
   font-size: 10vh;
   line-height: 11vh;
   font-weight: 400;
+  text-align: left;
 }
 
 .heading.black_hdr {
@@ -333,11 +333,20 @@ img {
   line-height: 4vh;
 }
 
+.heading.sub_heading.white.centered {
+  text-align: center;
+}
+
 .heading.white {
   color: #fff;
   font-size: 8vh;
   line-height: 9vh;
   font-weight: 400;
+  text-align: left;
+}
+
+.heading.white.centered {
+  text-align: center;
 }
 
 .grid {
@@ -725,7 +734,7 @@ img {
 }
 
 .list_link {
-  padding: 10px;
+  padding: 0px;
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
   color: #2525ff;
@@ -1228,7 +1237,7 @@ img {
 }
 
 .wrap.black_bg {
-  margin: -1px 0px 0px;
+  margin: 0px;
   padding: 0px;
   background-color: #000;
 }
@@ -1454,7 +1463,7 @@ img {
     padding: 60px;
   }
   .padding_80.intro_header {
-    padding: 60px;
+    padding: 100px 60px 60px;
   }
   .padding_80.intro_header.centered {
     padding: 60px;
@@ -1611,16 +1620,17 @@ img {
   .padding_80.intro_header {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 40px;
+    padding: 100px 40px 60px;
   }
   .padding_80.intro_header.centered {
     position: relative;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 40px;
+    padding: 60px 40px;
   }
   .padding_80.intro_header.centered.footer_padding {
-    padding: 40px;
+    padding: 60px 40px;
+    text-align: left;
   }
   .padding_80.case_study_60 {
     margin-top: 60px;
@@ -1670,6 +1680,9 @@ img {
     font-size: 7vh;
     line-height: 8vh;
     text-align: left;
+  }
+  .heading.white.centered {
+    text-align: center;
   }
   .grid.client_grid {
     display: block;
@@ -1810,19 +1823,22 @@ img {
   .padding_80 {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 40px;
+    padding: 60px 40px;
   }
   .padding_80.hero_padding {
     margin-top: 0px;
     padding: 8vh 0px 5vh;
   }
   .padding_80.intro_header {
-    padding: 40px;
+    padding: 100px 40px 60px;
     text-align: left;
   }
   .padding_80.intro_header.centered {
-    padding: 40px;
+    padding: 60px 40px;
     text-align: center;
+  }
+  .padding_80.intro_header.grid_float {
+    padding-top: 60px;
   }
   .padding_80.black_bg {
     padding-top: 60px;
