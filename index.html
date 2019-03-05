@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Mar 05 2019 04:45:31 GMT+0000 (UTC)  -->
+<!--  Last Published: Tue Mar 05 2019 07:07:33 GMT+0000 (UTC)  -->
 <html data-wf-page="5c682f883ca6bd5b96341db9" data-wf-site="5c682f883ca6bd550a341db6">
 <head>
   <meta charset="utf-8">
@@ -35,16 +35,16 @@
     height: 2px;
     background: #2525ff;
     width: 100%;
-    left: 0;
-    transform-origin: left center;
+  	transform-origin: right center;
     transition: transform .5s cubic-bezier(.694,0,.335,1),-webkit-transform .5s cubic-bezier(.694,0,.335,1);
-    transform: scaleX(1);
-}
-  .body_link:hover::after {
-    -webkit-transform: scaleX(0);
     transform: scaleX(0);
-    -webkit-transform-origin: right center;
-    transform-origin: right center;
+    left: 0;
+}
+  .body_link:hover::after {    
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
   }
 .twitter #iframe > .btn {
     background-color: rgba(255,255,255,.2) !important;
@@ -173,10 +173,10 @@
   <div data-w-id="7acec813-7468-74cb-3afa-9d28b93d9b3c" style="opacity:0;-webkit-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="wrap">
     <div class="container_wrap w-container">
       <div class="padding_80 intro_header">
-        <h1 data-w-id="0f10fef1-5656-3fa9-91f6-b2051b1ec127" class="heading intro_hdr">Hi there — I&#x27;m Alex, a Product Designer making things in San Francisco.</h1>
+        <h1 data-w-id="0f10fef1-5656-3fa9-91f6-b2051b1ec127" class="heading intro_hdr">Hi there — I&#x27;m <a href="https://www.linkedin.com/in/latenights/" target="_blank" class="body_link inline_link">Alex</a>, a <a href="https://dribbble.com/alex2pt0" target="_blank" class="body_link inline_link">Product Designer</a> making things in San Francisco.</h1>
       </div>
     </div>
-  </div><img src="images/home_hero_v8.png" srcset="images/home_hero_v8.png 500w, images/home_hero_v8.png 800w, images/home_hero_v8.png 1080w, images/home_hero_v8.png 1600w, images/home_hero_v8.png 1977w" sizes="100vw" data-w-id="5f10e1b3-86d6-410b-8895-2f48edd7e7e5" style="-webkit-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" alt="" class="thumb full_width hero_anim">
+  </div><img src="images/home_hero_v8.png" srcset="images/home_hero_v8-p-500.png 500w, images/home_hero_v8-p-800.png 800w, images/home_hero_v8-p-1080.png 1080w, images/home_hero_v8-p-1600.png 1600w, images/home_hero_v8.png 1977w" sizes="100vw" data-w-id="5f10e1b3-86d6-410b-8895-2f48edd7e7e5" style="-webkit-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" alt="" class="thumb full_width hero_anim">
   <div data-w-id="bdf7b944-f8a3-77e7-d9ff-3ad47828bf7d" style="opacity:0" class="wrap black_bg">
     <div class="container_wrap w-container">
       <div class="padding_80 black_bg">
@@ -197,7 +197,7 @@
     <a id="w-node-d55bcbaaee77-96341db9" href="javascript:delay(&#x27;/work/zero-suggest&#x27;)" class="link-block block_hero w-inline-block">
       <div class="case_study_label">
         <p data-w-id="9a20387a-ea8b-48f4-6613-58919754de7d" class="paragraph case_study_label">Case Study<br></p>
-      </div><img src="images/Screen-Shot-2019-03-04-at-8.41.28-PM.png" srcset="images/Screen-Shot-2019-03-04-at-8.41.28-PM.png 500w, images/Screen-Shot-2019-03-04-at-8.41.28-PM.png 800w, images/Screen-Shot-2019-03-04-at-8.41.28-PM.png 1080w, images/Screen-Shot-2019-03-04-at-8.41.28-PM.png 1198w" sizes="100vw" alt="" class="thumb body_wide_thumb"></a>
+      </div><img src="images/Screen-Shot-2019-03-04-at-8.41.28-PM.png" srcset="images/Screen-Shot-2019-03-04-at-8.41.28-PM-p-500.png 500w, images/Screen-Shot-2019-03-04-at-8.41.28-PM-p-800.png 800w, images/Screen-Shot-2019-03-04-at-8.41.28-PM-p-1080.png 1080w, images/Screen-Shot-2019-03-04-at-8.41.28-PM.png 1198w" sizes="100vw" alt="" class="thumb body_wide_thumb"></a>
     <a id="w-node-583f31672148-96341db9" href="javascript:delay(&#x27;/work/mod&#x27;)" class="link-block block_hero w-inline-block">
       <div class="case_study_label">
         <p class="paragraph case_study_label white">Case Study<br></p>

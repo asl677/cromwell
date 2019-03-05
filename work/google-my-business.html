@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Mar 05 2019 04:45:31 GMT+0000 (UTC)  -->
+<!--  Last Published: Tue Mar 05 2019 07:07:33 GMT+0000 (UTC)  -->
 <html data-wf-page="5c682f883ca6bd4e06341dbf" data-wf-site="5c682f883ca6bd550a341db6">
 <head>
   <meta charset="utf-8">
@@ -36,16 +36,16 @@
     height: 2px;
     background: #2525ff;
     width: 100%;
-    left: 0;
-    transform-origin: left center;
+  	transform-origin: right center;
     transition: transform .5s cubic-bezier(.694,0,.335,1),-webkit-transform .5s cubic-bezier(.694,0,.335,1);
-    transform: scaleX(1);
-}
-  .body_link:hover::after {
-    -webkit-transform: scaleX(0);
     transform: scaleX(0);
-    -webkit-transform-origin: right center;
-    transform-origin: right center;
+    left: 0;
+}
+  .body_link:hover::after {    
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
   }
 .twitter #iframe > .btn {
     background-color: rgba(255,255,255,.2) !important;
