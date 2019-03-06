@@ -1629,13 +1629,13 @@ img {
   .padding_80.intro_header {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 100px 40px 60px;
+    padding: 100px 40px;
   }
   .padding_80.intro_header.centered {
     position: relative;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 60px 40px;
+    padding: 100px 40px;
   }
   .padding_80.intro_header.centered.footer_padding {
     padding: 60px 40px;
@@ -1650,7 +1650,7 @@ img {
   }
   .heading {
     margin-bottom: 0px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     font-size: 7vh;
     line-height: 8vh;
     text-align: left;
@@ -1839,15 +1839,19 @@ img {
     padding: 8vh 0px 5vh;
   }
   .padding_80.intro_header {
-    padding: 100px 40px 60px;
+    padding: 100px 40px;
     text-align: left;
   }
   .padding_80.intro_header.centered {
-    padding: 60px 40px;
+    padding: 100px 40px;
     text-align: center;
   }
+  .padding_80.intro_header.centered.footer_padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
   .padding_80.intro_header.grid_float {
-    padding-top: 60px;
+    padding-top: 100px;
   }
   .padding_80.black_bg {
     padding-top: 60px;
@@ -1878,6 +1882,7 @@ img {
     margin-top: 0px;
   }
   .heading.intro_hdr {
+    padding-bottom: 0px;
     font-size: 5vh;
     line-height: 6vh;
   }
