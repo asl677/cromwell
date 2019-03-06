@@ -193,6 +193,11 @@ img {
   padding: 100px 40px;
 }
 
+.padding_80.intro_header.grid_float {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .padding_80.case_study_60 {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -1469,13 +1474,14 @@ img {
     padding: 100px 40px;
   }
   .padding_80.intro_header.grid_float {
+    padding-top: 100px;
     padding-bottom: 100px;
   }
   .padding_80.black_bg {
     padding: 60px;
   }
   .heading {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     font-size: 8vh;
     line-height: 9vh;
   }
@@ -1521,7 +1527,7 @@ img {
   }
   .link-block.block_hero {
     display: block;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
     padding-top: 0px;
     padding-left: 0px;
   }
