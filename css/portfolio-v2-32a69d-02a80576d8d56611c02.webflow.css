@@ -2311,8 +2311,6 @@ img {
   grid-row-start: 1;
   -ms-grid-row-span: 1;
   grid-row-end: 2;
-  -webkit-align-self: auto;
-  -ms-flex-item-align: auto;
   -ms-grid-row-align: auto;
   align-self: auto;
   -ms-grid-column-align: auto;
@@ -2416,8 +2414,6 @@ img {
   grid-row-start: 1;
   -ms-grid-row-span: 1;
   grid-row-end: 2;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
 }
@@ -2453,8 +2449,6 @@ img {
   grid-row-start: 1;
   -ms-grid-row-span: 1;
   grid-row-end: 2;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
 }
@@ -2811,8 +2805,6 @@ img {
   grid-row-start: 1;
   -ms-grid-row-span: 1;
   grid-row-end: 2;
-  -webkit-align-self: stretch;
-  -ms-flex-item-align: stretch;
   -ms-grid-row-align: stretch;
   align-self: stretch;
   -ms-grid-column-align: stretch;
@@ -2839,8 +2831,6 @@ img {
   grid-row-start: 1;
   -ms-grid-row-span: 1;
   grid-row-end: 2;
-  -webkit-align-self: stretch;
-  -ms-flex-item-align: stretch;
   -ms-grid-row-align: stretch;
   align-self: stretch;
   -ms-grid-column-align: stretch;
