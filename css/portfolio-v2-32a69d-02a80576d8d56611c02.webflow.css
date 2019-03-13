@@ -158,7 +158,7 @@ img {
 .paragraph.heading.sub_heading {
   padding-top: 40px;
   padding-bottom: 40px;
-  font-size: 2.5vh;
+  font-size: 3vh;
   line-height: 4vh;
 }
 
@@ -1879,7 +1879,7 @@ img {
     padding: 8vh 0px 5vh;
   }
   .padding_80.intro_header {
-    padding: 25vh 40px;
+    padding: 20vh 40px;
     text-align: left;
   }
   .padding_80.intro_header.centered {
