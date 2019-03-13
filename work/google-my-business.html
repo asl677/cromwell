@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Mar 12 2019 03:01:56 GMT+0000 (UTC)  -->
+<!--  Last Published: Wed Mar 13 2019 04:11:02 GMT+0000 (UTC)  -->
 <html data-wf-page="5c682f883ca6bd4e06341dbf" data-wf-site="5c682f883ca6bd550a341db6">
 <head>
   <meta charset="utf-8">
@@ -32,11 +32,11 @@
 .body_link::after {
 	content: "";
     position: absolute;
-    bottom: -10px;
-    height: 2px;
-    background: #2525ff;
+    bottom: 0;
+    height: 100%;
+    background: rgba(37,37,255,.1);
     width: 100%;
-  	transform-origin: right center;
+    transform-origin: right center;
     transition: transform .5s cubic-bezier(.694,0,.335,1),-webkit-transform .5s cubic-bezier(.694,0,.335,1);
     transform: scaleX(0);
     left: 0;
@@ -160,7 +160,7 @@
 }
 </style>
 </head>
-<body class="body_color">
+<body data-w-id="5c2c6b1e4fdbba226fc60c21" class="body_color">
   <div data-w-id="6c1c1a1b-eaa5-7577-dcf0-a40620e086d5" class="confetti w-container">
     <div class="tile other_tile"></div>
     <div class="tile right_tile tile_c tile_g"></div>

@@ -181,7 +181,7 @@ img {
 }
 
 .padding_80.intro_header {
-  padding: 140px 40px;
+  padding: 140px 0px;
 }
 
 .padding_80.intro_header.centered {
@@ -604,6 +604,10 @@ img {
   position: static;
 }
 
+.thumb.body_wide_thumb.anim._40_padding {
+  padding: 40px;
+}
+
 .thumb.case_study_thumb {
   position: relative;
   display: inline-block;
@@ -620,7 +624,7 @@ img {
   height: 50vw;
   max-width: 100%;
   min-height: 10px;
-  margin: 0px auto;
+  margin: 0px auto 10px;
   padding: 0px;
   float: none;
   clear: none;
@@ -1142,7 +1146,7 @@ img {
   display: -ms-grid;
   display: grid;
   margin-right: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   margin-left: 0px;
   padding: 0px;
   -webkit-box-align: center;
@@ -1244,7 +1248,7 @@ img {
 .wrap.black_bg {
   margin: 0px;
   padding: 0px;
-  background-color: #000;
+  background-color: #fff;
 }
 
 .back_btn {
