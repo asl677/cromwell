@@ -551,7 +551,7 @@ img {
   max-width: 100%;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 40px;
+  padding: 40px 40px 0px;
   border-radius: 0px;
 }
 
@@ -1530,8 +1530,8 @@ img {
     line-height: 22px;
   }
   .heading.intro_hdr {
-    font-size: 7vw;
-    line-height: 8vh;
+    font-size: 6vw;
+    line-height: 7vw;
   }
   .heading.sub_heading {
     padding-top: 0px;
@@ -1562,8 +1562,8 @@ img {
   }
   .heading.body_heading {
     margin-bottom: 10px;
-    font-size: 7vw;
-    line-height: 8vw;
+    font-size: 6vw;
+    line-height: 7vw;
   }
   .grid {
     grid-row-gap: 20px;
@@ -1627,8 +1627,8 @@ img {
     font-weight: 300;
   }
   .body_link.inline_link {
-    font-size: 7vw;
-    line-height: 8vh;
+    font-size: 6vw;
+    line-height: 7vw;
   }
   .image {
     width: 50px;
