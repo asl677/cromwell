@@ -315,8 +315,8 @@ img {
 
 .heading.intro_hdr {
   font-family: Nunito, sans-serif;
-  font-size: 8vh;
-  line-height: 9vh;
+  font-size: 7vh;
+  line-height: 8vh;
   font-weight: 200;
   text-align: left;
 }
@@ -836,8 +836,8 @@ img {
 .body_link.inline_link {
   margin-top: 0px;
   font-family: Nunito, sans-serif;
-  font-size: 8vh;
-  line-height: 9vh;
+  font-size: 7vh;
+  line-height: 8vh;
   font-weight: 200;
 }
 
@@ -1250,7 +1250,7 @@ img {
 .wrap.black_bg {
   margin: 0px;
   padding: 0px;
-  background-color: #fff;
+  background-color: rgba(36, 36, 255, .09);
 }
 
 .wrap.grey_bg {
@@ -1628,7 +1628,7 @@ img {
     padding: 0px;
   }
   .wrap.black_bg {
-    background-color: #fff;
+    background-color: rgba(36, 36, 255, .09);
   }
   .columns-2 {
     margin: 0px;
@@ -1843,6 +1843,9 @@ img {
     float: none;
     clear: none;
   }
+  .wrap.black_bg {
+    background-color: rgba(36, 36, 255, .09);
+  }
   .footer_bg_wrap {
     padding: 0px;
     background-color: #000;
@@ -1898,6 +1901,7 @@ img {
   }
   .padding_80.intro_header.centered {
     padding: 100px 40px;
+    background-color: rgba(255, 255, 255, .08);
     text-align: center;
   }
   .padding_80.intro_header.centered.footer_padding {
@@ -2215,7 +2219,7 @@ img {
     padding: 0px;
   }
   .wrap.black_bg {
-    background-color: #000;
+    background-color: rgba(36, 36, 255, .09);
   }
   .video_wrap {
     height: auto;
