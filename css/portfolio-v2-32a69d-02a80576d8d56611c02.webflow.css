@@ -551,7 +551,7 @@ img {
   max-width: 100%;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 40px;
+  padding: 40px 40px 0px;
   border-radius: 0px;
 }
 
@@ -1530,8 +1530,8 @@ img {
     line-height: 22px;
   }
   .heading.intro_hdr {
-    font-size: 7vw;
-    line-height: 8vh;
+    font-size: 5vw;
+    line-height: 6vw;
   }
   .heading.sub_heading {
     padding-top: 0px;
@@ -1562,8 +1562,8 @@ img {
   }
   .heading.body_heading {
     margin-bottom: 10px;
-    font-size: 7vw;
-    line-height: 8vw;
+    font-size: 5vw;
+    line-height: 6vw;
   }
   .grid {
     grid-row-gap: 20px;
@@ -1627,8 +1627,8 @@ img {
     font-weight: 300;
   }
   .body_link.inline_link {
-    font-size: 7vw;
-    line-height: 8vh;
+    font-size: 5vw;
+    line-height: 6vw;
   }
   .image {
     width: 50px;
@@ -1750,8 +1750,8 @@ img {
     margin-top: 30px;
   }
   .heading.intro_hdr {
-    font-size: 7vw;
-    line-height: 8vw;
+    font-size: 6vw;
+    line-height: 7vw;
     text-align: left;
   }
   .heading.sub_heading {
@@ -1785,9 +1785,10 @@ img {
     text-align: left;
   }
   .heading.body_heading {
+    margin-bottom: 20px;
     padding-bottom: 0px;
-    font-size: 7vw;
-    line-height: 8vw;
+    font-size: 6vw;
+    line-height: 7vw;
   }
   .grid.client_grid {
     display: block;
@@ -1855,8 +1856,8 @@ img {
   .body_link.inline_link {
     margin-top: 0px;
     border-radius: 0px;
-    font-size: 7vw;
-    line-height: 8vw;
+    font-size: 6vw;
+    line-height: 7vw;
   }
   .hero_right {
     padding: 0px;
@@ -1939,7 +1940,7 @@ img {
     padding: 8vh 0px 5vh;
   }
   .padding_80.intro_header {
-    padding: 20vh 40px;
+    padding: 15vh 40px;
     text-align: left;
   }
   .padding_80.intro_header.centered {
@@ -1985,8 +1986,8 @@ img {
   }
   .heading.intro_hdr {
     padding-bottom: 0px;
-    font-size: 12vw;
-    line-height: 14vw;
+    font-size: 10vw;
+    line-height: 12vw;
   }
   .heading.sub_heading {
     font-size: 6vw;
@@ -2015,9 +2016,9 @@ img {
     line-height: 13vw;
   }
   .heading.body_heading {
-    margin-bottom: 40px;
-    font-size: 12vw;
-    line-height: 14vw;
+    margin-bottom: 20px;
+    font-size: 10vw;
+    line-height: 12vw;
   }
   .grid {
     display: block;
@@ -2129,6 +2130,9 @@ img {
   .thumb.full_width.anim.above_col {
     margin-bottom: 20px;
   }
+  .thumb.full_width.shorter {
+    padding: 20px;
+  }
   .thumb.full_width.shorter.black_white {
     margin-top: -60px;
   }
@@ -2195,8 +2199,8 @@ img {
   .body_link.inline_link {
     width: auto;
     margin-bottom: 0px;
-    font-size: 12vw;
-    line-height: 14vw;
+    font-size: 10vw;
+    line-height: 12vw;
   }
   .hero_right {
     padding: 0px;
@@ -2225,8 +2229,7 @@ img {
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: 0px 20px;
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
