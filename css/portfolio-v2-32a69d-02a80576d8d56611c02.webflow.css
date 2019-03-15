@@ -1225,7 +1225,7 @@ img {
 }
 
 .case_study_label {
-  position: relative;
+  position: absolute;
   display: block;
   overflow: visible;
   width: 40%;
