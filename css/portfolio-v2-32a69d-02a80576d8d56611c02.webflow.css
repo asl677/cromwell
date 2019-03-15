@@ -328,6 +328,7 @@ img {
 .heading.sub_heading {
   margin-bottom: 0px;
   padding-top: 0px;
+  color: rgba(0, 0, 0, .54);
   font-size: 1.6vw;
   line-height: 2.6vw;
   font-weight: 300;
