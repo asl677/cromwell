@@ -1267,7 +1267,7 @@ img {
 }
 
 .wrap.grey_bg {
-  background-color: rgba(36, 36, 255, .05);
+  overflow: visible;
 }
 
 .wrap.grey_bg.google_blue {
