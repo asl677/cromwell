@@ -408,8 +408,8 @@ img {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   grid-template-areas: ".";
-  -ms-grid-columns: 1fr 0px 1fr 0px 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 0px 1fr;
+  grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto 0px auto 0px auto 0px auto;
   grid-template-rows: auto auto auto auto;
 }
@@ -1290,7 +1290,7 @@ img {
 }
 
 .wrap.footer_wrap.no_padding {
-  margin-top: 0px;
+  margin-top: 40px;
   padding: 0px;
 }
 
