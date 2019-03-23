@@ -181,12 +181,12 @@ img {
 
 .padding_80.intro_header {
   width: 100%;
-  padding: 140px 25vw 140px 0px;
+  padding: 100px 25vw 100px 0px;
   text-align: left;
 }
 
 .padding_80.intro_header.centered {
-  padding: 140px 25vw 140px 0px;
+  padding: 100px 25vw 100px 0px;
   border-top: 1px none #000;
   text-align: left;
 }
@@ -1744,6 +1744,7 @@ img {
     font-weight: 300;
   }
   .body_link.inline_link {
+    border-radius: 0px;
     font-size: 5vw;
     line-height: 6vw;
   }
@@ -1984,6 +1985,7 @@ img {
   }
   .body_link.inline_link {
     margin-top: 0px;
+    border-width: 0px;
     border-radius: 0px;
     font-size: 6vw;
     line-height: 7vw;
@@ -2335,7 +2337,6 @@ img {
   }
   .body_link {
     overflow: visible;
-    width: 100%;
     margin-top: 0px;
     margin-bottom: 20px;
     padding: 0px;
@@ -2345,10 +2346,9 @@ img {
     text-align: left;
   }
   .body_link.inline_link {
-    position: static;
+    position: relative;
     display: inline-block;
     overflow: visible;
-    width: auto;
     margin-bottom: 0px;
     padding-left: 0px;
     float: none;
