@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="448px" viewBox="0 0 512 448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>comment-dots-solid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="comment-dots-solid" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M256,0 C114.6,0 0,93.1 0,208 C0,257.6 21.4,303 57,338.7 C44.5,389.1 2.7,434 2.2,434.5 C0,436.8 -0.6,440.2 0.7,443.2 C2,446.2 4.8,448 8,448 C74.3,448 124,416.2 148.6,396.6 C181.3,408.9 217.6,416 256,416 C397.4,416 512,322.9 512,208 C512,93.1 397.4,0 256,0 Z M128,240 C110.3,240 96,225.7 96,208 C96,190.3 110.3,176 128,176 C145.7,176 160,190.3 160,208 C160,225.7 145.7,240 128,240 Z M256,240 C238.3,240 224,225.7 224,208 C224,190.3 238.3,176 256,176 C273.7,176 288,190.3 288,208 C288,225.7 273.7,240 256,240 Z M384,240 C366.3,240 352,225.7 352,208 C352,190.3 366.3,176 384,176 C401.7,176 416,190.3 416,208 C416,225.7 401.7,240 384,240 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1406,15 +1406,24 @@ img {
   top: 0%;
   right: 0%;
   bottom: auto;
-  padding: 10px;
-  background-image: none;
+  padding: 20px;
+  background-image: url('../images/comment-dots-solid.svg');
+  background-position: 50% 50%;
+  background-size: 20px;
   -webkit-transform: translate(0px, -80px);
   -ms-transform: translate(0px, -80px);
   transform: translate(0px, -80px);
-  font-family: Nunito, sans-serif;
+  font-family: 'Fa solid 900', sans-serif;
   color: #fff;
   font-weight: 400;
   text-align: right;
+}
+
+.back_btn.right_cta.fas.fa-comment {
+  padding: 20px;
+  background-image: url('../images/comment-dots-solid.svg');
+  background-size: contain;
+  font-family: Nunito, sans-serif;
 }
 
 .link-block-3 {
@@ -4043,3 +4052,21 @@ img {
   grid-row-end: 2;
 }
 
+@font-face {
+  font-family: 'Fa 400';
+  src: url('../fonts/fa-regular-400.woff2') format('woff2'), url('../fonts/fa-regular-400.eot') format('embedded-opentype'), url('../fonts/fa-regular-400.woff') format('woff'), url('../fonts/fa-regular-400.ttf') format('truetype'), url('../fonts/fa-regular-400.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fa brands 400';
+  src: url('../fonts/fa-brands-400.woff2') format('woff2'), url('../fonts/fa-brands-400.eot') format('embedded-opentype'), url('../fonts/fa-brands-400.woff') format('woff'), url('../fonts/fa-brands-400.ttf') format('truetype'), url('../fonts/fa-brands-400.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fa solid 900';
+  src: url('../fonts/fa-solid-900.woff2') format('woff2'), url('../fonts/fa-solid-900.eot') format('embedded-opentype'), url('../fonts/fa-solid-900.woff') format('woff'), url('../fonts/fa-solid-900.ttf') format('truetype'), url('../fonts/fa-solid-900.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
