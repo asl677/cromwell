@@ -1336,6 +1336,26 @@ img {
   border-top-style: solid;
 }
 
+.wrap.slate {
+  background-color: #f6f6f9;
+}
+
+.wrap.grey {
+  background-color: #f0f0f0;
+}
+
+.wrap.green {
+  background-color: hsla(88.125, 36.32%, 95.81%, 1.00);
+}
+
+.wrap.dark_blue {
+  background-color: hsla(196.92307692307693, 8.57%, 92.71%, 1.00);
+}
+
+.wrap.red {
+  background-color: hsla(8.287292817679559, 84.18%, 95.79%, 1.00);
+}
+
 .back_btn {
   position: fixed;
   z-index: 3;
@@ -1351,7 +1371,7 @@ img {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  border-radius: 0px;
+  border-radius: 100px;
   background-color: #2525ff;
   background-image: url('../images/ic_home.png');
   background-position: 50% 50%;
@@ -1369,6 +1389,10 @@ img {
 
 .back_btn:hover {
   background-color: #000;
+}
+
+.back_btn:active {
+  background-color: #4f4f4f;
 }
 
 .back_btn.next_project {
@@ -1407,6 +1431,7 @@ img {
   right: 0%;
   bottom: auto;
   padding: 20px;
+  border-radius: 100px;
   background-image: url('../images/comment-dots-solid.svg');
   background-position: 50% 50%;
   background-size: 20px;
@@ -1417,6 +1442,13 @@ img {
   color: #fff;
   font-weight: 400;
   text-align: right;
+}
+
+.back_btn.right_cta:active {
+  background-color: #000;
+  -webkit-transform: translate(0px, -80px);
+  -ms-transform: translate(0px, -80px);
+  transform: translate(0px, -80px);
 }
 
 .back_btn.right_cta.fas.fa-comment {
