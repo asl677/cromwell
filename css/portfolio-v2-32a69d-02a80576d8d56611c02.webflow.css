@@ -2163,6 +2163,12 @@ img {
     padding-right: 0px;
     padding-left: 0px;
   }
+  .container_wrap.narrow {
+    padding-top: 0px;
+  }
+  .container_wrap.narrow.tall {
+    padding-top: 100px;
+  }
   .image_hero {
     margin-top: 30px;
   }
@@ -2204,6 +2210,9 @@ img {
   .padding_80.intro_header.grid_float {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+  .padding_80.intro_header.home_header {
+    padding-top: 40px;
   }
   .padding_80.black_bg {
     padding-top: 60px;
