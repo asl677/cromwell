@@ -2175,7 +2175,7 @@ img {
   }
   .paragraph.heading.sub_heading {
     padding: 20px 0px 0px;
-    font-size: 6vw;
+    font-size: 5vw;
     line-height: 8vw;
     text-align: left;
   }
@@ -2189,7 +2189,7 @@ img {
     padding: 8vh 0px 5vh;
   }
   .padding_80.intro_header {
-    padding: 15vh 40px;
+    padding: 40px;
     text-align: left;
   }
   .padding_80.intro_header.centered {
