@@ -2438,6 +2438,9 @@ img {
   .thumb.full_width.shorter.show {
     padding: 18px;
   }
+  .thumb.full_width.show {
+    margin-bottom: 5px;
+  }
   .thumb.client {
     max-width: 100%;
     padding: 15px 50px;
