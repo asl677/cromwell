@@ -1775,6 +1775,10 @@ img {
     font-size: 2vw;
     line-height: 3vw;
   }
+  .paragraph.heading.sub_heading.white {
+    font-size: 2vw;
+    line-height: 3vw;
+  }
   .padding_80 {
     padding: 100px 40px;
   }
@@ -1988,6 +1992,10 @@ img {
     font-size: 3vw;
     line-height: 4vw;
   }
+  .paragraph.heading.sub_heading.white {
+    font-size: 3vw;
+    line-height: 4vw;
+  }
   .padding_80 {
     margin: 0px;
     padding: 40px;
@@ -2144,6 +2152,7 @@ img {
     padding-bottom: 20px;
   }
   .list_link {
+    margin-bottom: 20px;
     padding: 0px;
   }
   .body_link {
@@ -2208,6 +2217,9 @@ img {
     font-size: 4vw;
     line-height: 5vw;
   }
+  .detail {
+    display: none;
+  }
 }
 
 @media (max-width: 479px) {
@@ -2250,6 +2262,10 @@ img {
     line-height: 8vw;
     text-align: left;
   }
+  .paragraph.heading.sub_heading.white {
+    font-size: 5vw;
+    line-height: 8vw;
+  }
   .padding_80 {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -2271,6 +2287,7 @@ img {
   .padding_80.intro_header.centered.footer_padding {
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: rgba(0, 0, 0, .08);
   }
   .padding_80.intro_header.grid_float {
     padding-top: 40px;
@@ -2673,6 +2690,9 @@ img {
   }
   .grid_3_col {
     padding-right: 0px;
+  }
+  .detail {
+    display: none;
   }
 }
 
