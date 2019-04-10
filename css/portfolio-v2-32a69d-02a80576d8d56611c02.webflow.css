@@ -526,10 +526,11 @@ img {
   overflow: hidden;
   margin-bottom: 0px;
   padding: 0px;
-  border: 2px none #fff;
+  border: 0px none #fff;
 }
 
 .link-block.block_hero:hover {
+  border-width: 0px;
   background-color: transparent;
 }
 
@@ -635,6 +636,9 @@ img {
   max-width: none;
   margin-bottom: 0px;
   padding: 0px;
+  border-style: none;
+  border-width: 10px;
+  border-color: #fff;
   border-radius: 0px;
 }
 
@@ -1136,7 +1140,7 @@ img {
 }
 
 .body_color.black {
-  background-color: #1c1c1c;
+  background-color: #000;
 }
 
 .hero_page {
@@ -1727,6 +1731,30 @@ img {
   transform-origin: 50% 50%;
   font-size: 20px;
   text-align: left;
+}
+
+.detail {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  z-index: 4;
+  padding: 20px;
+  background-color: #fff;
+  opacity: 1;
+  color: #fff;
+}
+
+.white {
+  color: #fff;
+}
+
+.black {
+  font-family: Nunito, sans-serif;
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 @media (max-width: 991px) {
