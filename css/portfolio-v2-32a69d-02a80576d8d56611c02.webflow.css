@@ -161,8 +161,13 @@ img {
 .paragraph.heading.sub_heading {
   margin-bottom: 10px;
   padding: 0px;
-  font-size: 1.6vw;
-  line-height: 2.6vw;
+  font-size: 1.4vw;
+  line-height: 2.2vw;
+}
+
+.paragraph.heading.sub_heading.white {
+  font-size: 1.4vw;
+  line-height: 2.2vw;
 }
 
 .padding_80 {
@@ -1587,7 +1592,7 @@ img {
 .preloader_img {
   position: static;
   display: block;
-  width: 78px;
+  width: 6vw;
   height: auto;
   margin-right: auto;
   margin-left: auto;
