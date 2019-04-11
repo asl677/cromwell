@@ -338,6 +338,11 @@ img {
   text-align: left;
 }
 
+.heading.intro_hdr.white {
+  font-size: 3vw;
+  line-height: 4vw;
+}
+
 .heading.black_hdr {
   color: #fff;
 }
