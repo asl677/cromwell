@@ -216,6 +216,10 @@ img {
   padding-bottom: 20px;
 }
 
+.padding_80.intro_header.home_header {
+  position: static;
+}
+
 .padding_80.case_study_60 {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -705,6 +709,26 @@ img {
 }
 
 .thumb.body_wide_thumb.show_thumb.static {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.thumb.body_wide_thumb.show_thumb.static.two {
+  -webkit-filter: none;
+  filter: none;
+}
+
+.thumb.body_wide_thumb.show_thumb.static.two.blackwhite {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.thumb.body_wide_thumb.show_thumb.static.three {
+  -webkit-filter: none;
+  filter: none;
+}
+
+.thumb.body_wide_thumb.show_thumb.static.three.blackwhite {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -1915,6 +1939,8 @@ img {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
+  background-color: transparent;
+  opacity: 0.54;
   color: rgba(0, 0, 0, .61);
 }
 
