@@ -1147,7 +1147,7 @@ img {
 
 .image {
   position: static;
-  display: block;
+  display: none;
   width: 60px;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -1650,8 +1650,8 @@ img {
 
 .preloader_img {
   position: static;
-  display: none;
-  width: 50px;
+  display: block;
+  width: 60px;
   height: auto;
   margin-right: auto;
   margin-left: auto;
