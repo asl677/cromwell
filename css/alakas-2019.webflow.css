@@ -22,7 +22,7 @@ img {
 
 .container_wrap {
   max-width: auto;
-  padding: 10vw 10vw 10vw 5vw;
+  padding: 10vw 10vw 10vw 20px;
 }
 
 .container_wrap.padding_80 {
@@ -68,6 +68,7 @@ img {
 }
 
 .container_wrap.footer_avatar {
+  display: none;
   margin-bottom: 0px;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -79,12 +80,12 @@ img {
 }
 
 .container_wrap.narrow {
-  padding: 10vw 10vw 10vw 5vw;
+  padding: 10vw 10vw 10vw 20px;
 }
 
 .container_wrap.narrow.tall {
   margin-top: 0px;
-  padding: 10vw 10vw 10vw 5vw;
+  padding: 10vw 10vw 10vw 20px;
 }
 
 .image_hero.rounded {
@@ -196,22 +197,23 @@ img {
 
 .padding_80.intro_header {
   width: 100%;
-  padding: 40px 30% 40px 40px;
+  padding: 40px 30% 40px 0px;
   text-align: left;
 }
 
 .padding_80.intro_header.centered {
-  padding: 40px 30% 40px 0px;
+  padding: 0px 30% 0px 0px;
   border-top: 1px none #000;
   text-align: left;
 }
 
 .padding_80.intro_header.centered.footer_padding {
+  display: none;
   padding: 100px 40px;
 }
 
 .padding_80.intro_header.grid_float {
-  padding: 100px;
+  padding: 80px;
   text-align: left;
 }
 
@@ -401,7 +403,7 @@ img {
 }
 
 .heading.body_heading {
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 20px;
   font-size: 2.3vw;
   line-height: 3.3vw;
@@ -577,7 +579,7 @@ img {
 .link-block.block_hero {
   position: relative;
   overflow: hidden;
-  margin-bottom: 0px;
+  margin: 20px;
   padding: 0px;
   border: 0px none #fff;
 }
@@ -621,8 +623,8 @@ img {
   overflow: visible;
   width: 100%;
   max-width: 100%;
-  margin: 0px auto;
-  padding: 0px;
+  margin: 0px;
+  padding: 0px 20px;
   border: 1px none #000;
   border-radius: 0px;
 }
@@ -638,7 +640,7 @@ img {
   max-width: 100%;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 40px 40px 0px;
+  padding: 40px 20px 0px;
   border-radius: 0px;
 }
 
@@ -665,16 +667,20 @@ img {
 .thumb.full_width.shorter {
   height: auto;
   margin-top: 0px;
-  padding: 40px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px 20px;
   border-radius: 0px;
 }
 
 .thumb.full_width.shorter.show {
+  padding-right: 20px;
+  padding-left: 20px;
   background-color: rgba(255, 255, 255, 0);
 }
 
 .thumb.full_width.show {
-  background-color: #2525ff;
+  background-color: rgba(36, 36, 255, 0);
 }
 
 .thumb.full_width.show:hover {
@@ -752,6 +758,10 @@ img {
   display: none;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+
+.thumb.body_wide_thumb.show_thumb.static.blackwhite {
+  padding: 20px;
 }
 
 .thumb.case_study_thumb {
@@ -1218,11 +1228,13 @@ img {
 }
 
 .body_color {
-  padding: 0px;
+  padding: 0px 20px;
   background-color: #fff;
 }
 
 .body_color.black {
+  padding-right: 20px;
+  padding-left: 20px;
   background-color: #000;
 }
 
@@ -1299,7 +1311,7 @@ img {
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
-  padding: 40px 40px 0px;
+  padding: 40px 20px 0px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -1424,10 +1436,16 @@ img {
 .wrap.grey_bg {
   display: block;
   overflow: visible;
+  margin: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
   opacity: 1;
 }
 
 .wrap.grey_bg.google_blue {
+  width: 97%;
+  margin-right: 0px;
+  margin-left: 20px;
   background-color: hsla(217.77777777777777, 100.00%, 94.71%, 1.00);
 }
 
@@ -1597,7 +1615,7 @@ img {
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
-  padding: 60px;
+  padding: 40px 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1667,6 +1685,14 @@ img {
   -webkit-transform: skew(-9deg, 0deg);
   -ms-transform: skew(-9deg, 0deg);
   transform: skew(-9deg, 0deg);
+}
+
+.box {
+  display: none;
+}
+
+.footer_bg_wrap {
+  margin-bottom: 20px;
 }
 
 .preloader_img {
@@ -3734,19 +3760,6 @@ img {
     grid-column-start: 2;
     -ms-grid-column-span: 1;
     grid-column-end: 3;
-    -ms-grid-row: 1;
-    grid-row-start: 1;
-    -ms-grid-row-span: 1;
-    grid-row-end: 2;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  #w-node-fe33cb7cea8b-96341db9 {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: 2;
     -ms-grid-row: 1;
     grid-row-start: 1;
     -ms-grid-row-span: 1;
