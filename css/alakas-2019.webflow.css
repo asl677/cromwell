@@ -2625,13 +2625,13 @@ img {
     padding: 8vh 0px 5vh;
   }
   .padding_80.intro_header {
-    padding: 40px;
+    padding: 40px 40px 40px 0px;
     font-size: 6vw;
     line-height: 9vw;
     text-align: left;
   }
   .padding_80.intro_header.centered {
-    padding: 40px;
+    padding: 40px 40px 40px 0px;
     background-color: rgba(255, 255, 255, .08);
     text-align: center;
   }
@@ -2642,9 +2642,10 @@ img {
   .padding_80.intro_header.grid_float {
     padding-top: 40px;
     padding-bottom: 40px;
+    padding-left: 0px;
   }
   .padding_80.intro_header.home_header {
-    padding: 120px 40px 100px;
+    padding: 120px 40px 100px 0px;
   }
   .padding_80.black_bg {
     padding-top: 60px;
@@ -2852,7 +2853,7 @@ img {
     padding: 20px;
   }
   .thumb.full_width.shorter {
-    padding: 20px;
+    padding: 0px;
   }
   .thumb.full_width.shorter.black_white {
     margin-top: -60px;
@@ -3042,6 +3043,9 @@ img {
   .wrap.floaty {
     padding: 0px;
   }
+  .wrap.footer_wrap.no_padding {
+    margin-top: 1px;
+  }
   .wrap.black_bg {
     background-color: rgba(36, 36, 255, .09);
   }
@@ -3054,9 +3058,12 @@ img {
   .wrap.grey_bg.red_bg {
     display: block;
   }
+  .wrap.hide {
+    display: none;
+  }
   .video_wrap {
     height: auto;
-    padding: 20px;
+    padding: 0px;
   }
   .image-2 {
     width: 20vw;
@@ -3108,10 +3115,10 @@ img {
     display: none;
   }
   .detail.no_bg {
-    padding: 29px;
-    -webkit-transform: translate(0px, -140px);
-    -ms-transform: translate(0px, -140px);
-    transform: translate(0px, -140px);
+    padding: 20px;
+    -webkit-transform: translate(0px, -120px);
+    -ms-transform: translate(0px, -120px);
+    transform: translate(0px, -120px);
   }
   .detail.no_bg.black_bg {
     -webkit-transform: translate(0px, -120px);
@@ -3119,6 +3126,8 @@ img {
     transform: translate(0px, -120px);
   }
   .cta_btn.nav_grid.logo.black {
+    margin-left: 0px;
+    padding: 10px 10px 10px 0px;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
@@ -3486,21 +3495,6 @@ img {
   align-self: center;
   -ms-grid-column-align: end;
   justify-self: end;
-}
-
-#w-node-ab87eb5dddf9-eb5dddf7 {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-row-align: center;
-  align-self: center;
-  -ms-grid-column-align: start;
-  justify-self: start;
 }
 
 #w-node-ab87eb5dddf9-eb5dddf7:hover {
@@ -4204,21 +4198,6 @@ img {
   justify-self: end;
 }
 
-#w-node-ab87eb5dddf9-eb5dddf7 {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-row-align: center;
-  align-self: center;
-  -ms-grid-column-align: start;
-  justify-self: start;
-}
-
 #w-node-ab87eb5dddf9-eb5dddf7:hover {
   -ms-grid-column: 1;
   grid-column-start: 1;
@@ -4658,21 +4637,6 @@ img {
   justify-self: end;
 }
 
-#w-node-ab87eb5dddf9-eb5dddf7 {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-row-align: center;
-  align-self: center;
-  -ms-grid-column-align: start;
-  justify-self: start;
-}
-
 #w-node-ab87eb5dddf9-eb5dddf7:hover {
   -ms-grid-column: 1;
   grid-column-start: 1;
@@ -4757,17 +4721,6 @@ img {
   align-self: stretch;
   -ms-grid-column-align: stretch;
   justify-self: stretch;
-}
-
-#w-node-e26c56f84ba8-08341dbe {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
 }
 
 @media screen and (max-width: 479px) {
@@ -5129,21 +5082,6 @@ img {
   align-self: center;
   -ms-grid-column-align: end;
   justify-self: end;
-}
-
-#w-node-ab87eb5dddf9-eb5dddf7 {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-row-align: center;
-  align-self: center;
-  -ms-grid-column-align: start;
-  justify-self: start;
 }
 
 #w-node-ab87eb5dddf9-eb5dddf7:hover {
@@ -5563,21 +5501,6 @@ img {
   justify-self: end;
 }
 
-#w-node-ab87eb5dddf9-eb5dddf7 {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-row-align: center;
-  align-self: center;
-  -ms-grid-column-align: start;
-  justify-self: start;
-}
-
 #w-node-ab87eb5dddf9-eb5dddf7:hover {
   -ms-grid-column: 1;
   grid-column-start: 1;
@@ -5993,21 +5916,6 @@ img {
   align-self: center;
   -ms-grid-column-align: end;
   justify-self: end;
-}
-
-#w-node-ab87eb5dddf9-eb5dddf7 {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-row-align: center;
-  align-self: center;
-  -ms-grid-column-align: start;
-  justify-self: start;
 }
 
 #w-node-ab87eb5dddf9-eb5dddf7:hover {
@@ -6449,21 +6357,6 @@ img {
   justify-self: end;
 }
 
-#w-node-ab87eb5dddf9-eb5dddf7 {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-row-align: center;
-  align-self: center;
-  -ms-grid-column-align: start;
-  justify-self: start;
-}
-
 #w-node-ab87eb5dddf9-eb5dddf7:hover {
   -ms-grid-column: 1;
   grid-column-start: 1;
@@ -6879,21 +6772,6 @@ img {
   align-self: center;
   -ms-grid-column-align: end;
   justify-self: end;
-}
-
-#w-node-ab87eb5dddf9-eb5dddf7 {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-row-align: center;
-  align-self: center;
-  -ms-grid-column-align: start;
-  justify-self: start;
 }
 
 #w-node-ab87eb5dddf9-eb5dddf7:hover {
