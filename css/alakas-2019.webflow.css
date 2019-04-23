@@ -1894,6 +1894,9 @@ img {
 
 .detail.no_bg.black_bg {
   background-color: #000;
+  -webkit-transform: translate(0px, -140px);
+  -ms-transform: translate(0px, -140px);
+  transform: translate(0px, -140px);
 }
 
 .white {
