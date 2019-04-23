@@ -2524,10 +2524,10 @@ img {
 
 @media (max-width: 479px) {
   .container_wrap {
-    padding: 60px;
+    padding: 0px;
   }
   .container_wrap.intro_header {
-    padding-top: 100px;
+    padding: 0px;
   }
   .container_wrap.no_bottom_padding {
     padding-bottom: 0px;
@@ -2576,13 +2576,13 @@ img {
     padding: 8vh 0px 5vh;
   }
   .padding_80.intro_header {
-    padding: 0px;
+    padding: 40px;
     font-size: 6vw;
     line-height: 9vw;
     text-align: left;
   }
   .padding_80.intro_header.centered {
-    padding: 40px;
+    padding: 60px;
     background-color: rgba(255, 255, 255, .08);
     text-align: center;
   }
@@ -2595,7 +2595,7 @@ img {
     padding-bottom: 40px;
   }
   .padding_80.intro_header.home_header {
-    padding: 100px 40px 40px;
+    padding: 120px 60px 60px;
   }
   .padding_80.black_bg {
     padding-top: 60px;
@@ -2627,6 +2627,7 @@ img {
     margin-top: 0px;
   }
   .heading.intro_hdr {
+    margin-bottom: 0px;
     padding-bottom: 0px;
     font-size: 6vw;
     line-height: 9vw;
@@ -2994,6 +2995,9 @@ img {
   .wrap.grey_bg.google_blue {
     display: block;
   }
+  .wrap.grey_bg.red_bg {
+    display: block;
+  }
   .video_wrap {
     height: auto;
     padding: 20px;
@@ -3005,7 +3009,7 @@ img {
     margin-top: 0px;
   }
   .footer_bg_wrap {
-    padding: 60px;
+    padding: 0px;
     background-color: #000;
   }
   .preloader_img {
@@ -3048,14 +3052,22 @@ img {
     display: none;
   }
   .detail.no_bg {
-    -webkit-transform: translate(0px, -80px);
-    -ms-transform: translate(0px, -80px);
-    transform: translate(0px, -80px);
+    padding: 29px;
+    -webkit-transform: translate(0px, -140px);
+    -ms-transform: translate(0px, -140px);
+    transform: translate(0px, -140px);
   }
   .detail.no_bg.black_bg {
-    -webkit-transform: translate(0px, -80px);
-    -ms-transform: translate(0px, -80px);
-    transform: translate(0px, -80px);
+    -webkit-transform: translate(0px, -120px);
+    -ms-transform: translate(0px, -120px);
+    transform: translate(0px, -120px);
+  }
+  .cta_btn.nav_grid.logo.black {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    font-size: 5.5vw;
   }
 }
 
