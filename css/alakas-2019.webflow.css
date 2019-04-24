@@ -1422,7 +1422,7 @@ img {
 }
 
 .wrap.footer_wrap.no_padding {
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 0px;
 }
 
@@ -1634,7 +1634,7 @@ img {
 }
 
 .video_wrap.hide {
-  display: none;
+  display: block;
 }
 
 .image-2 {
