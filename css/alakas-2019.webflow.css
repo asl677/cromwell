@@ -1662,7 +1662,7 @@ img {
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
-  padding: 40px 20px;
+  padding: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1683,6 +1683,7 @@ img {
 
 .video_wrap.hide {
   display: block;
+  padding-bottom: 20px;
 }
 
 .image-2 {
