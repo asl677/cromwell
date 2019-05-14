@@ -2997,6 +2997,7 @@ img {
   }
   .padding_80.intro_header.centered.full {
     display: block;
+    padding-top: 2vw;
     padding-right: 0vw;
   }
   .padding_80.intro_header.grid_float {
@@ -3521,6 +3522,7 @@ img {
   }
   .padding_80.intro_header.centered.full {
     display: block;
+    padding-top: 0vw;
     padding-right: 0px;
   }
   .padding_80.intro_header.grid_float {
