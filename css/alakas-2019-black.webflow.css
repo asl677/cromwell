@@ -214,8 +214,9 @@ img {
   right: 0%;
   bottom: 0%;
   display: inline-block;
+  overflow: visible;
   width: 100%;
-  padding: 8vw 50vw 8vw 8vw;
+  padding: 8vw 60vw 8vw 8vw;
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -248,7 +249,7 @@ img {
 }
 
 .padding_80.intro_header.centered.hero_padding.mask {
-  overflow: visible;
+  overflow: hidden;
 }
 
 .padding_80.intro_header.centered.hero_padding.mask.black_bg {
@@ -263,6 +264,7 @@ img {
 }
 
 .padding_80.intro_header.centered.full {
+  overflow: visible;
   padding-right: 28vw;
 }
 
@@ -522,17 +524,21 @@ img {
 }
 
 .heading.padding {
+  position: relative;
   overflow: visible;
+  margin-right: 40px;
   margin-bottom: 0px;
-  padding: 40px 40px 40px 0px;
+  padding: 20px 20px 20px 0px;
+  float: none;
+  clear: none;
   -webkit-align-self: end;
   -ms-flex-item-align: end;
   -ms-grid-row-align: end;
   align-self: end;
   background-color: #fff;
   color: #000;
-  font-size: 36px;
-  line-height: 46px;
+  font-size: 40px;
+  line-height: 50px;
   font-weight: 200;
 }
 
@@ -2017,7 +2023,7 @@ img {
   bottom: 0%;
   display: block;
   width: 100%;
-  height: 2px;
+  height: 3px;
   margin-right: auto;
   margin-left: auto;
   border-radius: 0px;
@@ -2418,6 +2424,7 @@ img {
 }
 
 .grid-4.footer {
+  width: auto;
   margin-top: 10px;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -2438,6 +2445,8 @@ img {
   display: block;
   overflow: hidden;
   padding-right: 0vw;
+  float: none;
+  clear: none;
   -webkit-align-self: end;
   -ms-flex-item-align: end;
   -ms-grid-row-align: end;
@@ -2688,6 +2697,19 @@ img {
 }
 
 .grid-10 {
+  margin-right: 0px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  justify-items: start;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -webkit-align-content: start;
+  -ms-flex-line-pack: start;
+  align-content: start;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -2876,6 +2898,23 @@ img {
 
 .list-item-13 {
   line-height: 26px;
+}
+
+.div-block-3 {
+  position: relative;
+  display: block;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+}
+
+.div-block-4 {
+  width: auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
 }
 
 @media (max-width: 991px) {
@@ -5078,7 +5117,7 @@ img {
   grid-row-end: 2;
 }
 
-#w-node-cacff0180497-7eed02c4 {
+#w-node-756396dbd88f-7eed02c4 {
   -ms-grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 1;
@@ -5087,11 +5126,9 @@ img {
   grid-row-start: 1;
   -ms-grid-row-span: 1;
   grid-row-end: 2;
-  -ms-grid-column-align: auto;
-  justify-self: auto;
 }
 
-#w-node-756396dbd88f-7eed02c4 {
+#w-node-cacff0180497-7eed02c4 {
   -ms-grid-column: 2;
   grid-column-start: 2;
   -ms-grid-column-span: 1;
@@ -5100,6 +5137,8 @@ img {
   grid-row-start: 1;
   -ms-grid-row-span: 1;
   grid-row-end: 2;
+  -ms-grid-column-align: auto;
+  justify-self: auto;
 }
 
 #w-node-220c173c5224-7eed02c4 {
@@ -5133,6 +5172,28 @@ img {
   grid-row-start: 1;
   -ms-grid-row-span: 1;
   grid-row-end: 2;
+}
+
+#w-node-7e285dc1efc1-7eed02c4 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-7e285dc1efc7-7eed02c4 {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+  -ms-grid-row-align: start;
+  align-self: start;
+  -ms-grid-column-align: start;
+  justify-self: start;
 }
 
 #w-node-02babc28d417-7eed02c4 {
@@ -6910,8 +6971,8 @@ img {
   grid-column-end: 2;
   -ms-grid-row-span: 1;
   grid-row-end: 2;
-  -ms-grid-row-align: end;
-  align-self: end;
+  -ms-grid-row-align: auto;
+  align-self: auto;
 }
 
 #w-node-69651ef0f028-0f780ef9 {
@@ -7493,8 +7554,10 @@ img {
   grid-column-end: 2;
   -ms-grid-row-span: 1;
   grid-row-end: 2;
-  -ms-grid-row-align: end;
-  align-self: end;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  -ms-grid-column-align: auto;
+  justify-self: auto;
 }
 
 #w-node-69651ef0f028-550da921 {
