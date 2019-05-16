@@ -268,7 +268,7 @@ img {
 
 .padding_80.intro_header.centered.full {
   overflow: visible;
-  padding-top: 8vw;
+  padding-top: 6vw;
   padding-right: 8vw;
 }
 
@@ -532,7 +532,7 @@ img {
   overflow: visible;
   margin-right: 0px;
   margin-bottom: 0px;
-  padding: 20px 20px 20px 0px;
+  padding: 20px 20px 40px 0px;
   float: none;
   clear: none;
   -webkit-align-self: end;
@@ -541,9 +541,9 @@ img {
   align-self: end;
   background-color: #fff;
   color: #000;
-  font-size: 40px;
-  line-height: 50px;
-  font-weight: 200;
+  font-size: 5.5vw;
+  line-height: 5.5vw;
+  font-weight: 600;
 }
 
 .heading.padding.hdr_inverted {
@@ -553,9 +553,9 @@ img {
   border-left: 4px solid #fff;
   background-color: hsla(0, 0%, 100%, 0);
   color: #fff;
-  font-size: 24px;
-  line-height: 31px;
-  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: 600;
   text-align: left;
 }
 
@@ -1480,7 +1480,7 @@ img {
   -webkit-align-content: space-around;
   -ms-flex-line-pack: distribute;
   align-content: space-around;
-  opacity: 0;
+  opacity: 1;
 }
 
 .image {
@@ -2460,7 +2460,7 @@ img {
   z-index: 1;
   display: block;
   overflow: hidden;
-  padding-right: 5vw;
+  padding-right: 2vw;
   float: none;
   clear: none;
   -webkit-align-self: end;
@@ -2785,6 +2785,7 @@ img {
   margin-top: 0px;
   margin-right: 0px;
   padding: 0px;
+  opacity: 0;
 }
 
 .list-item-7 {
@@ -2868,6 +2869,10 @@ img {
   transform: translate(0px, -70px);
   text-decoration: none;
   cursor: pointer;
+}
+
+.back_home.homepage {
+  background-image: none;
 }
 
 .link-block-5 {
@@ -3085,15 +3090,15 @@ img {
   }
   .heading.padding {
     padding: 0px;
-    font-size: 5vw;
-    line-height: 6vw;
+    font-size: 6vw;
+    line-height: 7vw;
   }
   .heading.padding.hdr_inverted {
     width: auto;
     padding: 40px;
     font-size: 3vw;
     line-height: 4vw;
-    font-weight: 300;
+    font-weight: 600;
   }
   .grid {
     grid-row-gap: 20px;
@@ -3217,6 +3222,9 @@ img {
     position: relative;
     float: none;
     clear: none;
+  }
+  .loader {
+    opacity: 0;
   }
   .image {
     width: 50px;
@@ -3376,7 +3384,7 @@ img {
   }
   .masked.logo {
     width: 30vw;
-    margin-left: 10vw;
+    margin-left: 0vw;
     padding: 0px;
   }
   .masked.logo.home_logo {
@@ -3426,6 +3434,7 @@ img {
     display: block;
     width: 100%;
     height: auto;
+    opacity: 1;
   }
   .hero_wrap_float {
     position: relative;
@@ -3441,6 +3450,11 @@ img {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+  }
+  .back_home.homepage {
+    display: block;
+    overflow: visible;
+    width: 0px;
   }
   .div-block-2 {
     padding: 0px;
@@ -3627,8 +3641,8 @@ img {
   .heading.padding.hdr_inverted {
     padding-top: 40px;
     padding-bottom: 40px;
-    font-size: 3vw;
-    line-height: 4vw;
+    font-size: 4vw;
+    line-height: 5vw;
   }
   .grid.client_grid {
     display: block;
@@ -3741,6 +3755,9 @@ img {
   .hero_right {
     padding: 0px;
   }
+  .loader {
+    opacity: 0;
+  }
   .avatar {
     width: 100%;
     max-width: 100%;
@@ -3852,7 +3869,7 @@ img {
   .masked.logo {
     width: 50vw;
     margin-left: 0vw;
-    padding-left: 10vw;
+    padding-left: 0vw;
   }
   .masked.logo.home_logo {
     overflow: hidden;
@@ -4306,6 +4323,9 @@ img {
   .hero_right {
     padding: 0px;
   }
+  .loader {
+    opacity: 0;
+  }
   .image {
     width: 50px;
   }
@@ -4550,8 +4570,8 @@ img {
   .masked.logo {
     overflow: hidden;
     width: 50vw;
-    margin-left: 0vw;
-    padding-left: 15vw;
+    margin-left: 10vw;
+    padding-left: 0vw;
   }
   .masked.logo.home_logo {
     padding: 20px;
@@ -4559,6 +4579,9 @@ img {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+  }
+  .masked.logo.home-logo {
+    margin-left: 0vw;
   }
   .body_grid_3.masked {
     padding: 0px;
@@ -4600,6 +4623,9 @@ img {
     -ms-transform: scale(1.5);
     transform: scale(1.5);
   }
+  .imagehero.large.centered_hero {
+    opacity: 1;
+  }
   .hero_wrap_float {
     overflow: hidden;
   }
@@ -4609,6 +4635,9 @@ img {
     -webkit-transform: translate(0px, 0px);
     -ms-transform: translate(0px, 0px);
     transform: translate(0px, 0px);
+  }
+  .back_home.homepage {
+    width: 36px;
   }
   .div-block-2 {
     padding: 0px;
@@ -5173,7 +5202,7 @@ img {
   grid-row-end: 2;
 }
 
-#w-node-37ebd031c6c4-7eed02c4 {
+#w-node-35664b944e5e-7eed02c4 {
   -ms-grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 1;
