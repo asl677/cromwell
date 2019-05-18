@@ -3384,7 +3384,7 @@ img {
   }
   .masked.logo {
     width: 30vw;
-    margin-left: 0vw;
+    margin-left: 8vw;
     padding: 0px;
   }
   .masked.logo.home_logo {
@@ -3868,7 +3868,7 @@ img {
   }
   .masked.logo {
     width: 50vw;
-    margin-left: 0vw;
+    margin-left: 10vw;
     padding-left: 0vw;
   }
   .masked.logo.home_logo {
@@ -4570,7 +4570,7 @@ img {
   .masked.logo {
     overflow: hidden;
     width: 50vw;
-    margin-left: 10vw;
+    margin-left: 15vw;
     padding-left: 0vw;
   }
   .masked.logo.home_logo {
