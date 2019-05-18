@@ -248,7 +248,7 @@ img {
 .padding_80.intro_header.centered.hero_padding {
   overflow: visible;
   margin-bottom: 0px;
-  padding: 8vw 8vw 5vw;
+  padding: 8vw 8vw 3vw;
 }
 
 .padding_80.intro_header.centered.hero_padding.mask {
@@ -3396,6 +3396,9 @@ img {
     -ms-transform: none;
     transform: none;
   }
+  .masked.logo.home-logo {
+    margin-left: 0vw;
+  }
   .grid-5 {
     display: block;
   }
@@ -3877,6 +3880,9 @@ img {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+  }
+  .masked.logo.home-logo {
+    margin-left: 0vw;
   }
   .body_grid_3.masked {
     padding: 0px;
