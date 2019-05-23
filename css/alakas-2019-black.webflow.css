@@ -269,7 +269,7 @@ img {
 
 .padding_80.intro_header.centered.full {
   overflow: visible;
-  padding-top: 6vw;
+  padding-top: 8vw;
   padding-right: 8vw;
 }
 
@@ -2051,8 +2051,8 @@ img {
   right: 0%;
   bottom: 0%;
   display: inline-block;
-  width: 15vw;
-  height: 1.5px;
+  width: 70px;
+  height: 2px;
   margin-right: auto;
   margin-left: auto;
   border-radius: 0px;
@@ -2895,9 +2895,9 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;
-  -webkit-transform: translate(0px, -70px);
-  -ms-transform: translate(0px, -70px);
-  transform: translate(0px, -70px);
+  -webkit-transform: translate(0px, -15vw);
+  -ms-transform: translate(0px, -15vw);
+  transform: translate(0px, -15vw);
   text-decoration: none;
   cursor: pointer;
 }
