@@ -556,10 +556,11 @@ img {
   border-left: 4px solid #fff;
   background-color: hsla(0, 0%, 100%, 0);
   color: #fff;
-  font-size: 2vw;
-  line-height: 2.5vw;
+  font-size: 1.5vw;
+  line-height: 2vw;
   font-weight: 200;
   text-align: left;
+  letter-spacing: 0vw;
 }
 
 .grid {
