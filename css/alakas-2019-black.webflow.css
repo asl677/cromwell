@@ -543,10 +543,10 @@ img {
   background-color: #fff;
   font-family: Varela, sans-serif;
   color: #000;
-  font-size: 6vw;
-  line-height: 6.5vw;
+  font-size: 5vw;
+  line-height: 5.5vw;
   font-weight: 400;
-  letter-spacing: 0.1vw;
+  letter-spacing: 0vw;
 }
 
 .heading.padding.hdr_inverted {
@@ -2487,6 +2487,7 @@ img {
   -ms-grid-row-align: end;
   align-self: end;
   opacity: 1;
+  letter-spacing: 0px;
 }
 
 .masked.body_reveal {
@@ -3165,7 +3166,7 @@ img {
     line-height: 36px;
   }
   .heading.padding {
-    padding: 0px;
+    padding: 0px 0px 5vw;
     font-size: 9vw;
     line-height: 10vw;
   }
@@ -3730,7 +3731,7 @@ img {
     line-height: 5vw;
   }
   .heading.padding {
-    padding-bottom: 0px;
+    padding-bottom: 5vw;
     font-size: 10vw;
     line-height: 11vw;
   }
@@ -4200,7 +4201,7 @@ img {
   }
   .heading.padding {
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 5vw;
     font-size: 16vw;
     line-height: 17vw;
   }
