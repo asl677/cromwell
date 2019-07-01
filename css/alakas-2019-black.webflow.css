@@ -3307,11 +3307,11 @@ img {
   .paragraph-2.reveal {
     padding-bottom: 0px;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 28px;
   }
   .paragraph-2.no-reveal {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 28px;
   }
   .heading {
     margin-bottom: 20px;
@@ -3376,9 +3376,9 @@ img {
   }
   .heading.padding.hdr_inverted {
     width: auto;
-    padding: 40px;
-    font-size: 18px;
-    line-height: 30px;
+    padding: 0px;
+    font-size: 14px;
+    line-height: 28px;
     font-weight: 600;
   }
   .heading.padding.sub_heading {
@@ -3545,6 +3545,7 @@ img {
     line-height: 24px;
   }
   .body_link.show {
+    padding-top: 10px;
     font-size: 14px;
     line-height: 24px;
   }
@@ -3657,6 +3658,8 @@ img {
     line-height: 46px;
   }
   .black.subtext.ftr_subtext {
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 14px;
     line-height: 24px;
   }
@@ -4031,7 +4034,7 @@ img {
   .heading.padding.hdr_inverted {
     padding: 0px;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 28px;
   }
   .heading.body_reveal {
     padding-bottom: 0px;
@@ -4151,6 +4154,7 @@ img {
     overflow: visible;
     width: 50%;
     height: auto;
+    padding-top: 20px;
     float: none;
     clear: none;
   }
@@ -4175,6 +4179,9 @@ img {
   }
   .body_link.no-reveal {
     opacity: 1;
+  }
+  .body_link.show {
+    padding-top: 10px;
   }
   .hero_right {
     padding: 0px;
@@ -4475,7 +4482,7 @@ img {
   }
   .paragraph-2.no-reveal {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 28px;
     text-align: left;
   }
   .heading {
@@ -4562,9 +4569,9 @@ img {
   }
   .heading.padding.hdr_inverted {
     padding: 0px;
-    font-size: 16px;
-    line-height: 25px;
-    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 600;
   }
   .heading.padding.sub_heading {
     font-size: 10vw;
@@ -4763,6 +4770,7 @@ img {
   .list_link.padding {
     width: 100%;
     margin-bottom: 0px;
+    padding-top: 20px;
   }
   .list_link.padding.logo_padding {
     width: 100%;
@@ -4820,6 +4828,7 @@ img {
     line-height: 24px;
   }
   .body_link.show {
+    padding-top: 10px;
     font-size: 14px;
     line-height: 24px;
   }
@@ -5029,6 +5038,9 @@ img {
   .black.subtext {
     color: rgba(0, 0, 0, 0.54);
   }
+  .black.subtext.ftr_subtext {
+    padding-bottom: 20px;
+  }
   .black.subtext.logo_subtext {
     display: none;
     line-height: 20px;
@@ -5072,6 +5084,8 @@ img {
   }
   .masked {
     padding: 20px;
+    font-size: 14px;
+    line-height: 28px;
   }
   .masked.body_reveal {
     position: relative;
