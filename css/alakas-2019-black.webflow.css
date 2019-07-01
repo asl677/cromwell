@@ -2559,8 +2559,8 @@ img {
 .grid-4.grid_hero {
   width: auto;
   padding: 0px;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
   font-size: 1vw;
   line-height: 28px;
 }
