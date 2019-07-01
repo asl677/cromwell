@@ -3516,6 +3516,9 @@ img {
     position: relative;
     margin-bottom: 0px;
     padding: 20px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
   }
   .column-5 {
     padding-right: 0px;
@@ -4154,6 +4157,9 @@ img {
   .list_link.padding.logo_padding {
     width: 100%;
     padding: 20px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
   }
   .body_link {
     padding-bottom: 0px;
@@ -4760,6 +4766,9 @@ img {
   }
   .list_link.padding.logo_padding {
     width: 100%;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
   }
   .column-2 {
     position: static;
