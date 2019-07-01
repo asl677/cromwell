@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Jul 01 2019 03:51:40 GMT+0000 (UTC)  -->
+<!--  Last Published: Mon Jul 01 2019 05:45:47 GMT+0000 (UTC)  -->
 <html data-wf-page="5ccf5f939639c4680f780ef9" data-wf-site="5cccd40515eeacf867ed02c1">
 <head>
   <meta charset="utf-8">
@@ -21,6 +21,9 @@
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-35944917-1"></script>
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-35944917-1', {'anonymize_ip': false});</script>
   <style>  
+   body.overflow {
+  	overflow-x: hidden;
+ }
 /* body.transition {
   transition: background-color .75s;
   -webkit-transition: background-color .75s;
@@ -377,13 +380,13 @@
 function delay (URL) {
 setTimeout( function() { 
   window.location = URL }
-     , 850 );
+     , 770 );
 }
 // Add and remove body color transition property after page is done loading
-//$('body').addClass("transition");
-//setTimeout(function() {
-  //  $('body').removeClass("transition");
- // }, 4000);
+$('body').addClass("overflow");
+setTimeout(function() {
+    $('body').removeClass("overflow");
+ }, 800);
 </script>
 </body>
 </html>
