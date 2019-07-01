@@ -1257,6 +1257,9 @@ img {
   width: 100%;
   margin-left: 0vw;
   padding: 2vw;
+  -webkit-transform: translate(0px, -10vw);
+  -ms-transform: translate(0px, -10vw);
+  transform: translate(0px, -10vw);
   text-decoration: none;
 }
 
