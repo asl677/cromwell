@@ -342,7 +342,7 @@ img {
   color: rgba(0, 0, 0, 0.54);
   font-size: 1.1vw;
   line-height: 2.2vw;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .paragraph-2.padding2 {
@@ -368,6 +368,7 @@ img {
   color: rgba(0, 0, 0, 0.54);
   font-size: 1.1vw;
   line-height: 2.2vw;
+  font-weight: 600;
 }
 
 .paragraph-2.no-reveal {
@@ -375,6 +376,7 @@ img {
   color: rgba(0, 0, 0, 0.54);
   font-size: 1.1vw;
   line-height: 2.2vw;
+  font-weight: 600;
 }
 
 .heading {
@@ -3696,6 +3698,9 @@ img {
     display: block;
     overflow: visible;
     width: 0px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
   }
   .list-item-9 {
     font-size: 18px;
@@ -4028,6 +4033,7 @@ img {
   .avatar {
     width: 100%;
     max-width: 100%;
+    padding: 0px;
     float: none;
     clear: none;
   }
