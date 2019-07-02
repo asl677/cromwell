@@ -1530,8 +1530,8 @@ img {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  z-index: 6;
-  display: none;
+  z-index: 2;
+  display: block;
   width: auto;
   height: 4px;
   margin-right: auto;
@@ -3218,6 +3218,10 @@ img {
   position: relative;
   margin-left: 0vw;
   float: left;
+}
+
+.list-item-16 {
+  list-style-type: none;
 }
 
 @media (max-width: 991px) {
