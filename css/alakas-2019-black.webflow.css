@@ -2286,7 +2286,8 @@ img {
   bottom: auto;
   z-index: 2;
   padding: 20px;
-  background-color: #000;
+  background-color: #f1f1f1;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.07);
   opacity: 1;
   color: #fff;
 }
@@ -2342,7 +2343,7 @@ img {
   margin-bottom: 0px;
   border: 1px none #000;
   font-family: Raleway, sans-serif;
-  color: #fff;
+  color: #000;
   font-size: 1.1vw;
   line-height: 2.2vw;
   font-weight: 600;
@@ -2383,7 +2384,7 @@ img {
 
 .black.subtext {
   font-family: Raleway, sans-serif;
-  color: hsla(0, 0%, 100%, 0.54);
+  color: rgba(0, 0, 0, 0.54);
   line-height: 2vw;
   font-weight: 600;
   letter-spacing: 0px;
