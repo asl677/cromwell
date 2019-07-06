@@ -4910,6 +4910,7 @@ img {
   .body_link.show {
     padding-top: 5px;
     padding-bottom: 5px;
+    float: none;
     color: #3625d3;
     font-size: 14px;
     line-height: 24px;
@@ -5171,7 +5172,7 @@ img {
   }
   .masked.body_reveal {
     position: relative;
-    padding: 20px;
+    padding: 30px;
   }
   .masked.body_reveal.full {
     overflow: visible;
@@ -5206,6 +5207,7 @@ img {
   .grid_image {
     display: -ms-grid;
     display: grid;
+    margin-top: 0vw;
     grid-auto-columns: 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
