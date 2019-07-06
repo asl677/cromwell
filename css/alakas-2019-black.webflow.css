@@ -4245,6 +4245,9 @@ img {
     line-height: 5vw;
   }
   .body_link.no-reveal {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: none;
     opacity: 1;
   }
   .body_link.show {
@@ -4349,6 +4352,9 @@ img {
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
+  }
+  .grid-4.footer {
+    float: none;
   }
   .grid-4.grid_hero {
     position: relative;
@@ -4844,6 +4850,7 @@ img {
   }
   .list_link.padding.logo_padding {
     width: 100%;
+    padding: 30px;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -4895,6 +4902,7 @@ img {
   .body_link.no-reveal {
     padding-top: 5px;
     padding-bottom: 5px;
+    float: none;
     opacity: 1;
     font-size: 14px;
     line-height: 24px;
