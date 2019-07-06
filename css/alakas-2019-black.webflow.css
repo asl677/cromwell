@@ -3274,6 +3274,10 @@ img {
   border-radius: 0px;
 }
 
+.image-7 {
+  border-radius: 0px;
+}
+
 @media (max-width: 991px) {
   .container_wrap {
     padding: 10vw 5vw 5vw 0px;
