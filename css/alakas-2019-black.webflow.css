@@ -253,6 +253,7 @@ img {
 }
 
 .padding_80.intro_header.centered.hero_padding {
+  display: block;
   overflow: visible;
   margin-bottom: 0px;
   padding: 15vw 8vw 8vw;
@@ -581,7 +582,7 @@ img {
   overflow: visible;
   margin-right: 0px;
   margin-bottom: 0px;
-  padding: 0vw 10vw 10px 0px;
+  padding: 0vw 10vw 0px 0px;
   float: none;
   clear: none;
   -webkit-align-self: end;
@@ -1392,6 +1393,10 @@ img {
   font-weight: 600;
 }
 
+.body_link.no-reveal.secondary:hover {
+  color: #000;
+}
+
 .body_link.show {
   font-family: Raleway, sans-serif;
   font-size: 1.1vw;
@@ -1599,7 +1604,7 @@ img {
   position: relative;
   display: block;
   overflow: visible;
-  width: 38vw;
+  width: 37vw;
   max-width: none;
   margin-right: 0px;
   float: none;
@@ -4437,6 +4442,14 @@ img {
     opacity: 1;
     text-align: center;
   }
+  .body_link.no-reveal.secondary {
+    margin-bottom: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    background-color: rgba(36, 37, 255, 0);
+    text-align: left;
+  }
   .body_link.show {
     padding-top: 10px;
   }
@@ -4619,6 +4632,10 @@ img {
   }
   .grid-12 {
     display: block;
+  }
+  .list {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   .grid-14 {
     -webkit-box-align: start;
@@ -5062,7 +5079,7 @@ img {
   .list_link.padding {
     width: 100%;
     margin-bottom: 0px;
-    padding-top: 20px;
+    padding-top: 0px;
   }
   .list_link.padding.logo_padding {
     width: 100%;
@@ -5123,6 +5140,18 @@ img {
     color: #0057ff;
     font-size: 14px;
     line-height: 24px;
+    text-align: left;
+  }
+  .body_link.no-reveal.secondary {
+    margin-bottom: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    background-color: rgba(36, 37, 255, 0);
+  }
+  .body_link.no-reveal.primary {
+    padding-left: 10px;
+    text-align: center;
   }
   .body_link.show {
     padding-top: 5px;
@@ -5514,6 +5543,10 @@ img {
   .list-item-15 {
     line-height: 40px;
   }
+  .list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
   .grid-14 {
     display: block;
     -webkit-box-align: start;
@@ -5565,6 +5598,10 @@ img {
   }
   .mask-3 {
     overflow: hidden;
+  }
+  .list-item-17 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 
