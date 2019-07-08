@@ -5411,7 +5411,7 @@ img {
   .black {
     padding-bottom: 0px;
     font-size: 14px;
-    line-height: 14px;
+    line-height: 30px;
   }
   .black.logo {
     display: block;
@@ -9964,21 +9964,6 @@ img {
   grid-row-end: 2;
   -ms-grid-row-align: start;
   align-self: start;
-}
-
-#w-node-2f2fc3315d7b-3f50c55f {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-row-align: start;
-  align-self: start;
-  -ms-grid-column-align: start;
-  justify-self: start;
 }
 
 #w-node-67858e5cda90-72e26803 {
