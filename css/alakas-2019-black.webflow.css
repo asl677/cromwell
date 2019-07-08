@@ -262,7 +262,7 @@ img {
   display: block;
   overflow: visible;
   margin-bottom: 0px;
-  padding: 16vw 8vw 10vw;
+  padding: 15vw 8vw 10vw;
 }
 
 .padding_80.intro_header.centered.hero_padding.mask {
@@ -588,7 +588,7 @@ img {
   overflow: visible;
   margin-right: 0px;
   margin-bottom: 0px;
-  padding: 0vw 10vw 0px 0px;
+  padding: 0vw 5vw 0px 0px;
   float: none;
   clear: none;
   -webkit-align-self: end;
