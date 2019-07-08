@@ -3865,7 +3865,8 @@ img {
     display: none;
   }
   .detail {
-    display: none;
+    position: relative;
+    display: block;
     box-shadow: none;
   }
   .detail.no_bg {
@@ -4548,7 +4549,7 @@ img {
   }
   .detail {
     position: relative;
-    display: none;
+    display: block;
     padding: 30px;
     box-shadow: none;
     -webkit-transform: translate(0vw, 0vw);
