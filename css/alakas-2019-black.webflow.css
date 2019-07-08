@@ -262,7 +262,7 @@ img {
   display: block;
   overflow: visible;
   margin-bottom: 0px;
-  padding: 15vw 8vw;
+  padding: 15vw 8vw 10vw;
 }
 
 .padding_80.intro_header.centered.hero_padding.mask {
@@ -2872,6 +2872,7 @@ img {
 .grid_image.video {
   overflow: hidden;
   height: 40vw;
+  margin-top: 0vw;
   margin-bottom: 0vw;
   margin-left: 0vw;
   padding-top: 0vw;
@@ -2882,8 +2883,9 @@ img {
 
 .grid_image.masked {
   overflow: hidden;
+  margin-top: 0vw;
   margin-bottom: 0vw;
-  padding-top: 1vw;
+  padding-top: 0vw;
 }
 
 .grid_image.centered_neg_space {
@@ -4434,6 +4436,9 @@ img {
     -ms-transform: none;
     transform: none;
   }
+  .list_link.padding.page_list {
+    width: 100%;
+  }
   .body_link {
     padding-bottom: 0px;
     font-size: 14px;
@@ -5367,7 +5372,7 @@ img {
   }
   .detail {
     position: relative;
-    display: none;
+    display: block;
     box-shadow: none;
   }
   .detail.no_bg {
@@ -5437,6 +5442,9 @@ img {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+  }
+  .grid-4.grid_hero.second_hero_grid {
+    margin-top: 0px;
   }
   .masked {
     overflow: hidden;
