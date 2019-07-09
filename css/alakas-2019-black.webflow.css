@@ -382,8 +382,8 @@ img {
   align-self: center;
   font-family: Raleway, sans-serif;
   color: rgba(0, 0, 0, 0.54);
-  font-size: 1.1vw;
-  line-height: 2.2vw;
+  font-size: 1vw;
+  line-height: 2vw;
   font-weight: 600;
 }
 
@@ -1407,6 +1407,11 @@ img {
   font-size: 1.1vw;
   line-height: 2.5vw;
   font-weight: 600;
+}
+
+.body_link.no-reveal.secondary {
+  font-size: 1vw;
+  line-height: 2.5vw;
 }
 
 .body_link.no-reveal.secondary:hover {
