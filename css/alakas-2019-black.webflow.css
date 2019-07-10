@@ -1410,6 +1410,7 @@ img {
 }
 
 .body_link.no-reveal.secondary {
+  opacity: 1;
   font-size: 1vw;
   line-height: 2.5vw;
 }
