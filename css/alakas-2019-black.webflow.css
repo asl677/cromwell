@@ -5464,7 +5464,7 @@ img {
     transform: translate(0px, -120px);
   }
   .black {
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     font-size: 14px;
     line-height: 17px;
   }
@@ -5693,6 +5693,9 @@ img {
     position: relative;
     margin-right: 0px;
     float: left;
+  }
+  .slide {
+    width: 100%;
   }
   .right-arrow {
     opacity: 0;
