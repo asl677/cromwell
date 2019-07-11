@@ -5709,6 +5709,9 @@ img {
   .image-6 {
     border-radius: 0px;
   }
+  .image-7 {
+    width: 100%;
+  }
   .quote_grid {
     display: block;
   }
