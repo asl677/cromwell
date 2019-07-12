@@ -4238,6 +4238,12 @@ img {
     font-size: 140px;
     line-height: 16px;
   }
+  .body_link2.secondary {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 24px;
+  }
   .body_link2.secondary.w--current {
     padding-top: 10px;
     padding-bottom: 10px;
