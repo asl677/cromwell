@@ -262,7 +262,7 @@ img {
   display: block;
   overflow: visible;
   margin-bottom: 0px;
-  padding: 12vw 8vw;
+  padding: 10vw 8vw 5vw;
 }
 
 .padding_80.intro_header.centered.hero_padding.mask {
@@ -373,6 +373,7 @@ img {
   position: relative;
   width: 100%;
   margin-bottom: 0px;
+  margin-left: 0vw;
   padding-bottom: 10px;
   float: none;
   clear: none;
@@ -592,7 +593,7 @@ img {
   overflow: visible;
   margin-right: 0px;
   margin-bottom: 0px;
-  padding: 0vw 0vw 0px 0px;
+  padding: 0vw 5vw 0px 0px;
   float: none;
   clear: none;
   -webkit-align-self: end;
@@ -1307,7 +1308,7 @@ img {
 }
 
 .list_link.padding.page_list {
-  width: 100%;
+  width: 15vw;
   padding-left: 0vw;
 }
 
@@ -2689,7 +2690,7 @@ img {
   overflow: hidden;
   margin-bottom: 0px;
   padding-top: 0px;
-  padding-right: 10vw;
+  padding-right: 5vw;
   padding-left: 0vw;
   float: none;
   clear: none;
@@ -2727,7 +2728,7 @@ img {
   display: grid;
   overflow: hidden;
   width: 100%;
-  height: 43vw;
+  height: 40vw;
   padding-right: 0vw;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -3514,6 +3515,17 @@ img {
 .body_link2.w--current {
   font-size: 1vw;
   line-height: 2vw;
+}
+
+.body_link2.secondary:hover {
+  color: #000;
+}
+
+.reveal {
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  margin: 1vw;
 }
 
 @media (max-width: 991px) {

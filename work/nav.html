@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Jul 12 2019 02:39:28 GMT+0000 (UTC)  -->
+<!--  Last Published: Fri Jul 12 2019 15:47:23 GMT+0000 (UTC)  -->
 <html data-wf-page="5ccde3849639c493d6745976" data-wf-site="5cccd40515eeacf867ed02c1">
 <head>
   <meta charset="utf-8">
@@ -48,7 +48,8 @@
   width: 100% !important;
   max-width: 100% !important;
   }
-.body_link::after {
+.body_link::after,
+.body_link2::after {
 	content: "";
     position: absolute;
     bottom: 0;
@@ -60,7 +61,8 @@
     transform: scaleX(0);
     left: 0;
 }
-  .body_link.white::after {
+  .body_link.white::after,
+  .body_link2.white::after {
 	content: "";
     position: absolute;
     bottom: 0;
@@ -72,7 +74,8 @@
     transform: scaleX(0);
     left: 0;
 }
-  .body_link:hover::after {    
+  .body_link:hover::after,
+  .body_link2:hover::after {    
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
     -webkit-transform-origin: left center;
@@ -216,6 +219,9 @@
         </div>
         <div class="masked intro_p">
           <ul class="list_link padding intro_list">
+            <li class="list">
+              <p class="black subtext ftr_subtext">Role</p>
+            </li>
             <li>
               <p class="paragraph-2 padding list_p">Visual Design</p>
             </li>
@@ -235,7 +241,7 @@
         </div>
       </div>
       <div class="hero_wrap_float">
-        <div class="masked hero_img"><img src="../images/Screen-Shot-2019-03-09-at-9.16.31-PM.png" srcset="../images/Screen-Shot-2019-03-09-at-9.16.31-PM-p-500.png 500w, ../images/Screen-Shot-2019-03-09-at-9.16.31-PM-p-800.png 800w, ../images/Screen-Shot-2019-03-09-at-9.16.31-PM-p-1080.png 1080w, ../images/Screen-Shot-2019-03-09-at-9.16.31-PM.png 1400w" sizes="(max-width: 991px) 96vw, 59vw" alt="" class="imagehero large centered_hero"></div>
+        <div class="masked hero_img"><img src="../images/Screen-Shot-2019-03-09-at-9.16.31-PM.png" srcset="../images/Screen-Shot-2019-03-09-at-9.16.31-PM-p-500.png 500w, ../images/Screen-Shot-2019-03-09-at-9.16.31-PM-p-800.png 800w, ../images/Screen-Shot-2019-03-09-at-9.16.31-PM-p-1080.png 1080w, ../images/Screen-Shot-2019-03-09-at-9.16.31-PM.png 1400w" sizes="(max-width: 991px) 96vw, 58vw" alt="" class="imagehero large centered_hero"></div>
       </div>
     </div>
   </div>
