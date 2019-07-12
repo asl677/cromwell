@@ -3855,7 +3855,7 @@ img {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 24px;
   }
   .body_link.show {
     padding-top: 10px;
@@ -3964,6 +3964,7 @@ img {
   .detail {
     position: relative;
     display: block;
+    padding-top: 10px;
     box-shadow: none;
   }
   .detail.no_bg {
@@ -4236,6 +4237,12 @@ img {
   .body_link2 {
     font-size: 140px;
     line-height: 16px;
+  }
+  .body_link2.secondary.w--current {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 24px;
   }
 }
 
@@ -4757,12 +4764,13 @@ img {
     transform: scale(1.5);
   }
   .imagehero.large.centered_hero {
+    overflow: visible;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
   }
   .hero_wrap_float {
-    overflow: visible;
+    overflow: hidden;
   }
   .div-block-2 {
     position: relative;
@@ -4817,6 +4825,10 @@ img {
     float: none;
     font-size: 14px;
     line-height: 18px;
+  }
+  .body_link2.secondary.w--current {
+    font-size: 14px;
+    line-height: 24px;
   }
 }
 
@@ -5675,7 +5687,7 @@ img {
     transform: scale(1);
   }
   .hero_wrap_float {
-    overflow: visible;
+    overflow: hidden;
   }
   .back_home {
     width: 36px;
@@ -5775,6 +5787,13 @@ img {
   .list-item-17 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+  .body_link2.secondary {
+    text-align: left;
+  }
+  .body_link2.secondary.w--current {
+    font-size: 14px;
+    line-height: 24px;
   }
 }
 
