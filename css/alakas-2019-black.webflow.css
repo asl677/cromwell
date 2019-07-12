@@ -1411,11 +1411,12 @@ img {
 }
 
 .body_link.no-reveal {
+  margin-right: 10px;
   opacity: 1;
   font-family: Raleway, sans-serif;
   color: #0057ff;
-  font-size: 1.1vw;
-  line-height: 2.5vw;
+  font-size: 1vw;
+  line-height: 2vw;
   font-weight: 600;
 }
 
@@ -2726,7 +2727,7 @@ img {
   display: grid;
   overflow: hidden;
   width: 100%;
-  height: 71vh;
+  height: 43vw;
   padding-right: 0vw;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -2977,6 +2978,7 @@ img {
 }
 
 .grid-10 {
+  position: static;
   overflow: visible;
   margin-right: 0px;
   -webkit-box-pack: start;
@@ -3105,7 +3107,7 @@ img {
   bottom: auto;
   z-index: 0;
   overflow: hidden;
-  width: 55vw;
+  width: 58vw;
   height: 100%;
   margin: 1vw;
   padding-top: 0px;
