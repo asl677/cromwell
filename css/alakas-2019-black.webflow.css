@@ -4018,7 +4018,7 @@ img {
   .detail {
     position: relative;
     display: block;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 20px;
     box-shadow: none;
   }
@@ -4286,7 +4286,7 @@ img {
     padding-bottom: 10px;
   }
   .list-item-18 {
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     line-height: 40px;
   }
   .list-item-19 {
@@ -5799,6 +5799,7 @@ img {
   .imagehero.large.centered_hero {
     position: relative;
     overflow: hidden;
+    margin-bottom: 2px;
     opacity: 1;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -5915,6 +5916,10 @@ img {
   .body_link2.secondary.w--current {
     font-size: 14px;
     line-height: 24px;
+  }
+  .reveal {
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
   }
   .background-video-3 {
     z-index: 3;
