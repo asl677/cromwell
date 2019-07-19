@@ -217,7 +217,7 @@ img {
   display: inline-block;
   overflow: visible;
   width: 100%;
-  padding: 8vw 60vw 8vw 8vw;
+  padding: 8vw;
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -262,7 +262,7 @@ img {
   display: block;
   overflow: hidden;
   margin-bottom: 0px;
-  padding: 15vw 8vw;
+  padding: 15vw 8vw 10vw;
 }
 
 .padding_80.intro_header.centered.hero_padding.mask {
@@ -2672,6 +2672,7 @@ img {
 }
 
 .grid-4.footer {
+  display: block;
   width: 100%;
   margin-top: 0px;
   float: left;
@@ -2947,7 +2948,7 @@ img {
 }
 
 .body_grid_3.reveal_grid {
-  padding-top: 3vw;
+  padding-top: 0vw;
   padding-right: 0vw;
   padding-left: 0vw;
 }
@@ -5050,6 +5051,9 @@ img {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  .paragraph-2 {
+    text-align: left;
+  }
   .paragraph-2.padding {
     padding-bottom: 40px;
     text-align: left;
@@ -5466,7 +5470,7 @@ img {
     padding: 0px;
   }
   .loader {
-    opacity: 0;
+    opacity: 1;
   }
   .image {
     width: 50px;
