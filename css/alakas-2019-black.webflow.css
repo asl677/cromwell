@@ -764,7 +764,7 @@ img {
 }
 
 .grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid {
-  margin-top: 1vw;
+  margin-top: 0vw;
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
@@ -2973,7 +2973,7 @@ img {
 .grid_image.video {
   overflow: visible;
   height: 40vw;
-  margin-top: 0vw;
+  margin-top: 2vw;
   margin-bottom: 0vw;
   margin-left: 0vw;
   padding-top: 0vw;
