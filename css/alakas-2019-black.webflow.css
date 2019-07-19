@@ -262,7 +262,7 @@ img {
   display: block;
   overflow: hidden;
   margin-bottom: 0px;
-  padding: 12vw 8vw 8vw;
+  padding: 15vw 8vw;
 }
 
 .padding_80.intro_header.centered.hero_padding.mask {
@@ -288,7 +288,7 @@ img {
   padding-top: 8vw;
   padding-right: 8vw;
   background-color: hsla(0, 0%, 100%, 0);
-  opacity: 0;
+  opacity: 1;
 }
 
 .padding_80.intro_header.centered.full.hr_padding {
@@ -785,6 +785,7 @@ img {
 
 .grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid.padding-top {
   padding-top: 1vw;
+  opacity: 0;
 }
 
 .grid.client_grid.space.show_grid._2-col-grid.hero_grid {
