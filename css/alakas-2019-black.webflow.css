@@ -262,7 +262,7 @@ img {
   display: block;
   overflow: hidden;
   margin-bottom: 0px;
-  padding: 15vw 8vw 10vw;
+  padding: 12vw 8vw 10vw;
 }
 
 .padding_80.intro_header.centered.hero_padding.mask {
@@ -1321,15 +1321,16 @@ img {
 }
 
 .list_link.padding.logo_padding {
-  position: absolute;
+  position: fixed;
   left: 0%;
   top: 0%;
   right: 0%;
   bottom: auto;
-  z-index: 4;
+  z-index: 5;
   width: 100%;
   margin-left: 0vw;
-  padding: 2vw;
+  padding: 2vw 3vw;
+  background-color: #fff;
   text-decoration: none;
 }
 
@@ -3426,6 +3427,10 @@ img {
   transform: scale(0.7);
 }
 
+.back_arrow.page_arrow {
+  opacity: 0;
+}
+
 .link-block-6 {
   position: relative;
   margin-left: 0vw;
@@ -3570,7 +3575,7 @@ img {
 
 .body_link2.secondary {
   background-color: #fff;
-  color: #2525ff;
+  color: #0057ff;
 }
 
 .body_link2.secondary:hover {
