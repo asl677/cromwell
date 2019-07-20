@@ -3202,6 +3202,8 @@ img {
 }
 
 .back_home.homepage {
+  width: 3vw;
+  height: 3vw;
   margin-top: 10px;
   background-image: none;
   -webkit-transform: translate(0px, -15vw);
@@ -3428,7 +3430,7 @@ img {
 }
 
 .back_arrow.page_arrow {
-  opacity: 0;
+  opacity: 1;
 }
 
 .link-block-6 {
@@ -4061,9 +4063,12 @@ img {
   .detail {
     position: relative;
     display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    overflow: visible;
+    padding: 20px;
     box-shadow: none;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
   }
   .detail.no_bg {
     padding: 20px;
@@ -4352,6 +4357,8 @@ img {
     line-height: 24px;
   }
   .reveal {
+    display: block;
+    overflow: visible;
     text-decoration: none;
   }
   .background-video-3 {
@@ -4786,9 +4793,9 @@ img {
     display: block;
     padding: 20px 0px;
     box-shadow: none;
-    -webkit-transform: translate(0vw, 0vw);
-    -ms-transform: translate(0vw, 0vw);
-    transform: translate(0vw, 0vw);
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
     text-decoration: none;
   }
   .black {
@@ -5660,6 +5667,9 @@ img {
     padding-right: 20px;
     padding-left: 20px;
     box-shadow: none;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
   }
   .detail.no_bg {
     padding: 20px;
