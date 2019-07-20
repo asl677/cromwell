@@ -617,7 +617,7 @@ img {
   -ms-grid-row-align: end;
   align-self: end;
   border-right: 1px none #000;
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #000;
   background-color: hsla(0, 0%, 100%, 0);
   font-family: Raleway, sans-serif;
   color: #000;
@@ -656,8 +656,8 @@ img {
   border-style: none none solid;
   border-width: 1px;
   border-color: #000;
-  font-size: 24px;
-  line-height: 34px;
+  font-size: 26px;
+  line-height: 36px;
 }
 
 .grid {
@@ -3955,7 +3955,7 @@ img {
     line-height: 24px;
   }
   .loader {
-    opacity: 0;
+    opacity: 1;
   }
   .image {
     width: 50px;
@@ -4707,7 +4707,7 @@ img {
     padding: 0px;
   }
   .loader {
-    opacity: 0;
+    opacity: 1;
   }
   .avatar {
     width: 100%;
@@ -6559,6 +6559,17 @@ img {
   grid-row-end: 2;
 }
 
+#w-node-58384885de09-acb3cbb9 {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-column-span: 1;
+  grid-column-end: 4;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
 #w-node-e3cda9527a22-acb3cbb9 {
   -ms-grid-column: 1;
   grid-column-start: 1;
@@ -7336,6 +7347,17 @@ img {
   grid-row-end: 2;
 }
 
+#w-node-58384885de09-acb3cbb9 {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-column-span: 1;
+  grid-column-end: 4;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
 #w-node-e3cda9527a22-acb3cbb9 {
   -ms-grid-column: 1;
   grid-column-start: 1;
@@ -8031,6 +8053,17 @@ img {
   grid-row-end: 2;
 }
 
+#w-node-58384885de09-acb3cbb9 {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-column-span: 1;
+  grid-column-end: 4;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
 #w-node-e3cda9527a22-acb3cbb9 {
   -ms-grid-column: 1;
   grid-column-start: 1;
@@ -8710,6 +8743,17 @@ img {
   grid-column-start: 2;
   -ms-grid-column-span: 1;
   grid-column-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-58384885de09-acb3cbb9 {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-column-span: 1;
+  grid-column-end: 4;
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 1;
@@ -9409,6 +9453,17 @@ img {
   grid-row-end: 2;
 }
 
+#w-node-58384885de09-acb3cbb9 {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-column-span: 1;
+  grid-column-end: 4;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
 #w-node-e3cda9527a22-acb3cbb9 {
   -ms-grid-column: 1;
   grid-column-start: 1;
@@ -10057,6 +10112,17 @@ img {
   grid-column-start: 2;
   -ms-grid-column-span: 1;
   grid-column-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-58384885de09-acb3cbb9 {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-column-span: 1;
+  grid-column-end: 4;
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 1;
@@ -10728,6 +10794,17 @@ img {
   grid-row-end: 2;
 }
 
+#w-node-58384885de09-acb3cbb9 {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-column-span: 1;
+  grid-column-end: 4;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
 #w-node-e3cda9527a22-acb3cbb9 {
   -ms-grid-column: 1;
   grid-column-start: 1;
@@ -11376,6 +11453,17 @@ img {
   grid-column-start: 2;
   -ms-grid-column-span: 1;
   grid-column-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-58384885de09-acb3cbb9 {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-column-span: 1;
+  grid-column-end: 4;
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 1;
@@ -12118,6 +12206,17 @@ img {
   grid-column-start: 2;
   -ms-grid-column-span: 1;
   grid-column-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-58384885de09-acb3cbb9 {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-column-span: 1;
+  grid-column-end: 4;
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 1;
