@@ -262,7 +262,7 @@ img {
   display: block;
   overflow: hidden;
   margin-bottom: 0px;
-  padding: 12vw 8vw 10vw;
+  padding: 15vw 8vw 8vw;
 }
 
 .padding_80.intro_header.centered.hero_padding.mask {
@@ -608,7 +608,7 @@ img {
   position: relative;
   overflow: visible;
   margin-right: 0px;
-  margin-bottom: 2vw;
+  margin-bottom: 0vw;
   padding: 0vw 3vw 10px 0px;
   float: none;
   clear: none;
@@ -617,7 +617,7 @@ img {
   -ms-grid-row-align: end;
   align-self: end;
   border-right: 1px none #000;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px none #000;
   background-color: hsla(0, 0%, 100%, 0);
   font-family: Raleway, sans-serif;
   color: #000;
