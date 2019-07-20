@@ -262,7 +262,7 @@ img {
   display: block;
   overflow: hidden;
   margin-bottom: 0px;
-  padding: 15vw 8vw 8vw;
+  padding: 8vw;
 }
 
 .padding_80.intro_header.centered.hero_padding.mask {
@@ -1321,7 +1321,7 @@ img {
 }
 
 .list_link.padding.logo_padding {
-  position: fixed;
+  position: relative;
   left: 0%;
   top: 0%;
   right: 0%;
