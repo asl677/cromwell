@@ -5253,6 +5253,7 @@ img {
     opacity: 1;
   }
   .grid.client_grid.space.show_grid._2-col-grid.bg_grey {
+    margin-left: 0vw;
     padding-top: 0vw;
     padding-bottom: 0vw;
   }
@@ -5876,6 +5877,7 @@ img {
     transform: translate(0px, 0px);
   }
   .back_home.homepage {
+    display: none;
     width: 36px;
   }
   .list-item-9 {
