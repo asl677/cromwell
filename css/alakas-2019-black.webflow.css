@@ -5169,7 +5169,7 @@ img {
   }
   .heading.padding {
     padding-top: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     font-size: 30px;
     line-height: 40px;
   }
@@ -5709,7 +5709,7 @@ img {
     font-style: normal;
   }
   .black.subtext.ftr_subtext {
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 20px;
   }
   .black.subtext.logo_subtext {
