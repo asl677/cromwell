@@ -409,8 +409,10 @@ img {
 .paragraph-2.reveal.intro-text {
   padding-right: 0vw;
   padding-left: 0vw;
-  color: #000;
-  font-weight: 400;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 1.1vw;
+  line-height: 2.2vw;
+  font-weight: 600;
 }
 
 .paragraph-2.no-reveal {
@@ -418,10 +420,10 @@ img {
   padding-bottom: 10px;
   padding-left: 0px;
   font-family: Raleway, sans-serif;
-  color: #000;
+  color: rgba(0, 0, 0, 0.54);
   font-size: 1.1vw;
   line-height: 2.2vw;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .heading {
@@ -1455,8 +1457,8 @@ img {
   background-color: hsla(0, 0%, 100%, 0);
   opacity: 1;
   color: #0057ff;
-  font-size: 1vw;
-  line-height: 2vw;
+  font-size: 1.1vw;
+  line-height: 2.2vw;
 }
 
 .body_link.no-reveal.secondary:hover {
@@ -1637,7 +1639,7 @@ img {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  z-index: 0;
+  z-index: -1;
   display: block;
   overflow: visible;
   width: 100%;
@@ -2516,7 +2518,8 @@ img {
 .black.subtext.logo_subtext {
   background-color: transparent;
   color: rgba(0, 0, 0, 0.54);
-  line-height: 1.2vw;
+  font-size: 1.1vw;
+  line-height: 2vw;
   font-weight: 600;
 }
 
@@ -3578,6 +3581,8 @@ img {
 .body_link2.secondary {
   background-color: #fff;
   color: #0057ff;
+  font-size: 1.1vw;
+  line-height: 2.2vw;
 }
 
 .body_link2.secondary:hover {
