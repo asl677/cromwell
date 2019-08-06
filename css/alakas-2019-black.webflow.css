@@ -2998,6 +2998,11 @@ img {
   background-color: hsla(0, 0%, 94.5%, 0);
 }
 
+.grid_image.hide.white-bg {
+  padding: 8vw;
+  background-color: #fff;
+}
+
 .list-item-4 {
   position: relative;
   line-height: 20px;
