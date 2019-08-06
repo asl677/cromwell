@@ -3714,6 +3714,11 @@ img {
     font-size: 20px;
     line-height: 32px;
   }
+  .paragraph-2.reveal.intro-text {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+  }
   .paragraph-2.no-reveal {
     font-size: 14px;
     line-height: 28px;
@@ -4476,6 +4481,11 @@ img {
     font-size: 16px;
     line-height: 30px;
   }
+  .paragraph-2.reveal.intro-text {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+  }
   .heading {
     margin-bottom: 0px;
     padding-bottom: 10px;
@@ -5090,6 +5100,11 @@ img {
     padding: 0vw;
     font-size: 16px;
     line-height: 30px;
+  }
+  .paragraph-2.reveal.intro-text {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
   }
   .paragraph-2.no-reveal {
     font-size: 14px;
