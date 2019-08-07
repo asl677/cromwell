@@ -3196,8 +3196,8 @@ img {
   bottom: auto;
   z-index: 5;
   overflow: visible;
-  width: 4vw;
-  height: 4vw;
+  width: 3vw;
+  height: 3vw;
   margin: 0vw 0px 0px 0vw;
   padding: 0vw;
   opacity: 1;
@@ -3233,7 +3233,7 @@ img {
 
 .list-item-9 {
   position: relative;
-  margin-left: 1vw;
+  margin-left: 2vw;
   float: left;
   font-size: 1vw;
 }
