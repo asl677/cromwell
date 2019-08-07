@@ -3233,7 +3233,7 @@ img {
 
 .list-item-9 {
   position: relative;
-  margin-left: 2vw;
+  margin-left: 1vw;
   float: left;
   font-size: 1vw;
 }
@@ -3998,8 +3998,10 @@ img {
   .avatar.quote_avatar {
     position: relative;
     overflow: visible;
-    width: 120px;
-    height: 120px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    margin-left: 20px;
     padding: 0vw;
     border-radius: 31vw;
   }
@@ -4085,7 +4087,7 @@ img {
     position: relative;
     display: block;
     overflow: visible;
-    padding: 20px;
+    padding: 20px 20px 20px 0px;
     box-shadow: none;
     -webkit-transform: none;
     -ms-transform: none;
@@ -4627,8 +4629,7 @@ img {
   .link-block.block_hero {
     overflow: hidden;
     margin: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding: 0px;
     float: none;
     clear: none;
   }
@@ -4754,7 +4755,13 @@ img {
     clear: none;
   }
   .avatar.quote_avatar {
-    display: none;
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding-bottom: 0px;
+    padding-left: 0px;
   }
   .body_color {
     padding: 0px;
@@ -4816,7 +4823,7 @@ img {
   .detail {
     position: relative;
     display: block;
-    padding: 20px 0px;
+    padding: 20px 0px 20px 20px;
     box-shadow: none;
     -webkit-transform: none;
     -ms-transform: none;
