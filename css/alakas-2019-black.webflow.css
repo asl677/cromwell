@@ -364,7 +364,7 @@ img {
   position: relative;
   padding: 0px;
   font-family: Raleway, sans-serif;
-  color: hsla(0, 0%, 100%, 0.6);
+  color: #fff;
   font-size: 1.1vw;
   line-height: 2.2vw;
   font-weight: 600;
@@ -420,7 +420,7 @@ img {
   padding-bottom: 10px;
   padding-left: 0px;
   font-family: Raleway, sans-serif;
-  color: hsla(0, 0%, 100%, 0.6);
+  color: #fff;
   font-size: 1.1vw;
   line-height: 2.2vw;
   font-weight: 600;
@@ -2510,8 +2510,10 @@ img {
 }
 
 .black.subtext.ftr_subtext {
-  padding-bottom: 1vw;
+  padding-bottom: 20px;
   color: hsla(0, 0%, 100%, 0.6);
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .black.subtext.logo_subtext {
@@ -5119,6 +5121,7 @@ img {
     line-height: 30px;
   }
   .paragraph-2.reveal.intro-text {
+    color: #fff;
     font-size: 14px;
     line-height: 24px;
     font-weight: 600;
@@ -5702,8 +5705,9 @@ img {
   .detail {
     position: relative;
     display: block;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 30px;
+    float: none;
+    clear: none;
     box-shadow: none;
     -webkit-transform: none;
     -ms-transform: none;
