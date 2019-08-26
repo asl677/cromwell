@@ -308,7 +308,7 @@ img {
 }
 
 .padding_80.intro_header.centered.full.footer {
-  border-style: solid none none;
+  border-style: none;
   border-width: 1px;
   border-color: #383838 #303030 #303030;
   background-color: #000;
@@ -316,6 +316,10 @@ img {
 
 .padding_80.intro_header.centered.full.footer.border_top {
   margin-top: 1vw;
+}
+
+.padding_80.intro_header.centered.full.border-bottom {
+  border-bottom: 1px solid #292929;
 }
 
 .padding_80.intro_header.grid_float {
@@ -865,6 +869,10 @@ img {
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+}
+
+.grid.client_grid.space.show_grid._2-col-grid.full.top-border {
+  border-top: 1px none #1f1f1f;
 }
 
 .grid.client_grid.space.show_grid.hero_grid {
