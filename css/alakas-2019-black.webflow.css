@@ -1185,7 +1185,7 @@ img {
 .thumb.body_wide_thumb.slide_thumb.project_thumb {
   width: 100%;
   padding: 0vw;
-  background-color: #f1f1f1;
+  background-color: hsla(0, 0%, 94.5%, 0.1);
 }
 
 .thumb.body_wide_thumb.slide_thumb.project_thumb.no_bg {
@@ -1198,6 +1198,10 @@ img {
 .thumb.body_wide_thumb.slide_thumb.project_thumb.padding_thumb {
   margin: 0px;
   padding: 0vw;
+}
+
+.thumb.body_wide_thumb.slide_thumb.project_thumb.padding_thumb.white_bg {
+  background-color: #fff;
 }
 
 .thumb.case_study_thumb {
@@ -1536,17 +1540,22 @@ img {
 }
 
 .body_link.no-reveal.secondary.show {
+  padding: 10px 20px;
   text-transform: none;
 }
 
+.body_link.no-reveal.secondary.show:hover {
+  margin-right: 0px;
+}
+
 .body_link.no-reveal.primary {
-  margin-right: 20px;
-  padding: 0px 10px;
-  border-style: solid;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border-style: none;
   border-width: 1px;
   border-color: #fff;
-  border-radius: 3px;
-  background-color: rgba(255, 255, 255, 0);
+  border-radius: 8px;
+  background-color: hsla(0, 0%, 94.5%, 0.1);
   box-shadow: inset 20px 0 0 -20px rgba(255, 255, 255, 0.05);
   -webkit-transition-duration: 400ms;
   transition-duration: 400ms;
@@ -1556,8 +1565,8 @@ img {
 }
 
 .body_link.no-reveal.primary:hover {
-  padding-right: 10px;
-  border-style: solid;
+  padding-right: 20px;
+  border-style: none;
   border-color: hsla(0, 0%, 100%, 0.45);
   background-color: rgba(255, 255, 255, 0);
   color: #fff;
@@ -3053,7 +3062,7 @@ img {
   margin-bottom: 20px;
   padding: 0vw;
   border-radius: 0px;
-  background-color: hsla(0, 0%, 94.5%, 0);
+  background-color: hsla(0, 0%, 94.5%, 0.1);
   opacity: 1;
 }
 
@@ -4322,7 +4331,7 @@ img {
     border: 1px none #000;
   }
   .masked.body_reveal {
-    padding: 20px;
+    padding: 30px;
   }
   .masked.body_reveal.full {
     overflow: hidden;
