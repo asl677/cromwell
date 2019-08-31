@@ -308,6 +308,7 @@ img {
 }
 
 .padding_80.intro_header.centered.full.footer {
+  display: block;
   border-style: none;
   border-width: 1px;
   border-color: #383838 #303030 #303030;
@@ -428,6 +429,7 @@ img {
 
 .paragraph-2.no-reveal {
   margin-bottom: 0px;
+  padding-right: 40px;
   padding-bottom: 10px;
   padding-left: 0px;
   font-family: Raleway, sans-serif;
@@ -2827,7 +2829,7 @@ img {
   overflow: hidden;
   margin-bottom: 0px;
   padding-top: 0px;
-  padding-right: 5vw;
+  padding-right: 0vw;
   padding-left: 0vw;
   float: none;
   clear: none;
@@ -3440,6 +3442,7 @@ img {
   top: 0%;
   right: 0%;
   bottom: 0%;
+  display: block;
   width: 100%;
   height: auto;
   justify-items: center;
@@ -3759,6 +3762,7 @@ img {
 }
 
 .div-block-6 {
+  display: block;
   opacity: 1;
 }
 
@@ -4137,6 +4141,10 @@ img {
   .body_link.no-reveal.secondary {
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .body_link.no-reveal.primary {
     font-size: 14px;
     line-height: 24px;
   }
@@ -4918,14 +4926,25 @@ img {
     line-height: 18px;
     text-align: left;
   }
+  .body_link.no-reveal.secondary.show {
+    margin-top: 20px;
+    margin-right: 0px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 8px;
+    line-height: 28px;
+    text-align: center;
+  }
   .body_link.no-reveal.primary {
+    margin-top: 10px;
     margin-right: 0px;
     margin-bottom: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: hsla(0, 0%, 94.5%, 0.25);
     font-size: 14px;
     line-height: 28px;
-    text-align: left;
+    text-align: center;
   }
   .body_link.show {
     padding-top: 10px;
@@ -5020,7 +5039,7 @@ img {
     text-decoration: none;
   }
   .black {
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     border-style: none;
     border-width: 0px;
     font-size: 14px;
@@ -5728,13 +5747,23 @@ img {
     font-size: 14px;
     line-height: 18px;
   }
+  .body_link.no-reveal.secondary.show {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 8px;
+    line-height: 28px;
+    text-align: center;
+  }
   .body_link.no-reveal.primary {
     width: 100%;
     margin-right: 0px;
-    padding: 10px;
+    padding: 10px 20px;
+    background-color: hsla(0, 0%, 94.5%, 0.26);
     font-size: 14px;
     line-height: 28px;
-    text-align: left;
+    text-align: center;
   }
   .body_link.show {
     padding-top: 5px;
@@ -5954,7 +5983,7 @@ img {
     transform: translate(0px, -120px);
   }
   .black {
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     font-size: 14px;
     line-height: 22px;
     text-decoration: none;
