@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat Aug 31 2019 02:26:04 GMT+0000 (UTC)  -->
+<!--  Last Published: Sun Sep 01 2019 02:59:10 GMT+0000 (UTC)  -->
 <html data-wf-page="5ccf3ec20b9ef22974f1b59b" data-wf-site="5cccd40515eeacf867ed02c1">
 <head>
   <meta charset="utf-8">
@@ -20,21 +20,22 @@
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-35944917-1"></script>
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-35944917-1', {'anonymize_ip': false});</script>
   <style>  
-.reveal:before,
-.reveal_grid:before {
+.reveal.w-inline-block:before,
+.grid.client_grid.space.show_grid._2-col-grid._1-col-grid:before,
+.grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid.two-up.one-up:before {
     width:100%;
     height:100%;
-  	padding: 1vw:
+  	padding: 0;
     position:absolute;
     left:0;
     top:0;
     content:"";
-    background:#333;
-  	z-index: 3;
-    -webkit-animation: fade-out 99999s 1 linear; /* Safari 4+ */
-    -moz-animation:    fade-out 99999s 1 linear; /* Fx 5+ */
-    -o-animation:      fade-out 99999s 1 linear; /* Opera 12+ */
-    animation:         fade-out 99999s 1 linear; /* IE 10+ */
+    background:#111;
+  	z-index: 1;
+    -webkit-animation: fade-out 57999s 1 .5s linear; /* Safari 4+ */
+    -moz-animation:    fade-out 57999s 1 .5s linear; /* Fx 5+ */
+    -o-animation:      fade-out 57999s 1 .5s linear; /* Opera 12+ */
+    animation:         fade-out 57999s 1 .5s linear; /* IE 10+ */
 }
 @-webkit-keyframes fade-out {
   0%   { opacity: 1; }
@@ -247,11 +248,11 @@
 }
 </style>
 </head>
-<body style="opacity:1" class="body_color">
+<body style="opacity:0;-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="body_color">
   <div class="loader div-block-6">
     <div class="w-layout-grid grid-13"><img src="https://uploads-ssl.webflow.com/5bd6053369305dfbbcea081e/5bf20762de18dd2aaa4330c2_peloader.gif" id="w-node-67858e5cda90-72e26803" alt="" class="preloader_img"></div>
   </div>
-  <ul style="opacity:0" class="list_link padding logo_padding w-clearfix">
+  <ul class="list_link padding logo_padding w-clearfix">
     <li class="back_arrow page_arrow w-clearfix"><a href="javascript:delay(&#x27;/&#x27;)" class="link-block-6 w-inline-block"><img src="../images/arrow-2.png" alt="" class="back_home"></a></li>
     <li class="list-item-9">
       <p class="black logo">Alex Lakas</p>
@@ -260,13 +261,13 @@
   </ul>
   <div class="padding_80 intro_header centered hero_padding">
     <div class="w-layout-grid grid-10">
-      <div id="w-node-3e23942145f0-74f1b59b" style="opacity:0;-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="div-block-3">
+      <div id="w-node-3e23942145f0-74f1b59b" style="opacity:0" class="div-block-3">
         <div class="masked">
           <h1 class="heading padding">Access to top categories on Google Maps</h1>
         </div>
       </div>
       <div class="masked intro_p">
-        <ul style="opacity:0;-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="list_link padding intro_list">
+        <ul style="opacity:0" class="list_link padding intro_list">
           <li>
             <p class="paragraph-2 padding list_p">Visual Design</p>
           </li>
@@ -289,33 +290,35 @@
       </div>
     </div>
   </div>
-  <div style="opacity:0;-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="w-layout-grid body_grid_3 reveal_grid"><img src="../images/zero-suggest-existing.png" srcset="../images/zero-suggest-existing-p-500.png 500w, ../images/zero-suggest-existing-p-800.png 800w, ../images/zero-suggest-existing-p-1080.png 1080w, ../images/zero-suggest-existing-p-1600.png 1600w, ../images/zero-suggest-existing-p-2000.png 2000w, ../images/zero-suggest-existing.png 2199w" sizes="(max-width: 991px) 98vw, 96vw" style="opacity:0" alt="" class="grid_image"></div>
-  <div style="opacity:0" class="padding_80 intro_header centered full">
+  <div id="first_grid" class="w-layout-grid grid client_grid space show_grid _2-col-grid ftr_grid project_grid two-up one-up">
+    <div class="w-layout-grid grid client_grid space show_grid _2-col-grid grid-15 _1-col-grid"><img src="../images/zero-suggest-existing.png" srcset="../images/zero-suggest-existing-p-500.png 500w, ../images/zero-suggest-existing-p-800.png 800w, ../images/zero-suggest-existing-p-1080.png 1080w, ../images/zero-suggest-existing-p-1600.png 1600w, ../images/zero-suggest-existing-p-2000.png 2000w, ../images/zero-suggest-existing.png 2199w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 100vw" alt="" class="grid_image"></div>
+  </div>
+  <div class="padding_80 intro_header centered full">
     <div class="w-layout-grid grid client_grid space show_grid _2-col-grid full">
       <div id="w-node-ef6b65af1137-74f1b59b" class="masked">
-        <p style="opacity:0" class="paragraph-2 no-reveal">In 2015, Google Maps supported categorical shortcuts, but they were hidden beneath the keypad and the list was only so forgiving. Folks inside and outside of the United States wanted quicker access to these needs, not only while on foot, but during a number of driving cases, and they weren&#x27;t easy to see, easy to touch or easy to remember where each category was in the list. <br></p>
+        <p class="paragraph-2 no-reveal">In 2015, Google Maps supported categorical shortcuts, but they were hidden beneath the keypad and the list was only so forgiving. Folks inside and outside of the United States wanted quicker access to these needs, not only while on foot, but during a number of driving cases, and they weren&#x27;t easy to see, easy to touch or easy to remember where each category was in the list. <br></p>
       </div>
       <div id="w-node-ef6b65af113b-74f1b59b" class="masked body_reveal">
-        <p style="opacity:0" class="paragraph-2 no-reveal">We took a look at some competitor models (Apple Maps, City Mapper) that tackled similar localization cases as well as both types of navigation, as well as at a similar point of friction Google Maps faced vs others.<br></p>
+        <p class="paragraph-2 no-reveal">We took a look at some competitor models (Apple Maps, City Mapper) that tackled similar localization cases as well as both types of navigation, as well as at a similar point of friction Google Maps faced vs others.<br></p>
       </div>
     </div>
   </div>
-  <div class="w-layout-grid body_grid_3 slidein"><img src="../images/zt_isospread.jpg" srcset="../images/zt_isospread-p-500.jpeg 500w, ../images/zt_isospread-p-800.jpeg 800w, ../images/zt_isospread-p-1600.jpeg 1600w, ../images/zt_isospread-p-2000.jpeg 2000w, ../images/zt_isospread.jpg 2564w" sizes="(max-width: 991px) 98vw, 96vw" style="opacity:0" alt="" class="grid_image"></div>
-  <div style="opacity:0" class="padding_80 intro_header centered full">
+  <div class="w-layout-grid body_grid_3 slidein"><img src="../images/zt_isospread.jpg" srcset="../images/zt_isospread-p-500.jpeg 500w, ../images/zt_isospread-p-800.jpeg 800w, ../images/zt_isospread-p-1600.jpeg 1600w, ../images/zt_isospread-p-2000.jpeg 2000w, ../images/zt_isospread.jpg 2564w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 100vw" alt="" class="grid_image"></div>
+  <div class="padding_80 intro_header centered full">
     <div class="w-layout-grid grid client_grid space show_grid _2-col-grid full">
       <div id="w-node-746d855727d0-74f1b59b" class="masked">
-        <p style="opacity:0" class="paragraph-2 no-reveal">After a lot of research and prototyping, syncing with visual design leads and ensuring parity across Maps and it&#x27;s existing roadmap, <br></p>
+        <p class="paragraph-2 no-reveal">After a lot of research and prototyping, syncing with visual design leads and ensuring parity across Maps and it&#x27;s existing roadmap, <br></p>
       </div>
       <div id="w-node-819f7b40474b-74f1b59b" class="masked">
-        <p style="opacity:0" class="paragraph-2 no-reveal">We  landed on an icon set and style that worked well for the key pieces we wanted to tackle -- visibility, consistency and tapability.<br></p>
+        <p class="paragraph-2 no-reveal">We  landed on an icon set and style that worked well for the key pieces we wanted to tackle -- visibility, consistency and tapability.<br></p>
       </div>
     </div>
   </div>
-  <div class="w-layout-grid grid client_grid space show_grid _2-col-grid bg_grey reveal"><img src="../images/zero_collapse.png" srcset="../images/zero_collapse-p-500.png 500w, ../images/zero_collapse-p-800.png 800w, ../images/zero_collapse-p-1080.png 1080w, ../images/zero_collapse-p-1600.png 1600w, ../images/zero_collapse-p-2000.png 2000w, ../images/zero_collapse-p-2600.png 2600w, ../images/zero_collapse.png 2756w" sizes="(max-width: 479px) 50vw, (max-width: 991px) 49vw, 62vw" id="w-node-efdc1393227d-74f1b59b" alt="" class="thumb body_wide_thumb slide_thumb"><img src="../images/zero_expand.png" srcset="../images/zero_expand-p-500.png 500w, ../images/zero_expand-p-800.png 800w, ../images/zero_expand-p-1080.png 1080w, ../images/zero_expand-p-1600.png 1600w, ../images/zero_expand-p-2000.png 2000w, ../images/zero_expand-p-2600.png 2600w, ../images/zero_expand.png 2756w" sizes="(max-width: 479px) 50vw, (max-width: 991px) 49vw, 62vw" id="w-node-efdc1393227e-74f1b59b" alt="" class="thumb body_wide_thumb slide_thumb parallax"></div>
-  <div style="opacity:0" class="padding_80 intro_header centered full">
+  <div class="w-layout-grid grid client_grid space show_grid _2-col-grid bg_grey reveal"><img src="../images/zero_collapse.png" srcset="../images/zero_collapse-p-500.png 500w, ../images/zero_collapse-p-800.png 800w, ../images/zero_collapse-p-1080.png 1080w, ../images/zero_collapse-p-1600.png 1600w, ../images/zero_collapse-p-2000.png 2000w, ../images/zero_collapse-p-2600.png 2600w, ../images/zero_collapse.png 2756w" sizes="(max-width: 479px) 46vw, (max-width: 767px) 47vw, (max-width: 991px) 48vw, 65vw" id="w-node-efdc1393227d-74f1b59b" alt="" class="thumb body_wide_thumb slide_thumb"><img src="../images/zero_expand.png" srcset="../images/zero_expand-p-500.png 500w, ../images/zero_expand-p-800.png 800w, ../images/zero_expand-p-1080.png 1080w, ../images/zero_expand-p-1600.png 1600w, ../images/zero_expand-p-2000.png 2000w, ../images/zero_expand-p-2600.png 2600w, ../images/zero_expand.png 2756w" sizes="(max-width: 479px) 46vw, (max-width: 767px) 47vw, (max-width: 991px) 48vw, 65vw" id="w-node-efdc1393227e-74f1b59b" alt="" class="thumb body_wide_thumb slide_thumb parallax"></div>
+  <div class="padding_80 intro_header centered full">
     <div class="w-layout-grid grid client_grid space show_grid _2-col-grid full">
       <div id="w-node-c5ff58cc7010-74f1b59b" class="masked">
-        <p style="opacity:0" class="paragraph-2 no-reveal">Moving to a collapsable, bolder, red icon layout helped align to our existing base maps as well as other zero suggest efforts currently in the works. Try it now on Google Maps.<br></p>
+        <p class="paragraph-2 no-reveal">Moving to a collapsable, bolder, red icon layout helped align to our existing base maps as well as other zero suggest efforts currently in the works. Try it now on Google Maps.<br></p>
       </div>
     </div>
   </div>
@@ -384,7 +387,7 @@
 function delay (URL) {
 setTimeout( function() { 
   window.location = URL }
-     , 600 );
+     , 680 );
 }
 // Add and remove body color transition property after page is done loading
 $('body').addClass("overflow");

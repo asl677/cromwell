@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat Aug 31 2019 02:26:04 GMT+0000 (UTC)  -->
+<!--  Last Published: Sun Sep 01 2019 02:59:10 GMT+0000 (UTC)  -->
 <html data-wf-page="5ccde3849639c493d6745976" data-wf-site="5cccd40515eeacf867ed02c1">
 <head>
   <meta charset="utf-8">
@@ -20,21 +20,22 @@
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-35944917-1"></script>
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-35944917-1', {'anonymize_ip': false});</script>
   <style>  
-.reveal:before,
-.reveal_grid:before {
+.reveal.w-inline-block:before,
+.grid.client_grid.space.show_grid._2-col-grid._1-col-grid:before,
+.grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid.two-up.one-up:before {
     width:100%;
     height:100%;
-  	padding: 1vw:
+  	padding: 0;
     position:absolute;
     left:0;
     top:0;
     content:"";
-    background:#333;
-  	z-index: 3;
-    -webkit-animation: fade-out 99999s 1 linear; /* Safari 4+ */
-    -moz-animation:    fade-out 99999s 1 linear; /* Fx 5+ */
-    -o-animation:      fade-out 99999s 1 linear; /* Opera 12+ */
-    animation:         fade-out 99999s 1 linear; /* IE 10+ */
+    background:#111;
+  	z-index: 1;
+    -webkit-animation: fade-out 57999s 1 .5s linear; /* Safari 4+ */
+    -moz-animation:    fade-out 57999s 1 .5s linear; /* Fx 5+ */
+    -o-animation:      fade-out 57999s 1 .5s linear; /* Opera 12+ */
+    animation:         fade-out 57999s 1 .5s linear; /* IE 10+ */
 }
 @-webkit-keyframes fade-out {
   0%   { opacity: 1; }
@@ -247,8 +248,8 @@
 }
 </style>
 </head>
-<body style="opacity:1" class="body_color">
-  <ul style="opacity:0" class="list_link padding logo_padding w-clearfix">
+<body style="opacity:0;-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="body_color">
+  <ul class="list_link padding logo_padding w-clearfix">
     <li class="back_arrow page_arrow w-clearfix"><a href="javascript:delay(&#x27;/&#x27;)" class="link-block-6 w-inline-block"><img src="../images/arrow-2.png" alt="" class="back_home"></a></li>
     <li class="list-item-9">
       <p class="black logo">Alex Lakas</p>
@@ -260,13 +261,13 @@
   </div>
   <div class="padding_80 intro_header centered hero_padding">
     <div class="w-layout-grid grid-10">
-      <div id="w-node-dfcfba809233-d6745976" style="opacity:0;-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="div-block-3">
+      <div id="w-node-dfcfba809233-d6745976" style="opacity:0" class="div-block-3">
         <div class="masked">
           <h1 class="heading padding">Modernizing Nav Search across Google</h1>
         </div>
       </div>
       <div class="masked intro_p">
-        <ul style="opacity:0;-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="list_link padding intro_list">
+        <ul style="opacity:0" class="list_link padding intro_list">
           <li>
             <p class="paragraph-2 padding list_p">Visual Design</p>
           </li>
@@ -289,40 +290,39 @@
       </div>
     </div>
   </div>
-  <div class="w-layout-grid body_grid_3 masked bg_blue hide"><img src="../images/mod-compare.png" srcset="../images/mod-compare-p-500.png 500w, ../images/mod-compare-p-800.png 800w, ../images/mod-compare-p-1600.png 1600w, ../images/mod-compare-p-2000.png 2000w, ../images/mod-compare-p-2600.png 2600w, ../images/mod-compare.png 3458w" sizes="100vw" alt="" class="grid_image centered_neg_space"></div>
-  <div style="opacity:0;-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="w-layout-grid body_grid_3 reveal_grid">
-    <div class="w-layout-grid grid client_grid space show_grid _2-col-grid bg_grey grid-15"><img src="../images/Artboard-Copy-7.png" srcset="../images/Artboard-Copy-7-p-500.png 500w, ../images/Artboard-Copy-7.png 718w" sizes="(max-width: 479px) 49vw, (max-width: 991px) 48vw, 61vw" id="w-node-5b5fb3c1cb92-d6745976" alt="" class="thumb body_wide_thumb slide_thumb"><img src="../images/Artboard-Copy-3.png" srcset="../images/Artboard-Copy-3-p-500.png 500w, ../images/Artboard-Copy-3.png 718w" sizes="(max-width: 479px) 49vw, (max-width: 991px) 48vw, 61vw" id="w-node-5b5fb3c1cb93-d6745976" alt="" class="thumb body_wide_thumb slide_thumb parallax"></div>
+  <div id="first_grid" class="w-layout-grid grid client_grid space show_grid _2-col-grid ftr_grid project_grid two-up one-up">
+    <div class="w-layout-grid grid client_grid space show_grid _2-col-grid bg_grey grid-15"><img src="../images/Artboard-Copy-7.png" srcset="../images/Artboard-Copy-7-p-500.png 500w, ../images/Artboard-Copy-7.png 718w" sizes="(max-width: 479px) 46vw, (max-width: 767px) 47vw, (max-width: 991px) 48vw, 65vw" id="w-node-fd179698a694-d6745976" alt="" class="thumb body_wide_thumb slide_thumb"><img src="../images/Artboard-Copy-3.png" srcset="../images/Artboard-Copy-3-p-500.png 500w, ../images/Artboard-Copy-3.png 718w" sizes="(max-width: 479px) 46vw, (max-width: 767px) 47vw, (max-width: 991px) 48vw, 65vw" id="w-node-fd179698a695-d6745976" alt="" class="thumb body_wide_thumb slide_thumb parallax"></div>
   </div>
-  <div style="opacity:0" class="padding_80 intro_header centered full">
+  <div class="w-layout-grid body_grid_3 masked bg_blue hide"><img src="../images/mod-compare.png" srcset="../images/mod-compare-p-500.png 500w, ../images/mod-compare-p-800.png 800w, ../images/mod-compare-p-1600.png 1600w, ../images/mod-compare-p-2000.png 2000w, ../images/mod-compare-p-2600.png 2600w, ../images/mod-compare.png 3458w" sizes="100vw" alt="" class="grid_image centered_neg_space"></div>
+  <div class="padding_80 intro_header centered full">
     <div class="w-layout-grid grid client_grid space show_grid _2-col-grid full">
       <div id="w-node-a7159a4e309d-d6745976" class="masked">
-        <p style="opacity:0" class="paragraph-2 no-reveal">Modernizing Navigational Search on Google. It was time Local Search caught up to Search&#x27;s new design language. The goal was to take research and validated system parts such as navigation, imagery and actions, and stress test them against local needs -- including dining, salons and hotel use cases.<br></p>
+        <p class="paragraph-2 no-reveal">Modernizing Navigational Search on Google. It was time Local Search caught up to Search&#x27;s new design language. The goal was to take research and validated system parts such as navigation, imagery and actions, and stress test them against local needs -- including dining, salons and hotel use cases.<br></p>
       </div>
       <div id="w-node-a7159a4e30a1-d6745976" class="masked body_reveal">
-        <p style="opacity:0" class="paragraph-2 no-reveal">The featured patterns and interactions you see below are areas I led and contributed in defining and building out. We also worked closely with the Driving and Navigation teams and leveraged Search&#x27;s system design team to keep things consistent.<br></p>
+        <p class="paragraph-2 no-reveal">The featured patterns and interactions you see below are areas I led and contributed in defining and building out. We also worked closely with the Driving and Navigation teams and leveraged Search&#x27;s system design team to keep things consistent.<br></p>
       </div>
     </div>
   </div>
-  <div class="w-layout-grid grid client_grid space show_grid _2-col-grid bg_grey reveal"><img src="../images/post.png" srcset="../images/post-p-500.png 500w, ../images/post.png 718w" sizes="(max-width: 479px) 50vw, (max-width: 991px) 49vw, 62vw" id="w-node-7ce399e06b87-d6745976" alt="" class="thumb body_wide_thumb slide_thumb"><img src="../images/zero_collapse-copy.png" srcset="../images/zero_collapse-copy-p-500.png 500w, ../images/zero_collapse-copy-p-800.png 800w, ../images/zero_collapse-copy-p-1080.png 1080w, ../images/zero_collapse-copy.png 1266w" sizes="(max-width: 479px) 50vw, (max-width: 991px) 49vw, 62vw" id="w-node-f93125b50283-d6745976" alt="" class="thumb body_wide_thumb slide_thumb parallax"></div>
-  <div style="opacity:0" class="padding_80 intro_header centered full">
+  <div class="w-layout-grid grid client_grid space show_grid _2-col-grid bg_grey reveal"><img src="../images/post.png" srcset="../images/post-p-500.png 500w, ../images/post.png 718w" sizes="(max-width: 479px) 46vw, (max-width: 767px) 47vw, (max-width: 991px) 48vw, 65vw" id="w-node-7ce399e06b87-d6745976" alt="" class="thumb body_wide_thumb slide_thumb"><img src="../images/zero_collapse-copy.png" srcset="../images/zero_collapse-copy-p-500.png 500w, ../images/zero_collapse-copy-p-800.png 800w, ../images/zero_collapse-copy-p-1080.png 1080w, ../images/zero_collapse-copy.png 1266w" sizes="(max-width: 479px) 46vw, (max-width: 767px) 47vw, (max-width: 991px) 48vw, 65vw" id="w-node-f93125b50283-d6745976" alt="" class="thumb body_wide_thumb slide_thumb parallax"></div>
+  <div class="padding_80 intro_header centered full">
     <div class="w-layout-grid grid client_grid space show_grid _2-col-grid full">
       <div id="w-node-c48a11bfd5ec-d6745976" class="masked">
-        <p style="opacity:0" class="paragraph-2 no-reveal">My role was to work with the various Local Search teams between SF, NYC, ZRH, TOK and SYD and marry visual explorations with interaction design.<br><br>This also meant aligning on search&#x27;s interaction patterns, alongside our own, primarily through extensive and rapid prototyping and visual design. This was in combination with other efforts already in progress, such as imagery and nav traversal.<br></p>
+        <p class="paragraph-2 no-reveal">My role was to work with the various Local Search teams between SF, NYC, ZRH, TOK and SYD and marry visual explorations with interaction design.<br><br>This also meant aligning on search&#x27;s interaction patterns, alongside our own, primarily through extensive and rapid prototyping and visual design. This was in combination with other efforts already in progress, such as imagery and nav traversal.<br></p>
       </div>
       <div id="w-node-c48a11bfd5f0-d6745976" class="masked body_reveal">
-        <p style="opacity:0" class="paragraph-2 no-reveal">This effort intended to set the stage for modernizing three types of Local Search  -- Categorical, Chains and Navigational Search (essentially place listings across Maps and Search). We started with our own and existing projects, reshaped their roadmaps, aligned with various local teams, eg shopping, transactions, imagery and UGC. Chains and Categorical Search were already so embedded into Core Search&#x27;s Framework, it was getting attention already, but Nav needed some serious work. <br></p>
+        <p class="paragraph-2 no-reveal">This effort intended to set the stage for modernizing three types of Local Search  -- Categorical, Chains and Navigational Search (essentially place listings across Maps and Search). We started with our own and existing projects, reshaped their roadmaps, aligned with various local teams, eg shopping, transactions, imagery and UGC. Chains and Categorical Search were already so embedded into Core Search&#x27;s Framework, it was getting attention already, but Nav needed some serious work. <br></p>
       </div>
     </div>
   </div>
-  <div class="w-layout-grid body_grid_3 slidein"><img src="../images/mod_MockUpiso.jpg" srcset="../images/mod_MockUpiso-p-500.jpeg 500w, ../images/mod_MockUpiso-p-800.jpeg 800w, ../images/mod_MockUpiso-p-1600.jpeg 1600w, ../images/mod_MockUpiso-p-2000.jpeg 2000w, ../images/mod_MockUpiso.jpg 2564w" sizes="(max-width: 991px) 98vw, 96vw" style="opacity:0" alt="" class="grid_image"></div>
-  <div style="opacity:0" class="padding_80 intro_header centered full">
+  <div class="w-layout-grid body_grid_3 slidein"><img src="../images/mod_MockUpiso.jpg" srcset="../images/mod_MockUpiso-p-500.jpeg 500w, ../images/mod_MockUpiso-p-800.jpeg 800w, ../images/mod_MockUpiso-p-1600.jpeg 1600w, ../images/mod_MockUpiso-p-2000.jpeg 2000w, ../images/mod_MockUpiso.jpg 2564w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 100vw" alt="" class="grid_image"></div>
+  <div class="padding_80 intro_header centered full">
     <div class="w-layout-grid grid client_grid space show_grid _2-col-grid full">
       <div id="w-node-c1de5913f1d3-d6745976" class="masked">
-        <p style="opacity:0" class="paragraph-2 no-reveal">This effort intended to set the stage for modernizing three types of Local Search  -- Categorical, Chains and Navigational Search (essentially place listings across Maps and Search). We started with our own and existing projects, reshaped their roadmaps, aligned with various local teams, eg shopping, transactions, imagery and UGC. Chains and Categorical Search were already so embedded into Core Search&#x27;s Framework, it was getting attention already, but Nav needed some serious work. <br></p>
+        <p class="paragraph-2 no-reveal">This effort intended to set the stage for modernizing three types of Local Search  -- Categorical, Chains and Navigational Search (essentially place listings across Maps and Search). We started with our own and existing projects, reshaped their roadmaps, aligned with various local teams, eg shopping, transactions, imagery and UGC. Chains and Categorical Search were already so embedded into Core Search&#x27;s Framework, it was getting attention already, but Nav needed some serious work. <br></p>
       </div>
-      <div id="w-node-a34cbac52594-d6745976" class="masked body_reveal">
-        <p data-w-id="921fa000-8d2b-754c-d343-a34cbac52595" style="opacity:0" class="paragraph-2 no-reveal">For example, iOS and Android place sheets had a larger driving audience and needed directions to take on a bolder visual design variation than that of what Search provided. Same went for free scrolling imagery, containment models and cards, and tabbed navigation design.<br></p>
-      </div>
+      <div id="w-node-a34cbac52594-d6745976" class="masked body_reveal w-clearfix">
+        <p data-w-id="921fa000-8d2b-754c-d343-a34cbac52595" class="paragraph-2 no-reveal">For example, iOS and Android place sheets had a larger driving audience and needed directions to take on a bolder visual design variation than that of what Search provided. Same went for free scrolling imagery, containment models and cards, and tabbed navigation design.<br></p><a href="https://www.google.com/search?q=sf+dmv&amp;oq=sf+dmv&amp;aqs=chrome.0.69i59j0l4j69i60.4043j0j7&amp;sourceid=chrome&amp;ie=UTF-8" class="body_link no-reveal primary">See the changes on Google</a></div>
     </div>
   </div>
   <div class="w-layout-grid body_grid_3 slidein">
@@ -390,7 +390,7 @@
 function delay (URL) {
 setTimeout( function() { 
   window.location = URL }
-     , 600 );
+     , 680 );
 }
 // Add and remove body color transition property after page is done loading
 $('body').addClass("overflow");

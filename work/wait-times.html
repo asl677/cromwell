@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat Aug 31 2019 02:26:04 GMT+0000 (UTC)  -->
+<!--  Last Published: Sun Sep 01 2019 02:59:10 GMT+0000 (UTC)  -->
 <html data-wf-page="5cd05bfcc44956683f50c55f" data-wf-site="5cccd40515eeacf867ed02c1">
 <head>
   <meta charset="utf-8">
@@ -20,21 +20,22 @@
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-35944917-1"></script>
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-35944917-1', {'anonymize_ip': false});</script>
   <style>  
-.reveal:before,
-.reveal_grid:before {
+.reveal.w-inline-block:before,
+.grid.client_grid.space.show_grid._2-col-grid._1-col-grid:before,
+.grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid.two-up.one-up:before {
     width:100%;
     height:100%;
-  	padding: 1vw:
+  	padding: 0;
     position:absolute;
     left:0;
     top:0;
     content:"";
-    background:#333;
-  	z-index: 3;
-    -webkit-animation: fade-out 99999s 1 linear; /* Safari 4+ */
-    -moz-animation:    fade-out 99999s 1 linear; /* Fx 5+ */
-    -o-animation:      fade-out 99999s 1 linear; /* Opera 12+ */
-    animation:         fade-out 99999s 1 linear; /* IE 10+ */
+    background:#111;
+  	z-index: 1;
+    -webkit-animation: fade-out 57999s 1 .5s linear; /* Safari 4+ */
+    -moz-animation:    fade-out 57999s 1 .5s linear; /* Fx 5+ */
+    -o-animation:      fade-out 57999s 1 .5s linear; /* Opera 12+ */
+    animation:         fade-out 57999s 1 .5s linear; /* IE 10+ */
 }
 @-webkit-keyframes fade-out {
   0%   { opacity: 1; }
@@ -247,11 +248,11 @@
 }
 </style>
 </head>
-<body style="opacity:1" class="body_color">
+<body style="opacity:0;-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="body_color">
   <div class="loader div-block-6">
     <div class="w-layout-grid grid-13"><img src="https://uploads-ssl.webflow.com/5bd6053369305dfbbcea081e/5bf20762de18dd2aaa4330c2_peloader.gif" id="w-node-67858e5cda90-72e26803" alt="" class="preloader_img"></div>
   </div>
-  <ul style="opacity:0" class="list_link padding logo_padding w-clearfix">
+  <ul class="list_link padding logo_padding w-clearfix">
     <li class="back_arrow page_arrow w-clearfix"><a href="javascript:delay(&#x27;/&#x27;)" class="link-block-6 w-inline-block"><img src="../images/arrow-2.png" alt="" class="back_home"></a></li>
     <li class="list-item-9">
       <p class="black logo">Alex Lakas</p>
@@ -260,13 +261,13 @@
   </ul>
   <div class="padding_80 intro_header centered hero_padding">
     <div class="w-layout-grid grid-10">
-      <div id="w-node-a3c58b4c882e-3f50c55f" style="opacity:0;-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="div-block-3">
+      <div id="w-node-a3c58b4c882e-3f50c55f" style="opacity:0" class="div-block-3">
         <div class="masked">
           <h1 class="heading padding">Never wait again with Google Maps</h1>
         </div>
       </div>
       <div class="masked intro_p">
-        <ul style="opacity:0;-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="list_link padding intro_list">
+        <ul style="opacity:0" class="list_link padding intro_list">
           <li>
             <p class="paragraph-2 padding list_p">Visual Design</p>
           </li>
@@ -289,32 +290,34 @@
       </div>
     </div>
   </div>
-  <div style="opacity:0;-webkit-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="w-layout-grid body_grid_3 reveal_grid"><img src="../images/portfolio_rt.png" srcset="../images/portfolio_rt-p-500.png 500w, ../images/portfolio_rt-p-800.png 800w, ../images/portfolio_rt-p-1080.png 1080w, ../images/portfolio_rt.png 1131w" sizes="(max-width: 991px) 98vw, 96vw" style="opacity:0" alt="" class="grid_image"></div>
-  <div style="opacity:0" class="padding_80 intro_header centered full">
+  <div id="first_grid" class="w-layout-grid grid client_grid space show_grid _2-col-grid ftr_grid project_grid two-up one-up">
+    <div class="w-layout-grid grid client_grid space show_grid _2-col-grid grid-15 _1-col-grid"><img src="../images/portfolio_rt.png" srcset="../images/portfolio_rt-p-500.png 500w, ../images/portfolio_rt-p-800.png 800w, ../images/portfolio_rt-p-1080.png 1080w, ../images/portfolio_rt.png 1131w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 100vw" alt="" class="grid_image"></div>
+  </div>
+  <div class="padding_80 intro_header centered full">
     <div class="w-layout-grid grid client_grid space show_grid _2-col-grid full">
       <div id="w-node-035504f29c32-3f50c55f" class="masked">
-        <p style="opacity:0" class="paragraph-2 no-reveal">Hopefully you&#x27;re familiar with the above feature - Live Popular Times on Google. This was the next installment of that. Working closing with a motion designer and writer, I defined the UI and patterns you see below. The goal was to explore and integrate estimated wait times between local listings on Google Search and Maps.<br></p>
+        <p class="paragraph-2 no-reveal">Hopefully you&#x27;re familiar with the above feature - Live Popular Times on Google. This was the next installment of that. Working closing with a motion designer and writer, I defined the UI and patterns you see below. The goal was to explore and integrate estimated wait times between local listings on Google Search and Maps.<br></p>
       </div>
       <div id="w-node-035504f29c36-3f50c55f" class="masked body_reveal">
-        <p style="opacity:0" class="paragraph-2 no-reveal">We ultimately decided to evolve our Popular Times feature into a more interactive and robust product serving a series of visit data: Popular Times, Live Popular Times and estimated wait times. <br></p>
+        <p class="paragraph-2 no-reveal">We ultimately decided to evolve our Popular Times feature into a more interactive and robust product serving a series of visit data: Popular Times, Live Popular Times and estimated wait times. <br></p>
       </div>
     </div>
   </div>
-  <div class="w-layout-grid body_grid_3 slidein"><img src="../images/wt-samples.png" srcset="../images/wt-samples-p-500.png 500w, ../images/wt-samples-p-800.png 800w, ../images/wt-samples-p-1080.png 1080w, ../images/wt-samples-p-1600.png 1600w, ../images/wt-samples-p-2000.png 2000w, ../images/wt-samples-p-2600.png 2600w, ../images/wt-samples-p-3200.png 3200w, ../images/wt-samples.png 4000w" sizes="(max-width: 991px) 98vw, 96vw" style="opacity:0" alt="" class="grid_image"></div>
-  <div style="opacity:0" class="padding_80 intro_header centered full">
+  <div class="w-layout-grid body_grid_3 slidein"><img src="../images/wt-samples.png" srcset="../images/wt-samples-p-500.png 500w, ../images/wt-samples-p-800.png 800w, ../images/wt-samples-p-1080.png 1080w, ../images/wt-samples-p-1600.png 1600w, ../images/wt-samples-p-2000.png 2000w, ../images/wt-samples-p-2600.png 2600w, ../images/wt-samples-p-3200.png 3200w, ../images/wt-samples.png 4000w" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 100vw" alt="" class="grid_image"></div>
+  <div class="padding_80 intro_header centered full">
     <div class="w-layout-grid grid client_grid space show_grid _2-col-grid full">
       <div id="w-node-94f62e94f6f5-3f50c55f" class="masked">
-        <p style="opacity:0" class="paragraph-2 no-reveal">This was an attempt to create a simple yet scalable framework to handle more wait time data as Google&#x27;s machine learning improved and local listing info becomes increasingly available through the various signals gathered over time. I designed the tooltip framework, supporting the various cases between live, historical, and estimated wait durations.<br></p>
+        <p class="paragraph-2 no-reveal">This was an attempt to create a simple yet scalable framework to handle more wait time data as Google&#x27;s machine learning improved and local listing info becomes increasingly available through the various signals gathered over time. I designed the tooltip framework, supporting the various cases between live, historical, and estimated wait durations.<br></p>
       </div>
       <div id="w-node-94f62e94f6f9-3f50c55f" class="masked body_reveal">
-        <p style="opacity:0" class="paragraph-2 no-reveal">We learned that a new graph and visual take on it was not only too much work, but didn&#x27;t align with data viz across the evolving Google ecosystem. Words were powerful and also misleading depending on how we articulated the wait of each place. <br></p>
+        <p class="paragraph-2 no-reveal">We learned that a new graph and visual take on it was not only too much work, but didn&#x27;t align with data viz across the evolving Google ecosystem. Words were powerful and also misleading depending on how we articulated the wait of each place. <br></p>
       </div>
     </div>
   </div>
-  <div class="w-layout-grid body_grid_3 slidein"><img src="../images/wt_evo_1-p-3200.png" srcset="../images/wt_evo_1-p-3200-p-500.png 500w, ../images/wt_evo_1-p-3200-p-800.png 800w, ../images/wt_evo_1-p-3200-p-1080.png 1080w, ../images/wt_evo_1-p-3200-p-1600.png 1600w, ../images/wt_evo_1-p-3200-p-2000.png 2000w, ../images/wt_evo_1-p-3200-p-2600.png 2600w, ../images/wt_evo_1-p-3200.png 3200w" sizes="(max-width: 479px) 100vw, (max-width: 991px) 98vw, 96vw" alt="" class="grid_image hide white-bg"></div>
-  <div style="opacity:0" class="padding_80 intro_header centered">
+  <div class="w-layout-grid body_grid_3 slidein"><img src="../images/wt_evo_1-p-3200.png" srcset="../images/wt_evo_1-p-3200-p-500.png 500w, ../images/wt_evo_1-p-3200-p-800.png 800w, ../images/wt_evo_1-p-3200-p-1080.png 1080w, ../images/wt_evo_1-p-3200-p-1600.png 1600w, ../images/wt_evo_1-p-3200-p-2000.png 2000w, ../images/wt_evo_1-p-3200-p-2600.png 2600w, ../images/wt_evo_1-p-3200.png 3200w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 95vw, (max-width: 991px) 96vw, 100vw" alt="" class="grid_image hide white-bg"></div>
+  <div class="padding_80 intro_header centered">
     <div class="masked body_reveal w-clearfix">
-      <p style="opacity:0" class="paragraph-2 no-reveal">The sensitivity of this info was also to be considered, as well as how it played a role in decision making between parsing how busy a place was at that very time vs another day of the week. After rounds of research, we also found new ways to allow users to traverse between times as well as focus on the worst case scenario at a glance.<br></p><a href="https://www.google.com/search?q=thai+food+near+me&amp;oq=thai+foio&amp;aqs=chrome.2.69i57j0l5.2770j0j9&amp;sourceid=chrome&amp;ie=UTF-8#istate=lrl:iv&amp;rlimm=17046221824955413025" class="body_link no-reveal secondary">See it live on Google</a></div>
+      <p class="paragraph-2 no-reveal">The sensitivity of this info was also to be considered, as well as how it played a role in decision making between parsing how busy a place was at that very time vs another day of the week. After rounds of research, we also found new ways to allow users to traverse between times as well as focus on the worst case scenario at a glance.<br></p><a href="https://www.google.com/search?q=thai+food+near+me&amp;oq=thai+foio&amp;aqs=chrome.2.69i57j0l5.2770j0j9&amp;sourceid=chrome&amp;ie=UTF-8#istate=lrl:iv&amp;rlimm=17046221824955413025" class="body_link no-reveal primary">See it live on Google</a></div>
   </div>
   <div class="w-layout-grid body_grid_3 slidein">
     <div data-poster-url="../videos/wait-times-demo-poster-00001.jpg" data-video-urls="../videos/wait-times-demo-transcode.mp4,../videos/wait-times-demo-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="background-video-3 w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;../videos/wait-times-demo-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true"><source src="../videos/wait-times-demo-transcode.mp4" data-wf-ignore="true"><source src="../videos/wait-times-demo-transcode.webm" data-wf-ignore="true"></video></div>
@@ -381,7 +384,7 @@
 function delay (URL) {
 setTimeout( function() { 
   window.location = URL }
-     , 600 );
+     , 680 );
 }
 // Add and remove body color transition property after page is done loading
 $('body').addClass("overflow");
