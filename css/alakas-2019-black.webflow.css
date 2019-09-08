@@ -370,12 +370,12 @@ img {
   position: relative;
   padding: 0px;
   font-family: 'Open Sans', sans-serif;
-  color: hsla(0, 0%, 100%, 0.54);
-  font-size: 0.7vw;
-  line-height: 1.7vw;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  color: #fff;
+  font-size: 1vw;
+  line-height: 3vw;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-transform: none;
 }
 
 .paragraph-2.padding2 {
@@ -434,8 +434,8 @@ img {
   padding-left: 0px;
   font-family: Raleway, sans-serif;
   color: #fff;
-  font-size: 1.1vw;
-  line-height: 2.2vw;
+  font-size: 1vw;
+  line-height: 2.5vw;
   font-weight: 600;
 }
 
@@ -1612,7 +1612,7 @@ img {
 }
 
 .body_link.no-reveal.secondary {
-  margin-right: 20px;
+  margin-right: 0px;
   margin-left: 0px;
   background-color: hsla(0, 0%, 100%, 0);
   box-shadow: inset 20px 0 0 -20px rgba(255, 255, 255, 0.05);
@@ -1620,8 +1620,8 @@ img {
   -webkit-transition-duration: 400ms;
   transition-duration: 400ms;
   color: #fff;
-  font-size: 1.1vw;
-  line-height: 2.5vw;
+  font-size: 1vw;
+  line-height: 3vw;
   text-decoration: none;
 }
 
@@ -1631,7 +1631,7 @@ img {
 
 .body_link.no-reveal.secondary.show {
   padding: 10px 20px;
-  border-style: solid;
+  border-style: none;
   border-color: rgba(255, 255, 255, 0.18);
   border-radius: 8px;
   text-transform: none;
@@ -1654,8 +1654,8 @@ img {
   transition-duration: 400ms;
   font-family: 'Open Sans', sans-serif;
   color: #fff;
-  font-size: 1.1vw;
-  line-height: 2.5vw;
+  font-size: 1vw;
+  line-height: 3vw;
 }
 
 .body_link.no-reveal.primary:hover {
