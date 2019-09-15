@@ -217,7 +217,7 @@ img {
   display: inline-block;
   overflow: visible;
   width: 100%;
-  padding: 15vw 20vw;
+  padding: 15vw 25vw;
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -1684,9 +1684,9 @@ img {
 
 .body_link.no-reveal.primary {
   margin-right: 10px;
-  padding: 10px 20px;
+  padding: 5px 20px;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   border-color: hsla(0, 0%, 94.5%, 0.32);
   border-radius: 8px;
   background-color: hsla(0, 0%, 94.5%, 0);
@@ -1705,6 +1705,17 @@ img {
   border-color: #fff;
   background-color: rgba(255, 255, 255, 0);
   color: #fff;
+}
+
+.body_link.no-reveal.primary.fixed_hdr {
+  position: relative;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  margin-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .body_link.show {
@@ -3719,6 +3730,17 @@ img {
 
 .back_arrow.page_arrow.hide {
   display: none;
+}
+
+.back_arrow.page_arrow.fixed_contact {
+  position: relative;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  margin: 0px;
+  float: right;
+  opacity: 1;
 }
 
 .link-block-6 {
