@@ -1502,9 +1502,9 @@ img {
 }
 
 .list_link.padding.logo_padding.bg_grey {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
+  -webkit-transform: translate(0px, -170px);
+  -ms-transform: translate(0px, -170px);
+  transform: translate(0px, -170px);
   -webkit-transition-property: none;
   transition-property: none;
 }
