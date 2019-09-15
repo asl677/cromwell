@@ -297,7 +297,7 @@ img {
 }
 
 .padding_80.intro_header.centered.full.border_top {
-  border-style: dotted none none;
+  border-style: none;
   border-width: 1px;
   border-color: hsla(0, 0%, 94.5%, 0.32) #000 #000;
 }
@@ -421,7 +421,7 @@ img {
   margin-top: 0vw;
   margin-right: 0vw;
   padding-right: 0vw;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   padding-left: 0vw;
   background-color: hsla(0, 0%, 94.5%, 0);
   color: #fff;
@@ -873,8 +873,8 @@ img {
   grid-row-gap: 20px;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto auto auto;
-  grid-template-rows: auto auto auto;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
   opacity: 1;
 }
 
@@ -1526,7 +1526,7 @@ img {
 
 .list_link.padding.intro_list {
   display: block;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
   float: none;
   clear: none;
   grid-auto-columns: 1fr;
