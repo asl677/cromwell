@@ -262,7 +262,7 @@ img {
   display: block;
   overflow: hidden;
   margin-bottom: 0px;
-  padding: 25vw 15vw 10vw 5vw;
+  padding: 20vw 15vw 10vw 5vw;
 }
 
 .padding_80.intro_header.centered.hero_padding.mask {
@@ -891,7 +891,7 @@ img {
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  opacity: 0;
+  opacity: 1;
 }
 
 .grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid.two-up.one-up {
@@ -920,6 +920,7 @@ img {
   align-content: space-between;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+  opacity: 1;
 }
 
 .grid.client_grid.space.show_grid._2-col-grid.hero_grid {
@@ -1108,8 +1109,8 @@ img {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
-  -webkit-transition: background-color 200ms ease;
-  transition: background-color 200ms ease;
+  -webkit-transition-property: none;
+  transition-property: none;
 }
 
 .link-block.block_hero.slim:hover {
@@ -2837,7 +2838,7 @@ img {
   color: hsla(0, 0%, 100%, 0.54);
   font-size: 1vw;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
@@ -4628,8 +4629,7 @@ img {
     line-height: 20px;
   }
   .black.subtext.ftr_subtext {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 0px;
     font-size: 14px;
     line-height: 24px;
   }
