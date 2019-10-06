@@ -291,7 +291,7 @@ img {
   padding: 10vw 15vw;
   border-style: none;
   background-color: hsla(0, 0%, 100%, 0);
-  opacity: 1;
+  opacity: 0;
 }
 
 .padding_80.intro_header.centered.full.hr_padding {
@@ -3306,6 +3306,7 @@ img {
 
 .body_grid_3.slidein {
   max-width: 1400px;
+  margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
   padding: 0px;
@@ -4163,10 +4164,12 @@ img {
   }
   .padding_80.intro_header.centered.full {
     display: block;
-    padding: 0vw;
+    padding: 5vw 0vw;
   }
   .padding_80.intro_header.centered.full.footer {
-    padding-top: 0vw;
+    padding-top: 5vw;
+    padding-right: 0vw;
+    padding-left: 0vw;
   }
   .padding_80.intro_header.grid_float {
     padding: 0px;
@@ -4187,6 +4190,7 @@ img {
     line-height: 24px;
   }
   .paragraph-2.padding.list_p {
+    padding-top: 20px;
     font-size: 14px;
     line-height: 28px;
   }
@@ -4276,6 +4280,10 @@ img {
     opacity: 1;
     font-size: 30px;
     line-height: 40px;
+  }
+  .heading.padding.body_hdr {
+    margin-bottom: 0vw;
+    padding-bottom: 0px;
   }
   .heading.padding.hdr_inverted {
     width: auto;
@@ -4378,6 +4386,7 @@ img {
   }
   .grid.client_grid.space.show_grid._2-col-grid.full {
     display: block;
+    padding-bottom: 0vw;
   }
   .grid.padding_80.quote_grid {
     display: block;
@@ -4476,7 +4485,8 @@ img {
   }
   .list_link.padding.intro_list {
     display: block;
-    padding-bottom: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
     opacity: 1;
   }
   .column-5 {
@@ -4727,8 +4737,8 @@ img {
   }
   .masked {
     overflow: hidden;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
     padding: 0px;
     border: 1px none #000;
   }
@@ -4772,6 +4782,7 @@ img {
     margin-left: 0vw;
   }
   .masked.intro_p {
+    margin-bottom: 0px;
     padding-left: 0px;
   }
   .grid-5 {
