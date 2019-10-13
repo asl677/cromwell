@@ -4186,6 +4186,7 @@ img {
   .padding_80.intro_header.centered.full {
     display: block;
     padding: 5vw 0vw;
+    opacity: 1;
   }
   .padding_80.intro_header.centered.full.footer {
     padding-top: 5vw;
@@ -4232,6 +4233,7 @@ img {
     line-height: 32px;
   }
   .paragraph-2.reveal.intro-text {
+    opacity: 1;
     font-size: 14px;
     line-height: 26px;
     font-weight: 400;
@@ -4297,10 +4299,11 @@ img {
     line-height: 36px;
   }
   .heading.padding {
-    padding: 0px 5vw 10px 0px;
+    margin-bottom: 0vw;
+    padding: 20px 5vw 40px 0px;
     opacity: 1;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 50px;
+    line-height: 56px;
   }
   .heading.padding.body_hdr {
     margin-bottom: 0vw;
@@ -4468,6 +4471,7 @@ img {
     padding: 4vw;
   }
   .thumb.body_wide_thumb.slide_thumb.project_thumb {
+    height: auto;
     margin-bottom: 0px;
   }
   .thumb.body_wide_thumb.slide_thumb.project_thumb.no_bg.invert {
@@ -4979,7 +4983,11 @@ img {
   .reveal {
     display: block;
     overflow: visible;
+    opacity: 1;
     text-decoration: none;
+  }
+  .reveal.disable {
+    opacity: 1;
   }
   .background-video-3 {
     height: 50vw;
@@ -5092,6 +5100,7 @@ img {
     line-height: 30px;
   }
   .paragraph-2.reveal.intro-text {
+    opacity: 1;
     font-size: 14px;
     line-height: 30px;
     font-weight: 400;
@@ -5163,9 +5172,11 @@ img {
     line-height: 5vw;
   }
   .heading.padding {
+    margin-bottom: 0vw;
+    padding-top: 20px;
     padding-bottom: 10px;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 40px;
+    line-height: 46px;
   }
   .heading.padding.hdr_inverted {
     padding: 0px;
@@ -5246,6 +5257,7 @@ img {
   }
   .grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid.hide {
     display: block;
+    margin-top: 0px;
     padding: 0vw;
   }
   .grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid.two-up {
@@ -5690,14 +5702,16 @@ img {
     border-radius: 0px;
   }
   .reveal {
+    opacity: 1;
     text-decoration: none;
   }
   .reveal.disable {
     margin-bottom: 20px;
     padding: 0vw;
+    opacity: 1;
   }
   .reveal.disable.hide {
-    padding: 1vw;
+    padding: 0vw;
   }
   .background-video-3 {
     height: 50vw;
@@ -5826,6 +5840,7 @@ img {
     line-height: 30px;
   }
   .paragraph-2.reveal.intro-text {
+    opacity: 1;
     color: #fff;
     font-size: 14px;
     line-height: 24px;
@@ -5913,10 +5928,15 @@ img {
     line-height: 10vw;
   }
   .heading.padding {
-    padding-top: 0px;
+    margin-bottom: 0vw;
+    padding-top: 20px;
     padding-bottom: 0px;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .heading.padding.body_hdr {
+    overflow: visible;
+    padding-right: 0vw;
   }
   .heading.padding.hdr_inverted {
     width: 100%;
@@ -5935,6 +5955,7 @@ img {
   .heading.body_reveal {
     padding-right: 0vw;
     padding-bottom: 10px;
+    opacity: 1;
     font-size: 30px;
     line-height: 40px;
   }
@@ -6028,6 +6049,7 @@ img {
   }
   .grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid.hide {
     display: block;
+    margin-top: 0px;
   }
   .grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid.two-up.home {
     margin-bottom: 0px;
@@ -6818,9 +6840,13 @@ img {
   .reveal {
     margin-top: 0.5vw;
     margin-bottom: 0.5vw;
+    opacity: 1;
+  }
+  .reveal.disable {
+    opacity: 1;
   }
   .reveal.disable.hide {
-    display: none;
+    display: block;
   }
   .background-video-3 {
     z-index: 3;
