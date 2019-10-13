@@ -4094,7 +4094,7 @@ img {
   margin: 0vw;
   padding: 0vw;
   background-color: hsla(0, 0%, 94.5%, 0);
-  opacity: 0;
+  opacity: 1;
 }
 
 .reveal.disable {
