@@ -264,7 +264,7 @@ img {
   overflow: hidden;
   max-width: 1400px;
   margin-bottom: 0px;
-  padding: 15vw 15vw 10vw 5vw;
+  padding: 15vw 15vw 5vw 5vw;
   opacity: 0;
 }
 
@@ -443,9 +443,9 @@ img {
   padding-left: 0vw;
   background-color: hsla(0, 0%, 94.5%, 0);
   font-family: Oxygen, sans-serif;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.67);
   font-size: 1.2vw;
-  line-height: 2.8vw;
+  line-height: 2.5vw;
   font-weight: 700;
 }
 
@@ -455,7 +455,7 @@ img {
   padding-bottom: 20px;
   padding-left: 0px;
   font-family: Helveticaneue, sans-serif;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.67);
   font-size: 1.2vw;
   line-height: 2.2vw;
   font-weight: 500;
@@ -1006,6 +1006,10 @@ img {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+.grid.client_grid.space.show_grid._2-col-grid.bg_grey.reveal.hide {
+  display: none;
 }
 
 .grid.client_grid.space.show_grid._2-col-grid.full {
