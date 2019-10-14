@@ -397,9 +397,9 @@ img {
   position: relative;
   padding: 0px;
   font-family: Helveticaneue, sans-serif;
-  color: hsla(0, 0%, 100%, 0.54);
-  font-size: 1vw;
-  line-height: 2vw;
+  color: rgba(255, 255, 255, 0.67);
+  font-size: 1.2vw;
+  line-height: 2.2vw;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -676,6 +676,7 @@ img {
 .heading.padding.body_hdr {
   opacity: 1;
   font-family: Helveticaneue, sans-serif;
+  font-size: 6vw;
   font-weight: 500;
 }
 
@@ -2869,7 +2870,7 @@ img {
   font-family: Helveticaneue, sans-serif;
   color: #fff;
   font-size: 1.5vw;
-  line-height: 2.3vw;
+  line-height: 2.5vw;
   font-weight: 500;
   letter-spacing: 0px;
   text-decoration: none;
@@ -2922,7 +2923,7 @@ img {
   padding-top: 0px;
   padding-bottom: 0px;
   font-family: Helveticaneue, sans-serif;
-  color: hsla(0, 0%, 100%, 0.54);
+  color: rgba(255, 255, 255, 0.67);
   font-size: 1vw;
   font-weight: 500;
   letter-spacing: 2px;
