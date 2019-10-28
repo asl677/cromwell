@@ -347,6 +347,10 @@ img {
   display: none;
 }
 
+.padding_80.intro_header.centered.full.phone_section.no_bg {
+  background-color: rgba(255, 255, 255, 0);
+}
+
 .padding_80.intro_header.centered.full.bg_image {
   overflow: hidden;
   margin-top: 20px;
@@ -402,8 +406,8 @@ img {
   padding: 0px;
   font-family: Helveticaneue, sans-serif;
   color: rgba(255, 255, 255, 0.67);
-  font-size: 1.2vw;
-  line-height: 2.2vw;
+  font-size: 1vw;
+  line-height: 2vw;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -671,7 +675,7 @@ img {
   opacity: 1;
   font-family: Helveticaneue, sans-serif;
   color: #fff;
-  font-size: 5.5vw;
+  font-size: 6vw;
   line-height: 6vw;
   font-weight: 500;
   letter-spacing: 0.1vw;
@@ -681,6 +685,7 @@ img {
   opacity: 1;
   font-family: Helveticaneue, sans-serif;
   font-size: 6vw;
+  line-height: 6vw;
   font-weight: 500;
 }
 
@@ -3470,7 +3475,7 @@ img {
 }
 
 .grid_image.bg_fixed_img.bg_4 {
-  background-image: url('../images/edit-sztazics-GlhUl9WuFmA-unsplash.jpg');
+  background-image: url('../images/chris-knight--ucnC7PMDqE-unsplash.jpg');
   background-size: cover;
   background-attachment: scroll;
 }
@@ -4248,6 +4253,12 @@ img {
   transform: scale(1.8);
 }
 
+.image-8.iphone7 {
+  -webkit-transform: translate(0px, -290px);
+  -ms-transform: translate(0px, -290px);
+  transform: translate(0px, -290px);
+}
+
 .iphone_screen {
   position: absolute;
   z-index: -1;
@@ -4257,6 +4268,13 @@ img {
   -webkit-transform: scale(0.77) translate(0px, -50%);
   -ms-transform: scale(0.77) translate(0px, -50%);
   transform: scale(0.77) translate(0px, -50%);
+}
+
+.iphone_screen.iphone7_app {
+  border-radius: 0px;
+  -webkit-transform: scale(0.77) translate(0px, -330px);
+  -ms-transform: scale(0.77) translate(0px, -330px);
+  transform: scale(0.77) translate(0px, -330px);
 }
 
 .div-block-7 {
@@ -4283,6 +4301,22 @@ img {
   -webkit-transform: translate(-12vw, 10vw);
   -ms-transform: translate(-12vw, 10vw);
   transform: translate(-12vw, 10vw);
+}
+
+.carrier_cover {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 2;
+  width: 78%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #fff;
+  -webkit-transform: translate(4vw, -21vw);
+  -ms-transform: translate(4vw, -21vw);
+  transform: translate(4vw, -21vw);
 }
 
 @media (max-width: 991px) {
@@ -7817,6 +7851,56 @@ img {
   grid-row-end: 2;
   -ms-grid-row-align: start;
   align-self: start;
+}
+
+#w-node-c78f565796c2-550da921 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-c78f565796cb-550da921 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-378294c3fa49-550da921 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-378294c3fa40-550da921 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: auto;
+  justify-self: auto;
+}
+
+#w-node-643f2bb6796e-550da921 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-643f2bb67977-550da921 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 #w-node-a3c58b4c882e-3f50c55f {
