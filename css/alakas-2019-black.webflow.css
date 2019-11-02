@@ -262,10 +262,10 @@ img {
 .padding_80.intro_header.centered.hero_padding {
   display: block;
   overflow: hidden;
-  max-width: 1400px;
+  max-width: none;
   margin-bottom: 0px;
-  padding: 15vw 15vw 5vw 5vw;
-  opacity: 0;
+  padding: 15vw 0vw 5vw 5vw;
+  opacity: 1;
 }
 
 .padding_80.intro_header.centered.hero_padding.mask {
@@ -712,6 +712,7 @@ img {
 }
 
 .heading.padding.sub_header {
+  padding-top: 2vw;
   font-size: 3vw;
   line-height: 3.5vw;
 }
@@ -1055,6 +1056,8 @@ img {
 
 .grid.client_grid.space.show_grid._2-col-grid._1-col-grid {
   display: block;
+  overflow: hidden;
+  height: 40vw;
   background-color: rgba(36, 36, 36, 0);
 }
 
@@ -3331,7 +3334,7 @@ img {
   overflow: visible;
   width: auto;
   height: auto;
-  max-width: 1330px;
+  max-width: 1440px;
   margin: 20px auto 0px;
   padding: 0vw;
   -webkit-box-orient: horizontal;
@@ -3383,7 +3386,7 @@ img {
 }
 
 .body_grid_3.slidein {
-  max-width: 1400px;
+  max-width: 1440px;
   margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
@@ -4284,8 +4287,9 @@ img {
   right: 0%;
   bottom: 0%;
   overflow: visible;
-  width: 36vw;
+  width: 33vw;
   height: 50%;
+  max-width: 33vw;
   margin: 0px 20px;
   -webkit-transform: translate(0vw, -3vw);
   -ms-transform: translate(0vw, -3vw);
