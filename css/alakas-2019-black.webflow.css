@@ -264,7 +264,7 @@ img {
   overflow: hidden;
   max-width: none;
   margin-bottom: 0px;
-  padding: 15vw 0vw 5vw 5vw;
+  padding: 15vw 15vw 10vw;
   opacity: 1;
 }
 
@@ -356,6 +356,10 @@ img {
   margin-top: 20px;
 }
 
+.padding_80.intro_header.centered.full.hide {
+  display: none;
+}
+
 .padding_80.intro_header.grid_float {
   padding: 20px;
   text-align: left;
@@ -406,8 +410,8 @@ img {
   padding: 0px;
   font-family: Helveticaneue, sans-serif;
   color: rgba(255, 255, 255, 0.67);
-  font-size: 1vw;
-  line-height: 2vw;
+  font-size: 1.5vw;
+  line-height: 2.5vw;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -470,8 +474,8 @@ img {
   padding-left: 0px;
   font-family: Helveticaneue, sans-serif;
   color: rgba(255, 255, 255, 0.67);
-  font-size: 1.2vw;
-  line-height: 2.2vw;
+  font-size: 1.5vw;
+  line-height: 2.5vw;
   font-weight: 500;
   text-align: left;
 }
@@ -675,7 +679,7 @@ img {
   opacity: 1;
   font-family: Helveticaneue, sans-serif;
   color: #fff;
-  font-size: 6vw;
+  font-size: 5.5vw;
   line-height: 6vw;
   font-weight: 500;
   letter-spacing: 0.1vw;
@@ -684,8 +688,8 @@ img {
 .heading.padding.body_hdr {
   opacity: 1;
   font-family: Helveticaneue, sans-serif;
-  font-size: 6vw;
-  line-height: 6vw;
+  font-size: 5.5vw;
+  line-height: 5.5vw;
   font-weight: 500;
 }
 
@@ -986,6 +990,10 @@ img {
   opacity: 1;
 }
 
+.grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid.two-up.home.hide {
+  display: none;
+}
+
 .grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid.two-up._4out {
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
@@ -1057,7 +1065,7 @@ img {
 .grid.client_grid.space.show_grid._2-col-grid._1-col-grid {
   display: block;
   overflow: hidden;
-  height: 40vw;
+  height: 50vw;
   background-color: rgba(36, 36, 36, 0);
 }
 
@@ -1839,8 +1847,8 @@ img {
   transition-duration: 400ms;
   font-family: Helveticaneue, sans-serif;
   color: #fff;
-  font-size: 1.2vw;
-  line-height: 2.8vw;
+  font-size: 1.5vw;
+  line-height: 2.5vw;
   font-weight: 500;
   text-decoration: none;
 }
@@ -3463,8 +3471,15 @@ img {
 }
 
 .grid_image.bg_fixed_img.bg_1 {
-  background-image: url('../images/Screen-Shot-2019-10-19-at-8.32.22-AM.png');
+  background-image: url('../images/Image-from-iOS-3.jpg');
+  background-position: 0px 0px;
   background-size: cover;
+  background-attachment: fixed;
+}
+
+.grid_image.bg_fixed_img.bg_1.more_space_hero {
+  height: 50vw;
+  padding-bottom: 0vw;
 }
 
 .grid_image.bg_fixed_img.bg_2 {
@@ -3485,6 +3500,11 @@ img {
 
 .grid_image.bg_fixed_img.bg_5 {
   background-image: url('../images/antonio-grosz-lszypRm8AkY-unsplash.jpg');
+  background-size: cover;
+}
+
+.grid_image.bg_fixed_img.bg6 {
+  background-image: url('../images/Screen-Shot-2019-10-19-at-8.32.22-AM.png');
   background-size: cover;
 }
 
@@ -4315,12 +4335,12 @@ img {
   bottom: auto;
   z-index: 2;
   width: 78%;
-  height: 40px;
+  height: 5vw;
   border-radius: 20px;
   background-color: #fff;
-  -webkit-transform: translate(4vw, -21vw);
-  -ms-transform: translate(4vw, -21vw);
-  transform: translate(4vw, -21vw);
+  -webkit-transform: translate(14%, -20vw);
+  -ms-transform: translate(14%, -20vw);
+  transform: translate(14%, -20vw);
 }
 
 @media (max-width: 991px) {
