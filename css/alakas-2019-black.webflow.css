@@ -474,10 +474,11 @@ img {
   padding-left: 0px;
   font-family: Helveticaneue, sans-serif;
   color: rgba(255, 255, 255, 0.67);
-  font-size: 1.5vw;
-  line-height: 2.5vw;
+  font-size: 1.2vw;
+  line-height: 2.2vw;
   font-weight: 500;
   text-align: left;
+  text-transform: lowercase;
 }
 
 .heading {
@@ -679,17 +680,18 @@ img {
   opacity: 1;
   font-family: Helveticaneue, sans-serif;
   color: #fff;
-  font-size: 5.5vw;
-  line-height: 6vw;
+  font-size: 4vw;
+  line-height: 4.5vw;
   font-weight: 500;
   letter-spacing: 0.1vw;
+  text-transform: lowercase;
 }
 
 .heading.padding.body_hdr {
   opacity: 1;
   font-family: Helveticaneue, sans-serif;
-  font-size: 5.5vw;
-  line-height: 5.5vw;
+  font-size: 4vw;
+  line-height: 5vw;
   font-weight: 500;
 }
 
@@ -1847,10 +1849,11 @@ img {
   transition-duration: 400ms;
   font-family: Helveticaneue, sans-serif;
   color: #fff;
-  font-size: 1.5vw;
-  line-height: 2.5vw;
+  font-size: 1.2vw;
+  line-height: 2.2vw;
   font-weight: 500;
   text-decoration: none;
+  text-transform: lowercase;
 }
 
 .body_link.no-reveal.secondary:hover {
@@ -2894,7 +2897,7 @@ img {
   font-weight: 500;
   letter-spacing: 0px;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: lowercase;
 }
 
 .black.logo {
@@ -2918,7 +2921,7 @@ img {
   line-height: 20px;
   font-weight: 900;
   letter-spacing: 0px;
-  text-transform: none;
+  text-transform: lowercase;
 }
 
 .black.logo.white {
@@ -3537,7 +3540,8 @@ img {
 
 .grid-10 {
   position: static;
-  display: block;
+  display: -ms-grid;
+  display: grid;
   overflow: visible;
   margin-right: 0px;
   -webkit-box-pack: start;
@@ -4179,7 +4183,7 @@ img {
   margin: 0vw;
   padding: 0vw;
   background-color: hsla(0, 0%, 94.5%, 0);
-  opacity: 1;
+  opacity: 0;
 }
 
 .reveal.disable {
