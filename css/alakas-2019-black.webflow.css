@@ -264,7 +264,7 @@ img {
   overflow: hidden;
   max-width: none;
   margin-bottom: 0px;
-  padding: 15vw 15vw 10vw;
+  padding: 10vw 15vw;
   opacity: 1;
 }
 
@@ -470,7 +470,7 @@ img {
 .paragraph-2.no-reveal {
   margin-bottom: 0px;
   padding-right: 0px;
-  padding-bottom: 20px;
+  padding-bottom: 1vw;
   padding-left: 0px;
   font-family: Helveticaneue, sans-serif;
   color: rgba(255, 255, 255, 0.67);
@@ -680,8 +680,8 @@ img {
   opacity: 1;
   font-family: Helveticaneue, sans-serif;
   color: #fff;
-  font-size: 4vw;
-  line-height: 4.5vw;
+  font-size: 6vw;
+  line-height: 5.5vw;
   font-weight: 500;
   letter-spacing: 0.1vw;
   text-transform: lowercase;
@@ -1687,6 +1687,7 @@ img {
   bottom: auto;
   width: 100%;
   padding: 0px;
+  background-color: #000;
   opacity: 0;
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
@@ -2901,6 +2902,7 @@ img {
 }
 
 .black.logo {
+  position: relative;
   display: block;
   overflow: visible;
   padding: 10px;
@@ -3486,6 +3488,16 @@ img {
   padding-bottom: 0vw;
 }
 
+.grid_image.bg_fixed_img.bg_1.bg_h {
+  margin-bottom: 20px;
+  background-image: url('../images/test.png');
+  background-attachment: scroll;
+}
+
+.grid_image.bg_fixed_img.bg_1.bg_h.hide {
+  display: none;
+}
+
 .grid_image.bg_fixed_img.bg_2 {
   background-image: url('../images/dan-gold-kARZuSYMfrA-unsplash.jpg');
   background-size: cover;
@@ -3540,10 +3552,10 @@ img {
 
 .grid-10 {
   position: static;
-  display: -ms-grid;
-  display: grid;
+  display: block;
   overflow: visible;
   margin-right: 0px;
+  padding-right: 15vw;
   -webkit-box-pack: start;
   -webkit-justify-content: start;
   -ms-flex-pack: start;
@@ -4393,7 +4405,7 @@ img {
   .padding_80.intro_header.centered.hero_padding {
     display: block;
     overflow: visible;
-    padding: 0vw;
+    padding: 10vw 0vw;
     opacity: 1;
   }
   .padding_80.intro_header.centered.hero_padding.mask {
@@ -5284,6 +5296,10 @@ img {
     margin-top: 0vw;
     padding: 0px;
   }
+  .padding_80.intro_header.centered.hero_padding {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+  }
   .padding_80.intro_header.centered.full {
     display: block;
     padding: 0px;
@@ -5802,7 +5818,7 @@ img {
   .masked {
     overflow: hidden;
     width: auto;
-    margin-bottom: 30px;
+    margin-bottom: 1vw;
     padding: 2px;
     float: none;
     clear: none;
@@ -6027,6 +6043,10 @@ img {
   .padding_80.intro_header.centered.color_bg {
     margin-top: 0vw;
     padding: 0px;
+  }
+  .padding_80.intro_header.centered.hero_padding {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
   }
   .padding_80.intro_header.centered.hero_padding.mask.black_bg {
     display: none;
@@ -6863,7 +6883,7 @@ img {
   }
   .masked {
     overflow: hidden;
-    margin-bottom: 30px;
+    margin-bottom: 1vw;
     padding: 0px;
     font-size: 14px;
     line-height: 28px;
@@ -8101,12 +8121,12 @@ img {
 }
 
 #w-node-609a3efdbe50-128f9f6b {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-column-span: 1;
-  grid-column-end: 3;
+  grid-column-end: 2;
   -ms-grid-row-span: 1;
   grid-row-end: 2;
   -ms-grid-row-align: auto;
