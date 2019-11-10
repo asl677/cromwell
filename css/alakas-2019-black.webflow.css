@@ -264,7 +264,7 @@ img {
   overflow: hidden;
   max-width: none;
   margin-bottom: 0px;
-  padding: 10vw 25vw 10vw 15vw;
+  padding: 15vw 25vw 15vw 15vw;
   opacity: 1;
 }
 
@@ -8084,21 +8084,6 @@ img {
   grid-row-start: 1;
   -ms-grid-row-span: 1;
   grid-row-end: 2;
-  -ms-grid-column-align: auto;
-  justify-self: auto;
-}
-
-#w-node-40eb26251c18-61d457b0 {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-row-align: auto;
-  align-self: auto;
   -ms-grid-column-align: auto;
   justify-self: auto;
 }
