@@ -6092,6 +6092,9 @@ img {
   .padding_80.intro_header.centered.full.phone_section {
     padding-bottom: 0vw;
   }
+  .padding_80.intro_header.centered.full.phone_section.less_padding {
+    padding-right: 0vw;
+  }
   .padding_80.intro_header.grid_float {
     padding-top: 40px;
     padding-bottom: 20px;
@@ -6112,8 +6115,8 @@ img {
     text-align: left;
   }
   .paragraph-2.padding.list_p {
-    font-size: 14px;
-    line-height: 28px;
+    font-size: 12px;
+    line-height: 20px;
   }
   .paragraph-2.padding2 {
     font-size: 14px;
@@ -6139,9 +6142,9 @@ img {
     font-weight: 600;
   }
   .paragraph-2.no-reveal {
-    padding-bottom: 0vw;
+    padding-bottom: 20px;
     font-size: 14px;
-    line-height: 28px;
+    line-height: 22px;
     text-align: left;
   }
   .heading {
@@ -6232,7 +6235,8 @@ img {
     padding-right: 0vw;
     padding-bottom: 20px;
     font-size: 30px;
-    line-height: 40px;
+    line-height: 36px;
+    letter-spacing: 0vw;
   }
   .heading.padding.hdr_inverted {
     width: 100%;
@@ -6643,7 +6647,7 @@ img {
     padding: 0px;
   }
   .loader {
-    opacity: 1;
+    opacity: 0;
   }
   .image {
     width: 50px;
