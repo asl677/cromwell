@@ -474,10 +474,10 @@ img {
   padding-bottom: 1vw;
   padding-left: 0px;
   font-family: Helveticaneue, sans-serif;
-  color: rgba(255, 255, 255, 0.67);
-  font-size: 1.2vw;
-  line-height: 2.2vw;
-  font-weight: 500;
+  color: #fff;
+  font-size: 1.3vw;
+  line-height: 2.3vw;
+  font-weight: 400;
   text-align: left;
   text-transform: lowercase;
 }
@@ -1845,6 +1845,7 @@ img {
 }
 
 .body_link.no-reveal.secondary {
+  margin-top: 10px;
   margin-right: 0px;
   margin-left: 0px;
   background-color: hsla(0, 0%, 100%, 0);
@@ -1854,8 +1855,8 @@ img {
   transition-duration: 400ms;
   font-family: Helveticaneue, sans-serif;
   color: #fff;
-  font-size: 1.2vw;
-  line-height: 2.2vw;
+  font-size: 1.3vw;
+  line-height: 2.3vw;
   font-weight: 500;
   text-decoration: none;
   text-transform: lowercase;
@@ -6143,6 +6144,7 @@ img {
   }
   .paragraph-2.no-reveal {
     padding-bottom: 20px;
+    color: #fff;
     font-size: 14px;
     line-height: 22px;
     text-align: left;
@@ -8459,6 +8461,12 @@ img {
 }
 @font-face {
   font-family: 'Helveticaneue';
+  src: url('../fonts/helveticaneue.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helveticaneue';
   src: url('../fonts/HelveticaNeue-BoldExt.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
@@ -8483,7 +8491,7 @@ img {
 }
 @font-face {
   font-family: 'Helveticaneue roman';
-  src: url('../fonts/HelveticaNeue-Roman.otf') format('opentype');
+  src: url('../fonts/HelveticaNeue-Roman.otf') format('opentype'), url('../fonts/HelveticaNeue-Roman.otf') format('opentype'), url('../fonts/HelveticaNeue-Roman.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
