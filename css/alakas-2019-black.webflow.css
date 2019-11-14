@@ -264,7 +264,7 @@ img {
   overflow: hidden;
   max-width: none;
   margin-bottom: 0px;
-  padding: 10vw 25vw 15vw 15vw;
+  padding: 15vw 25vw 15vw 15vw;
   opacity: 1;
 }
 
@@ -3485,7 +3485,7 @@ img {
   background-image: url('../images/Image-from-iOS-3.jpg');
   background-position: 0px 0px;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   opacity: 0;
 }
 
@@ -8042,30 +8042,6 @@ img {
   grid-row-end: 2;
   -ms-grid-row-align: auto;
   align-self: auto;
-  -ms-grid-column-align: auto;
-  justify-self: auto;
-}
-
-#w-node-c9a0df282c06-128f9f6b {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-#w-node-c9a0df282c0b-128f9f6b {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
   -ms-grid-column-align: auto;
   justify-self: auto;
 }
