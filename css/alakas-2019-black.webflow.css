@@ -264,7 +264,7 @@ img {
   overflow: hidden;
   max-width: none;
   margin-bottom: 0px;
-  padding: 15vw 25vw 15vw 15vw;
+  padding: 25vh 25vw 25vh 15vw;
   opacity: 1;
 }
 
@@ -5718,6 +5718,7 @@ img {
     padding: 0px;
   }
   .loader {
+    display: none;
     opacity: 1;
   }
   .avatar {
