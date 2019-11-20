@@ -340,7 +340,7 @@ img {
 .padding_80.intro_header.centered.full.phone_section.less_padding {
   overflow: visible;
   padding-right: 15vw;
-  padding-bottom: 25vw;
+  padding-bottom: 15vw;
   background-color: hsla(0, 0%, 100%, 0.07);
 }
 
@@ -350,6 +350,11 @@ img {
 
 .padding_80.intro_header.centered.full.phone_section.no_bg {
   background-color: rgba(255, 255, 255, 0);
+}
+
+.padding_80.intro_header.centered.full.phone_section.medium_padding {
+  padding-right: 15vw;
+  padding-bottom: 20vw;
 }
 
 .padding_80.intro_header.centered.full.bg_image {
@@ -4253,7 +4258,7 @@ img {
 }
 
 .div-block-6 {
-  display: block;
+  display: none;
   opacity: 1;
 }
 
@@ -4958,6 +4963,7 @@ img {
   }
   .black.logo {
     padding-left: 0px;
+    opacity: 0;
     font-size: 22px;
     line-height: 46px;
   }
@@ -4972,6 +4978,10 @@ img {
   }
   .black.subtext.logo_subtext {
     display: none;
+  }
+  .black.logo-avatar {
+    background-position: 0px 20px;
+    background-size: 56px;
   }
   .grid-3 {
     display: block;
@@ -5833,6 +5843,7 @@ img {
   }
   .black.logo {
     padding: 0px;
+    opacity: 0;
     font-size: 22px;
     line-height: 46px;
   }
@@ -5841,6 +5852,10 @@ img {
   }
   .black.subtext.logo_subtext {
     display: none;
+  }
+  .black.logo-avatar {
+    background-position: 0px 20px;
+    background-size: 56px;
   }
   .fake_link_wrap {
     margin-right: 0px;
@@ -6891,6 +6906,8 @@ img {
   .black.logo {
     display: block;
     width: 100%;
+    opacity: 0;
+    color: #fff;
     font-size: 18px;
     line-height: 32px;
   }
@@ -6913,6 +6930,11 @@ img {
   .black.subtext.logo_subtext {
     display: none;
     line-height: 20px;
+  }
+  .black.logo-avatar {
+    background-color: #000;
+    background-position: 0px 20px;
+    background-size: 56px;
   }
   .cta_btn.nav_grid.logo.black {
     margin-left: 0px;
