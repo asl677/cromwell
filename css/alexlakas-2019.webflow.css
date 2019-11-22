@@ -344,6 +344,10 @@ img {
   background-color: hsla(0, 0%, 100%, 0.07);
 }
 
+.padding_80.intro_header.centered.full.phone_section.less_padding.no_bg {
+  padding-bottom: 15vw;
+}
+
 .padding_80.intro_header.centered.full.phone_section.hide {
   display: none;
 }
@@ -355,6 +359,7 @@ img {
 .padding_80.intro_header.centered.full.phone_section.medium_padding {
   padding-right: 15vw;
   padding-bottom: 20vw;
+  background-color: hsla(0, 0%, 94.5%, 0.1);
 }
 
 .padding_80.intro_header.centered.full.bg_image {
@@ -1883,6 +1888,17 @@ img {
 
 .body_link.no-reveal.secondary.show:hover {
   margin-right: 0px;
+}
+
+.body_link.no-reveal.secondary.blue_secondary {
+  border-bottom: 2px solid #2525ff;
+  background-color: rgba(37, 37, 255, 0);
+  text-decoration: none;
+}
+
+.body_link.no-reveal.secondary.blue_secondary:hover {
+  border-bottom-color: #fff;
+  color: #fff;
 }
 
 .body_link.no-reveal.primary {
@@ -3509,11 +3525,12 @@ img {
 }
 
 .grid_image.bg_fixed_img.bg_1 {
-  background-image: url('../images/Image-from-iOS-3.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2525ff), to(#2525ff));
+  background-image: linear-gradient(180deg, #2525ff, #2525ff);
   background-position: 0px 0px;
-  background-size: cover;
-  background-attachment: scroll;
   opacity: 1;
+  -webkit-filter: grayscale(100%) brightness(22%);
+  filter: grayscale(100%) brightness(22%);
 }
 
 .grid_image.bg_fixed_img.bg_1.more_space_hero {
@@ -3529,6 +3546,14 @@ img {
 
 .grid_image.bg_fixed_img.bg_1.bg_h.hide {
   display: none;
+}
+
+.grid_image.bg_fixed_img.bg_1.whitescale {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 94.5%, 0.1)), to(hsla(0, 0%, 94.5%, 0.1)));
+  background-image: linear-gradient(180deg, hsla(0, 0%, 94.5%, 0.1), hsla(0, 0%, 94.5%, 0.1));
+  background-position: 0px 0px;
+  -webkit-filter: none;
+  filter: none;
 }
 
 .grid_image.bg_fixed_img.bg_2 {
@@ -3553,6 +3578,7 @@ img {
 }
 
 .grid_image.bg_fixed_img.bg6 {
+  z-index: 0;
   background-image: url('../images/Screen-Shot-2019-10-19-at-8.32.22-AM.png');
   background-size: cover;
 }
