@@ -5402,6 +5402,7 @@ img {
     padding: 40px;
   }
   .paragraph-2.padding.list_p {
+    padding: 0px;
     font-size: 14px;
     line-height: 28px;
   }
@@ -5497,7 +5498,15 @@ img {
     margin-bottom: 0vw;
     padding-top: 20px;
     padding-bottom: 10px;
-    font-size: 40px;
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .heading.padding.body_hdr.intro {
+    line-height: 5vw;
+  }
+  .heading.padding.body_hdr.reveal {
+    padding-top: 20px;
+    font-size: 36px;
     line-height: 46px;
   }
   .heading.padding.hdr_inverted {
@@ -5513,6 +5522,7 @@ img {
     padding-top: 0px;
     padding-right: 0vw;
     padding-bottom: 0px;
+    font-size: 48px;
   }
   .heading.padding.third {
     padding-top: 0px;
@@ -5523,6 +5533,7 @@ img {
     padding-top: 0px;
     padding-right: 0vw;
     padding-bottom: 0px;
+    font-size: 48px;
   }
   .heading.body_reveal {
     padding-bottom: 0px;
@@ -5962,6 +5973,9 @@ img {
   .grid_image {
     padding: 0vw;
   }
+  .grid_image.bg_fixed_img.bg_3 {
+    display: none;
+  }
   .imagehero.large {
     width: 100%;
     -webkit-transform: scale(1.5);
@@ -6182,6 +6196,7 @@ img {
     text-align: left;
   }
   .paragraph-2.padding.list_p {
+    padding-bottom: 10px;
     font-size: 12px;
     line-height: 20px;
   }
@@ -6306,6 +6321,11 @@ img {
     line-height: 36px;
     letter-spacing: 0vw;
   }
+  .heading.padding.body_hdr.reveal {
+    margin-bottom: 5vw;
+    padding-top: 0px;
+    line-height: 40px;
+  }
   .heading.padding.hdr_inverted {
     width: 100%;
     padding: 0px;
@@ -6328,15 +6348,18 @@ img {
   .heading.padding.second {
     padding-top: 0px;
     padding-right: 0vw;
-    line-height: 40px;
+    line-height: 50px;
   }
   .heading.padding.third {
     padding-top: 0px;
     padding-right: 0vw;
+    font-size: 48px;
+    line-height: 50px;
   }
   .heading.padding.first {
     padding-top: 0px;
     padding-right: 0vw;
+    line-height: 50px;
   }
   .heading.body_reveal {
     padding-right: 0vw;
@@ -6680,7 +6703,7 @@ img {
     border-radius: 0px;
     background-color: rgba(36, 37, 255, 0);
     font-size: 14px;
-    line-height: 30px;
+    line-height: 24px;
   }
   .body_link.no-reveal.secondary.show {
     margin-top: 10px;
