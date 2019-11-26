@@ -359,7 +359,7 @@ img {
 .padding_80.intro_header.centered.full.phone_section.medium_padding {
   padding-right: 15vw;
   padding-bottom: 20vw;
-  background-color: hsla(0, 0%, 94.5%, 0.1);
+  background-color: hsla(0, 0%, 94.5%, 0);
 }
 
 .padding_80.intro_header.centered.full.bg_image {
@@ -3549,8 +3549,8 @@ img {
 }
 
 .grid_image.bg_fixed_img.bg_1.whitescale {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.78)), to(rgba(0, 0, 0, 0.78))), url('../images/IMG_3985IMG_3984.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), url('../images/IMG_3985IMG_3984.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.78)), to(rgba(0, 0, 0, 0.78))), url('../images/me.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), url('../images/me.jpg');
   background-position: 0px 0px, 0% 0%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -3564,8 +3564,8 @@ img {
 }
 
 .grid_image.bg_fixed_img.bg_3 {
-  background-image: url('../images/592110CA-18AB-42A7-A768-F223FD64AD13.JPG');
-  background-size: cover;
+  background-image: none;
+  background-size: auto;
   -webkit-filter: brightness(10%);
   filter: brightness(10%);
 }
