@@ -1040,7 +1040,7 @@ body {
 .nav {
   position: fixed;
   left: auto;
-  top: 0%;
+  top: auto;
   right: 0%;
   bottom: 0%;
   z-index: 2;
@@ -1062,7 +1062,7 @@ body {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  background-color: rgba(0, 21, 255, 0);
+  background-color: transparent;
   list-style-type: none;
 }
 
@@ -1080,8 +1080,14 @@ body {
 .side_nav.one {
   margin: 0px 20px;
   padding: 2px;
-  border: 1px solid #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
   border-radius: 20px;
+  background-color: #fff;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
   -webkit-transition: right 200ms ease;
   transition: right 200ms ease;
 }
@@ -1105,22 +1111,27 @@ body {
 }
 
 .side_nav.one.page_marker {
-  margin-right: 21px;
+  position: relative;
+  height: 10px;
+  margin-right: 22px;
   padding: 1px;
-  background-color: #fff;
-  -webkit-transform: translate(0px, 82%);
-  -ms-transform: translate(0px, 82%);
-  transform: translate(0px, 82%);
+  border-width: 0.5px;
+  border-color: #0015ff;
+  background-color: #0015ff;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  cursor: default;
 }
 
 .nav_indicator {
   position: fixed;
   left: auto;
-  top: 0%;
+  top: auto;
   right: 0%;
   bottom: 0%;
-  z-index: 1;
-  opacity: 0.5;
+  z-index: -1;
+  opacity: 1;
   -webkit-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate(0px, 0px);
@@ -1394,6 +1405,8 @@ body {
     position: relative;
     width: 100%;
     opacity: 1;
+    -webkit-filter: none;
+    filter: none;
   }
   .mask.no_mask {
     overflow: hidden;
@@ -1510,6 +1523,13 @@ body {
   align-self: center;
   -ms-grid-column-align: center;
   justify-self: center;
+}
+
+#w-node-3e90269c8e36-7832c4e5 {
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
 }
 
 @media screen and (max-width: 767px) {
