@@ -1401,6 +1401,9 @@ body {
     overflow: visible;
     margin-bottom: 0px;
   }
+  .mask.absolute {
+    opacity: 1;
+  }
   .mask.absolute.img2 {
     position: relative;
     width: 100%;
@@ -1481,6 +1484,7 @@ body {
   }
   .nav {
     z-index: 3;
+    display: none;
   }
   .side_nav.one {
     margin-bottom: 10px;
