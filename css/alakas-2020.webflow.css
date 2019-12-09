@@ -1175,6 +1175,10 @@ body {
   display: none;
 }
 
+.mobile_thumb_link {
+  display: none;
+}
+
 @media (max-width: 991px) {
   .grid-2.hero_grid._2_up.footer {
     padding-bottom: 10vw;
@@ -1457,6 +1461,7 @@ body {
     text-align: center;
   }
   .mask {
+    position: relative;
     overflow: visible;
     margin-top: 20px;
     margin-bottom: 0px;
@@ -1577,6 +1582,16 @@ body {
   }
   .side_nav.one.second {
     padding: 2px;
+  }
+  .mobile_thumb_link {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: 6;
+    width: 100%;
+    height: 100%;
   }
 }
 
