@@ -1219,7 +1219,7 @@ body {
     padding: 10px;
   }
   .grid-2.hero_grid._2_up {
-    margin-bottom: -0.2vw;
+    margin-bottom: 0vw;
     padding-right: 40px;
     padding-left: 40px;
     justify-items: start;
@@ -1233,6 +1233,9 @@ body {
   .grid-2.hero_grid._2_up.footer {
     margin-bottom: 0vw;
     padding-bottom: 15vw;
+  }
+  .mask.absolute {
+    display: none;
   }
   .mask.absolute.img2 {
     width: 50%;
@@ -1292,22 +1295,24 @@ body {
     line-height: 48px;
   }
   .page_title.black.big.first.body_copy {
-    padding-right: 0vw;
+    padding: 10px 20px 0px;
     font-size: 12px;
     line-height: 20px;
     text-transform: lowercase;
   }
   .page_title.black.big.first.body_copy.sub_copy {
-    padding-right: 0vw;
+    margin-bottom: 20px;
+    padding-right: 20px;
     padding-bottom: 0px;
-    font-size: 20px;
-    line-height: 24px;
+    padding-left: 20px;
+    font-size: 26px;
+    line-height: 30px;
     font-weight: 500;
   }
   .page_title.black.big.first.xxlarge {
-    padding: 0px;
-    font-size: 40px;
-    line-height: 42px;
+    padding: 0px 20px 20px;
+    font-size: 50px;
+    line-height: 60px;
     font-weight: 600;
     letter-spacing: -3px;
     text-transform: lowercase;
@@ -1347,8 +1352,8 @@ body {
     display: block;
     margin-bottom: 0vw;
     padding-top: 0vw;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .grid-2.hero_grid._2_up.no_padding {
     display: none;
@@ -1358,7 +1363,7 @@ body {
   }
   .grid-2.hero_grid._2_up.no_margins {
     margin-bottom: 0px;
-    padding: 0px 20px;
+    padding: 0px;
   }
   .grid-2.hero_grid._2_up.footer {
     display: -ms-grid;
@@ -1390,9 +1395,14 @@ body {
   }
   .grid-2.hero_grid._4_up {
     display: block;
+    padding: 20px 0vw;
   }
   .grid-2.hero_grid._4_up.hide {
     display: none;
+  }
+  .grid-2.hero_grid._4_up.footer {
+    margin-bottom: 20px;
+    padding: 0px;
   }
   .grid-2.hero_grid._1_up {
     display: none;
@@ -1411,7 +1421,8 @@ body {
   .grid-2.hero_grid.bottom_left {
     display: block;
     padding-top: 20px;
-    padding-right: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .button-2 {
     position: relative;
@@ -1463,8 +1474,11 @@ body {
   .mask {
     position: relative;
     overflow: visible;
-    margin-top: 20px;
+    margin-top: 2px;
     margin-bottom: 0px;
+  }
+  .mask.hide {
+    margin-top: 2px;
   }
   .mask.absolute {
     display: none;
