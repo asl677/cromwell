@@ -388,7 +388,8 @@ body {
 }
 
 .grid-2.hero_grid._2_up.no_padding.large_right_thumb {
-  padding-bottom: 6vw;
+  padding-top: 15vw;
+  padding-bottom: 15vw;
   padding-left: 20px;
 }
 
@@ -659,6 +660,8 @@ body {
 }
 
 .mask.absolute.img2.muted {
+  width: 100%;
+  justify-items: center;
   -webkit-filter: brightness(40%);
   filter: brightness(40%);
 }
@@ -886,7 +889,7 @@ body {
   top: 0%;
   right: 0%;
   bottom: auto;
-  width: 100%;
+  width: 60%;
 }
 
 .image-4.centered {
@@ -926,6 +929,14 @@ body {
   overflow: visible;
   max-width: none;
   padding: 0vw;
+}
+
+.image-4.slide {
+  width: 50%;
+}
+
+.image-4.slide.full {
+  width: 100%;
 }
 
 .background-video-2 {
@@ -1218,8 +1229,7 @@ body {
   right: 0%;
   bottom: 0%;
   z-index: 0;
-  display: -ms-grid;
-  display: grid;
+  display: none;
   justify-items: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
