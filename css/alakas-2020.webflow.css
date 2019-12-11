@@ -126,10 +126,10 @@ body {
 }
 
 .page_title.black.big.first.xxlarge {
-  padding: 0vw 6vw 2vw 0px;
+  padding: 0vw 6vw 1vw 0px;
   font-family: Montserrat, sans-serif;
-  font-size: 11vw;
-  line-height: 10vw;
+  font-size: 10vw;
+  line-height: 9vw;
   font-weight: 200;
   text-align: left;
   text-decoration: none;
@@ -619,8 +619,8 @@ body {
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   opacity: 1;
-  -webkit-filter: brightness(25%);
-  filter: brightness(25%);
+  -webkit-filter: brightness(40%);
+  filter: brightness(40%);
 }
 
 .mask.absolute.img2 {
@@ -647,8 +647,8 @@ body {
   -ms-flex-line-pack: center;
   align-content: center;
   opacity: 1;
-  -webkit-filter: brightness(30%);
-  filter: brightness(30%);
+  -webkit-filter: brightness(100%);
+  filter: brightness(100%);
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
@@ -656,6 +656,11 @@ body {
 
 .mask.absolute.img2.no_mask {
   overflow: visible;
+}
+
+.mask.absolute.img2.muted {
+  -webkit-filter: brightness(40%);
+  filter: brightness(40%);
 }
 
 .mask.absolute.full_width {
@@ -667,6 +672,15 @@ body {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
+}
+
+.mask.absolute.full_width.muted {
+  -webkit-filter: brightness(40%);
+  filter: brightness(40%);
+}
+
+.mask.absolute.hide_desktop {
+  display: none;
 }
 
 .mask.no_mask {
@@ -879,8 +893,8 @@ body {
   position: relative;
   overflow: visible;
   width: 60vw;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  -webkit-filter: none;
+  filter: none;
   -webkit-transform: translate(0vw, 0vw);
   -ms-transform: translate(0vw, 0vw);
   transform: translate(0vw, 0vw);
@@ -1232,6 +1246,7 @@ body {
     padding-bottom: 10vw;
   }
   .mask.absolute {
+    display: none;
     width: 80vw;
     opacity: 0.25;
     -webkit-transform: translate(10vw, 0px);
@@ -1265,6 +1280,7 @@ body {
 @media (max-width: 767px) {
   .page_title.black.big.first.xxlarge {
     padding: 10px;
+    letter-spacing: -4px;
   }
   .grid-2.hero_grid._2_up {
     margin-bottom: 0vw;
@@ -1281,6 +1297,13 @@ body {
   .grid-2.hero_grid._2_up.footer {
     margin-bottom: 0vw;
     padding-bottom: 15vw;
+  }
+  .grid-2.hero_grid._2_up.grid_slim.hide {
+    padding-bottom: 6vw;
+  }
+  .grid-2.hero_grid._1_up.center_wide.hide {
+    margin-top: 0vw;
+    padding-top: 5vw;
   }
   .mask.absolute {
     display: none;
@@ -1300,6 +1323,9 @@ body {
     -webkit-align-content: end;
     -ms-flex-line-pack: end;
     align-content: end;
+  }
+  .mask.absolute.img2.muted {
+    display: block;
   }
   .body_link.small {
     letter-spacing: -1px;
