@@ -113,6 +113,7 @@ body {
   font-size: 1.2vw;
   line-height: 2vw;
   letter-spacing: 0px;
+  text-transform: lowercase;
 }
 
 .page_title.black.big.first.body_copy.sub_copy {
@@ -132,6 +133,7 @@ body {
   font-weight: 200;
   text-align: left;
   text-decoration: none;
+  text-transform: lowercase;
 }
 
 .page_title.black.big.first.xxlarge.footer_title {
@@ -145,6 +147,7 @@ body {
   font-size: 1.2vw;
   line-height: 2.2vw;
   letter-spacing: 0px;
+  text-transform: lowercase;
 }
 
 .page_title.black.big.medium {
@@ -469,7 +472,7 @@ body {
 }
 
 .grid-2.hero_grid._1_up.center_wide.hide {
-  margin-bottom: 5vw;
+  margin-bottom: 0vw;
 }
 
 .grid-2.hero_grid.no-grid {
@@ -651,6 +654,10 @@ body {
   transform: none;
 }
 
+.mask.absolute.img2.no_mask {
+  overflow: visible;
+}
+
 .mask.absolute.full_width {
   overflow: hidden;
   width: 100%;
@@ -794,6 +801,8 @@ body {
 }
 
 .section-4 {
+  position: relative;
+  z-index: 4;
   height: auto;
 }
 
@@ -879,6 +888,7 @@ body {
 
 .image-4.centered.colored {
   overflow: visible;
+  width: 100%;
   padding: 40px;
   background-color: #fff;
   -webkit-filter: none;
@@ -891,6 +901,10 @@ body {
 .image-4.centered.colored.bg_white {
   display: none;
   background-color: #fff;
+}
+
+.image-4.centered.full {
+  width: 100%;
 }
 
 .image-4.img_padding {
@@ -1055,6 +1069,11 @@ body {
   margin-right: 105px;
 }
 
+.link-block.top {
+  z-index: 6;
+  display: block;
+}
+
 .text-block {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #fff;
@@ -1071,9 +1090,8 @@ body {
   top: auto;
   right: 0%;
   bottom: 0%;
-  z-index: 2;
-  display: -ms-grid;
-  display: grid;
+  z-index: 0;
+  display: none;
   margin-bottom: 0px;
   padding: 0px 0px 20px;
   -webkit-box-align: center;
@@ -1185,7 +1203,7 @@ body {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  z-index: 1;
+  z-index: 0;
   display: -ms-grid;
   display: grid;
   justify-items: center;
@@ -1343,7 +1361,7 @@ body {
     padding: 0px 20px 20px;
     font-size: 50px;
     line-height: 60px;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: -3px;
     text-transform: lowercase;
   }
@@ -1425,7 +1443,7 @@ body {
   }
   .grid-2.hero_grid._4_up {
     display: block;
-    padding: 20px 0vw;
+    padding: 20px 0vw 40px;
   }
   .grid-2.hero_grid._4_up.hide {
     display: none;
@@ -1668,6 +1686,15 @@ body {
 }
 
 #w-node-47638179260e-7832c4e5 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-2d4dac665bb1-7832c4e5 {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
