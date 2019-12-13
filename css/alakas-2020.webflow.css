@@ -404,7 +404,7 @@ body {
 .grid-2.hero_grid._2_up.no_padding {
   display: block;
   overflow: hidden;
-  padding: 6vw 0px 0vw;
+  padding: 10vw 0px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -460,13 +460,23 @@ body {
 }
 
 .grid-2.hero_grid._2_up.grid_slim.hide {
-  padding-bottom: 6vw;
+  padding-bottom: 10vw;
+}
+
+.grid-2.hero_grid._2_up.hide {
+  padding-top: 10vw;
+  padding-bottom: 10vw;
 }
 
 .grid-2.hero_grid._4_up {
-  padding: 6vw 20px;
+  padding: 10vw 20px;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-2.hero_grid._4_up.hide {
+  padding-top: 10vw;
+  padding-bottom: 10vw;
 }
 
 .grid-2.hero_grid._4_up.footer {
@@ -482,7 +492,7 @@ body {
 .grid-2.hero_grid._1_up {
   display: block;
   width: 100%;
-  padding: 6vw 20px;
+  padding: 10vw 20px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -1558,7 +1568,19 @@ body {
   .page_title.black.big.first.body_copy.sub_copy.body_subcopy {
     font-size: 2vw;
   }
+  .grid-2.hero_grid._2_up.no_padding {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+  }
   .grid-2.hero_grid._2_up.footer {
+    padding-bottom: 10vw;
+  }
+  .grid-2.hero_grid._4_up {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+  }
+  .grid-2.hero_grid._1_up {
+    padding-top: 10vw;
     padding-bottom: 10vw;
   }
   .grid-2.hero_grid._10_up.marquee-1 {
