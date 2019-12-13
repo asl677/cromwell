@@ -577,7 +577,7 @@ body {
   align-content: start;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  opacity: 0.4;
+  opacity: 0.3;
   -webkit-filter: blur(3px);
   filter: blur(3px);
 }
