@@ -562,10 +562,10 @@ body {
 .grid-2.hero_grid.bottom_left {
   padding-bottom: 2vw;
   padding-left: 20px;
-  -webkit-box-align: end;
-  -webkit-align-items: end;
-  -ms-flex-align: end;
-  align-items: end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .grid-2.hero_grid._10_up {
@@ -1640,6 +1640,9 @@ body {
     padding: 10px;
     letter-spacing: -4px;
   }
+  .page_title.black.big.first.xxlarge.intro_title {
+    padding: 0px;
+  }
   .page_title.black.big.first.xxlarge.body_title {
     padding: 0px 0px 10px;
   }
@@ -1653,8 +1656,8 @@ body {
   }
   .grid-2.hero_grid._2_up {
     margin-bottom: 0vw;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
     justify-items: start;
     -webkit-box-align: start;
     -webkit-align-items: start;
@@ -1701,6 +1704,9 @@ body {
   }
   .mask.absolute.img2.muted {
     display: block;
+  }
+  .mask.no_mask.absolute_title {
+    padding-right: 20px;
   }
   .body_link.small {
     letter-spacing: -1px;
@@ -1773,9 +1779,10 @@ body {
     text-transform: lowercase;
   }
   .page_title.black.big.first.xxlarge.intro_title {
-    font-size: 40px;
-    line-height: 50px;
-    font-weight: 200;
+    font-size: 26px;
+    line-height: 38px;
+    font-weight: 500;
+    letter-spacing: 0px;
   }
   .page_title.black.big.second {
     font-size: 48px;
@@ -1828,6 +1835,9 @@ body {
     margin-bottom: 0px;
     padding: 0px;
   }
+  .grid-2.hero_grid._2_up.no_margins.mobile_hide {
+    display: none;
+  }
   .grid-2.hero_grid._2_up.footer {
     display: -ms-grid;
     display: grid;
@@ -1856,6 +1866,9 @@ body {
   .grid-2.hero_grid._2_up.hide {
     display: none;
   }
+  .grid-2.hero_grid._2_up.mobile_hide {
+    display: none;
+  }
   .grid-2.hero_grid._4_up {
     display: block;
     padding: 20px 0vw 40px;
@@ -1866,6 +1879,9 @@ body {
   .grid-2.hero_grid._4_up.footer {
     margin-bottom: 20px;
     padding: 0px;
+  }
+  .grid-2.hero_grid._4_up.new_footer {
+    padding-top: 20px;
   }
   .grid-2.hero_grid._1_up {
     display: none;
@@ -2089,6 +2105,9 @@ body {
   }
   .image-5 {
     width: 40vw;
+  }
+  .scrollbar {
+    display: none;
   }
 }
 
