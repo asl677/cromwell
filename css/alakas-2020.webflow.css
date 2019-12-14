@@ -469,7 +469,7 @@ body {
 }
 
 .grid-2.hero_grid._4_up {
-  padding: 10vw 20px;
+  padding: 5vw 20px 10vw;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
