@@ -190,7 +190,7 @@ a {
 
 .page_title.black.big.first.xxlarge.body_title {
   padding-right: 0vw;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   font-family: Quattrocento, sans-serif;
   font-size: 9vw;
   line-height: 8vw;
@@ -241,6 +241,16 @@ a {
   font-weight: 500;
   letter-spacing: 0px;
   text-transform: uppercase;
+}
+
+.page_title.black.big.hero_caption.short {
+  padding-top: 0vw;
+  padding-bottom: 20px;
+  border-style: none;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.51);
+  color: hsla(0, 0%, 100%, 0.5);
+  font-weight: 300;
 }
 
 .page_title.black.medium.white {
@@ -502,7 +512,7 @@ a {
 
 .grid-2.hero_grid._2_up.no_padding.large_right_thumb.hide {
   padding-top: 15vw;
-  padding-bottom: 25vw;
+  padding-bottom: 20vw;
 }
 
 .grid-2.hero_grid._2_up.no_margins {
@@ -558,6 +568,10 @@ a {
 .grid-2.hero_grid._2_up.hide {
   padding-top: 10vw;
   padding-bottom: 10vw;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
+  align-items: start;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -575,8 +589,9 @@ a {
 }
 
 .grid-2.hero_grid._2_up.thumb_right.mobile_hide {
-  height: 55vw;
-  padding-bottom: 10vw;
+  height: 65vw;
+  padding-top: 5vw;
+  padding-bottom: 25vw;
 }
 
 .grid-2.hero_grid._4_up {
@@ -588,6 +603,19 @@ a {
 .grid-2.hero_grid._4_up.hide {
   padding-top: 5vw;
   padding-bottom: 5vw;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.grid-2.hero_grid._4_up.hide.align_bottom {
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+  -webkit-box-align: end;
+  -webkit-align-items: end;
+  -ms-flex-align: end;
+  align-items: end;
 }
 
 .grid-2.hero_grid._4_up.footer {
@@ -628,6 +656,10 @@ a {
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   text-align: left;
+}
+
+.grid-2.hero_grid._4_up.no_overflow {
+  overflow: visible;
 }
 
 .grid-2.hero_grid._1_up {
@@ -1062,7 +1094,7 @@ a {
 }
 
 .mask.hero_mask {
-  height: 20vw;
+  height: 25vw;
 }
 
 .mask.mobile_hide {
