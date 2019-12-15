@@ -1923,6 +1923,10 @@ a {
   .body_link.small {
     letter-spacing: -2px;
   }
+  .footer_link {
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+  }
   .footer_link:hover {
     background-color: rgba(0, 21, 255, 0);
   }
