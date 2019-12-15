@@ -1021,8 +1021,8 @@ a {
   -ms-flex-line-pack: center;
   align-content: center;
   opacity: 1;
-  -webkit-filter: brightness(80%);
-  filter: brightness(80%);
+  -webkit-filter: none;
+  filter: none;
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
