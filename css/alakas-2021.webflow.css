@@ -100,7 +100,7 @@ a {
 
 .page_title.black.big.first {
   padding-bottom: 4vw;
-  font-family: Quattrocento, sans-serif;
+  font-family: 'PT Sans', sans-serif;
   color: #fff;
   font-size: 14vw;
   line-height: 11vw;
@@ -113,9 +113,10 @@ a {
   padding-right: 4vw;
   padding-bottom: 0vw;
   padding-left: 0px;
-  font-family: Quattrocento, sans-serif;
-  font-size: 1.1vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1vw;
   line-height: 1.8vw;
+  font-weight: 300;
   letter-spacing: 0px;
   text-transform: lowercase;
 }
@@ -130,6 +131,7 @@ a {
 }
 
 .page_title.black.big.first.body_copy.sub_copy.intro_subcopy {
+  padding-right: 20px;
   font-size: 1.5vw;
   line-height: 2.2vw;
   letter-spacing: 0px;
@@ -145,16 +147,41 @@ a {
   text-transform: uppercase;
 }
 
+.page_title.black.big.first.body_copy.intro_body_copy {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.page_title.black.big.first.body_copy.intro_body_copy.three {
+  padding-right: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1vw;
+  font-weight: 300;
+}
+
+.page_title.black.big.first.body_copy.intro_body_copy.four {
+  padding-right: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1vw;
+  font-weight: 300;
+}
+
 .page_title.black.big.first.body_copy.intro_body_copy.one {
-  font-family: 'Crimson Pro', sans-serif;
-  font-size: 1.1vw;
+  padding-right: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1vw;
   line-height: 1.8vw;
+  font-weight: 300;
 }
 
 .page_title.black.big.first.body_copy.body_body_copy {
   padding-right: 0vw;
   padding-bottom: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1vw;
+  line-height: 1.8vw;
+  font-weight: 300;
   text-align: left;
+  letter-spacing: 0.5px;
 }
 
 .page_title.black.big.first.body_copy.body_body_copy.centered {
@@ -180,7 +207,7 @@ a {
   padding-top: 40px;
   padding-right: 0vw;
   padding-bottom: 20px;
-  font-family: Quattrocento, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 12vw;
   line-height: 7vw;
   font-weight: 400;
@@ -191,21 +218,22 @@ a {
 .page_title.black.big.first.xxlarge.body_title {
   padding-right: 0vw;
   padding-bottom: 20px;
-  font-family: Quattrocento, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 9vw;
   line-height: 8vw;
   font-weight: 300;
-  letter-spacing: -2px;
+  letter-spacing: -6px;
   text-transform: none;
 }
 
 .page_title.black.big.small {
   padding-bottom: 0px;
   padding-left: 0px;
-  font-family: 'Crimson Pro', sans-serif;
-  font-size: 1.1vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1vw;
   line-height: 1.8vw;
-  letter-spacing: 0px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
   text-transform: lowercase;
 }
 
@@ -596,6 +624,8 @@ a {
 
 .grid-2.hero_grid._4_up {
   padding: 5vw 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -616,6 +646,8 @@ a {
   -webkit-align-items: end;
   -ms-flex-align: end;
   align-items: end;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 
 .grid-2.hero_grid._4_up.footer {
@@ -1449,10 +1481,10 @@ a {
   padding: 20px;
   float: none;
   clear: none;
-  font-family: Quattrocento, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #b1b1b1;
-  font-size: 1.1vw;
-  line-height: 1.5vw;
+  font-size: 1.3vw;
+  line-height: 1.8vw;
   font-weight: 700;
   text-decoration: none;
   text-transform: lowercase;
@@ -1796,11 +1828,11 @@ a {
   border-color: #e6e6e6;
   border-radius: 10px;
   background-color: transparent;
-  font-family: 'Crimson Pro', sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #fff;
   font-size: 2vw;
   line-height: 3vw;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: none;
 }
 
@@ -1894,25 +1926,44 @@ a {
 }
 
 @media (max-width: 991px) {
+  .page_title.black.big.first.body_copy {
+    font-family: 'PT Sans', sans-serif;
+  }
   .page_title.black.big.first.body_copy.sub_copy.body_subcopy {
-    font-size: 2vw;
+    font-size: 1.5vw;
+    line-height: 2vw;
+  }
+  .page_title.black.big.first.xxlarge.intro_title {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
   }
   .page_title.black.big.first.xxlarge.body_title {
+    padding-bottom: 10px;
+    font-family: Montserrat, sans-serif;
     letter-spacing: -2px;
+  }
+  .page_title.black.big.small {
+    font-family: 'PT Sans', sans-serif;
   }
   .grid-2.hero_grid._2_up.no_padding {
     padding-top: 5vw;
     padding-bottom: 5vw;
   }
+  .grid-2.hero_grid._2_up.no_padding.large_right_thumb.hide {
+    padding-right: 20px;
+  }
   .grid-2.hero_grid._2_up.footer {
     padding-bottom: 10vw;
+  }
+  .grid-2.hero_grid._2_up.thumb_right.mobile_hide {
+    height: 80vw;
   }
   .grid-2.hero_grid._4_up {
     padding-top: 10vw;
     padding-bottom: 10vw;
   }
   .grid-2.hero_grid._1_up {
-    padding-top: 10vw;
+    padding-top: 5vw;
     padding-bottom: 5vw;
   }
   .grid-2.hero_grid.bottom_left {
@@ -1935,6 +1986,8 @@ a {
     transform: translate(10vw, 0px);
   }
   .mask.absolute.img2 {
+    display: -ms-grid;
+    display: grid;
     -webkit-box-pack: start;
     -webkit-justify-content: start;
     -ms-flex-pack: start;
@@ -1942,6 +1995,13 @@ a {
     -webkit-align-content: center;
     -ms-flex-line-pack: center;
     align-content: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
   .mask.absolute.img2.muted {
     display: block;
@@ -1976,14 +2036,38 @@ a {
 }
 
 @media (max-width: 767px) {
+  .page_title.black.big.first.body_copy.sub_copy.intro_subcopy {
+    font-size: 9vw;
+    line-height: 10vw;
+  }
+  .page_title.black.big.first.body_copy.intro_body_copy.three {
+    display: none;
+  }
+  .page_title.black.big.first.body_copy.intro_body_copy.four {
+    display: none;
+  }
+  .page_title.black.big.first.body_copy.intro_body_copy.one {
+    display: none;
+  }
+  .page_title.black.big.first.body_copy.body_body_copy.centered {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+  }
   .page_title.black.big.first.xxlarge {
     padding: 10px;
     letter-spacing: -4px;
   }
   .page_title.black.big.first.xxlarge.intro_title {
     padding: 0px;
+    font-family: Montserrat, sans-serif;
+    font-size: 9vw;
     line-height: 13vw;
+    font-weight: 500;
     letter-spacing: 0px;
+    text-transform: uppercase;
   }
   .page_title.black.big.first.xxlarge.body_title {
     padding: 0px 0px 10px;
@@ -2010,7 +2094,11 @@ a {
     grid-row-gap: 40px;
   }
   .grid-2.hero_grid._2_up.no_padding.large_right_thumb.hide {
+    display: none;
     padding-right: 20px;
+  }
+  .grid-2.hero_grid._2_up.no_margins {
+    display: block;
   }
   .grid-2.hero_grid._2_up.footer {
     margin-bottom: 0vw;
@@ -2019,17 +2107,60 @@ a {
   .grid-2.hero_grid._2_up.grid_slim.hide {
     padding-bottom: 6vw;
   }
+  .grid-2.hero_grid._2_up.bg_white.mobile_hide {
+    display: none;
+  }
+  .grid-2.hero_grid._2_up.hide {
+    display: none;
+  }
+  .grid-2.hero_grid._2_up.thumb_right.mobile_hide {
+    display: none;
+    height: auto;
+  }
+  .grid-2.hero_grid._4_up {
+    display: block;
+    padding-top: 0vw;
+  }
+  .grid-2.hero_grid._4_up.hide {
+    display: none;
+  }
+  .grid-2.hero_grid._4_up.hide.align_bottom {
+    display: none;
+  }
+  .grid-2.hero_grid._4_up.new_footer {
+    display: block;
+    text-align: left;
+  }
+  .grid-2.hero_grid._4_up.no_overflow {
+    display: block;
+    padding: 0px;
+  }
+  .grid-2.hero_grid._1_up {
+    display: none;
+  }
   .grid-2.hero_grid._1_up.center_wide.hide {
+    display: none;
     margin-top: 0vw;
     padding-top: 5vw;
   }
+  .grid-2.hero_grid.no-grid {
+    display: none;
+  }
+  .grid-2.hero_grid._3_up.mobile_hide {
+    display: none;
+  }
   .grid-2.marquee {
     display: none;
+  }
+  .mask {
+    overflow: visible;
   }
   .mask.absolute {
     display: none;
   }
   .mask.absolute.img2 {
+    position: relative;
+    display: block;
     width: 50%;
     height: 100%;
     -webkit-box-pack: center;
@@ -2044,6 +2175,13 @@ a {
     -webkit-align-content: end;
     -ms-flex-line-pack: end;
     align-content: end;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
   .mask.absolute.img2.muted {
     display: block;
@@ -2051,8 +2189,26 @@ a {
   .mask.no_mask.absolute_title {
     padding-right: 20px;
   }
+  .mask.hero_mask {
+    height: auto;
+  }
+  .mask.mobile_hide {
+    display: none;
+  }
   .body_link.small {
     letter-spacing: -1px;
+  }
+  .grid-5 {
+    display: none;
+  }
+  .thumb_link {
+    display: none;
+  }
+  .footer_link {
+    overflow: visible;
+  }
+  .bold-text-2 {
+    display: none;
   }
 }
 
@@ -2544,10 +2700,10 @@ a {
 
 @media screen and (max-width: 767px) {
   #w-node-1228fdfe82cf-7832c4e5 {
-    -webkit-align-self: end;
-    -ms-flex-item-align: end;
-    -ms-grid-row-align: end;
-    align-self: end;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
   }
 }
 
