@@ -2039,6 +2039,7 @@ a {
   .page_title.black.big.first.body_copy.sub_copy.intro_subcopy {
     font-size: 9vw;
     line-height: 10vw;
+    text-transform: none;
   }
   .page_title.black.big.first.body_copy.intro_body_copy.three {
     display: none;
@@ -2067,7 +2068,7 @@ a {
     line-height: 13vw;
     font-weight: 500;
     letter-spacing: 0px;
-    text-transform: uppercase;
+    text-transform: none;
   }
   .page_title.black.big.first.xxlarge.body_title {
     padding: 0px 0px 10px;
@@ -2204,11 +2205,25 @@ a {
   .thumb_link {
     display: none;
   }
+  .link-block.top.w--current {
+    display: none;
+  }
+  .container-2.loader {
+    display: none;
+  }
   .footer_link {
     overflow: visible;
+    padding-left: 20px;
+  }
+  .footer_link:hover {
+    padding-left: 20px;
+    box-shadow: inset 3px 0 0 0 #0015ff;
   }
   .bold-text-2 {
     display: none;
+  }
+  .text-block-2 {
+    display: block;
   }
 }
 
@@ -2267,6 +2282,7 @@ a {
     padding-top: 0px;
     font-size: 40px;
     line-height: 44px;
+    text-transform: none;
   }
   .page_title.black.big.first.body_copy.sub_copy.body_subcopy {
     margin-bottom: 0px;
@@ -2292,7 +2308,11 @@ a {
     padding-bottom: 20px;
   }
   .page_title.black.big.first.body_copy.body_body_copy.centered {
+    padding-left: 0px;
     text-align: left;
+  }
+  .page_title.black.big.first.body_copy.body_body_copy.centered:hover {
+    padding-left: 0px;
   }
   .page_title.black.big.first.xxlarge {
     padding: 0px 20px 20px;
@@ -2309,7 +2329,7 @@ a {
     line-height: 44px;
     font-weight: 500;
     letter-spacing: 0px;
-    text-transform: uppercase;
+    text-transform: none;
   }
   .page_title.black.big.second {
     font-size: 48px;
@@ -2625,6 +2645,9 @@ a {
     overflow: hidden;
     padding: 0px;
   }
+  .link-block.top.w--current {
+    display: none;
+  }
   .nav {
     z-index: 3;
     display: none;
@@ -2646,11 +2669,18 @@ a {
     width: 100%;
     height: 100%;
   }
+  .container-2.loader {
+    display: none;
+  }
   .image-5 {
     width: 40vw;
   }
   .scrollbar {
     display: none;
+  }
+  .footer_link:hover {
+    padding-left: 20px;
+    box-shadow: inset 2px 0 0 0 #0015ff;
   }
   .down_arrow_large {
     margin: 20px;
