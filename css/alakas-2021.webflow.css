@@ -1226,6 +1226,30 @@ a {
   filter: grayscale(100%) brightness(50%);
 }
 
+.mask.mask_top {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  width: 3vw;
+  height: 3vw;
+}
+
+.mask.mask2 {
+  position: fixed;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  z-index: 5;
+  height: 7vw;
+  -webkit-transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
+  transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
 .body-2 {
   background-color: #000;
 }
@@ -2071,6 +2095,24 @@ a {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
+}
+
+.large_arrow.top {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.large_arrow.top.w--current {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(0, 21, 255, 0);
+  -webkit-transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
+  transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
 }
 
 .bold-text {
