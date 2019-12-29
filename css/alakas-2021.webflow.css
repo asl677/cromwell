@@ -2306,7 +2306,7 @@ a {
   }
   .page_title.black.big.first.xxlarge.body_title {
     padding-bottom: 10px;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Crimson Pro', sans-serif;
     letter-spacing: -2px;
   }
   .page_title.black.big.small {
@@ -2327,6 +2327,9 @@ a {
   }
   .grid-2.hero_grid._4_up {
     padding-top: 10vw;
+    padding-bottom: 10vw;
+  }
+  .grid-2.hero_grid._4_up.hide {
     padding-bottom: 10vw;
   }
   .grid-2.hero_grid._1_up {
@@ -2373,6 +2376,11 @@ a {
   .mask.absolute.img2.muted {
     display: block;
   }
+  .mask.absolute.img2.top_index {
+    -webkit-align-content: start;
+    -ms-flex-line-pack: start;
+    align-content: start;
+  }
   .image-4.centered {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -2404,10 +2412,10 @@ a {
 
 @media (max-width: 767px) {
   .page_title.black.big.first.body_copy.sub_copy.intro_subcopy {
-    padding-top: 20px;
-    padding-left: 20px;
-    font-size: 9vw;
-    line-height: 10vw;
+    padding: 0px 20px;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 200;
     text-transform: none;
   }
   .page_title.black.big.first.body_copy.intro_body_copy.three {
@@ -2417,14 +2425,17 @@ a {
     display: none;
   }
   .page_title.black.big.first.body_copy.intro_body_copy.one {
-    display: none;
+    display: block;
+    padding: 20px;
+    font-size: 12px;
+    line-height: 20px;
   }
   .page_title.black.big.first.body_copy.body_body_copy.centered {
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: Montserrat, sans-serif;
-    font-size: 20px;
-    line-height: 24px;
+    font-family: Inconsolata, monospace;
+    font-size: 12px;
+    line-height: 14px;
     font-weight: 400;
     text-align: left;
   }
@@ -2433,11 +2444,11 @@ a {
     letter-spacing: -4px;
   }
   .page_title.black.big.first.xxlarge.intro_title {
-    padding: 20px;
+    padding: 20px 20px 0px;
     font-family: Montserrat, sans-serif;
-    font-size: 9vw;
-    line-height: 13vw;
-    font-weight: 500;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 200;
     letter-spacing: 0px;
     text-transform: none;
   }
@@ -2451,6 +2462,7 @@ a {
     letter-spacing: 0px;
   }
   .page_title.black.big.hero_caption.short {
+    display: none;
     overflow: visible;
   }
   .grid-2 {
@@ -2494,7 +2506,7 @@ a {
   }
   .grid-2.hero_grid._4_up {
     display: block;
-    padding-top: 0vw;
+    padding: 0vw 0px;
   }
   .grid-2.hero_grid._4_up.hide {
     display: none;
@@ -2523,6 +2535,7 @@ a {
   }
   .grid-2.hero_grid.bottom_left {
     display: block;
+    height: 100%;
     padding: 0px;
   }
   .grid-2.hero_grid._3_up.mobile_hide {
@@ -2566,6 +2579,9 @@ a {
   .mask.absolute.img2.muted {
     display: block;
   }
+  .mask.absolute.img2.top_index {
+    width: 100%;
+  }
   .mask.no_mask.absolute_title {
     padding-right: 20px;
   }
@@ -2573,7 +2589,20 @@ a {
     height: auto;
   }
   .mask.mobile_hide {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    z-index: -1;
     display: block;
+    width: 100%;
+    -webkit-filter: brightness(20%);
+    filter: brightness(20%);
+  }
+  .image-4.slide.image_intro {
+    width: auto;
+    height: 100%;
   }
   .body_link.small {
     letter-spacing: -1px;
@@ -2595,7 +2624,8 @@ a {
   }
   .footer_link {
     overflow: visible;
-    padding-left: 20px;
+    padding-left: 0px;
+    box-shadow: none;
   }
   .footer_link:hover {
     padding-left: 20px;
@@ -2665,6 +2695,7 @@ a {
   }
   .page_title.black.big.first.body_copy.sub_copy.intro_subcopy {
     padding-top: 0px;
+    padding-left: 20px;
     font-size: 40px;
     line-height: 44px;
     font-weight: 200;
