@@ -235,8 +235,8 @@ a {
   padding-right: 5vw;
   padding-bottom: 10px;
   font-family: Quattrocento, sans-serif;
-  font-size: 7.5vw;
-  line-height: 6.5vw;
+  font-size: 7vw;
+  line-height: 6vw;
   font-weight: 400;
   letter-spacing: -1px;
   text-transform: none;
@@ -599,7 +599,7 @@ a {
 
 .grid-2.hero_grid._2_up.grid_slim.hide {
   padding-top: 10vw;
-  padding-bottom: 5vw;
+  padding-bottom: 10vw;
   -webkit-box-align: start;
   -webkit-align-items: start;
   -ms-flex-align: start;
@@ -2133,6 +2133,7 @@ a {
   top: auto;
   right: 0%;
   bottom: 0%;
+  width: 4vw;
   margin: 20px;
   padding: 20px;
   background-color: rgba(0, 21, 255, 0);
