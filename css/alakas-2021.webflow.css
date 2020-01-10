@@ -197,8 +197,8 @@ a {
 }
 
 .page_title.black.big.first.body_copy.body_body_copy.centered {
-  -webkit-transition: font-size 300ms cubic-bezier(.444, .026, .25, 1);
-  transition: font-size 300ms cubic-bezier(.444, .026, .25, 1);
+  -webkit-transition: none 0ms ease;
+  transition: none 0ms ease;
   font-weight: 400;
   text-align: center;
   letter-spacing: 1px;
@@ -207,7 +207,7 @@ a {
 
 .page_title.black.big.first.body_copy.body_body_copy.centered:hover {
   color: #fff;
-  font-size: 1.3vw;
+  font-size: 0.9vw;
 }
 
 .page_title.black.big.first.xxlarge {
@@ -323,7 +323,7 @@ a {
 }
 
 .page_title.black.big.hero_caption.short.anchor {
-  padding-top: 5vw;
+  padding-top: 10vw;
 }
 
 .page_title.black.medium.white {
@@ -586,6 +586,10 @@ a {
 .grid-2.hero_grid._2_up.no_padding.large_right_thumb.hide {
   padding-top: 15vw;
   padding-bottom: 20vw;
+}
+
+.grid-2.hero_grid._2_up.no_padding.large_right_thumb.hide.anchor_padding {
+  padding-top: 5vw;
 }
 
 .grid-2.hero_grid._2_up.no_margins {
@@ -1304,6 +1308,7 @@ a {
   right: 0%;
   bottom: 0%;
   z-index: 5;
+  width: 80px;
   height: 10vw;
   -webkit-transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
   transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
@@ -1972,21 +1977,31 @@ a {
   display: block;
   overflow: hidden;
   width: 100%;
-  padding: 0vw 0px 5px;
-  background-color: rgba(0, 21, 255, 0);
-  box-shadow: inset 0 0 0 0 hsla(0, 0%, 100%, 0);
-  -webkit-transition: all 500ms cubic-bezier(.602, .009, .152, .991);
-  transition: all 500ms cubic-bezier(.602, .009, .152, .991);
+  padding: 0vw 0px 0px;
+  box-shadow: none;
+  opacity: 1;
+  -webkit-transform: scale3d(1none, 1none, 1none);
+  transform: scale3d(1none, 1none, 1none);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-size: 14px;
   text-align: left;
   text-decoration: none;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .footer_link:hover {
+  z-index: 5;
   margin-bottom: 0px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   padding-left: 0px;
   background-color: rgba(0, 21, 255, 0);
-  box-shadow: inset 0 -2px 0 0 #fff;
+  box-shadow: none;
+  opacity: 0.5;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
   color: #ff3700;
 }
 
@@ -2184,10 +2199,13 @@ a {
   top: auto;
   right: 0%;
   bottom: 0%;
+  z-index: 5;
   width: 4vw;
   margin: 20px;
   padding: 20px;
   background-color: rgba(0, 21, 255, 0);
+  -webkit-filter: contrast(0%) invert(100%);
+  filter: contrast(0%) invert(100%);
   -webkit-transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
   transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
 }
@@ -2417,6 +2435,10 @@ a {
   background-color: rgba(54, 54, 54, 0);
 }
 
+.text-span {
+  display: none;
+}
+
 @media (max-width: 991px) {
   .page_title.black.big.first.body_copy {
     font-family: 'PT Sans', sans-serif;
@@ -2543,13 +2565,16 @@ a {
     border-width: 0.5px;
     opacity: 0.7;
   }
+  .text-span {
+    display: none;
+  }
 }
 
 @media (max-width: 767px) {
   .page_title.black.big.first.body_copy.sub_copy.intro_subcopy {
     padding: 0px 20px;
-    font-size: 40px;
-    line-height: 44px;
+    font-size: 14vw;
+    line-height: 12vw;
     font-weight: 200;
     text-transform: none;
   }
@@ -2673,6 +2698,9 @@ a {
     height: 100%;
     padding: 0px;
   }
+  .grid-2.hero_grid.bottom_left.hide {
+    display: none;
+  }
   .grid-2.hero_grid._3_up.mobile_hide {
     display: none;
   }
@@ -2778,6 +2806,12 @@ a {
   .shape {
     display: none;
   }
+  .fixed_hdr {
+    display: none;
+  }
+  .text-span {
+    display: block;
+  }
 }
 
 @media (max-width: 479px) {
@@ -2834,8 +2868,8 @@ a {
   .page_title.black.big.first.body_copy.sub_copy.intro_subcopy {
     padding-top: 0px;
     padding-left: 20px;
-    font-size: 40px;
-    line-height: 44px;
+    font-size: 15vw;
+    line-height: 48px;
     font-weight: 200;
     text-transform: none;
   }
@@ -3027,6 +3061,10 @@ a {
     padding-top: 0vw;
     padding-right: 0px;
     padding-left: 0px;
+  }
+  .grid-2.hero_grid.bottom_left.hide {
+    display: none;
+    height: 20vw;
   }
   .grid-2.hero_grid._10_up.marquee-1 {
     -webkit-transform: scale(0.7);
@@ -3304,6 +3342,12 @@ a {
   }
   .shape {
     display: none;
+  }
+  .fixed_hdr {
+    display: none;
+  }
+  .text-span {
+    display: block;
   }
 }
 
