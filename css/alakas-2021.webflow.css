@@ -252,11 +252,13 @@ a {
 
 .page_title.black.big.first.xxlarge.intro_title.small_title {
   padding-left: 20px;
+  color: #fff;
   font-size: 0.9vw;
   line-height: 1.5vw;
   font-weight: 400;
   text-align: left;
   letter-spacing: 0px;
+  text-decoration: none;
   text-transform: capitalize;
 }
 
@@ -1412,11 +1414,12 @@ a {
 .mask.mask2 {
   position: fixed;
   left: auto;
-  top: auto;
+  top: 0%;
   right: 0%;
-  bottom: 0%;
+  bottom: auto;
   z-index: 5;
-  width: 80px;
+  display: none;
+  width: 8vw;
   height: 8vw;
   -webkit-transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
   transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
@@ -2302,19 +2305,20 @@ a {
 }
 
 .large_arrow.top.w--current {
-  position: absolute;
+  position: relative;
   left: auto;
   top: auto;
   right: 0%;
   bottom: 0%;
-  z-index: 5;
-  width: 4vw;
-  height: 4vw;
+  z-index: 9;
+  width: 2vw;
+  height: 2vw;
   margin: 20px;
   padding: 20px;
   background-color: rgba(0, 21, 255, 0);
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
+  opacity: 0;
+  -webkit-filter: brightness(16%) invert(100%);
+  filter: brightness(16%) invert(100%);
   -webkit-transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
   transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
 }
@@ -2560,6 +2564,20 @@ a {
   color: #000;
   font-style: italic;
   text-decoration: line-through;
+}
+
+.link-3 {
+  color: #fff;
+}
+
+.link-3.w--current {
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  text-decoration: none;
+}
+
+.link-3.w--current:hover {
+  opacity: 0.6;
 }
 
 @media (max-width: 991px) {
