@@ -338,6 +338,15 @@ a {
   text-transform: lowercase;
 }
 
+.page_title.black.big.small.hero_subcaption {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.page_title.black.big.small.body_captoin {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+}
+
 .page_title.black.big.medium {
   font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
   font-size: 5vw;
@@ -391,7 +400,7 @@ a {
   border-color: rgba(0, 0, 0, 0.51);
   font-family: Inconsolata, monospace;
   color: #fff;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
   line-height: 1.7vw;
   font-weight: 400;
   letter-spacing: 2px;
@@ -402,20 +411,38 @@ a {
 }
 
 .page_title.black.big.hero_caption.short.left_rail {
-  position: fixed;
+  position: relative;
 }
 
 .page_title.black.big.hero_caption.short.left_rail.intro_label {
-  position: fixed;
+  position: relative;
+  z-index: 0;
   display: block;
-  width: 15vw;
+  overflow: visible;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  font-family: Prata, sans-serif;
+  color: #000;
+  font-size: 5vw;
+  line-height: 4.3vw;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-transform: none;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 .page_title.black.big.hero_caption.short.left_rail.one_fade {
-  position: fixed;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
 }
 
 .page_title.black.big.hero_caption.short.hdr {
+  margin-bottom: 20px;
   padding-bottom: 0px;
 }
 
@@ -746,25 +773,34 @@ a {
 }
 
 .grid-2.hero_grid._2_up.hide {
-  padding-top: 20vh;
-  padding-bottom: 25vh;
+  padding-top: 22vh;
+  padding-bottom: 13vh;
   -webkit-box-align: start;
   -webkit-align-items: start;
   -ms-flex-align: start;
   align-items: start;
-  grid-column-gap: 6vw;
-  grid-row-gap: 6vw;
+  grid-column-gap: 1vw;
+  grid-row-gap: 1vw;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .grid-2.hero_grid._2_up.hide.vertical {
-  padding-top: 0vw;
+  z-index: 1;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
   grid-auto-flow: row;
   grid-column-gap: 6vw;
   grid-row-gap: 8vw;
-  -ms-grid-rows: auto auto auto auto auto auto;
-  grid-template-rows: auto auto auto auto auto auto;
+  -ms-grid-rows: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+}
+
+.grid-2.hero_grid._2_up.hide.grid-5-up {
+  padding-top: 20vw;
+  padding-bottom: 20vw;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .grid-2.hero_grid._2_up.mobile_hide {
@@ -1255,14 +1291,25 @@ a {
 
 .mask {
   position: relative;
+  display: -ms-grid;
+  display: grid;
   overflow: hidden;
   width: 100%;
   height: auto;
   padding-bottom: 10px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
   background-color: transparent;
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
   text-align: left;
+  -o-object-fit: contain;
+  object-fit: contain;
 }
 
 .mask:hover {
@@ -1668,8 +1715,23 @@ a {
   padding: 0vw;
 }
 
+.mask.arrow_mask {
+  position: fixed;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  margin: 20px;
+  padding-bottom: 0px;
+}
+
+.mask.werk_mask {
+  position: relative;
+  overflow: visible;
+}
+
 .body-2 {
-  background-color: #000;
+  background-color: #363636;
 }
 
 .logo {
@@ -2349,7 +2411,7 @@ a {
   z-index: 1;
   width: 0.6%;
   height: 100vw;
-  background-color: #000;
+  background-color: #363636;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -2872,8 +2934,9 @@ a {
 
 .link-3 {
   font-family: Inconsolata, monospace;
-  color: #fff;
+  color: #000;
   font-size: 1vw;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -2881,9 +2944,9 @@ a {
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
   font-family: Inconsolata, monospace;
-  color: #fff;
+  color: #000;
   font-size: 1vw;
-  font-weight: 400;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -2971,8 +3034,8 @@ a {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  -webkit-filter: grayscale(100%) brightness(20%);
-  filter: grayscale(100%) brightness(20%);
+  -webkit-filter: grayscale(100%) brightness(30%);
+  filter: grayscale(100%) brightness(30%);
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
@@ -3063,7 +3126,8 @@ a {
 }
 
 .link-block-3 {
-  padding: 0px 0px 20px;
+  width: 12vw;
+  padding: 0px 10px 10px 0px;
   box-shadow: 3px 0 0 -2px #6f6f6f;
   -webkit-transition: all 400ms cubic-bezier(.632, .009, .25, 1);
   transition: all 400ms cubic-bezier(.632, .009, .25, 1);
@@ -3075,7 +3139,25 @@ a {
   margin-bottom: 0px;
   border: 1px none #000;
   background-color: hsla(0, 0%, 100%, 0);
-  box-shadow: 6px 0 0 2px #fff;
+  box-shadow: 6px 0 0 2px #ff3700;
+  color: #ff3700;
+}
+
+.image-6 {
+  width: 1.5vw;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.grid-6 {
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.fixed_left {
+  position: relative;
 }
 
 @media (max-width: 991px) {
@@ -3711,6 +3793,10 @@ a {
     font-size: 12px;
     line-height: 20px;
   }
+  .page_title.black.big.small.hero_subcaption {
+    font-size: 11px;
+    line-height: 19px;
+  }
   .page_title.black.big.title {
     font-size: 20px;
     line-height: 22px;
@@ -3723,8 +3809,10 @@ a {
     position: relative;
     width: auto;
     height: auto;
-    font-size: 20px;
-    line-height: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    line-height: 40px;
   }
   .page_title.black.big.hero_caption.short.left_rail.one_fade {
     position: relative;
@@ -3818,6 +3906,8 @@ a {
   }
   .grid-2.hero_grid._2_up.hide.vertical {
     display: block;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
   }
   .grid-2.hero_grid._2_up.mobile_hide {
     display: none;
@@ -4153,6 +4243,7 @@ a {
   }
   .link-block-3 {
     position: relative;
+    width: 100%;
     padding-bottom: 0px;
     border: 1px none #000;
     box-shadow: none;
