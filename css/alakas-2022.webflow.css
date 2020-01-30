@@ -797,8 +797,8 @@ a {
 }
 
 .grid-2.hero_grid._2_up.hide.grid-5-up {
-  padding-top: 20vw;
-  padding-bottom: 20vw;
+  padding-top: 15vw;
+  padding-bottom: 15vw;
   -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
@@ -3145,8 +3145,8 @@ a {
 
 .image-6 {
   width: 1.5vw;
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
+  -webkit-filter: none;
+  filter: none;
 }
 
 .grid-6 {
