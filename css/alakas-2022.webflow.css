@@ -442,6 +442,9 @@ a {
 }
 
 .page_title.black.big.hero_caption.short.hdr {
+  position: relative;
+  overflow: hidden;
+  width: auto;
   margin-bottom: 20px;
   padding-bottom: 0px;
 }
@@ -1308,8 +1311,9 @@ a {
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
   text-align: left;
-  -o-object-fit: contain;
-  object-fit: contain;
+  white-space: normal;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 .mask:hover {
@@ -3339,7 +3343,7 @@ a {
     margin-top: 0px;
   }
   .link-block-3:hover {
-    box-shadow: 0 3px 0 -1px #ff3700;
+    box-shadow: 0 6px 0 2px #ff3700;
     opacity: 1;
   }
 }
