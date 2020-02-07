@@ -3226,7 +3226,7 @@ a {
 
 .link-block-3:hover {
   position: relative;
-  width: 14.4vw;
+  width: 14.45vw;
   margin-bottom: 0px;
   margin-left: 0px;
   padding: 8px 0px 8px 10px;
@@ -3502,6 +3502,7 @@ a {
     width: 18vw;
   }
   .link-block-3:hover {
+    width: 17vw;
     background-color: rgba(255, 255, 255, 0);
     box-shadow: inset 100px 0 0 -1px #000;
     opacity: 1;
