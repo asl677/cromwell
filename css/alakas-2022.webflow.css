@@ -3018,7 +3018,7 @@ a {
 
 .link-3.w--current:hover {
   position: relative;
-  z-index: 2;
+  z-index: 5;
   opacity: 1;
 }
 
@@ -3241,6 +3241,9 @@ a {
   box-shadow: inset 90px 0 0 -1px #000;
   -webkit-filter: none;
   filter: none;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
   color: #fff;
   font-style: normal;
   text-decoration: none;
@@ -3302,6 +3305,7 @@ a {
 
 .slide.one {
   font-size: 5vw;
+  font-weight: 400;
 }
 
 .sideways {
@@ -3314,6 +3318,7 @@ a {
   display: block;
   width: 100%;
   padding: 10px;
+  background-color: rgba(54, 54, 54, 0);
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
