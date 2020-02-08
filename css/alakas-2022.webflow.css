@@ -288,6 +288,7 @@ a {
 }
 
 .page_title.black.big.first.xxlarge.intro_title.small_title.titlelink.float_right_nav {
+  display: inline-block;
   padding-right: 20px;
   float: right;
   -webkit-transform: none;
@@ -354,6 +355,7 @@ a {
 }
 
 .page_title.black.big.small.body_captoin {
+  overflow: hidden;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-weight: 400;
 }
@@ -821,6 +823,7 @@ a {
 
 .grid-2.hero_grid._2_up.hide.vertical {
   z-index: 1;
+  height: 22vw;
   padding-top: 5vh;
   padding-bottom: 5vh;
   grid-auto-flow: row;
@@ -2987,6 +2990,7 @@ a {
 .link-3 {
   position: relative;
   z-index: 5;
+  display: inline;
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
   font-family: Inconsolata, monospace;
@@ -3216,7 +3220,8 @@ a {
 
 .link-block-3 {
   position: relative;
-  width: 15vw;
+  overflow: hidden;
+  width: 14vw;
   padding: 8px;
   box-shadow: inset 0 0 0 -10px #000;
   -webkit-transition: all 500ms cubic-bezier(.105, .787, .55, .98);
@@ -3226,10 +3231,10 @@ a {
 
 .link-block-3:hover {
   position: relative;
-  width: 14.45vw;
+  width: 15vw;
   margin-bottom: 0px;
   margin-left: 0px;
-  padding: 8px 0px 8px 10px;
+  padding: 8px 8px 8px 20px;
   border: 1px none #000;
   background-color: hsla(0, 0%, 100%, 0);
   box-shadow: inset 90px 0 0 -1px #000;
@@ -3295,14 +3300,18 @@ a {
 }
 
 .sideways {
-  position: absolute;
+  position: fixed;
   left: auto;
   top: 0%;
   right: 0%;
   bottom: auto;
-  -webkit-transform: translate(6vw, 9vw) rotate(90deg);
-  -ms-transform: translate(6vw, 9vw) rotate(90deg);
-  transform: translate(6vw, 9vw) rotate(90deg);
+  z-index: 10;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
 }
 
 .link_space {
