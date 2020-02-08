@@ -452,6 +452,7 @@ a {
   top: 0%;
   right: auto;
   bottom: auto;
+  color: #fff;
 }
 
 .page_title.black.big.hero_caption.short.intro_label {
@@ -3297,6 +3298,10 @@ a {
   overflow: visible;
   padding: 0px;
   line-height: 4.5vw;
+}
+
+.slide.one {
+  font-size: 5vw;
 }
 
 .sideways {
