@@ -291,6 +291,7 @@ a {
   display: inline-block;
   padding-right: 20px;
   float: right;
+  clear: none;
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
@@ -2454,7 +2455,9 @@ a {
 }
 
 .container-2.loader {
-  z-index: 1;
+  z-index: 4;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 
 .image-5 {
