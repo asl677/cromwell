@@ -4086,7 +4086,8 @@ a {
   .page_title.black.big.hero_caption.short.hdr {
     display: block;
     margin-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-size: 20px;
     line-height: 24px;
   }
@@ -4162,10 +4163,15 @@ a {
     height: auto;
     padding-top: 5vh;
     padding-bottom: 5vh;
+    border-top-color: rgba(0, 0, 0, 0.69);
   }
   .grid-2.hero_grid._2_up.hide.grid-5-up {
     padding-top: 5vh;
     padding-bottom: 5vh;
+  }
+  .grid-2.hero_grid._2_up.hide._1-up {
+    padding-top: 0vh;
+    padding-bottom: 10vh;
   }
   .grid-2.hero_grid._2_up.mobile_hide {
     display: none;
@@ -4538,6 +4544,7 @@ a {
   }
   .sideways {
     position: relative;
+    padding: 10px;
   }
 }
 
