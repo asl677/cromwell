@@ -290,12 +290,17 @@ a {
 .page_title.black.big.first.xxlarge.intro_title.small_title.titlelink.float_right_nav {
   display: inline-block;
   padding-right: 20px;
-  float: right;
-  clear: none;
+  float: none;
+  clear: left;
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
   text-decoration: none;
+}
+
+.page_title.black.big.first.xxlarge.intro_title.small_title.titlelink.float_right_nav.float_left {
+  position: fixed;
+  z-index: 5;
 }
 
 .page_title.black.big.first.xxlarge.intro_title._11 {
@@ -457,7 +462,10 @@ a {
   top: 0%;
   right: auto;
   bottom: auto;
-  color: #fff;
+  font-family: Prata, sans-serif;
+  color: #000;
+  font-size: 1vw;
+  line-height: 1.5vw;
 }
 
 .page_title.black.big.hero_caption.short.intro_label {
@@ -833,8 +841,8 @@ a {
   padding-top: 5vh;
   padding-bottom: 5vh;
   grid-auto-flow: row;
-  grid-column-gap: 4vw;
-  grid-row-gap: 2vw;
+  grid-column-gap: 1vw;
+  grid-row-gap: 1vw;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -2999,24 +3007,28 @@ a {
   position: relative;
   z-index: 5;
   display: inline;
-  -webkit-transition: color 200ms ease;
-  transition: color 200ms ease;
-  font-family: Inconsolata, monospace;
+  box-shadow: 0 0 0 0 #000;
+  -webkit-transition: box-shadow 400ms cubic-bezier(.573, .015, .035, .985), color 200ms ease;
+  transition: box-shadow 400ms cubic-bezier(.573, .015, .035, .985), color 200ms ease;
+  font-family: Prata, sans-serif;
   color: #000;
   font-size: 1vw;
   font-weight: 700;
   text-decoration: none;
+  text-transform: capitalize;
 }
 
 .link-3:hover {
-  color: #ff3700;
+  box-shadow: inset 90px 0 0 0 #000;
+  color: #fff;
   text-decoration: none;
 }
 
 .link-3.w--current {
+  box-shadow: inset 0 0 0 0 #000;
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
-  font-family: Inconsolata, monospace;
+  font-family: Prata, sans-serif;
   color: #000;
   font-size: 1vw;
   font-weight: 700;
@@ -3229,23 +3241,27 @@ a {
 .link-block-3 {
   position: relative;
   overflow: hidden;
-  width: 14vw;
+  width: 17vw;
   padding: 8px;
-  box-shadow: inset 0 0 0 -10px #000;
-  -webkit-transition: all 400ms ease;
-  transition: all 400ms ease;
+  box-shadow: inset 0 0 0vw 0vw #000;
+  -webkit-transition: width 600ms cubic-bezier(.215, .61, .355, 1), padding 1000ms cubic-bezier(.215, .61, .355, 1), box-shadow 600ms cubic-bezier(.215, .61, .355, 1);
+  transition: width 600ms cubic-bezier(.215, .61, .355, 1), padding 1000ms cubic-bezier(.215, .61, .355, 1), box-shadow 600ms cubic-bezier(.215, .61, .355, 1);
+  font-family: Prata, sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
   text-decoration: none;
+  text-transform: capitalize;
 }
 
 .link-block-3:hover {
   position: relative;
-  width: 15vw;
+  width: 17vw;
   margin-bottom: 0px;
   margin-left: 0px;
-  padding: 8px 8px 8px 20px;
+  padding: 8px 12px 8px 4px;
   border: 1px none #000;
   background-color: hsla(0, 0%, 100%, 0);
-  box-shadow: inset 90px 0 0 -1px #000;
+  box-shadow: inset 140px 0 0 0 #000;
   -webkit-filter: none;
   filter: none;
   -webkit-transform: none;
@@ -3258,6 +3274,14 @@ a {
 
 .link-block-3:active {
   text-decoration: none;
+}
+
+.link-block-3.w--current {
+  box-shadow: inset 0 0 0 0vw #000;
+}
+
+.link-block-3.w--current:hover {
+  box-shadow: inset 150px 0 0 0vw #000;
 }
 
 .link-block-3.centered_wide {
@@ -3275,6 +3299,10 @@ a {
   color: #ff3700;
   font-style: normal;
   text-decoration: none;
+}
+
+.link-block-3.short:hover {
+  box-shadow: inset 40px 0 0 0 #000;
 }
 
 .image-6 {
@@ -3335,6 +3363,7 @@ a {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
+  text-align: right;
 }
 
 .link_space {
@@ -3345,7 +3374,7 @@ a {
   text-align: center;
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   .page_title.black.big.first.body_copy {
     font-family: 'PT Sans', sans-serif;
   }
@@ -3541,7 +3570,7 @@ a {
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .page_title.black.big.first.body_copy.sub_copy.intro_subcopy {
     padding: 0px 20px 20px;
     font-size: 14vw;
@@ -3896,10 +3925,11 @@ a {
   .sideways {
     position: relative;
     padding: 30px;
+    text-align: left;
   }
 }
 
-@media (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .page_title {
     padding-top: 60px;
     padding-bottom: 0px;
@@ -4091,7 +4121,7 @@ a {
     margin-top: 20px;
     padding-top: 0px;
     padding-bottom: 0px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
   }
   .page_title.black.medium {
@@ -4548,6 +4578,7 @@ a {
   .sideways {
     position: relative;
     padding: 10px;
+    text-align: left;
   }
 }
 
