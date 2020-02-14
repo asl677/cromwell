@@ -417,7 +417,6 @@ a {
   border-style: none;
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.51);
-  font-family: Inconsolata, monospace;
   color: #fff;
   font-size: 1.2vw;
   line-height: 1.7vw;
@@ -482,9 +481,9 @@ a {
 
 .page_title.black.big.hero_caption.short.intro_label {
   padding-bottom: 10px;
-  font-family: Prata, sans-serif;
+  font-family: Inconsolata, monospace;
   text-align: left;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   text-transform: capitalize;
 }
 
@@ -503,8 +502,8 @@ a {
   width: auto;
   margin-bottom: 10px;
   padding-bottom: 0px;
-  font-family: Prata, sans-serif;
-  letter-spacing: 1px;
+  font-family: Inconsolata, monospace;
+  letter-spacing: 0px;
   text-transform: none;
 }
 
@@ -850,11 +849,13 @@ a {
 .grid-2.hero_grid._2_up.hide.vertical {
   z-index: 1;
   height: 17vw;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   grid-auto-flow: row;
   grid-column-gap: 4vw;
   grid-row-gap: 4vw;
+  -ms-grid-columns: 0.5fr 1fr 1fr 1fr;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -875,10 +876,10 @@ a {
 .grid-2.hero_grid._2_up.hide.grid-5-up {
   padding-top: 23vh;
   padding-bottom: 30vh;
-  grid-column-gap: 4vw;
-  grid-row-gap: 4vw;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 2vw;
+  grid-row-gap: 2vw;
+  -ms-grid-columns: 0.75fr 0.75fr 0.75fr 0.75fr;
+  grid-template-columns: 0.75fr 0.75fr 0.75fr 0.75fr;
 }
 
 .grid-2.hero_grid._2_up.mobile_hide {
@@ -3379,6 +3380,7 @@ a {
   display: inline-block;
   overflow: visible;
   padding: 0px;
+  color: #fff;
   font-size: 5vw;
   line-height: 5vw;
 }
@@ -3394,15 +3396,42 @@ a {
 }
 
 .sideways {
-  position: fixed;
+  position: relative;
   left: auto;
   top: 0%;
   right: 0%;
-  bottom: auto;
-  z-index: 10;
-  display: block;
-  width: 100%;
-  padding: 10px;
+  bottom: 0%;
+  z-index: 5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  height: auto;
+  padding: 10px 10px 10px 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
   background-color: rgba(54, 54, 54, 0);
   -webkit-transform: none;
   -ms-transform: none;
@@ -3416,6 +3445,40 @@ a {
 
 .link_space.centered {
   text-align: center;
+}
+
+.grid-7 {
+  position: relative;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 8;
+  display: -ms-grid;
+  display: grid;
+  overflow: visible;
+  width: auto;
+  height: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  grid-auto-flow: row;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
 }
 
 @media screen and (max-width: 991px) {
@@ -3764,6 +3827,7 @@ a {
     display: block;
   }
   .grid-2.hero_grid._2_up.hide.vertical {
+    height: auto;
     padding-top: 5vh;
     padding-bottom: 5vh;
     border-top: 1px solid hsla(0, 0%, 100%, 0.23);
@@ -4633,6 +4697,11 @@ a {
     padding: 10px;
     text-align: left;
   }
+}
+
+#w-node-9ecda4fdf54a-e6c768b3 {
+  -ms-grid-column-align: auto;
+  justify-self: auto;
 }
 
 #w-node-3185b3fc10d4-e6c768b3 {
