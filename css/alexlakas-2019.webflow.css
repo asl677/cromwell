@@ -3751,6 +3751,8 @@ img {
 .grid_image.bg_fixed_img.bg_2 {
   background-image: url('../images/dan-gold-kARZuSYMfrA-unsplash.jpg');
   background-size: cover;
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
 }
 
 .grid_image.bg_fixed_img.bg_3 {
