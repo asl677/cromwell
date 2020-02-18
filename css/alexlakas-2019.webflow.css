@@ -382,6 +382,30 @@ img {
   grid-template-rows: auto;
 }
 
+.padding_80.intro_header.centered.grid_float._2_up {
+  display: -ms-grid;
+  display: grid;
+  float: none;
+  clear: none;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  justify-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-flow: row;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 0.5fr 0.5fr 0.75fr;
+  grid-template-columns: 0.5fr 0.5fr 0.75fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
 .padding_80.intro_header.grid_float {
   padding: 20px;
   text-align: left;
@@ -509,7 +533,7 @@ img {
 }
 
 .paragraph-2.no-reveal.white {
-  color: rgba(255, 255, 255, 0.54);
+  color: #fff;
 }
 
 .heading {
@@ -4793,6 +4817,9 @@ img {
     padding-right: 0vw;
     padding-bottom: 20px;
   }
+  .heading.padding.body_hdr.reveal {
+    padding-bottom: 10px;
+  }
   .heading.padding.hdr_inverted {
     width: auto;
     padding: 0px;
@@ -5571,7 +5598,7 @@ img {
   }
   .padding_80.intro_header.centered.full {
     display: block;
-    padding: 0px;
+    padding: 3vw;
     opacity: 1;
   }
   .padding_80.intro_header.centered.full.phone_section {
@@ -5596,8 +5623,8 @@ img {
   }
   .paragraph-2.padding.list_p {
     padding: 0px;
-    font-size: 14px;
-    line-height: 28px;
+    font-size: 10px;
+    line-height: 14px;
   }
   .paragraph-2.padding2 {
     font-size: 14px;
@@ -5620,6 +5647,13 @@ img {
     font-size: 14px;
     line-height: 30px;
     font-weight: 400;
+  }
+  .paragraph-2.no-reveal {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .paragraph-2.no-reveal.white {
+    color: #fff;
   }
   .heading {
     margin-bottom: 0px;
@@ -6387,7 +6421,7 @@ img {
     display: none;
   }
   .padding_80.intro_header.centered.full {
-    padding: 0vw;
+    padding: 3vw;
     opacity: 1;
   }
   .padding_80.intro_header.centered.full.footer {
@@ -6429,6 +6463,9 @@ img {
     display: block;
     padding: 3vw;
   }
+  .padding_80.intro_header.centered.grid_float._2_up {
+    display: block;
+  }
   .padding_80.intro_header.grid_float {
     padding-top: 40px;
     padding-bottom: 20px;
@@ -6451,8 +6488,8 @@ img {
   .paragraph-2.padding.list_p {
     padding-top: 40px;
     padding-bottom: 10px;
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 10px;
+    line-height: 18px;
   }
   .paragraph-2.padding2 {
     font-size: 14px;
@@ -6478,11 +6515,18 @@ img {
     font-weight: 600;
   }
   .paragraph-2.no-reveal {
+    padding-top: 20px;
     padding-bottom: 20px;
     color: rgba(0, 0, 0, 0.54);
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 20px;
     text-align: left;
+  }
+  .paragraph-2.no-reveal.white {
+    padding-bottom: 0px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
   }
   .heading {
     position: static;
@@ -6562,9 +6606,9 @@ img {
   }
   .heading.padding {
     margin-bottom: 0vw;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 0px;
-    line-height: 46px;
+    line-height: 60px;
   }
   .heading.padding.body_hdr {
     overflow: visible;
@@ -6578,10 +6622,15 @@ img {
     line-height: 36px;
   }
   .heading.padding.body_hdr.reveal {
-    margin-bottom: 5vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
     padding-top: 0px;
+    padding-bottom: 0px;
     font-size: 20px;
     line-height: 30px;
+  }
+  .heading.padding.body_hdr.reveal.white {
+    line-height: 26px;
   }
   .heading.padding.hdr_inverted {
     width: 100%;
@@ -6605,18 +6654,21 @@ img {
   .heading.padding.second {
     padding-top: 0px;
     padding-right: 0vw;
+    font-size: 40px;
     line-height: 50px;
   }
   .heading.padding.third {
     padding-top: 0px;
     padding-right: 0vw;
-    font-size: 48px;
+    font-size: 40px;
     line-height: 50px;
   }
   .heading.padding.first {
     padding-top: 0px;
     padding-right: 0vw;
-    line-height: 12vw;
+    clear: left;
+    font-size: 40px;
+    line-height: 50px;
   }
   .heading.body_reveal {
     padding-right: 0vw;
@@ -7325,12 +7377,13 @@ img {
   .masked {
     overflow: hidden;
     margin: 0vw;
-    padding: 0px;
+    padding: 0px 0px 0vw;
     font-size: 14px;
-    line-height: 28px;
+    line-height: 20px;
   }
   .masked.body_reveal {
     position: relative;
+    margin-top: 5vw;
     padding: 0px;
     border-style: none;
     border-color: #000;
