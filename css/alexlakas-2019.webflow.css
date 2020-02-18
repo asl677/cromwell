@@ -314,7 +314,7 @@ img {
 .padding_80.intro_header.centered.full.footer {
   display: block;
   margin-top: 0px;
-  padding: 10vw;
+  padding: 0vw 10vw 10vw;
   border: 1px none #000;
   background-color: transparent;
 }
@@ -1876,9 +1876,22 @@ img {
   display: flex;
   width: auto;
   padding-left: 0vw;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   opacity: 1;
   line-height: 30px;
   list-style-type: none;
@@ -3755,7 +3768,12 @@ img {
 
 .grid_image.bg_fixed_img.bg_5 {
   background-image: url('../images/antonio-grosz-lszypRm8AkY-unsplash.jpg');
+  background-position: 50% 100%;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
 }
 
 .grid_image.bg_fixed_img.bg6 {
