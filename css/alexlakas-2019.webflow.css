@@ -4825,7 +4825,7 @@ img {
   .padding_80.intro_header.centered.full {
     display: -ms-grid;
     display: grid;
-    margin-top: 20px;
+    margin-top: 5px;
     padding-top: 5vw;
     padding-bottom: 5vw;
     grid-auto-columns: 1fr;
@@ -4838,7 +4838,7 @@ img {
     opacity: 1;
   }
   .padding_80.intro_header.centered.full.footer {
-    padding: 5vw;
+    padding: 5vw 10vw;
   }
   .padding_80.intro_header.centered.full.bg_image {
     overflow: hidden;
