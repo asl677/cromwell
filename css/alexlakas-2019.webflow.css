@@ -816,8 +816,8 @@ img {
 
 .heading.padding.body_hdr.reveal.title {
   font-family: Montserrat, sans-serif;
-  font-size: 2vw;
-  line-height: 2.5vw;
+  font-size: 3vw;
+  line-height: 3vw;
   letter-spacing: -0.05vw;
 }
 
@@ -854,8 +854,8 @@ img {
   padding-top: 0px;
   padding-bottom: 0px;
   font-family: Montserrat, sans-serif;
-  font-size: 3vw;
-  line-height: 4vw;
+  font-size: 4vw;
+  line-height: 4.5vw;
   font-style: normal;
   font-weight: 400;
   letter-spacing: -0.1vw;
@@ -5176,6 +5176,8 @@ img {
     margin-bottom: 0px;
   }
   .grid.client_grid.space.show_grid._2-col-grid.bg_grey.reveal._2-1-col-grod {
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-top: 3vw;
     padding-bottom: 3vw;
   }
