@@ -5893,8 +5893,8 @@ img {
   }
   .paragraph-2.padding.list_p {
     padding: 0px;
-    font-size: 10px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 22px;
   }
   .paragraph-2.padding2 {
     font-size: 14px;
@@ -6015,9 +6015,9 @@ img {
   }
   .heading.padding.body_hdr.reveal.title {
     padding-top: 10px;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 400;
   }
   .heading.padding.hdr_inverted {
     padding: 0px;
@@ -6032,8 +6032,8 @@ img {
     padding-top: 0px;
     padding-right: 0vw;
     padding-bottom: 0px;
-    font-size: 26px;
-    line-height: 36px;
+    font-size: 36px;
+    line-height: 44px;
   }
   .heading.padding.third {
     padding-top: 0px;
@@ -6158,6 +6158,7 @@ img {
     z-index: 8;
     display: -ms-grid;
     display: grid;
+    margin-top: 20px;
     padding-top: 3vw;
     padding-bottom: 3vw;
     grid-auto-columns: 1fr;
@@ -6799,6 +6800,7 @@ img {
   }
   .padding_80.intro_header.centered.grid_float._2_up {
     display: block;
+    padding: 0vw;
   }
   .padding_80.intro_header.grid_float {
     padding-top: 40px;
@@ -6822,7 +6824,7 @@ img {
   .paragraph-2.padding.list_p {
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 10px;
+    font-size: 16px;
     line-height: 18px;
     letter-spacing: 1px;
   }
@@ -6976,9 +6978,9 @@ img {
     line-height: 42px;
   }
   .heading.padding.body_hdr.reveal.title {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
   }
   .heading.padding.hdr_inverted {
     width: 100%;
@@ -7002,8 +7004,8 @@ img {
   .heading.padding.second {
     padding-top: 0px;
     padding-right: 0vw;
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 50px;
+    line-height: 50px;
   }
   .heading.padding.third {
     padding-top: 0px;
@@ -7144,6 +7146,7 @@ img {
     padding-bottom: 0vw;
   }
   .grid.client_grid.space.show_grid._2-col-grid.bg_grey.reveal._2-1-col-grod {
+    margin-top: 5px;
     padding-top: 3vw;
     padding-bottom: 3vw;
   }
