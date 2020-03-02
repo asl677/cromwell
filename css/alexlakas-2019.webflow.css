@@ -263,7 +263,7 @@ img {
   overflow: hidden;
   max-width: none;
   margin-bottom: 0px;
-  padding: 25vh 10vw 10vh;
+  padding: 45vh 10vw 10vh;
   -webkit-box-pack: stretch;
   -webkit-justify-content: stretch;
   -ms-flex-pack: stretch;
@@ -482,13 +482,14 @@ img {
 .paragraph-2.padding.list_p {
   position: relative;
   padding: 0px 0px 20px;
-  font-family: Helveticaneue, sans-serif;
-  color: rgba(0, 0, 0, 0.54);
-  font-size: 0.8vw;
+  font-family: Baskervville, sans-serif;
+  color: #000;
+  font-size: 1.3vw;
   line-height: 1.5vw;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.1vw;
+  text-transform: none;
 }
 
 .paragraph-2.padding.list_p.white {
@@ -817,7 +818,7 @@ img {
   font-family: Montserrat, sans-serif;
   font-size: 2vw;
   line-height: 2.5vw;
-  letter-spacing: -0.1vw;
+  letter-spacing: -0.05vw;
 }
 
 .heading.padding.hdr_inverted {
@@ -870,8 +871,8 @@ img {
   padding-top: 0px;
   padding-bottom: 5px;
   font-family: Baskervville, sans-serif;
-  font-size: 1.5vw;
-  line-height: 1.2vw;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   font-style: italic;
   letter-spacing: 0.05vw;
   text-decoration: none;
@@ -4846,6 +4847,17 @@ img {
   background-color: #000;
 }
 
+.scrolly {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 10;
+  height: 4px;
+  background-color: #000;
+}
+
 @media screen and (max-width: 991px) {
   .container_wrap {
     padding: 10vw 5vw 5vw 0px;
@@ -4892,7 +4904,7 @@ img {
     display: -ms-grid;
     display: grid;
     overflow: visible;
-    padding: 10vw;
+    padding: 25vw 10vw 3vw;
     grid-auto-columns: 1fr;
     grid-column-gap: 3vw;
     grid-row-gap: 0px;
@@ -5825,8 +5837,7 @@ img {
   }
   .padding_80.intro_header.centered.hero_padding {
     display: block;
-    padding-top: 20vw;
-    padding-bottom: 10vw;
+    padding: 20vw 3vw 3vw;
     -webkit-box-align: start;
     -webkit-align-items: start;
     -ms-flex-align: start;
@@ -5983,10 +5994,12 @@ img {
   }
   .heading.padding.body_hdr.reveal.number {
     color: rgba(0, 0, 0, 0.2);
+    font-size: 10vw;
+    line-height: 11vw;
   }
   .heading.padding.body_hdr.reveal.title {
     padding-top: 10px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     font-weight: 500;
   }
@@ -6003,8 +6016,8 @@ img {
     padding-top: 0px;
     padding-right: 0vw;
     padding-bottom: 0px;
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 26px;
+    line-height: 36px;
   }
   .heading.padding.third {
     padding-top: 0px;
@@ -6015,8 +6028,8 @@ img {
     padding-top: 0px;
     padding-right: 0vw;
     padding-bottom: 0px;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 22px;
   }
   .heading.body_reveal {
     padding-bottom: 0px;
@@ -6616,6 +6629,9 @@ img {
   .div-block-7 {
     display: none;
   }
+  .scrolly {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -6692,7 +6708,7 @@ img {
   }
   .padding_80.intro_header.centered.hero_padding {
     display: block;
-    padding: 35vw 3vw 15vw;
+    padding: 35vw 3vw 6vw;
     grid-column-gap: 3vw;
   }
   .padding_80.intro_header.centered.hero_padding.mask.black_bg {
@@ -6927,6 +6943,8 @@ img {
     padding-top: 10px;
     padding-bottom: 10px;
     color: rgba(0, 0, 0, 0.2);
+    font-size: 32px;
+    line-height: 42px;
   }
   .heading.padding.body_hdr.reveal.title {
     font-size: 18px;
@@ -7584,7 +7602,7 @@ img {
   .detail {
     position: relative;
     display: block;
-    padding: 20px 0px;
+    padding: 3vw;
     float: none;
     clear: none;
     box-shadow: none;
@@ -7955,13 +7973,13 @@ img {
     display: block;
   }
   .reveal.img.second {
-    width: 90%;
-    margin: 3vw;
+    width: 100%;
+    margin: 0vw;
     padding: 0vw;
   }
   .reveal.img.first {
-    width: 90%;
-    margin: 3vw;
+    width: 100%;
+    margin: 0vw;
   }
   .background-video-3 {
     z-index: 3;
@@ -7975,6 +7993,9 @@ img {
   }
   .list-item-21 {
     width: 100%;
+  }
+  .scrolly {
+    display: none;
   }
 }
 
@@ -9247,54 +9268,6 @@ img {
   align-self: center;
 }
 
-#w-node-c4455165e219-61d457b0 {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-#w-node-c4455165e21e-61d457b0 {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-column-align: auto;
-  justify-self: auto;
-}
-
-#w-node-d2823eaaf755-61d457b0 {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 2;
-  grid-row-start: 2;
-  -ms-grid-row-span: 1;
-  grid-row-end: 3;
-  -ms-grid-column-align: auto;
-  justify-self: auto;
-}
-
-#w-node-5d0c1053cc9a-61d457b0 {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
 #w-node-74aa59a34d1e-5ff53cdd {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -9729,30 +9702,6 @@ img {
     justify-self: auto;
   }
   #w-node-6c28bcd8b164-4d529404 {
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-  }
-  #w-node-d2823eaaf756-61d457b0 {
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-  }
-  #w-node-5d0c1053cc9b-61d457b0 {
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-  }
-  #w-node-5d0c1053ccb0-61d457b0 {
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-  }
-  #w-node-5d0c1053cca9-61d457b0 {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
