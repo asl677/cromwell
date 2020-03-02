@@ -258,27 +258,34 @@ img {
 }
 
 .padding_80.intro_header.centered.hero_padding {
-  display: -ms-grid;
-  display: grid;
+  display: block;
   overflow: hidden;
   max-width: none;
   margin-bottom: 0px;
   padding: 18vh 10vw 10vw;
-  -webkit-box-pack: stretch;
-  -webkit-justify-content: stretch;
-  -ms-flex-pack: stretch;
-  justify-content: stretch;
-  justify-items: end;
+  -webkit-box-pack: start;
+  -webkit-justify-content: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  justify-items: start;
   -webkit-box-align: start;
   -webkit-align-items: start;
   -ms-flex-align: start;
   align-items: start;
+  -webkit-align-content: start;
+  -ms-flex-line-pack: start;
+  align-content: start;
+  grid-auto-flow: row;
   grid-auto-columns: 1fr;
-  grid-column-gap: 20vw;
+  grid-column-gap: 0vw;
   grid-row-gap: 0px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   opacity: 1;
+  text-align: left;
+  text-decoration: none;
 }
 
 .padding_80.intro_header.centered.hero_padding.mask {
@@ -866,12 +873,12 @@ img {
 }
 
 .heading.padding.second {
-  padding-top: 0px;
-  padding-bottom: 10px;
+  width: auto;
+  padding: 10px;
   clear: none;
   font-family: Montserrat, sans-serif;
-  font-size: 15vw;
-  line-height: 5vw;
+  font-size: 7vw;
+  line-height: 7vw;
   font-style: normal;
   font-weight: 400;
   letter-spacing: -0.6vw;
@@ -879,9 +886,12 @@ img {
 }
 
 .heading.padding.third {
+  width: auto;
+  padding: 10px;
+  clear: none;
   font-family: Montserrat, sans-serif;
-  font-size: 15vw;
-  line-height: 5vw;
+  font-size: 7vw;
+  line-height: 7vw;
   font-style: normal;
   letter-spacing: -0.6vw;
   text-transform: lowercase;
@@ -889,7 +899,7 @@ img {
 
 .heading.padding.first {
   padding-top: 0px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   padding-left: 0vw;
   font-family: Baskervville, sans-serif;
   font-size: 1vw;
@@ -902,11 +912,13 @@ img {
 }
 
 .heading.padding.fourth {
-  padding-top: 0px;
-  padding-bottom: 40px;
+  width: auto;
+  padding: 10px;
+  clear: none;
   font-family: Montserrat, sans-serif;
-  font-size: 15vw;
-  line-height: 11vw;
+  font-size: 7vw;
+  line-height: 7vw;
+  text-align: left;
   letter-spacing: -0.6vw;
   text-transform: lowercase;
 }
@@ -3632,19 +3644,24 @@ img {
   z-index: 1;
   display: block;
   overflow: hidden;
-  width: 100%;
+  width: auto;
   margin-bottom: 0px;
   padding-top: 0px;
-  padding-right: 1vw;
+  padding-right: 0vw;
   padding-left: 0vw;
   float: none;
   clear: none;
-  -webkit-align-self: end;
-  -ms-flex-item-align: end;
-  -ms-grid-row-align: end;
-  align-self: end;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
   border: 1px none #000;
   opacity: 1;
+  text-align: left;
   letter-spacing: 0px;
 }
 
@@ -4049,7 +4066,10 @@ img {
 
 .grid-10 {
   position: static;
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   overflow: visible;
   margin-right: 0px;
   padding-right: 0vw;
@@ -4058,18 +4078,18 @@ img {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   justify-items: start;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-align-content: start;
   -ms-flex-line-pack: start;
   align-content: start;
@@ -4081,6 +4101,7 @@ img {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+  text-align: left;
 }
 
 .grid-10.full_grid {
@@ -4986,13 +5007,15 @@ img {
     margin-top: 0vw;
   }
   .padding_80.intro_header.centered.hero_padding {
-    display: -ms-grid;
-    display: grid;
-    overflow: visible;
+    position: relative;
+    display: block;
+    overflow: hidden;
     padding: 15vw 10vw 10vw;
     grid-auto-columns: 1fr;
     grid-column-gap: 3vw;
     grid-row-gap: 0px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
     opacity: 1;
@@ -5165,23 +5188,25 @@ img {
   }
   .heading.padding.second {
     margin-bottom: 0vw;
-    padding: 0px 0px 20px;
+    padding: 10px;
+    line-height: 8vw;
     font-style: normal;
   }
   .heading.padding.third {
-    padding: 0px;
+    padding: 10px;
+    line-height: 8vw;
     font-style: normal;
   }
   .heading.padding.first {
     margin-bottom: 0vw;
     padding-right: 0px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     padding-left: 0px;
     line-height: 1.5vw;
   }
   .heading.padding.fourth {
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     line-height: 8vw;
   }
   .heading.body_reveal {
@@ -5395,9 +5420,9 @@ img {
   }
   .list_link.padding.page_list {
     width: 100%;
-    -webkit-transform: rotate(90deg) translate(-16vw, -4vw);
-    -ms-transform: rotate(90deg) translate(-16vw, -4vw);
-    transform: rotate(90deg) translate(-16vw, -4vw);
+    -webkit-transform: rotate(90deg) translate(-10vw, -4vw);
+    -ms-transform: rotate(90deg) translate(-10vw, -4vw);
+    transform: rotate(90deg) translate(-10vw, -4vw);
   }
   .list_link.padding.intro_list {
     display: block;
@@ -5735,7 +5760,10 @@ img {
     display: block;
   }
   .grid-10 {
-    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
   .imagehero.large {
     position: relative;
@@ -5959,18 +5987,32 @@ img {
     padding: 0px;
   }
   .padding_80.intro_header.centered.hero_padding {
-    display: -ms-grid;
-    display: grid;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     padding: 10vw 3vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
     -webkit-box-align: start;
-    -webkit-align-items: start;
+    -webkit-align-items: flex-start;
     -ms-flex-align: start;
-    align-items: start;
+    align-items: flex-start;
     grid-auto-columns: 1fr;
     grid-column-gap: 3vw;
     grid-row-gap: 0px;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
   }
@@ -6680,6 +6722,24 @@ img {
     background-image: url('../images/chris-knight--ucnC7PMDqE-unsplash.jpg');
     background-size: cover;
     background-attachment: scroll;
+  }
+  .grid-10 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .imagehero.large {
     width: 100%;
@@ -8167,10 +8227,16 @@ img {
 #w-node-09f847cca87f-7eed02c4 {
   -ms-grid-column-align: auto;
   justify-self: auto;
-  -webkit-align-self: auto;
-  -ms-flex-item-align: auto;
   -ms-grid-row-align: auto;
   align-self: auto;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
 }
 
 #w-node-d6e499de794d-7eed02c4 {
