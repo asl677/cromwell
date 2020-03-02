@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Feb 25 2020 03:09:47 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Mar 02 2020 02:33:39 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5d1fcbaf396cc01c61d457b0" data-wf-site="5cccd40515eeacf867ed02c1">
 <head>
   <meta charset="utf-8">
@@ -249,6 +249,28 @@
   from { transform: rotate(0deg); }
   from { transform: rotate(360deg); }
 }
+ /* .title {
+    mix-blend-mode: difference
+  }
+  */
+  .w-webflow-badge {
+      display: none !important;
+  }
+  body {
+      -ms-overflow-style: none;  // IE 10+
+      overflow: -moz-scrollbars-none;  // Firefox
+  }
+  body::-webkit-scrollbar {
+      display: none; // Safari and Chrome
+  }
+  ::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #0015ff;
+  }
+  ::selection {
+    color: white;
+    background: #0015ff;
+  }
 </style>
 </head>
 <body class="body_color grey_bg">
