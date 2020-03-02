@@ -263,7 +263,7 @@ img {
   overflow: hidden;
   max-width: none;
   margin-bottom: 0px;
-  padding: 45vh 10vw 10vh;
+  padding: 30vh 10vw 10vw;
   -webkit-box-pack: stretch;
   -webkit-justify-content: stretch;
   -ms-flex-pack: stretch;
@@ -276,8 +276,6 @@ img {
   grid-auto-columns: 1fr;
   grid-column-gap: 10vw;
   grid-row-gap: 0px;
-  -ms-grid-columns: 0.75fr 0.75fr;
-  grid-template-columns: 0.75fr 0.75fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   opacity: 1;
@@ -553,7 +551,7 @@ img {
   padding-bottom: 1vw;
   padding-left: 0px;
   font-family: Helveticaneue, sans-serif;
-  color: rgba(0, 0, 0, 0.54);
+  color: #000;
   font-size: 1vw;
   line-height: 1.5vw;
   font-weight: 400;
@@ -804,21 +802,23 @@ img {
 }
 
 .heading.padding.body_hdr.reveal.number {
-  padding-bottom: 0vw;
+  padding-bottom: 20px;
+  clear: none;
   font-family: Montserrat, sans-serif;
   color: rgba(0, 0, 0, 0.08);
-  font-size: 15vw;
-  line-height: 14vw;
-  font-style: italic;
+  font-size: 12vw;
+  line-height: 11vw;
+  font-style: normal;
   font-weight: 400;
-  letter-spacing: -1vw;
+  letter-spacing: -0.8vw;
+  text-transform: lowercase;
 }
 
 .heading.padding.body_hdr.reveal.title {
   font-family: Montserrat, sans-serif;
-  font-size: 3vw;
+  font-size: 2.5vw;
   line-height: 3vw;
-  letter-spacing: -0.05vw;
+  letter-spacing: -0.08vw;
 }
 
 .heading.padding.hdr_inverted {
@@ -852,14 +852,15 @@ img {
 
 .heading.padding.second {
   padding-top: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 30px;
+  clear: none;
   font-family: Montserrat, sans-serif;
-  font-size: 4vw;
-  line-height: 4.5vw;
+  font-size: 7vw;
+  line-height: 6vw;
   font-style: normal;
   font-weight: 400;
-  letter-spacing: -0.1vw;
-  text-transform: none;
+  letter-spacing: -0.6vw;
+  text-transform: lowercase;
 }
 
 .heading.padding.third {
@@ -870,9 +871,10 @@ img {
 .heading.padding.first {
   padding-top: 0px;
   padding-bottom: 5px;
+  padding-left: 0vw;
   font-family: Baskervville, sans-serif;
-  font-size: 1.3vw;
-  line-height: 1.5vw;
+  font-size: 1.5vw;
+  line-height: 2vw;
   font-style: italic;
   letter-spacing: 0.05vw;
   text-decoration: none;
@@ -1244,7 +1246,7 @@ img {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #dbdbdb;
+  background-color: hsla(0, 0%, 100%, 0.13);
 }
 
 .grid.client_grid.space.show_grid._2-col-grid.bg_grey.reveal.hide {
@@ -1380,7 +1382,7 @@ img {
   overflow: hidden;
   width: auto;
   height: 100%;
-  margin: 1vw;
+  margin: 3vw;
   padding: 0px;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -1762,13 +1764,14 @@ img {
 }
 
 .thumb.body_wide_thumb.slide_thumb.center-grid.video {
-  width: 30%;
-  height: 55vw;
+  width: 28%;
+  height: 51vw;
   padding: 0vw;
 }
 
 .thumb.body_wide_thumb.slide_thumb.center-grid.video.narrow {
-  height: 54vw;
+  width: 30%;
+  height: 53vw;
 }
 
 .thumb.case_study_thumb {
@@ -2526,7 +2529,7 @@ img {
 
 .body_color.grey_bg {
   padding: 0px;
-  background-color: #d3d3d3;
+  background-color: #b3b3b3;
 }
 
 .body_color.bg_red {
@@ -3189,7 +3192,7 @@ img {
   z-index: 2;
   height: auto;
   padding: 20px 0px;
-  background-color: #d3d3d3;
+  background-color: rgba(211, 211, 211, 0);
   opacity: 1;
   -webkit-transform: none;
   -ms-transform: none;
@@ -3257,7 +3260,7 @@ img {
   font-weight: 500;
   letter-spacing: 0px;
   text-decoration: none;
-  text-transform: none;
+  text-transform: capitalize;
 }
 
 .black.logo {
@@ -4854,7 +4857,7 @@ img {
   right: 0%;
   bottom: auto;
   z-index: 10;
-  height: 4px;
+  height: 3px;
   background-color: #000;
 }
 
@@ -4904,12 +4907,10 @@ img {
     display: -ms-grid;
     display: grid;
     overflow: visible;
-    padding: 25vw 10vw 3vw;
+    padding: 15vw 10vw 10vw;
     grid-auto-columns: 1fr;
     grid-column-gap: 3vw;
     grid-row-gap: 0px;
-    -ms-grid-columns: 0.75fr 0.5fr;
-    grid-template-columns: 0.75fr 0.5fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
     opacity: 1;
@@ -4962,6 +4963,8 @@ img {
   }
   .paragraph-2.padding.list_p {
     padding-top: 20px;
+    font-size: 1.1vw;
+    line-height: 1.8vw;
   }
   .paragraph-2.padding2 {
     padding: 0px;
@@ -4984,6 +4987,10 @@ img {
     font-size: 14px;
     line-height: 26px;
     font-weight: 400;
+  }
+  .paragraph-2.no-reveal {
+    font-size: 1.1vw;
+    line-height: 1.8vw;
   }
   .heading {
     margin-bottom: 20px;
@@ -5055,6 +5062,12 @@ img {
   .heading.padding.body_hdr.reveal {
     padding-bottom: 10px;
   }
+  .heading.padding.body_hdr.reveal.number {
+    color: rgba(0, 0, 0, 0.1);
+  }
+  .heading.padding.body_hdr.reveal.title {
+    line-height: 3.2vw;
+  }
   .heading.padding.hdr_inverted {
     width: auto;
     padding: 0px;
@@ -5068,7 +5081,8 @@ img {
     line-height: 7vw;
   }
   .heading.padding.second {
-    padding: 0px;
+    margin-bottom: 0vw;
+    padding: 0px 0px 20px;
     font-style: normal;
   }
   .heading.padding.third {
@@ -5243,7 +5257,7 @@ img {
     margin-bottom: 0px;
   }
   .thumb.body_wide_thumb.slide_thumb {
-    width: 65%;
+    width: 67%;
     padding: 2vw;
   }
   .thumb.body_wide_thumb.slide_thumb.parallax {
@@ -6012,8 +6026,9 @@ img {
   }
   .heading.padding.body_hdr.reveal.number {
     color: rgba(0, 0, 0, 0.2);
-    font-size: 10vw;
-    line-height: 11vw;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -4px;
   }
   .heading.padding.body_hdr.reveal.title {
     padding-top: 10px;
@@ -6034,8 +6049,9 @@ img {
     padding-top: 0px;
     padding-right: 0vw;
     padding-bottom: 0px;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -4px;
   }
   .heading.padding.third {
     padding-top: 0px;
@@ -6740,7 +6756,7 @@ img {
   }
   .padding_80.intro_header.centered.hero_padding {
     display: block;
-    padding: 35vw 3vw 6vw;
+    padding: 35vw 3vw 25vw;
     grid-column-gap: 3vw;
   }
   .padding_80.intro_header.centered.hero_padding.mask.black_bg {
@@ -6976,8 +6992,9 @@ img {
     padding-top: 10px;
     padding-bottom: 10px;
     color: rgba(0, 0, 0, 0.2);
-    font-size: 32px;
-    line-height: 42px;
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: lowercase;
   }
   .heading.padding.body_hdr.reveal.title {
     font-size: 22px;
@@ -7007,7 +7024,7 @@ img {
     padding-top: 0px;
     padding-right: 0vw;
     font-size: 50px;
-    line-height: 50px;
+    line-height: 60px;
   }
   .heading.padding.third {
     padding-top: 0px;
