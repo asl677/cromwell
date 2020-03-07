@@ -874,21 +874,24 @@ img {
 
 .heading.padding.second {
   width: auto;
-  padding: 10px;
+  padding: 10px 10px 10px 40px;
   clear: none;
+  direction: rtl;
   font-family: Montserrat, sans-serif;
   font-size: 7vw;
   line-height: 7vw;
   font-style: normal;
   font-weight: 400;
+  text-align: left;
   letter-spacing: -0.6vw;
   text-transform: lowercase;
 }
 
 .heading.padding.third {
   width: auto;
-  padding: 10px;
+  padding: 10px 10px 10px 40px;
   clear: none;
+  direction: rtl;
   font-family: Montserrat, sans-serif;
   font-size: 7vw;
   line-height: 7vw;
@@ -902,19 +905,20 @@ img {
   padding-bottom: 10px;
   padding-left: 0vw;
   font-family: Baskervville, sans-serif;
-  font-size: 1vw;
-  line-height: 1.5vw;
+  font-size: 1.5vw;
+  line-height: 2vw;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0vw;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: lowercase;
 }
 
 .heading.padding.fourth {
   width: auto;
-  padding: 10px;
+  padding: 10px 10px 10px 40px;
   clear: none;
+  direction: rtl;
   font-family: Montserrat, sans-serif;
   font-size: 7vw;
   line-height: 7vw;
@@ -8222,21 +8226,6 @@ img {
   .scrolly {
     display: none;
   }
-}
-
-#w-node-09f847cca87f-7eed02c4 {
-  -ms-grid-column-align: auto;
-  justify-self: auto;
-  -ms-grid-row-align: auto;
-  align-self: auto;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
 }
 
 #w-node-d6e499de794d-7eed02c4 {
