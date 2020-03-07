@@ -1297,7 +1297,7 @@ img {
 }
 
 .grid.client_grid.space.show_grid._2-col-grid.bg_grey.reveal._2-1-col-grod {
-  overflow: hidden;
+  overflow: visible;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
 }
@@ -1814,7 +1814,7 @@ img {
 
 .thumb.body_wide_thumb.slide_thumb.center-grid.video.narrow {
   width: 30%;
-  height: 53vw;
+  height: 53.7vw;
 }
 
 .thumb.case_study_thumb {
@@ -9647,6 +9647,15 @@ img {
   align-self: start;
 }
 
+#w-node-4bff24009923-5ff53cdd {
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
 #w-node-74aa59a34d1e-cb8b9cdb {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -9773,6 +9782,15 @@ img {
   grid-row-end: 2;
   -ms-grid-column-align: start;
   justify-self: start;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-ed57bccd1a31-cb8b9cdb {
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
 }
