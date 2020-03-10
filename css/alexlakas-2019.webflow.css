@@ -5197,6 +5197,7 @@ img {
     font-style: normal;
   }
   .heading.padding.third {
+    margin-bottom: 0vw;
     padding: 10px;
     line-height: 8vw;
     font-style: normal;
@@ -5209,8 +5210,10 @@ img {
     line-height: 1.5vw;
   }
   .heading.padding.fourth {
+    margin-bottom: 0vw;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
     line-height: 8vw;
   }
   .heading.body_reveal {
@@ -5770,6 +5773,22 @@ img {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .imagehero.large {
     position: relative;
