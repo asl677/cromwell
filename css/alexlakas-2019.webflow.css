@@ -6664,8 +6664,8 @@ img {
     padding-bottom: 0px;
     border-style: none;
     border-width: 0px;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 20px;
   }
   .black.logo {
     padding: 0px;
@@ -7528,6 +7528,7 @@ img {
     padding: 0px;
   }
   .thumb.body_wide_thumb.slide_thumb.project_thumb {
+    width: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 0vw;
@@ -7917,8 +7918,9 @@ img {
   }
   .black {
     padding-bottom: 0px;
-    font-size: 28px;
-    line-height: 34px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
     text-decoration: none;
     text-transform: capitalize;
   }
