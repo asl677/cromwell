@@ -262,7 +262,7 @@ img {
   overflow: hidden;
   max-width: none;
   margin-bottom: 0px;
-  padding: 18vh 10vw 10vw;
+  padding: 18vh 10vw 50vh;
   -webkit-box-pack: start;
   -webkit-justify-content: start;
   -ms-flex-pack: start;
@@ -874,7 +874,7 @@ img {
 
 .heading.padding.second {
   width: auto;
-  padding: 10px 10px 10px 40px;
+  padding: 10px 10px 20px 40px;
   clear: none;
   direction: rtl;
   font-family: Montserrat, sans-serif;
@@ -889,7 +889,7 @@ img {
 
 .heading.padding.third {
   width: auto;
-  padding: 10px 10px 10px 40px;
+  padding: 10px 10px 20px 40px;
   clear: none;
   direction: rtl;
   font-family: Montserrat, sans-serif;
@@ -905,8 +905,8 @@ img {
   padding-bottom: 10px;
   padding-left: 0vw;
   font-family: Baskervville, sans-serif;
-  font-size: 2vw;
-  line-height: 2vw;
+  font-size: 2.3vw;
+  line-height: 2.3vw;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0vw;
@@ -916,11 +916,11 @@ img {
 
 .heading.padding.fourth {
   width: auto;
-  padding: 10px 10px 10px 40px;
+  padding: 10px 10px 20px 40px;
   clear: none;
   direction: rtl;
   font-family: Montserrat, sans-serif;
-  font-size: 7vw;
+  font-size: 8vw;
   line-height: 7vw;
   text-align: left;
   letter-spacing: -0.6vw;
@@ -1208,6 +1208,7 @@ img {
 }
 
 .grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid.two-up.one-up {
+  display: block;
   max-width: 100%;
   margin: 0px auto;
   padding: 0vw;
@@ -1732,7 +1733,7 @@ img {
   position: relative;
   display: block;
   overflow: visible;
-  width: 90%;
+  width: 85%;
   height: auto;
   padding: 0vw;
   background-color: hsla(0, 0%, 94.5%, 0);
@@ -2271,7 +2272,7 @@ img {
   display: block;
   border-bottom-color: #ff3c00;
   font-family: Montserrat, sans-serif;
-  color: #ff3c00;
+  color: #000;
   font-weight: 500;
   text-transform: none;
 }
@@ -3258,7 +3259,7 @@ img {
   bottom: auto;
   z-index: 2;
   height: auto;
-  padding: 20px 20px 20px 0px;
+  padding: 2vw 20px 0px 0px;
   background-color: rgba(211, 211, 211, 0);
   opacity: 1;
   -webkit-transform: none;
@@ -3337,8 +3338,8 @@ img {
   border: 1px none #000;
   font-family: Montserrat, sans-serif;
   color: #000;
-  font-size: 1.5vw;
-  line-height: 2vw;
+  font-size: 1.3vw;
+  line-height: 1.6vw;
   font-weight: 400;
   text-align: right;
   letter-spacing: -0.5px;
