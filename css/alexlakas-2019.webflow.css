@@ -262,7 +262,7 @@ img {
   overflow: hidden;
   max-width: none;
   margin-bottom: 0px;
-  padding: 18vh 10vw 50vh;
+  padding: 18vh 10vw 40vh;
   -webkit-box-pack: start;
   -webkit-justify-content: start;
   -ms-flex-pack: start;
@@ -6232,14 +6232,14 @@ img {
     padding: 0px 0vw 0px 0px;
     direction: ltr;
     font-size: 60px;
-    line-height: 50px;
+    line-height: 60px;
     letter-spacing: -4px;
   }
   .heading.padding.third {
     padding: 0px 0vw 0px 0px;
     direction: ltr;
     font-size: 60px;
-    line-height: 50px;
+    line-height: 60px;
   }
   .heading.padding.first {
     padding-top: 0px;
@@ -6253,7 +6253,7 @@ img {
     padding: 0px;
     direction: ltr;
     font-size: 60px;
-    line-height: 50px;
+    line-height: 60px;
   }
   .heading.body_reveal {
     padding-bottom: 0px;
