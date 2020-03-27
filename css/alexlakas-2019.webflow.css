@@ -432,9 +432,10 @@ img {
 }
 
 .padding_80.intro_header.centered.grid_float._2_up {
+  position: relative;
   display: block;
-  overflow: visible;
-  height: 100%;
+  overflow: hidden;
+  height: 80%;
   float: none;
   clear: none;
   -webkit-box-pack: stretch;
@@ -907,7 +908,7 @@ img {
   display: block;
   padding-top: 0px;
   padding-bottom: 10px;
-  padding-left: 0vw;
+  padding-left: 1vw;
   font-family: Baskervville, sans-serif;
   font-size: 1.5vw;
   line-height: 2vw;
@@ -1538,11 +1539,19 @@ img {
 }
 
 .link-block.block_hero.med_thumb.next_case {
-  position: absolute;
+  position: relative;
   left: 0%;
   top: auto;
   right: 0%;
   bottom: 0%;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin-top: 5vw;
+  padding: 0vw;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
 }
 
 .link-block.block_hero.large_thumb {
