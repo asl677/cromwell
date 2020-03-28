@@ -1086,6 +1086,8 @@ img {
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   opacity: 1;
+  -webkit-perspective: 10vw;
+  perspective: 10vw;
 }
 
 .grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid._4-up-grid {
@@ -1274,6 +1276,8 @@ img {
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   opacity: 1;
+  -webkit-perspective: 10vw;
+  perspective: 10vw;
 }
 
 .grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid.two-up.home.hide {
@@ -1424,8 +1428,8 @@ img {
   -ms-grid-row-align: auto;
   align-self: auto;
   border-radius: 0px;
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
+  -webkit-transition: all 3000ms cubic-bezier(.526, .026, .415, .909);
+  transition: all 3000ms cubic-bezier(.526, .026, .415, .909);
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -1549,6 +1553,16 @@ img {
   height: auto;
   margin-top: 5vw;
   padding: 0vw;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none 0ms ease;
+  transition: none 0ms ease;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.link-block.block_hero.med_thumb.next_case:hover {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
@@ -1796,7 +1810,7 @@ img {
   position: relative;
   display: block;
   overflow: visible;
-  width: 90%;
+  width: 100%;
   height: auto;
   padding: 0vw;
   background-color: hsla(0, 0%, 94.5%, 0);
@@ -1869,11 +1883,12 @@ img {
 }
 
 .thumb.body_wide_thumb.slide_thumb.project_thumb.bw_image {
-  -webkit-filter: none;
-  filter: none;
-  -webkit-transform: scale(1.02);
-  -ms-transform: scale(1.02);
-  transform: scale(1.02);
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
 }
 
 .thumb.body_wide_thumb.slide_thumb.project_thumb.next_case_thumb {
@@ -4863,6 +4878,12 @@ img {
   margin: 3vw;
 }
 
+.reveal.img.second {
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
 .reveal.img.first {
   margin: 0vw;
 }
@@ -5190,7 +5211,7 @@ img {
     overflow: hidden;
   }
   .padding_80.intro_header.centered.grid_float._2_up {
-    height: auto;
+    height: 80%;
   }
   .padding_80.intro_header.grid_float {
     padding: 0px;
@@ -8469,6 +8490,30 @@ img {
   justify-self: auto;
 }
 
+#w-node-d235f11de1d4-7eed02c4 {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
+#w-node-d235f11de1db-7eed02c4 {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+  -ms-grid-column-align: auto;
+  justify-self: auto;
+}
+
 #w-node-395226ed451b-7eed02c4 {
   -ms-grid-column: 2;
   grid-column-start: 2;
@@ -8738,6 +8783,17 @@ img {
   grid-row-end: 2;
   -ms-grid-row-align: start;
   align-self: start;
+}
+
+#w-node-0c5c2a775d75-4d529404 {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
 }
 
 #w-node-ecf4acb3cbd6-acb3cbb9 {
@@ -10048,6 +10104,30 @@ img {
 }
 
 @media screen and (max-width: 479px) {
+  #w-node-d235f11de1d6-7eed02c4 {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+  #w-node-d235f11de1db-7eed02c4 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 2;
+    -ms-grid-column-align: auto;
+    justify-self: auto;
+  }
+  #w-node-d235f11de1dd-7eed02c4 {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
   #w-node-395226ed4516-7eed02c4 {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
@@ -10155,12 +10235,6 @@ img {
     grid-row-end: 2;
     -ms-grid-column-align: auto;
     justify-self: auto;
-  }
-  #w-node-6c28bcd8b15d-4d529404 {
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
   }
 }
 
