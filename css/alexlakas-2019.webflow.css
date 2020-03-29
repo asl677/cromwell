@@ -262,7 +262,7 @@ img {
   overflow: hidden;
   max-width: none;
   margin-bottom: 0px;
-  padding: 18vh 10vw 30vh;
+  padding: 25vh 10vw 5vh;
   -webkit-box-pack: start;
   -webkit-justify-content: start;
   -ms-flex-pack: start;
@@ -839,6 +839,12 @@ img {
   text-transform: lowercase;
 }
 
+.heading.padding.body_hdr.reveal.number.footer_title {
+  font-family: Baskervville, sans-serif;
+  color: #000;
+  font-style: italic;
+}
+
 .heading.padding.body_hdr.reveal.title {
   font-family: Montserrat, sans-serif;
   font-size: 2vw;
@@ -878,7 +884,7 @@ img {
 
 .heading.padding.second {
   width: auto;
-  padding: 10px 10px 40px 40px;
+  padding: 10px 10px 40px 20px;
   clear: none;
   direction: rtl;
   font-family: Montserrat, sans-serif;
@@ -921,7 +927,7 @@ img {
 
 .heading.padding.fourth {
   width: auto;
-  padding: 10px 10px 40px 40px;
+  padding: 10px 10px 40px 20px;
   clear: none;
   direction: rtl;
   font-family: Montserrat, sans-serif;
@@ -1069,6 +1075,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-top: 0px;
+  padding-right: 6vw;
+  padding-left: 6vw;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -1098,7 +1106,7 @@ img {
   bottom: 0%;
   max-width: 100%;
   margin: 0px auto;
-  padding: 0vw;
+  padding: 0vw 6vw;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -1361,7 +1369,7 @@ img {
 
 .grid.client_grid.space.show_grid._2-col-grid._1-col-grid {
   position: relative;
-  display: block;
+  display: none;
   overflow: hidden;
   height: auto;
   -webkit-align-self: auto;
