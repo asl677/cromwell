@@ -262,7 +262,7 @@ img {
   overflow: hidden;
   max-width: none;
   margin-bottom: 0px;
-  padding: 25vh 10vw 5vh;
+  padding: 35vh 10vw 5vh;
   -webkit-box-pack: start;
   -webkit-justify-content: start;
   -ms-flex-pack: start;
@@ -1320,6 +1320,7 @@ img {
 }
 
 .grid.client_grid.space.show_grid._2-col-grid.bg_grey.reveal {
+  overflow: hidden;
   width: auto;
   max-width: none;
   margin-right: auto;
@@ -1340,6 +1341,14 @@ img {
   overflow: hidden;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
+}
+
+.grid.client_grid.space.show_grid._2-col-grid.bg_grey.reveal.video_wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0vw;
 }
 
 .grid.client_grid.space.show_grid._2-col-grid.full {
@@ -3885,7 +3894,7 @@ img {
 }
 
 .masked.number_mask {
-  overflow: visible;
+  overflow: hidden;
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
@@ -4369,7 +4378,7 @@ img {
 }
 
 .hero_video {
-  position: absolute;
+  position: relative;
   left: auto;
   top: 0%;
   right: 0%;
@@ -4377,7 +4386,10 @@ img {
   display: block;
   overflow: visible;
   width: 100%;
-  height: 30vw;
+  height: 100%;
+  padding-bottom: 0px;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .back_home {
@@ -5221,7 +5233,7 @@ img {
     overflow: hidden;
   }
   .padding_80.intro_header.centered.grid_float._2_up {
-    height: 80%;
+    height: 50%;
   }
   .padding_80.intro_header.grid_float {
     padding: 0px;
