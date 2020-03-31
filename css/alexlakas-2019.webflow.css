@@ -1212,6 +1212,10 @@ img {
   grid-template-rows: auto;
 }
 
+.grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid._4-up-grid.top {
+  padding-top: 10vw;
+}
+
 .grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid.no_grid {
   display: block;
 }
