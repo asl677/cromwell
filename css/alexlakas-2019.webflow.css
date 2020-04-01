@@ -305,6 +305,11 @@ img {
   grid-template-columns: 0.75fr 0.5fr;
 }
 
+.padding_80.intro_header.centered.hero_padding.footer-hero {
+  overflow: visible;
+  padding: 0vh 0vw;
+}
+
 .padding_80.intro_header.centered.see_more_block {
   background-color: #000;
 }
@@ -435,7 +440,8 @@ img {
   position: relative;
   display: block;
   overflow: hidden;
-  height: 30vw;
+  height: 60%;
+  padding-top: 5vw;
   float: none;
   clear: none;
   -webkit-box-pack: stretch;
@@ -884,7 +890,7 @@ img {
 
 .heading.padding.second {
   width: auto;
-  padding: 10px 10px 40px 20px;
+  padding: 10px 10px 40px 40px;
   clear: none;
   direction: rtl;
   font-family: Montserrat, sans-serif;
@@ -899,7 +905,7 @@ img {
 
 .heading.padding.third {
   width: auto;
-  padding: 10px 10px 40px 20px;
+  padding: 10px 10px 40px 40px;
   clear: none;
   direction: rtl;
   font-family: Montserrat, sans-serif;
@@ -1074,18 +1080,15 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   margin-top: 0px;
-  padding-right: 6vw;
-  padding-left: 6vw;
+  padding-right: 0vw;
+  padding-left: 0vw;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
   grid-auto-columns: 1fr;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
@@ -1598,6 +1601,15 @@ img {
 .link-block.block_hero.large_thumb.overflowed {
   width: 50%;
   height: 100%;
+}
+
+.link-block.block_hero.large_thumb.slide.footer_thumbg {
+  -webkit-transition: opacity 300ms ease;
+  transition: opacity 300ms ease;
+}
+
+.link-block.block_hero.large_thumb.slide.footer_thumbg:hover {
+  opacity: 0.5;
 }
 
 .link-block.block_hero.contrast {
@@ -4233,10 +4245,10 @@ img {
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-align-content: start;
   -ms-flex-line-pack: start;
   align-content: start;
@@ -5197,7 +5209,7 @@ img {
     position: relative;
     display: block;
     overflow: hidden;
-    padding: 15vw 10vw 10vw;
+    padding: 5vw 10vw;
     grid-auto-columns: 1fr;
     grid-column-gap: 3vw;
     grid-row-gap: 0px;
@@ -6261,7 +6273,9 @@ img {
     padding-bottom: 0vw;
   }
   .padding_80.intro_header.centered.grid_float._2_up {
-    padding: 3vw;
+    overflow: visible;
+    height: 50%;
+    padding: 0vw;
   }
   .padding_80.intro_header.grid_float {
     padding: 40px 40px 40px 0px;
@@ -6383,6 +6397,7 @@ img {
     padding-top: 20px;
     padding-right: 0vw;
     padding-bottom: 20px;
+    direction: rtl;
     font-size: 40px;
     line-height: 50px;
   }
@@ -6399,6 +6414,9 @@ img {
     font-size: 50px;
     line-height: 60px;
     letter-spacing: -4px;
+  }
+  .heading.padding.body_hdr.reveal.number.footer_title {
+    padding-left: 3vw;
   }
   .heading.padding.body_hdr.reveal.title {
     padding-top: 10px;
@@ -6417,14 +6435,14 @@ img {
   }
   .heading.padding.second {
     padding: 0px 0vw 0px 0px;
-    direction: ltr;
+    direction: rtl;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -4px;
   }
   .heading.padding.third {
     padding: 0px 0vw 0px 0px;
-    direction: ltr;
+    direction: rtl;
     font-size: 60px;
     line-height: 60px;
   }
@@ -6467,10 +6485,8 @@ img {
     opacity: 1;
   }
   .grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    position: relative;
+    display: block;
   }
   .grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid._4-up-grid {
     display: -webkit-box;
@@ -6597,6 +6613,9 @@ img {
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
+  }
+  .link-block.block_hero.large_thumb.slide.footer_thumbg {
+    width: auto;
   }
   .thumb.full_width.hero_anim {
     width: 100%;
@@ -7454,11 +7473,13 @@ img {
   .heading.padding.second {
     padding-top: 0px;
     padding-right: 0vw;
+    direction: rtl;
     font-size: 60px;
   }
   .heading.padding.third {
     padding-top: 0px;
     padding-right: 0vw;
+    direction: rtl;
     font-size: 60px;
     line-height: 60px;
   }
