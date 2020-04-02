@@ -846,8 +846,8 @@ img {
 }
 
 .heading.padding.body_hdr.reveal.number.footer_title {
-  font-family: Baskervville, sans-serif;
-  color: #000;
+  font-family: Montserrat, sans-serif;
+  color: #ff3c00;
   font-style: italic;
 }
 
@@ -1800,7 +1800,7 @@ img {
 }
 
 .thumb.body_wide_thumb.slide_thumb {
-  width: 65%;
+  width: 57%;
   height: auto;
   padding: 2vw;
   -webkit-align-self: center;
@@ -1947,8 +1947,8 @@ img {
 
 .thumb.body_wide_thumb.slide_thumb.center-grid.video.narrow {
   overflow: hidden;
-  width: 30%;
-  height: 53.7vw;
+  width: 25%;
+  height: 45vw;
 }
 
 .thumb.case_study_thumb {
@@ -6434,14 +6434,14 @@ img {
     line-height: 46px;
   }
   .heading.padding.second {
-    padding: 0px 0vw 0px 0px;
+    padding: 0px 0vw 10px 0px;
     direction: rtl;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -4px;
   }
   .heading.padding.third {
-    padding: 0px 0vw 0px 0px;
+    padding: 0px 0vw 10px 0px;
     direction: rtl;
     font-size: 60px;
     line-height: 60px;
@@ -6449,13 +6449,13 @@ img {
   .heading.padding.first {
     padding-top: 0px;
     padding-right: 0vw;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     direction: ltr;
     font-size: 18px;
     line-height: 22px;
   }
   .heading.padding.fourth {
-    padding: 0px;
+    padding: 0px 0px 10px;
     direction: ltr;
     font-size: 60px;
     line-height: 60px;
@@ -7446,6 +7446,9 @@ img {
     line-height: 60px;
     text-transform: lowercase;
   }
+  .heading.padding.body_hdr.reveal.number.footer_title {
+    padding-left: 0vw;
+  }
   .heading.padding.body_hdr.reveal.title {
     font-size: 30px;
     line-height: 34px;
@@ -7473,12 +7476,14 @@ img {
   .heading.padding.second {
     padding-top: 0px;
     padding-right: 0vw;
+    padding-bottom: 10px;
     direction: rtl;
     font-size: 60px;
   }
   .heading.padding.third {
     padding-top: 0px;
     padding-right: 0vw;
+    padding-bottom: 10px;
     direction: rtl;
     font-size: 60px;
     line-height: 60px;
@@ -7486,7 +7491,7 @@ img {
   .heading.padding.first {
     padding-top: 0px;
     padding-right: 0vw;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     font-size: 18px;
     line-height: 28px;
   }
@@ -7904,7 +7909,7 @@ img {
   }
   .body_link.no-reveal.secondary {
     width: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     border-bottom-style: solid;
     border-bottom-color: rgba(0, 0, 0, 0.1);
     border-radius: 0px;
