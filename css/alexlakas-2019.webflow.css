@@ -867,6 +867,10 @@ img {
   letter-spacing: -0.1vw;
 }
 
+.heading.padding.body_hdr.reveal.title._11 {
+  line-height: 2.5vw;
+}
+
 .heading.padding.hdr_inverted {
   position: relative;
   width: 100%;
@@ -1620,6 +1624,10 @@ img {
 
 .link-block.block_hero.large_thumb.overflowed.slide {
   width: 70%;
+}
+
+.link-block.block_hero.large_thumb.slide {
+  overflow: visible;
 }
 
 .link-block.block_hero.large_thumb.slide.footer_thumbg {
@@ -5589,6 +5597,9 @@ img {
   .link-block.block_hero.large_thumb {
     height: auto;
   }
+  .link-block.block_hero.large_thumb.slide {
+    overflow: hidden;
+  }
   .thumb.full_width.hero_anim {
     width: 100%;
     max-height: 100%;
@@ -5738,6 +5749,7 @@ img {
     line-height: 24px;
   }
   .loader {
+    display: block;
     opacity: 1;
   }
   .image {
