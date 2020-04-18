@@ -1631,6 +1631,10 @@ img {
   opacity: 0.5;
 }
 
+.link-block.block_hero.large_thumb.slide.hide {
+  display: block;
+}
+
 .link-block.block_hero.contrast {
   display: none;
   -webkit-filter: none;
@@ -6673,14 +6677,17 @@ img {
     margin: 0vw;
   }
   .link-block.block_hero.large_thumb.slide {
-    margin: 0vw;
+    margin: 20px 0vw 0vw;
   }
   .link-block.block_hero.large_thumb.slide.footer_thumbg {
     width: auto;
   }
+  .link-block.block_hero.large_thumb.slide.hide {
+    display: none;
+  }
   .link-block.block_hero.small_thumb.slide {
     width: 100%;
-    margin: 0vw;
+    margin: 20px 0vw;
   }
   .thumb.full_width.hero_anim {
     width: 100%;
@@ -6933,9 +6940,9 @@ img {
     line-height: 20px;
   }
   .detail {
-    position: relative;
+    position: absolute;
     display: block;
-    padding: 20px 0px;
+    padding: 20px;
     box-shadow: none;
     -webkit-transform: none;
     -ms-transform: none;
@@ -6946,7 +6953,7 @@ img {
     padding-bottom: 0px;
     border-style: none;
     border-width: 0px;
-    color: #000;
+    color: #fff;
     font-size: 14px;
     line-height: 18px;
   }
@@ -7551,16 +7558,16 @@ img {
     padding-right: 0vw;
     padding-bottom: 10px;
     direction: rtl;
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 60px;
+    line-height: 60px;
   }
   .heading.padding.third {
     padding-top: 0px;
     padding-right: 0vw;
     padding-bottom: 10px;
     direction: rtl;
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 60px;
+    line-height: 60px;
   }
   .heading.padding.first {
     padding-top: 0px;
@@ -7642,7 +7649,7 @@ img {
   }
   .grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid._4-up-grid {
     display: block;
-    margin-top: 20px;
+    margin-top: 0px;
     padding-top: 0vw;
     padding-right: 3vw;
     padding-left: 3vw;
@@ -7791,6 +7798,12 @@ img {
   }
   .link-block.block_hero.large_thumb.overflowed.slide {
     width: 100%;
+  }
+  .link-block.block_hero.large_thumb.overflowed.slide.hide {
+    display: none;
+  }
+  .link-block.block_hero.large_thumb.slide.hide {
+    display: none;
   }
   .link-block.block_hero.small_thumb {
     width: 100%;
@@ -8226,7 +8239,7 @@ img {
     padding-right: 0px;
   }
   .detail {
-    position: relative;
+    position: absolute;
     display: block;
     padding: 3vw;
     float: none;
@@ -8250,8 +8263,9 @@ img {
   }
   .black {
     padding-bottom: 0px;
-    font-size: 16px;
-    line-height: 25px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
     text-align: left;
     text-decoration: none;
     text-transform: capitalize;
