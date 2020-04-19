@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sun Apr 19 2020 18:32:30 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sun Apr 19 2020 20:56:37 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ccf696633f0ea7d550da921" data-wf-site="5cccd40515eeacf867ed02c1">
 <head>
   <meta charset="utf-8">
@@ -427,9 +427,11 @@
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script>
 // Mobile video playback
-var mobilevideo = document.getElementsByTagName("video")[0];
-mobilevideo.setAttribute("playsinline", "");
-mobilevideo.setAttribute("muted", "");
+  var mobilevideo = document.getElementsByTagName("video");
+  var i;
+  for (i = 0; i < mobilevideo.length; i++) {
+  mobilevideo[i].setAttribute("playsinline", "");
+}
 // Delay page transition to show animation
 function delay (URL) {
 setTimeout( function() { 

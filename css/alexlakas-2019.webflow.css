@@ -2403,7 +2403,7 @@ img {
   margin-right: 20px;
   margin-left: 0px;
   background-color: hsla(0, 0%, 100%, 0);
-  box-shadow: inset 20px 0 0 -20px rgba(255, 255, 255, 0.05);
+  box-shadow: none;
   opacity: 1;
   -webkit-transition-duration: 400ms;
   transition-duration: 400ms;
@@ -7742,8 +7742,8 @@ img {
   }
   .grid.client_grid.space.show_grid._2-col-grid.bg_grey.reveal._2-1-col-grod {
     margin-top: 10px;
-    padding-top: 7vw;
-    padding-bottom: 7vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
   }
   .grid.padding_80.quote_grid {
     margin-top: 0px;
@@ -7822,7 +7822,7 @@ img {
     width: 100%;
   }
   .link-block.block_hero.large_thumb.overflowed.slide.hide {
-    display: block;
+    display: none;
   }
   .link-block.block_hero.large_thumb.slide {
     margin-top: 5px;
