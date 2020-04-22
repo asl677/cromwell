@@ -1670,6 +1670,10 @@ img {
   display: block;
 }
 
+.link-block.block_hero.large_thumb.hide {
+  display: block;
+}
+
 .link-block.block_hero.contrast {
   display: none;
   -webkit-filter: none;
