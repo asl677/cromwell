@@ -6573,6 +6573,9 @@ img {
     padding-left: 3vw;
     font-style: normal;
   }
+  .heading.padding.body_hdr.reveal.number.header-number {
+    color: #000;
+  }
   .heading.padding.body_hdr.reveal.title {
     padding-top: 10px;
     direction: ltr;
@@ -6587,6 +6590,14 @@ img {
   .heading.padding.body_hdr.reveal.title._11 {
     font-size: 36px;
     line-height: 46px;
+  }
+  .heading.padding.body_hdr.reveal.title.slide {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .heading.padding.body_hdr.reveal.title.slide.big-title {
+    font-size: 30px;
+    line-height: 30px;
   }
   .heading.padding.hdr_inverted {
     padding: 0px;
@@ -6959,6 +6970,12 @@ img {
   .body_link.no-reveal.secondary.blue_secondary.hide {
     border-bottom-style: none;
     font-size: 14px;
+  }
+  .body_link.no-reveal.secondary.large {
+    border-bottom-style: none;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
   }
   .body_link.no-reveal.primary {
     margin-top: 10px;
@@ -8188,6 +8205,8 @@ img {
   }
   .body_link.no-reveal.secondary.large {
     border-bottom-style: none;
+    -webkit-transition: none 0ms ease;
+    transition: none 0ms ease;
     font-size: 20px;
     line-height: 26px;
   }
