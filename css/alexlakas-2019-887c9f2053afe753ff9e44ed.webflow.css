@@ -7550,7 +7550,7 @@ img {
   .paragraph-2.no-reveal.slide {
     padding-top: 0px;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 20px;
   }
   .heading {
     position: static;
@@ -8204,6 +8204,7 @@ img {
     line-height: 20px;
   }
   .body_link.no-reveal.secondary.large {
+    margin-bottom: 5px;
     border-bottom-style: none;
     -webkit-transition: none 0ms ease;
     transition: none 0ms ease;
@@ -8234,7 +8235,8 @@ img {
     padding: 0px;
   }
   .loader {
-    opacity: 0;
+    display: block;
+    opacity: 1;
   }
   .image {
     width: 50px;
@@ -8382,7 +8384,8 @@ img {
     background-color: transparent;
   }
   .preloader_img {
-    height: 2px;
+    width: 60px;
+    height: 3px;
   }
   .tag {
     margin-bottom: 0px;
