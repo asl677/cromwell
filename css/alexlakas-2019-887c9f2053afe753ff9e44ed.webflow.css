@@ -2543,7 +2543,7 @@ img {
 
 .body_link.no-reveal.secondary.large {
   margin-top: 1vw;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
   -webkit-transition: none 0ms ease;
   transition: none 0ms ease;
   font-size: 2vw;
@@ -5964,7 +5964,8 @@ img {
     background-color: transparent;
   }
   .preloader_img {
-    width: 110px;
+    width: 80px;
+    height: 3px;
   }
   .tag {
     font-size: 14px;
@@ -7723,6 +7724,8 @@ img {
     font-style: normal;
   }
   .heading.padding.body_hdr.reveal.number.header-number {
+    margin-top: 15vw;
+    padding-top: 0vw;
     color: #000;
     font-size: 20px;
     line-height: 26px;
@@ -8258,12 +8261,22 @@ img {
     line-height: 20px;
   }
   .body_link.no-reveal.secondary.large {
-    margin-bottom: 5px;
+    margin-top: 5vw;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
     border-bottom-style: none;
     -webkit-transition: none 0ms ease;
     transition: none 0ms ease;
     font-size: 20px;
     line-height: 26px;
+  }
+  .body_link.no-reveal.secondary.small {
+    -webkit-transition: none 0ms ease;
+    transition: none 0ms ease;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
   }
   .body_link.no-reveal.primary {
     width: 100%;
@@ -8424,7 +8437,7 @@ img {
   }
   .video_wrap {
     width: 40vw;
-    height: 69vw;
+    height: 71vw;
     padding: 0px;
   }
   .image-2 {
