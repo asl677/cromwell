@@ -910,6 +910,7 @@ img {
 .heading.padding.body_hdr.reveal.title.slide {
   margin-top: 1vw;
   padding-bottom: 5px;
+  color: rgba(0, 0, 0, 0.64);
   font-size: 2vw;
   line-height: 2.5vw;
   font-weight: 400;
@@ -2555,6 +2556,10 @@ img {
   color: #000;
 }
 
+.body_link.no-reveal.secondary.small {
+  font-weight: 400;
+}
+
 .body_link.no-reveal.primary {
   margin-right: 10px;
   padding: 5px 20px;
@@ -3375,8 +3380,8 @@ img {
   right: 0%;
   bottom: 0%;
   display: inline-block;
-  width: 110px;
-  height: 4px;
+  width: 80px;
+  height: 2px;
   margin-right: auto;
   margin-left: auto;
   border-radius: 0px;
@@ -3944,7 +3949,7 @@ img {
   position: relative;
   z-index: 1;
   display: block;
-  overflow: visible;
+  overflow: hidden;
   width: auto;
   margin-bottom: 0px;
   padding-top: 0px;
@@ -5284,7 +5289,7 @@ img {
   bottom: auto;
   z-index: 10;
   height: 3px;
-  background-color: #fff;
+  background-color: #2525ff;
 }
 
 .text-span {
@@ -5964,8 +5969,8 @@ img {
     background-color: transparent;
   }
   .preloader_img {
-    width: 80px;
-    height: 3px;
+    width: 60px;
+    height: 2px;
   }
   .tag {
     font-size: 14px;
@@ -6029,6 +6034,7 @@ img {
     display: none;
   }
   .black.logo-avatar {
+    padding: 3vw;
     background-position: 0px 20px;
     background-size: 56px;
   }
@@ -6606,7 +6612,8 @@ img {
     letter-spacing: 0px;
   }
   .heading.padding.body_hdr.reveal.number.footer_title {
-    padding-left: 0vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
     font-size: 20px;
     line-height: 26px;
     font-style: normal;
@@ -6807,8 +6814,7 @@ img {
     grid-template-rows: auto;
   }
   .grid.client_grid.space.show_grid._2-col-grid.full {
-    padding-right: 3vw;
-    padding-left: 3vw;
+    padding: 0vw;
   }
   .grid.padding_80.quote_grid {
     display: block;
@@ -7471,7 +7477,7 @@ img {
   }
   .padding_80.intro_header.centered.hero_padding {
     display: block;
-    padding: 30vw 3vw 15vw;
+    padding: 30vw 3vw 0vw;
     grid-column-gap: 3vw;
   }
   .padding_80.intro_header.centered.hero_padding.mask.black_bg {
@@ -7737,8 +7743,11 @@ img {
     font-weight: 400;
   }
   .heading.padding.body_hdr.reveal.title.five {
-    font-size: 30px;
-    line-height: 36px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    font-size: 36px;
+    line-height: 42px;
   }
   .heading.padding.body_hdr.reveal.title._11 {
     padding-bottom: 10px;
@@ -7750,8 +7759,8 @@ img {
     line-height: 26px;
   }
   .heading.padding.body_hdr.reveal.title.slide.big-title {
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 36px;
+    line-height: 42px;
   }
   .heading.padding.body_hdr.reveal.body-title {
     font-size: 30px;
@@ -8277,6 +8286,9 @@ img {
     font-size: 14px;
     line-height: 22px;
     font-weight: 400;
+  }
+  .body_link.no-reveal.secondary.small:hover {
+    box-shadow: none;
   }
   .body_link.no-reveal.primary {
     width: 100%;

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sun Apr 26 2020 00:32:22 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Apr 27 2020 04:19:23 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ea1ce48bd3767968b1124a4" data-wf-site="5ea1ce48bd3767ec75112498">
 <head>
   <meta charset="utf-8">
@@ -20,7 +20,25 @@
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-35944917-1"></script>
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-35944917-1', {'anonymize_ip': false});</script>
   <style>  
-  /*
+/* Text animations */
+p.paragraph-2.no-reveal.slide {
+  /* width: 60%; */
+  /* word-wrap: break-word; */
+}
+p.paragraph-2.no-reveal.slide span {
+    display: inline-block;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    opacity: 0;
+    transform: translateY(10px);
+}
+p.paragraph-2.no-reveal.slide span.show {
+  transform: translateY(0px);
+  opacity: 1;
+}
+/*
 .reveal.w-inline-block:before,
 .grid.client_grid.space.show_grid._2-col-grid._1-col-grid:before,
 .grid.client_grid.space.show_grid._2-col-grid.ftr_grid.project_grid.two-up.one-up:before {
@@ -402,6 +420,7 @@
   <script src="../js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script>
+// Text Animation 
 //Scroll easing
   if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
 window.onmousewheel = document.onmousewheel = wheel;
