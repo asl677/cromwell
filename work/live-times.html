@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Apr 30 2020 01:12:15 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Apr 30 2020 21:39:04 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ea1ce48bd37672b9611249f" data-wf-site="5ea1ce48bd3767ec75112498">
 <head>
   <meta charset="utf-8">
@@ -489,7 +489,7 @@ h1 span {
     scope: 'body'
   }, settings);
   var that = parseInt(this[0], 10),
-    scopeTest = jQuery('<div style="display: none; font-family: Montserrat, sans-serif; font-size: 1em; margin: 0; padding:0; height: auto; line-height: 1; border:0;">&nbsp;</div>').appendTo(settings.scope),
+    scopeTest = jQuery('<div style="display: block; font-size: 1em; margin: 0; padding:0; height: auto; line-height: 1; border:0;">&nbsp;</div>').appendTo(settings.scope),
     scopeVal = scopeTest.height();
   scopeTest.remove();
   return (that / scopeVal).toFixed(10) + 'em';
@@ -500,7 +500,7 @@ $(document).ready(function() {
   animatedEls.each(function (i, object) {
 		console.log(object);
     var text = $(object).text();
-    var width = $(object).width() + 400;
+    var width = $(object).width() + 900;
     width = $(width).toEm();
     width = Math.ceil(parseInt(width));
     var new_string = '';
@@ -509,7 +509,7 @@ $(document).ready(function() {
       for (let i = 0; i <= len; i++) {
         if (text[i] == ' ' || i == text.length) {
           if (i >= parseInt(width) || i == text.length) {
-            new_string += "<span>" + text.substr(0, i + 1) + "</span><br>";
+            new_string += "<span>" + text.substr(0, i + 1) + "</span>";
             text = text.substr(i + 1, text.length - 1);
             break;
           }
