@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Apr 30 2020 21:39:04 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Fri May 01 2020 05:49:31 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ea1ce48bd37675ee711249d" data-wf-site="5ea1ce48bd3767ec75112498">
 <head>
   <meta charset="utf-8">
@@ -308,6 +308,10 @@ h1 span {
 </head>
 <body style="opacity:0" class="body_color grey_bg">
   <div class="scrolly"></div>
+  <div class="cursor-wrapper">
+    <div class="cursor-dot"></div>
+    <div class="cursor-circle"></div>
+  </div>
   <ul class="list_link padding logo_padding bg_grey">
     <li class="list-item-9">
       <a href="javascript:delay(&#x27;/&#x27;)" class="black logo-avatar w-inline-block">
@@ -502,11 +506,11 @@ h1 span {
   settings = jQuery.extend({
     scope: 'body'
   }, settings);
-  var that = parseInt(this[0], 10),
+  var that = parseInt(this[0], 1),
     scopeTest = jQuery('<div style="display: block; font-size: 1em; margin: 0; padding:0; height: auto; line-height: 1; border:0;">&nbsp;</div>').appendTo(settings.scope),
     scopeVal = scopeTest.height();
   scopeTest.remove();
-  return (that / scopeVal).toFixed(10) + 'em';
+  return (that / scopeVal).toFixed(1) + 'em';
 };
 $(document).ready(function() {
 // I think I did this wrong
@@ -514,7 +518,7 @@ $(document).ready(function() {
   animatedEls.each(function (i, object) {
 		console.log(object);
     var text = $(object).text();
-    var width = $(object).width() + 900;
+    var width = $(object).width();
     width = $(width).toEm();
     width = Math.ceil(parseInt(width));
     var new_string = '';
