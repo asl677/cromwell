@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat May 02 2020 05:17:42 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sat May 02 2020 17:16:24 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ea1ce48bd37677cce1124a3" data-wf-site="5ea1ce48bd3767ec75112498">
 <head>
   <meta charset="utf-8">
@@ -355,7 +355,7 @@ h1 span {
               </li>
             </ul>
           </div>
-          <h1 class="heading padding body_hdr reveal title five">Linkedin&#x27;s post settings are unclear &amp; suffer from dated components</h1>
+          <h1 class="heading padding">Linkedin&#x27;s post settings are unclear &amp; suffer from dated components</h1>
         </div>
         <p class="paragraph-2 no-reveal six">Up until recently, it wasn&#x27;t terribly clear how or why a member should switch privacy settings inside the Share box, nor do These settings correlate between entry points or feeds. Clarity and confidence are big pain points with members trying to understand where they are actually sharing content to.</p>
       </div>
@@ -365,7 +365,7 @@ h1 span {
       <div class="image_hero intro_background"><img src="../images/anthony-tran-i-ePv9Dxg7U-unsplash.jpg" alt="" class="inner-image"></div>
     </div>
   </div>
-  <div class="w-layout-grid grid client_grid space show_grid _2-col-grid bg_grey reveal"><img src="../images/li-1.png" id="w-node-aaad2cf7bf6b-2cf7bf6a" alt="" class="video_wrap"><img src="../images/l1-2.png" id="w-node-aaad2cf7bf6c-2cf7bf6a" alt="" class="video_wrap"></div>
+  <div class="w-layout-grid grid client_grid space show_grid _2-col-grid bg_grey reveal"><img src="../images/li-1.png" id="w-node-aaad2cf7bf6b-2cf7bf6a" alt="" class="video_wrap left"><img src="../images/l1-2.png" id="w-node-aaad2cf7bf6c-2cf7bf6a" alt="" class="video_wrap right"></div>
   <div id="first_grid" class="w-layout-grid grid client_grid space show_grid _2-col-grid ftr_grid project_grid two-up one-up">
     <div class="w-layout-grid grid client_grid space show_grid _2-col-grid grid-15 _1-col-grid"><img src="../images/linkedin-sales-navigator-PzmAJ2ZPeGw-unsplash.jpg" srcset="../images/linkedin-sales-navigator-PzmAJ2ZPeGw-unsplash-p-1080.jpeg 1080w, ../images/linkedin-sales-navigator-PzmAJ2ZPeGw-unsplash-p-1600.jpeg 1600w, ../images/linkedin-sales-navigator-PzmAJ2ZPeGw-unsplash-p-2000.jpeg 2000w, ../images/linkedin-sales-navigator-PzmAJ2ZPeGw-unsplash-p-2600.jpeg 2600w, ../images/linkedin-sales-navigator-PzmAJ2ZPeGw-unsplash-p-3200.jpeg 3200w, ../images/linkedin-sales-navigator-PzmAJ2ZPeGw-unsplash.jpg 5184w" sizes="100vw" alt="" class="reveal img hero"></div>
   </div>
@@ -383,7 +383,7 @@ h1 span {
       </div>
     </div>
   </div>
-  <div class="w-layout-grid grid client_grid space show_grid _2-col-grid bg_grey reveal"><img src="../images/li-1.png" id="w-node-aaad2cf7bf6b-2cf7bf6a" alt="" class="video_wrap"><img src="../images/li-3_1.png" id="w-node-aaad2cf7bf6c-2cf7bf6a" alt="" class="video_wrap"></div>
+  <div class="w-layout-grid grid client_grid space show_grid _2-col-grid bg_grey reveal"><img src="../images/li-1.png" id="w-node-aaad2cf7bf6b-2cf7bf6a" alt="" class="video_wrap left"><img src="../images/li-3_1.png" id="w-node-aaad2cf7bf6c-2cf7bf6a" alt="" class="video_wrap right"></div>
   <div class="padding_80 intro_header centered full">
     <div id="w-node-f2d3b2b0353a-b2b03539" class="masked number_mask">
       <h1 class="heading padding body_hdr reveal number header-number">03</h1>
@@ -500,7 +500,7 @@ h1 span {
     scope: 'body'
   }, settings);
   var that = parseInt(this[0], 1),
-    scopeTest = jQuery('<div style="display: block; font-size: 1em; margin: 0; padding:0; height: auto; line-height: 1; border:0;">&nbsp;</div>').appendTo(settings.scope),
+    scopeTest = jQuery('<div style="display: none; font-size: 1em; margin: 0; padding:0; height: auto; line-height: 1; border:0;">&nbsp;</div>').appendTo(settings.scope),
     scopeVal = scopeTest.height();
   scopeTest.remove();
   return (that / scopeVal).toFixed(1) + 'em';
@@ -537,7 +537,7 @@ $(document).ready(function() {
     elem.removeClass('show');
     setTimeout(function() {
       flip_back(elem)
-    }, 100);
+    }, 200);
   }
   function flip_back(elem) {
     elem.addClass('show');

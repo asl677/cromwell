@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat May 02 2020 05:17:42 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sat May 02 2020 17:16:24 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ea1ce48bd3767968b1124a4" data-wf-site="5ea1ce48bd3767ec75112498">
 <head>
   <meta charset="utf-8">
@@ -358,7 +358,7 @@ h1 span {
               </li>
             </ul>
           </div>
-          <h1 class="heading padding body_hdr reveal title five">Sharing as a page admin should be as easy as sharing as a member</h1>
+          <h1 class="heading padding">Sharing as a page admin should be as easy as sharing as a member</h1>
         </div>
         <p class="paragraph-2 no-reveal six">It wasn&#x27;t easy to post as a Page on Linkedin, until recently. Catering to a growing number of Company posts and engagement, Sharing and Pages team united to bring Page post functionality to the main share box on on the consumer side of Linkedin.</p>
       </div>
@@ -368,7 +368,7 @@ h1 span {
       <div class="image_hero intro_background"><img src="../images/Screen-Shot-2020-05-01-at-6.47.12-PM.png" alt="" class="inner-image"></div>
     </div>
   </div>
-  <div class="w-layout-grid grid client_grid space show_grid _2-col-grid bg_grey reveal"><img src="../images/li-1.png" id="w-node-aaad2cf7bf6b-2cf7bf6a" alt="" class="video_wrap"><img src="../images/li-7.png" id="w-node-aaad2cf7bf6c-2cf7bf6a" alt="" class="video_wrap"></div>
+  <div class="w-layout-grid grid client_grid space show_grid _2-col-grid bg_grey reveal"><img src="../images/li-1.png" id="w-node-aaad2cf7bf6b-2cf7bf6a" alt="" class="video_wrap left"><img src="../images/li-7.png" id="w-node-aaad2cf7bf6c-2cf7bf6a" alt="" class="video_wrap right"></div>
   <div class="padding_80 intro_header centered full">
     <div id="w-node-f2d3b2b0353a-b2b03539" class="masked number_mask">
       <h1 class="heading padding body_hdr reveal number header-number">02</h1>
@@ -383,7 +383,7 @@ h1 span {
       </div>
     </div>
   </div>
-  <div class="w-layout-grid grid client_grid space show_grid _2-col-grid bg_grey reveal"><img src="../images/li-2.png" id="w-node-aaad2cf7bf6b-2cf7bf6a" alt="" class="video_wrap"><img src="../images/li-3.png" id="w-node-aaad2cf7bf6c-2cf7bf6a" alt="" class="video_wrap"></div>
+  <div class="w-layout-grid grid client_grid space show_grid _2-col-grid bg_grey reveal"><img src="../images/li-2.png" id="w-node-aaad2cf7bf6b-2cf7bf6a" alt="" class="video_wrap left"><img src="../images/li-3.png" id="w-node-aaad2cf7bf6c-2cf7bf6a" alt="" class="video_wrap right"></div>
   <div class="w-layout-grid grid client_grid space show_grid _2-col-grid bg_grey reveal center-grid">
     <div data-poster-url="https://uploads-ssl.webflow.com/5ea1ce48bd3767ec75112498/5ea1ce48bd37670d411127fa_linkedin-toggle 4-poster-00001.jpg" data-video-urls="https://uploads-ssl.webflow.com/5ea1ce48bd3767ec75112498/5ea1ce48bd37670d411127fa_linkedin-toggle 4-transcode.mp4,https://uploads-ssl.webflow.com/5ea1ce48bd3767ec75112498/5ea1ce48bd37670d411127fa_linkedin-toggle 4-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="video_wrap w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;https://uploads-ssl.webflow.com/5ea1ce48bd3767ec75112498/5ea1ce48bd37670d411127fa_linkedin-toggle 4-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://uploads-ssl.webflow.com/5ea1ce48bd3767ec75112498/5ea1ce48bd37670d411127fa_linkedin-toggle 4-transcode.mp4" data-wf-ignore="true"><source src="https://uploads-ssl.webflow.com/5ea1ce48bd3767ec75112498/5ea1ce48bd37670d411127fa_linkedin-toggle 4-transcode.webm" data-wf-ignore="true"></video></div>
   </div>
@@ -486,7 +486,7 @@ h1 span {
     scope: 'body'
   }, settings);
   var that = parseInt(this[0], 1),
-    scopeTest = jQuery('<div style="display: block; font-size: 1em; margin: 0; padding:0; height: auto; line-height: 1; border:0;">&nbsp;</div>').appendTo(settings.scope),
+    scopeTest = jQuery('<div style="display: none; font-size: 1em; margin: 0; padding:0; height: auto; line-height: 1; border:0;">&nbsp;</div>').appendTo(settings.scope),
     scopeVal = scopeTest.height();
   scopeTest.remove();
   return (that / scopeVal).toFixed(1) + 'em';
@@ -523,7 +523,7 @@ $(document).ready(function() {
     elem.removeClass('show');
     setTimeout(function() {
       flip_back(elem)
-    }, 100);
+    }, 200);
   }
   function flip_back(elem) {
     elem.addClass('show');
