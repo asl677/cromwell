@@ -356,10 +356,10 @@ img {
   padding: 5vw 10vw;
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
-  grid-column-gap: 120px;
+  grid-column-gap: 160px;
   grid-row-gap: 0px;
-  -ms-grid-columns: 0.25fr 0.5fr 0.25fr;
-  grid-template-columns: 0.25fr 0.5fr 0.25fr;
+  -ms-grid-columns: 0.25fr 0.75fr 0.25fr;
+  grid-template-columns: 0.25fr 0.75fr 0.25fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   border-style: none;
@@ -650,6 +650,7 @@ img {
 .paragraph-2.no-reveal.slide {
   padding-top: 0.5vw;
   padding-bottom: 0.5vw;
+  font-family: Inconsolata, monospace;
   text-align: left;
 }
 
@@ -1470,9 +1471,7 @@ img {
   overflow: hidden;
   width: auto;
   max-width: none;
-  margin-right: auto;
-  margin-bottom: 0px;
-  margin-left: auto;
+  margin: 5vw auto;
   padding: 5vw 10vw;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -2647,8 +2646,20 @@ img {
 }
 
 .body_link.no-reveal.secondary.large {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
   margin-top: 1vw;
+  margin-right: 0px;
   padding-bottom: 0px;
+  float: none;
+  clear: none;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-transition: none 0ms ease;
   transition: none 0ms ease;
   font-size: 2vw;
@@ -2975,7 +2986,7 @@ img {
 
 .body_color.grey_bg {
   padding: 0px;
-  background-color: #9c9ea1;
+  background-color: #d1d5db;
   cursor: none;
 }
 
@@ -5514,7 +5525,34 @@ img {
   filter: none;
 }
 
+.superscript {
+  position: relative;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  margin-left: 10px;
+  float: none;
+  clear: none;
+  font-family: Montserrat, sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1vw;
+  line-height: 1.8vw;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
 @media screen and (min-width: 1280px) {
+  .padding_80.intro_header.centered.full {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding-top: 5vw;
+  }
+  .paragraph-2.no-reveal._22 {
+    font-family: Inconsolata, monospace;
+  }
   .heading.padding.second {
     font-size: 7vw;
     line-height: 6vw;
@@ -5526,6 +5564,9 @@ img {
   .heading.padding.fourth {
     font-size: 7vw;
     line-height: 6vw;
+  }
+  .div-block-8 {
+    margin-top: 5vw;
   }
 }
 
@@ -6747,7 +6788,7 @@ img {
   }
   .paragraph-2.no-reveal.text_loader {
     padding: 10px;
-    background-color: #9c9ea1;
+    background-color: #d1d5db;
   }
   .heading {
     margin-bottom: 0px;
@@ -6877,7 +6918,7 @@ img {
     padding-bottom: 10px;
     font-size: 30px;
     line-height: 30px;
-    font-weight: 300;
+    font-weight: 400;
   }
   .heading.padding.body_hdr.reveal.body-title {
     font-size: 40px;
@@ -7203,7 +7244,7 @@ img {
   .list_link.padding.logo_padding.bg_grey {
     position: fixed;
     width: 100%;
-    background-color: #9c9ea1;
+    background-color: #d1d5db;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -7417,7 +7458,7 @@ img {
   }
   .black.logo-avatar {
     padding: 3vw;
-    background-color: #9c9ea1;
+    background-color: #d1d5db;
     background-image: none;
   }
   .fake_link_wrap {
@@ -7876,7 +7917,7 @@ img {
   .paragraph-2.no-reveal.text_loader {
     position: relative;
     padding: 10px;
-    background-color: #9c9ea1;
+    background-color: #d1d5db;
   }
   .heading {
     position: static;
@@ -8444,7 +8485,7 @@ img {
     position: fixed;
     z-index: 10;
     width: 100%;
-    background-color: #9c9ea1;
+    background-color: #d1d5db;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -8628,7 +8669,7 @@ img {
     padding: 20px;
   }
   .body_color.grey_bg {
-    background-color: #9c9ea1;
+    background-color: #d1d5db;
     cursor: default;
   }
   .hero_page {
@@ -8865,8 +8906,7 @@ img {
   .black.logo-avatar {
     position: relative;
     padding: 3vw;
-    background-color: #9c9ea1;
-    background-image: none;
+    background-color: #d1d5db;
     font-size: 20px;
     line-height: 24px;
     font-weight: 400;
