@@ -650,6 +650,12 @@ img {
   text-align: left;
 }
 
+.paragraph-2.no-reveal.slide.indent {
+  padding-top: 0vw;
+  padding-bottom: 0vw;
+  line-height: 1.6vw;
+}
+
 .paragraph-2.no-reveal.text_loader {
   margin-right: 0px;
   margin-left: 0px;
@@ -971,8 +977,8 @@ img {
   margin-top: 1vw;
   padding-bottom: 5px;
   color: #000;
-  font-size: 2vw;
-  line-height: 2.5vw;
+  font-size: 1.8vw;
+  line-height: 2vw;
   font-weight: 400;
 }
 
@@ -1473,6 +1479,7 @@ img {
 .grid.client_grid.space.show_grid._2-col-grid.bg_grey.reveal {
   overflow: hidden;
   width: auto;
+  height: 58vw;
   max-width: none;
   margin: 5vw auto;
   padding: 5vw 10vw;
@@ -1508,6 +1515,7 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: visible;
   padding-right: 10vw;
   padding-left: 10vw;
   -webkit-box-orient: horizontal;
@@ -2665,8 +2673,8 @@ img {
   align-items: flex-start;
   -webkit-transition: none 0ms ease;
   transition: none 0ms ease;
-  font-size: 2vw;
-  line-height: 2.5vw;
+  font-size: 1.8vw;
+  line-height: 2vw;
   font-weight: 400;
 }
 
@@ -3435,6 +3443,10 @@ img {
 .video_wrap.hide {
   display: block;
   padding-bottom: 20px;
+}
+
+.video_wrap.center {
+  overflow: visible;
 }
 
 .image-2 {
@@ -6894,6 +6906,9 @@ img {
   .paragraph-2.no-reveal._22 {
     line-height: 20px;
   }
+  .paragraph-2.no-reveal.slide.indent {
+    line-height: 18px;
+  }
   .paragraph-2.no-reveal.text_loader {
     padding: 0px;
     background-color: #d1d5db;
@@ -8043,6 +8058,9 @@ img {
     padding-top: 0px;
     font-size: 12px;
     line-height: 20px;
+  }
+  .paragraph-2.no-reveal.slide.indent {
+    line-height: 18px;
   }
   .paragraph-2.no-reveal.text_loader {
     position: relative;
