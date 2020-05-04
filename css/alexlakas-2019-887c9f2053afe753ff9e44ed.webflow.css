@@ -655,7 +655,7 @@ img {
   margin-left: 0px;
   padding-bottom: 0vw;
   font-family: Inconsolata, monospace;
-  color: #000;
+  color: rgba(0, 0, 0, 0.6);
   line-height: 2vw;
   font-weight: 400;
 }
@@ -2680,7 +2680,6 @@ img {
   font-family: Inconsolata, monospace;
   font-size: 1vw;
   font-weight: 400;
-  text-align: left;
   cursor: none;
 }
 
@@ -3542,7 +3541,6 @@ img {
 
 .link {
   padding-right: 10px;
-  font-size: 26%;
 }
 
 .facebook {
@@ -4089,6 +4087,8 @@ img {
   -webkit-transform: translate(-8vw, -8vw) rotate(-90deg);
   -ms-transform: translate(-8vw, -8vw) rotate(-90deg);
   transform: translate(-8vw, -8vw) rotate(-90deg);
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 2vw;
 }
 
 .grid-4.grid_hero.right_grid {
@@ -5595,9 +5595,20 @@ img {
     margin-bottom: 5vw;
     padding-top: 5vw;
   }
+  .paragraph-2.no-reveal.six {
+    text-indent: 3vw;
+  }
   .paragraph-2.no-reveal._22 {
     font-family: Inconsolata, monospace;
     line-height: 1.4vw;
+    text-indent: 3vw;
+  }
+  .paragraph-2.no-reveal.slide.indent {
+    text-indent: 2vw;
+  }
+  .paragraph-2.no-reveal.text_loader {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
   }
   .heading.padding.second {
     font-size: 7vw;
@@ -5611,10 +5622,15 @@ img {
     font-size: 7vw;
     line-height: 6vw;
   }
+  .body_color.grey_bg {
+    font-family: Inconsolata, monospace;
+    color: rgba(0, 0, 0, 0.6);
+  }
   .grid-4.grid_hero.left_grid {
     -webkit-transform: translate(-100px, -100px) rotate(-90deg);
     -ms-transform: translate(-100px, -100px) rotate(-90deg);
     transform: translate(-100px, -100px) rotate(-90deg);
+    color: rgba(0, 0, 0, 0.6);
   }
   .grid-4.grid_hero.right_grid {
     position: fixed;
@@ -5767,6 +5783,9 @@ img {
   }
   .paragraph-2.no-reveal._22 {
     line-height: 1.6vw;
+  }
+  .paragraph-2.no-reveal.text_loader {
+    font-size: 1vw;
   }
   .heading {
     margin-bottom: 20px;
@@ -6411,6 +6430,7 @@ img {
     -webkit-transform: rotate(-90deg) translate(9vw, -8vw);
     -ms-transform: rotate(-90deg) translate(9vw, -8vw);
     transform: rotate(-90deg) translate(9vw, -8vw);
+    line-height: 2vw;
   }
   .grid-4.grid_hero.right_grid {
     -webkit-transform: translate(6vw, 7vw) rotate(90deg);
@@ -6806,7 +6826,7 @@ img {
   }
   .padding_80.intro_header.centered.full.footer {
     position: relative;
-    padding: 3vw;
+    padding: 0vw;
   }
   .padding_80.intro_header.centered.full.phone_section {
     padding-bottom: 0vw;
@@ -6877,6 +6897,8 @@ img {
   .paragraph-2.no-reveal.text_loader {
     padding: 0px;
     background-color: #d1d5db;
+    font-size: 14px;
+    line-height: 20px;
   }
   .heading {
     margin-bottom: 0px;
@@ -7914,7 +7936,7 @@ img {
     display: block;
     overflow: hidden;
     margin: 0vw;
-    padding: 3vw;
+    padding: 0vw;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
     -webkit-flex-direction: row-reverse;
@@ -9473,33 +9495,22 @@ img {
   align-self: stretch;
 }
 
+#w-node-fb04ca97825d-ca97825c {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+}
+
 #w-node-ecf4acb3cbd6-acb3cbb9 {
   -ms-grid-column: 2;
   grid-column-start: 2;
   -ms-grid-column-span: 1;
   grid-column-end: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-#w-node-ee4475667fdb-acb3cbb9 {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-#w-node-0c5c2a775d75-4d529404 {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 1;
@@ -9571,17 +9582,6 @@ img {
   grid-row-end: span 1;
   -ms-grid-row: span 1;
   grid-row-start: span 1;
-}
-
-#w-node-fb04ca97825d-ca97825c {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
 }
 
 #w-node-d6e944c70ad0-44c70acf {
