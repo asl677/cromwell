@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon May 04 2020 19:40:13 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sun May 10 2020 05:09:08 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ea1ce48bd376741621124a2" data-wf-site="5ea1ce48bd3767ec75112498">
 <head>
   <meta charset="utf-8">
@@ -32,10 +32,10 @@ p,
 h1,
 a.body_link {
   width: auto;
-  -moz-transition: all 800ms ease;
-  -o-transition: all 800ms ease;
-  -webkit-transition: all 800ms ease;
-  transition: all 800ms ease;
+  -moz-transition: all 600ms ease;
+  -o-transition: all 600ms ease;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
   /*-ms-word-break: break-all;
   word-break: break-all;
   white-space: pre-wrap*/
@@ -47,12 +47,12 @@ p span,
 h1 span,
 a.body_link span {
   display: inline-block;
-  -moz-transition: all 800ms ease;
-  -o-transition: all 800ms ease;
-  -webkit-transition: all 800ms ease;
-  transition: all 800ms ease;
+  -moz-transition: all 600ms ease;
+  -o-transition: all 600ms ease;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
   opacity: 0;
-  transform: translateY(10px);
+  transform: translateY(15px);
 }
 p span.show,
 h1 span.show,
@@ -331,7 +331,7 @@ h1 span {
       <p class="paragraph-2 no-reveal text_loader">loadinggg...</p>
     </div>
   </div>
-  <ul class="list_link padding logo_padding bg_grey">
+  <ul role="list" class="list_link padding logo_padding bg_grey">
     <li class="list-item-9">
       <a href="javascript:delay(&#x27;/&#x27;)" class="black logo-avatar w-inline-block">
         <p class="black logo">A.</p>
@@ -362,7 +362,7 @@ h1 span {
       <div id="w-node-d2e8f43dc991-f43dc98c" class="masked">
         <div class="masked">
           <div class="masked intro_p">
-            <ul class="list_link padding intro_list">
+            <ul role="list" class="list_link padding intro_list">
               <li>
                 <p class="paragraph-2 padding list_p">2013 — 1 of several UX leads</p>
               </li>
@@ -411,8 +411,8 @@ h1 span {
         </div>
         <p class="paragraph-2 no-reveal slide indent"></p>
       </div>
-      <div class="case-link hide">
-        <div class="masked"><a href="javascript:delay(&#x27;/work/linkedin-page-toggle&#x27;)" class="body_link no-reveal secondary large">Linkedin Polls</a></div>
+      <div class="case-link">
+        <div class="masked"><a href="javascript:delay(&#x27;/work/linkedin-polls&#x27;)" class="body_link no-reveal secondary large">Linkedin Polls</a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Linkedin</p>
         </div>
@@ -475,7 +475,7 @@ h1 span {
   </div>
   <div class="padding_80 intro_header centered full footer">
     <div class="w-layout-grid grid-4 grid_hero right_grid">
-      <ul id="w-node-ecf4acb3cbd6-acb3cbb9" class="list_link padding page_list">
+      <ul id="w-node-ecf4acb3cbd6-acb3cbb9" role="list" class="list_link padding page_list">
         <li class="link w-clearfix"><a href="https://dribbble.com/alex2pt0" target="_blank" class="body_link no-reveal secondary small">Dribbble</a></li>
         <li class="link w-clearfix"><a href="https://medium.com/@alexslakas" target="_blank" class="body_link no-reveal secondary small">Medium</a></li>
         <li class="link w-clearfix"><a href="https://www.linkedin.com/in/latenights/" target="_blank" class="body_link no-reveal secondary small">Linkedin</a></li>
@@ -483,7 +483,7 @@ h1 span {
     </div>
   </div>
   <div class="w-layout-grid grid-4 grid_hero left_grid grid-16">
-    <ul id="w-node-fb04ca97825d-ca97825c" class="list_link padding page_list">
+    <ul id="w-node-fb04ca97825d-ca97825c" role="list" class="list_link padding page_list">
       <li>
         <p class="paragraph-2 no-reveal text_loader">Currently @ Linkedin San Francisco</p>
       </li>
@@ -498,7 +498,7 @@ h1 span {
   settings = jQuery.extend({
     scope: 'body'
   }, settings);
-  var that = parseInt(this[0], 1),
+  var that = parseInt(this[0], 14),
     scopeTest = jQuery('<div style="display: none; font-size: 1em; margin: 0; padding:0; height: auto; line-height: 1; border:0;">&nbsp;</div>').appendTo(settings.scope),
     scopeVal = scopeTest.height();
   scopeTest.remove();
