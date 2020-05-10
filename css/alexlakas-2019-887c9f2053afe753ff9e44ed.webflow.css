@@ -7452,6 +7452,7 @@ img {
   .body_link.no-reveal.secondary.small {
     border-bottom-style: none;
     font-size: 14px;
+    line-height: 28px;
   }
   .body_link.no-reveal.primary {
     margin-top: 10px;
@@ -7545,6 +7546,9 @@ img {
     padding: 0px;
     background-color: transparent;
   }
+  .link {
+    text-align: left;
+  }
   .tag {
     margin-top: 0px;
     font-size: 14px;
@@ -7637,6 +7641,7 @@ img {
   }
   .grid-4.grid_hero.right_grid {
     position: relative;
+    display: block;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -8420,12 +8425,19 @@ img {
     padding-bottom: 0vw;
   }
   .grid.client_grid.space.show_grid._2-col-grid.bg_grey.reveal {
+    overflow: visible;
+    margin-top: 10vw;
+    margin-bottom: 10px;
     padding: 10vw 5vw;
   }
   .grid.client_grid.space.show_grid._2-col-grid.bg_grey.reveal._2-1-col-grod {
     margin-top: 10px;
     padding-top: 10vw;
     padding-bottom: 10vw;
+  }
+  .grid.client_grid.space.show_grid._2-col-grid.bg_grey.reveal.center-grid {
+    margin-top: 15vw;
+    margin-bottom: 10vw;
   }
   .grid.client_grid.space.show_grid._2-col-grid.full {
     padding-right: 0vw;
