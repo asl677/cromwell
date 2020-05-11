@@ -4142,7 +4142,7 @@ img {
   position: relative;
   z-index: 1;
   display: block;
-  overflow: visible;
+  overflow: hidden;
   width: auto;
   margin-bottom: 0px;
   padding-top: 0px;
@@ -5648,7 +5648,7 @@ img {
     margin-bottom: 2vw;
   }
   .heading.padding.body_hdr.reveal.title.slide.small-title {
-    line-height: 2.8vw;
+    line-height: 2.6vw;
   }
   .heading.padding.second {
     font-size: 7vw;
@@ -5708,14 +5708,36 @@ img {
     padding-top: 2vw;
     padding-bottom: 2vw;
   }
+  .heading.padding.body_hdr.reveal.title.slide.big-title {
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+  }
   .heading.padding.body_hdr.reveal.title.slide.small-title {
     margin-bottom: 2vw;
     padding-top: 0vw;
-    line-height: 2.2vw;
+    line-height: 2.6vw;
   }
   .heading.padding.body_hdr.reveal.title.slide.medium-title {
     margin-bottom: 2vw;
     padding-top: 0vw;
+  }
+  .heading.padding.second {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0vw;
+    padding-bottom: 1vw;
+  }
+  .heading.padding.third {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0vw;
+    padding-bottom: 1vw;
+  }
+  .heading.padding.fourth {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0vw;
+    padding-bottom: 1vw;
   }
   .body_link.no-reveal.secondary.large {
     margin-bottom: 0vw;
