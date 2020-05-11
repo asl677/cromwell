@@ -5700,6 +5700,9 @@ img {
     -ms-grid-columns: 0.25fr 1.25fr 1fr;
     grid-template-columns: 0.25fr 1.25fr 1fr;
   }
+  .paragraph-2.no-reveal.slide.indent {
+    margin-bottom: 1vw;
+  }
   .paragraph-2.no-reveal.text_loader.center {
     padding: 1vw;
     line-height: 1vw;
@@ -5755,6 +5758,9 @@ img {
   }
   .grid-13 {
     padding: 0vw;
+  }
+  .cursor-wrapper {
+    z-index: 0;
   }
 }
 
