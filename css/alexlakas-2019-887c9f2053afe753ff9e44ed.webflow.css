@@ -6450,15 +6450,15 @@ img {
     grid-template-columns: 3.25fr;
   }
   .grid-4.grid_hero.left_grid {
-    -webkit-transform: rotate(-90deg) translate(9vw, -8vw);
-    -ms-transform: rotate(-90deg) translate(9vw, -8vw);
-    transform: rotate(-90deg) translate(9vw, -8vw);
+    -webkit-transform: rotate(-90deg) translate(9vw, -7vw);
+    -ms-transform: rotate(-90deg) translate(9vw, -7vw);
+    transform: rotate(-90deg) translate(9vw, -7vw);
     line-height: 2vw;
   }
   .grid-4.grid_hero.right_grid {
-    -webkit-transform: translate(6vw, 7vw) rotate(90deg);
-    -ms-transform: translate(6vw, 7vw) rotate(90deg);
-    transform: translate(6vw, 7vw) rotate(90deg);
+    -webkit-transform: translate(6vw, 9vw) rotate(90deg);
+    -ms-transform: translate(6vw, 9vw) rotate(90deg);
+    transform: translate(6vw, 9vw) rotate(90deg);
   }
   .masked {
     overflow: visible;
@@ -6767,7 +6767,9 @@ img {
     margin-top: 30px;
   }
   .image_hero.intro_background {
-    display: none;
+    position: relative;
+    display: block;
+    width: 100%;
   }
   .column {
     padding: 0px;
@@ -6921,10 +6923,14 @@ img {
     line-height: 18px;
   }
   .paragraph-2.no-reveal.text_loader {
-    padding: 0px;
+    padding: 10px;
     background-color: #d1d5db;
     font-size: 14px;
     line-height: 20px;
+    text-align: left;
+  }
+  .paragraph-2.no-reveal.text_loader.center {
+    text-align: center;
   }
   .heading {
     margin-bottom: 0px;
@@ -7057,6 +7063,11 @@ img {
     font-weight: 400;
   }
   .heading.padding.body_hdr.reveal.body-title {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding-top: 0px;
+    padding-bottom: 0vw;
+    direction: ltr;
     font-size: 36px;
     line-height: 40px;
     font-weight: 400;
@@ -7228,6 +7239,7 @@ img {
     grid-template-rows: auto;
   }
   .grid.client_grid.space.show_grid._2-col-grid.full {
+    position: relative;
     padding: 0vw;
   }
   .grid.padding_80.quote_grid {
@@ -7385,6 +7397,9 @@ img {
     -ms-transform: none;
     transform: none;
   }
+  .list_link.padding.logo_padding.bg_grey:hover {
+    background-color: #d1d5db;
+  }
   .list_link.padding.page_list {
     display: block;
     width: auto;
@@ -7476,7 +7491,7 @@ img {
     padding: 0px;
   }
   .loader {
-    left: auto;
+    left: 0%;
     top: auto;
     right: 0%;
     bottom: 0%;
@@ -7759,11 +7774,15 @@ img {
     display: block;
   }
   .grid-13 {
-    left: auto;
+    left: 0%;
     top: auto;
     right: 0%;
     bottom: 0%;
-    width: auto;
+    z-index: 4;
+    display: block;
+    width: 100%;
+    padding: 0vw;
+    justify-items: center;
   }
   .list {
     margin-top: 0px;
@@ -7892,7 +7911,7 @@ img {
   }
   .image_hero.intro_background {
     position: relative;
-    display: none;
+    display: block;
   }
   .column {
     padding-right: 0px;
@@ -8026,8 +8045,8 @@ img {
     text-align: left;
   }
   .paragraph-2.padding.list_p {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-family: Inconsolata, monospace;
     font-size: 14px;
     line-height: 22px;
@@ -8076,12 +8095,14 @@ img {
     line-height: 20px;
   }
   .paragraph-2.no-reveal.slide.indent {
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 20px;
   }
   .paragraph-2.no-reveal.text_loader {
     position: relative;
-    padding: 0px;
+    padding: 10px;
     background-color: #d1d5db;
+    text-align: left;
   }
   .heading {
     position: static;
@@ -8160,7 +8181,8 @@ img {
     line-height: 10vw;
   }
   .heading.padding {
-    margin-bottom: 0vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
     padding-top: 0px;
     padding-bottom: 0px;
     font-size: 26px;
@@ -8204,8 +8226,10 @@ img {
     font-style: normal;
   }
   .heading.padding.body_hdr.reveal.number.header-number {
-    margin-top: 15vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
     padding-top: 0vw;
+    padding-bottom: 0px;
     color: #000;
     font-size: 30px;
     line-height: 30px;
@@ -8242,6 +8266,10 @@ img {
     line-height: 30px;
   }
   .heading.padding.body_hdr.reveal.body-title {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    clear: none;
+    direction: ltr;
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
@@ -8425,10 +8453,10 @@ img {
     padding-bottom: 0vw;
   }
   .grid.client_grid.space.show_grid._2-col-grid.bg_grey.reveal {
-    overflow: visible;
+    overflow: hidden;
     margin-top: 10vw;
-    margin-bottom: 10px;
-    padding: 10vw 5vw;
+    margin-bottom: 10vw;
+    padding: 40vw 5vw;
   }
   .grid.client_grid.space.show_grid._2-col-grid.bg_grey.reveal._2-1-col-grod {
     margin-top: 10px;
@@ -8664,6 +8692,9 @@ img {
     -ms-transform: none;
     transform: none;
   }
+  .list_link.padding.logo_padding.bg_grey:hover {
+    background-color: #d1d5db;
+  }
   .list_link.padding.page_list {
     display: block;
     width: 100%;
@@ -8812,7 +8843,7 @@ img {
     padding: 0px;
   }
   .loader {
-    left: auto;
+    left: 0%;
     top: auto;
     right: 0%;
     bottom: 0%;
@@ -9300,6 +9331,25 @@ img {
     -ms-grid-row-align: auto;
     align-self: auto;
   }
+  .grid-13 {
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 0vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-items: center;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
   .hr {
     display: none;
   }
@@ -9430,6 +9480,18 @@ img {
   .cursor-wrapper {
     z-index: -1;
     display: none;
+  }
+  .inner-image {
+    position: relative;
+  }
+  .grid-17 {
+    padding-bottom: 0vw;
+  }
+  .grid-18 {
+    padding-top: 15vw;
+  }
+  .grid-19 {
+    padding-top: 50vw;
   }
 }
 
@@ -9880,6 +9942,10 @@ img {
     grid-row-start: 1;
     -ms-grid-row-span: 1;
     grid-row-end: 2;
+    -ms-grid-column-align: auto;
+    justify-self: auto;
+  }
+  #w-node-34bfbc010a78-72e26803 {
     -ms-grid-column-align: auto;
     justify-self: auto;
   }
