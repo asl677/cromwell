@@ -296,7 +296,7 @@ img {
   overflow: visible;
   max-width: none;
   margin-bottom: 0px;
-  padding: 23vh 10vw 5vw;
+  padding: 10vw 10vw 0vw;
   -webkit-box-pack: start;
   -webkit-justify-content: start;
   -ms-flex-pack: start;
@@ -352,11 +352,11 @@ img {
   display: -ms-grid;
   display: grid;
   overflow: hidden;
-  margin: 5px 0vw;
+  margin: 0px 0vw;
   padding: 5vw 10vw;
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
-  grid-column-gap: 18vw;
+  grid-column-gap: 16vw;
   grid-row-gap: 0px;
   -ms-grid-columns: 0.25fr 0.75fr 0.25fr;
   grid-template-columns: 0.25fr 0.75fr 0.25fr;
@@ -541,6 +541,7 @@ img {
   opacity: 1;
   color: rgba(0, 0, 0, 0.6);
   font-size: 2vw;
+  text-transform: lowercase;
 }
 
 .paragraph-2.padding {
@@ -631,7 +632,6 @@ img {
   line-height: 1.4vw;
   font-weight: 400;
   text-align: left;
-  text-transform: none;
 }
 
 .paragraph-2.no-reveal.white {
@@ -653,6 +653,7 @@ img {
   padding-top: 0vw;
   padding-bottom: 0vw;
   line-height: 1.6vw;
+  text-transform: lowercase;
 }
 
 .paragraph-2.no-reveal.text_loader {
@@ -872,7 +873,7 @@ img {
   font-size: 2.5vw;
   line-height: 3vw;
   font-weight: 400;
-  letter-spacing: -0.3px;
+  letter-spacing: -0.5vw;
   text-decoration: none;
   text-transform: none;
   white-space: normal;
@@ -944,11 +945,11 @@ img {
   padding: 5px 0px;
   border: 1px none #000;
   box-shadow: none;
-  font-family: Montserrat, sans-serif;
+  font-family: Baskervville, sans-serif;
   color: #000;
   font-size: 2vw;
   line-height: 2vw;
-  font-style: italic;
+  font-style: normal;
   font-weight: 400;
   text-decoration: none;
   text-transform: lowercase;
@@ -988,27 +989,30 @@ img {
 
 .heading.padding.body_hdr.reveal.title.slide.big-title {
   margin-top: 0vw;
-  margin-bottom: 2vw;
+  margin-bottom: 1vw;
   font-family: Montserrat, sans-serif;
   color: #000;
   font-size: 3.5vw;
   line-height: 4vw;
   letter-spacing: -0.2vw;
-  text-transform: none;
+  text-transform: lowercase;
   white-space: normal;
 }
 
 .heading.padding.body_hdr.reveal.title.slide.small-title {
   margin-top: 2vw;
-  margin-bottom: 2vw;
+  margin-bottom: 1vw;
   padding-bottom: 0vw;
   color: #000;
+  font-size: 2vw;
   line-height: 2.8vw;
+  text-transform: lowercase;
 }
 
 .heading.padding.body_hdr.reveal.title.slide.medium-title {
   font-size: 3vw;
   line-height: 3vw;
+  text-transform: lowercase;
 }
 
 .heading.padding.body_hdr.reveal.body-title {
@@ -1491,9 +1495,9 @@ img {
 }
 
 .grid.client_grid.space.show_grid._2-col-grid.bg_grey.reveal {
-  overflow: hidden;
+  overflow: visible;
   width: auto;
-  height: 58vw;
+  height: 60vw;
   max-width: none;
   margin: 5vw auto;
   padding: 5vw 15vw;
@@ -2602,6 +2606,7 @@ img {
   font-size: 1vw;
   line-height: 2vw;
   font-weight: 400;
+  text-transform: lowercase;
 }
 
 .body_link.no-reveal.secondary {
@@ -2619,7 +2624,6 @@ img {
   line-height: 2vw;
   font-weight: 300;
   text-decoration: none;
-  text-transform: none;
 }
 
 .body_link.no-reveal.secondary:hover {
@@ -2676,9 +2680,9 @@ img {
   display: -ms-flexbox;
   display: flex;
   width: auto;
-  margin-top: 2vw;
+  margin-top: 1vw;
   margin-right: 0px;
-  margin-bottom: 0.5vw;
+  margin-bottom: 0vw;
   padding-bottom: 0px;
   float: none;
   clear: none;
@@ -4112,6 +4116,7 @@ img {
   right: auto;
   bottom: 0%;
   z-index: 4;
+  overflow: hidden;
   padding: 0vw;
   -webkit-transform: translate(-8vw, -8vw) rotate(-90deg);
   -ms-transform: translate(-8vw, -8vw) rotate(-90deg);
@@ -4142,12 +4147,10 @@ img {
   position: relative;
   z-index: 1;
   display: block;
-  overflow: visible;
+  overflow: hidden;
   width: auto;
   margin-bottom: 0px;
-  padding-top: 0px;
-  padding-right: 0vw;
-  padding-left: 0vw;
+  padding: 0px 0vw 0.8vw;
   float: none;
   clear: none;
   -webkit-align-self: center;
@@ -4258,7 +4261,7 @@ img {
 }
 
 .masked.body_block {
-  margin-bottom: 6vw;
+  margin-bottom: 2vw;
 }
 
 .masked.number-mask {
@@ -5516,6 +5519,10 @@ img {
   background-color: #ff3c00;
 }
 
+.case-link {
+  overflow: visible;
+}
+
 .cursor-wrapper {
   position: fixed;
   left: 0%;
@@ -5619,14 +5626,15 @@ img {
 
 @media screen and (min-width: 1280px) {
   .padding_80.intro_header.centered.hero_padding {
-    padding-bottom: 5vw;
+    padding-bottom: 0vw;
   }
   .padding_80.intro_header.centered.full {
     overflow: hidden;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
     padding-top: 5vw;
-    grid-column-gap: 20vw;
+    padding-bottom: 5vw;
+    grid-column-gap: 16vw;
   }
   .paragraph-2.no-reveal.six {
     text-indent: 3vw;
@@ -5686,6 +5694,9 @@ img {
     -ms-transform: translate(6vw, 7vw) rotate(90deg);
     transform: translate(6vw, 7vw) rotate(90deg);
   }
+  .masked {
+    padding-bottom: 0.5vw;
+  }
   .div-block-8 {
     margin-top: 5vw;
   }
@@ -5693,9 +5704,11 @@ img {
 
 @media screen and (min-width: 1440px) {
   .padding_80.intro_header.centered.hero_padding {
-    padding-bottom: 5vw;
+    padding-bottom: 0vw;
   }
   .padding_80.intro_header.centered.full {
+    margin-top: 0vw;
+    margin-bottom: 0vw;
     grid-column-gap: 16vw;
     -ms-grid-columns: 0.25fr 1.25fr 1fr;
     grid-template-columns: 0.25fr 1.25fr 1fr;
@@ -5716,7 +5729,7 @@ img {
     padding-bottom: 0vw;
   }
   .heading.padding.body_hdr.reveal.title.slide.small-title {
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
     padding-top: 0vw;
     line-height: 2.6vw;
   }
@@ -5755,6 +5768,9 @@ img {
     -webkit-transform: translate(6vw, 6vw) rotate(90deg);
     -ms-transform: translate(6vw, 6vw) rotate(90deg);
     transform: translate(6vw, 6vw) rotate(90deg);
+  }
+  .masked {
+    padding-bottom: 0vw;
   }
   .grid-13 {
     padding: 0vw;
@@ -7165,7 +7181,8 @@ img {
     font-weight: 400;
   }
   .heading.padding.body_hdr.reveal.title.slide.small-title {
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 40px;
   }
   .heading.padding.body_hdr.reveal.body-title {
     margin-top: 5vw;
@@ -8378,6 +8395,7 @@ img {
   }
   .heading.padding.body_hdr.reveal.title.slide.small-title {
     padding-top: 0vw;
+    font-size: 20px;
     line-height: 30px;
   }
   .heading.padding.body_hdr.reveal.title.slide.medium-title {
