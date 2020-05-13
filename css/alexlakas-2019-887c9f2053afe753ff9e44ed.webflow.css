@@ -296,7 +296,7 @@ img {
   overflow: visible;
   max-width: none;
   margin-bottom: 0px;
-  padding: 10vw 10vw 0vw;
+  padding: 4vw;
   -webkit-box-pack: start;
   -webkit-justify-content: start;
   -ms-flex-pack: start;
@@ -317,6 +317,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+  background-color: transparent;
   opacity: 1;
   text-align: left;
   text-decoration: none;
@@ -945,12 +946,12 @@ img {
   padding: 5px 0px;
   border: 1px none #000;
   box-shadow: none;
-  font-family: Baskervville, sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #000;
   font-size: 2vw;
   line-height: 2vw;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   text-decoration: none;
   text-transform: lowercase;
 }
@@ -1057,6 +1058,7 @@ img {
   clear: none;
   direction: ltr;
   font-family: Montserrat, sans-serif;
+  color: #2525ff;
   font-size: 8vw;
   line-height: 7vw;
   font-weight: 400;
@@ -1070,6 +1072,7 @@ img {
   clear: none;
   direction: ltr;
   font-family: Montserrat, sans-serif;
+  color: #2525ff;
   font-size: 8vw;
   line-height: 7vw;
   font-style: normal;
@@ -1097,6 +1100,7 @@ img {
   clear: none;
   direction: ltr;
   font-family: Montserrat, sans-serif;
+  color: #2525ff;
   font-size: 8vw;
   line-height: 7vw;
   font-weight: 400;
@@ -1497,7 +1501,6 @@ img {
 .grid.client_grid.space.show_grid._2-col-grid.bg_grey.reveal {
   overflow: visible;
   width: auto;
-  height: 60vw;
   max-width: none;
   margin: 5vw auto;
   padding: 5vw 15vw;
@@ -4609,11 +4612,19 @@ img {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+  background-color: #000;
+  -webkit-transform: skew(0deg, -1deg);
+  -ms-transform: skew(0deg, -1deg);
+  transform: skew(0deg, -1deg);
   text-align: left;
 }
 
 .grid-10.full_grid {
   display: block;
+}
+
+.grid-10.hero_grid {
+  background-color: transparent;
 }
 
 .imagehero {
@@ -5624,6 +5635,10 @@ img {
   padding-right: 10px;
 }
 
+.div-block-9 {
+  background-color: rgba(0, 0, 0, 0.11);
+}
+
 @media screen and (min-width: 1280px) {
   .padding_80.intro_header.centered.hero_padding {
     padding-bottom: 0vw;
@@ -5651,6 +5666,12 @@ img {
     color: rgba(0, 0, 0, 0.6);
     font-weight: 400;
   }
+  .heading.padding.body_hdr.reveal.number.header-number {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    font-family: Montserrat, sans-serif;
+  }
   .heading.padding.body_hdr.reveal.title.slide {
     margin-top: 2vw;
     margin-bottom: 2vw;
@@ -5659,14 +5680,17 @@ img {
     line-height: 2.6vw;
   }
   .heading.padding.second {
+    color: #2525ff;
     font-size: 7vw;
     line-height: 6vw;
   }
   .heading.padding.third {
+    color: #2525ff;
     font-size: 7vw;
     line-height: 6vw;
   }
   .heading.padding.fourth {
+    color: #2525ff;
     font-size: 7vw;
     line-height: 6vw;
   }
@@ -5696,6 +5720,9 @@ img {
   }
   .masked {
     padding-bottom: 0.5vw;
+  }
+  .grid-10.hero_grid {
+    background-color: transparent;
   }
   .div-block-8 {
     margin-top: 5vw;
@@ -5742,18 +5769,21 @@ img {
     margin-bottom: 0px;
     padding-top: 0vw;
     padding-bottom: 1vw;
+    color: #2525ff;
   }
   .heading.padding.third {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 0vw;
     padding-bottom: 1vw;
+    color: #2525ff;
   }
   .heading.padding.fourth {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 0vw;
     padding-bottom: 1vw;
+    color: #2525ff;
   }
   .body_link.no-reveal.secondary.large {
     margin-bottom: 0vw;
@@ -5772,11 +5802,40 @@ img {
   .masked {
     padding-bottom: 0vw;
   }
+  .grid-10.hero_grid {
+    background-color: transparent;
+  }
   .grid-13 {
     padding: 0vw;
   }
   .cursor-wrapper {
     z-index: 0;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .heading.padding.second {
+    color: #2525ff;
+  }
+  .heading.padding.third {
+    color: #2525ff;
+  }
+  .heading.padding.fourth {
+    color: #2525ff;
+  }
+  .grid-10.hero_grid {
+    background-color: transparent;
+  }
+  .black_shape {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    display: none;
+    height: 100%;
+    padding: 0px;
+    background-color: #000;
   }
 }
 
@@ -7045,7 +7104,12 @@ img {
   }
   .paragraph-2.no-reveal.text_loader.center {
     padding: 10px;
-    text-align: left;
+    text-align: right;
+  }
+  .paragraph-2.no-reveal.text_loader.right {
+    position: relative;
+    padding: 20px;
+    text-align: right;
   }
   .heading {
     margin-bottom: 0px;
@@ -7176,13 +7240,15 @@ img {
   }
   .heading.padding.body_hdr.reveal.title.slide.big-title {
     padding-bottom: 3vw;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 36px;
+    line-height: 40px;
     font-weight: 400;
   }
   .heading.padding.body_hdr.reveal.title.slide.small-title {
-    font-size: 30px;
-    line-height: 40px;
+    margin-bottom: 0vw;
+    padding-top: 2vw;
+    font-size: 26px;
+    line-height: 34px;
   }
   .heading.padding.body_hdr.reveal.body-title {
     margin-top: 5vw;
@@ -7205,14 +7271,14 @@ img {
   }
   .heading.padding.second {
     margin-top: 0px;
-    padding: 0px 0vw 0px 0px;
+    padding: 0px 0vw 0.8vw 0px;
     direction: ltr;
     font-size: 60px;
     line-height: 60px;
   }
   .heading.padding.third {
     margin-top: 0px;
-    padding: 0px 0vw 0px 0px;
+    padding: 0px 0vw 0.8vw 0px;
     direction: ltr;
     font-size: 60px;
     line-height: 60px;
@@ -7228,7 +7294,7 @@ img {
   .heading.padding.fourth {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 0px;
+    padding: 0px 0px 0.8vw;
     direction: ltr;
     font-size: 60px;
     line-height: 60px;
@@ -7785,7 +7851,7 @@ img {
     transform: none;
   }
   .masked {
-    overflow: visible;
+    overflow: hidden;
     width: auto;
     margin-top: 0px;
     margin-bottom: 0vw;
@@ -8233,6 +8299,10 @@ img {
   .paragraph-2.no-reveal.text_loader.center {
     text-align: left;
   }
+  .paragraph-2.no-reveal.text_loader.right {
+    padding: 20px;
+    text-align: right;
+  }
   .heading {
     position: static;
     display: block;
@@ -8356,7 +8426,7 @@ img {
   }
   .heading.padding.body_hdr.reveal.number.header-number {
     margin-top: 0vw;
-    margin-bottom: 10vw;
+    margin-bottom: 0vw;
     padding-top: 0vw;
     padding-bottom: 0px;
     color: #000;
@@ -8394,9 +8464,8 @@ img {
     font-weight: 400;
   }
   .heading.padding.body_hdr.reveal.title.slide.small-title {
-    padding-top: 0vw;
-    font-size: 20px;
-    line-height: 30px;
+    margin-bottom: 0vw;
+    padding-top: 2vw;
   }
   .heading.padding.body_hdr.reveal.title.slide.medium-title {
     font-size: 36px;
@@ -8432,19 +8501,15 @@ img {
   }
   .heading.padding.second {
     margin-top: 0px;
-    padding: 0px;
+    padding: 0px 0px 0.8vw;
     clear: none;
     direction: ltr;
-    font-size: 50px;
-    line-height: 50px;
     white-space: break-spaces;
   }
   .heading.padding.third {
     margin-top: 0px;
     padding: 0px;
     direction: ltr;
-    font-size: 50px;
-    line-height: 50px;
   }
   .heading.padding.first {
     padding: 0px 0vw 10px 2px;
@@ -8454,9 +8519,7 @@ img {
   .heading.padding.fourth {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 0px;
-    font-size: 50px;
-    line-height: 50px;
+    padding: 0px 0px 0.8vw;
   }
   .heading.body_reveal {
     padding-right: 0vw;
@@ -8595,10 +8658,9 @@ img {
     display: -ms-flexbox;
     display: flex;
     overflow: visible;
-    height: auto;
-    margin-top: 10vw;
-    margin-bottom: 10vw;
-    padding: 0vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    padding: 5vw 0vw;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -8994,11 +9056,12 @@ img {
     top: auto;
     right: 0%;
     bottom: 0%;
-    z-index: 4;
+    z-index: 7;
     display: block;
     width: auto;
     height: auto;
     opacity: 1;
+    text-align: left;
   }
   .image {
     width: 50px;
@@ -9318,9 +9381,9 @@ img {
     transform: none;
   }
   .masked {
-    overflow: hidden;
+    overflow: visible;
     margin: 0vw;
-    padding: 0px 0px 0vw;
+    padding: 0px 0px 0.8vw;
     font-size: 14px;
     line-height: 20px;
   }
@@ -9362,6 +9425,7 @@ img {
     margin-left: 0vw;
   }
   .masked.intro_p {
+    overflow: hidden;
     padding: 0px;
   }
   .masked.number-mask {
@@ -9486,7 +9550,6 @@ img {
     align-self: auto;
   }
   .grid-13 {
-    z-index: 1;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
