@@ -1119,7 +1119,7 @@ img {
 .heading.padding.backdrop_text {
   z-index: 1;
   margin: 0px;
-  padding: 0px;
+  padding: 2vw;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   color: #d1d5db;
@@ -1127,6 +1127,7 @@ img {
   line-height: 10vw;
   font-style: normal;
   text-align: justify;
+  text-transform: lowercase;
 }
 
 .heading.body_reveal {
@@ -5731,6 +5732,7 @@ img {
     line-height: 6vw;
   }
   .heading.padding.backdrop_text {
+    padding: 2vw;
     color: #d1d5db;
     font-size: 10vw;
     line-height: 10vw;
@@ -7426,6 +7428,7 @@ img {
     line-height: 60px;
   }
   .heading.padding.backdrop_text {
+    direction: ltr;
     font-size: 50px;
     line-height: 50px;
   }
@@ -8656,6 +8659,7 @@ img {
     padding: 0px 0px 0.8vw;
   }
   .heading.padding.backdrop_text {
+    direction: ltr;
     font-size: 50px;
     line-height: 50px;
   }
