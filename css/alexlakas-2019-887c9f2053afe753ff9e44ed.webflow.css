@@ -673,6 +673,7 @@ img {
 .paragraph-2.no-reveal.slide.indent {
   padding-top: 0vw;
   padding-bottom: 0vw;
+  color: #1d1d1d;
   line-height: 1.6vw;
   text-transform: lowercase;
 }
@@ -1092,7 +1093,7 @@ img {
   direction: ltr;
   font-family: Montserrat, sans-serif;
   color: #2525ff;
-  font-size: 8vw;
+  font-size: 9vw;
   line-height: 7vw;
   font-weight: 400;
   text-align: left;
@@ -1106,7 +1107,7 @@ img {
   direction: ltr;
   font-family: Montserrat, sans-serif;
   color: #2525ff;
-  font-size: 8vw;
+  font-size: 9vw;
   line-height: 7vw;
   font-style: normal;
   text-transform: lowercase;
@@ -1134,7 +1135,7 @@ img {
   direction: ltr;
   font-family: Montserrat, sans-serif;
   color: #2525ff;
-  font-size: 8vw;
+  font-size: 9vw;
   line-height: 7vw;
   font-weight: 400;
   text-align: left;
@@ -3084,7 +3085,7 @@ img {
 
 .body_color.grey_bg {
   padding: 0px;
-  background-color: #d1d5db;
+  background-color: #9c9ea1;
   cursor: none;
 }
 
@@ -4690,8 +4691,8 @@ img {
   backface-visibility: visible;
   -webkit-perspective-origin: 50% 50%;
   perspective-origin: 50% 50%;
-  -webkit-transform: perspective(170px) rotateX(0deg) rotateY(-2deg) rotateZ(0deg);
-  transform: perspective(170px) rotateX(0deg) rotateY(-2deg) rotateZ(0deg);
+  -webkit-transform: perspective(0px) rotateX(0deg) rotateY(-2deg) rotateZ(0deg);
+  transform: perspective(0px) rotateX(0deg) rotateY(-2deg) rotateZ(0deg);
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
@@ -5737,7 +5738,7 @@ img {
 
 .client_text {
   position: relative;
-  color: #d1d5db;
+  color: #9c9ea1;
   font-size: 20vw;
   line-height: 18vw;
   text-transform: lowercase;
@@ -5808,18 +5809,12 @@ img {
   }
   .heading.padding.second {
     color: #2525ff;
-    font-size: 7vw;
-    line-height: 6vw;
   }
   .heading.padding.third {
     color: #2525ff;
-    font-size: 7vw;
-    line-height: 6vw;
   }
   .heading.padding.fourth {
     color: #2525ff;
-    font-size: 7vw;
-    line-height: 6vw;
   }
   .heading.padding.backdrop_text {
     padding: 2vw;
@@ -5881,6 +5876,8 @@ img {
   }
   .grid-10.hero_grid {
     background-color: transparent;
+    -webkit-transform: perspective(0px) rotateX(0deg) rotateY(-2deg) rotateZ(0deg);
+    transform: perspective(0px) rotateX(0deg) rotateY(-2deg) rotateZ(0deg);
   }
   .div-block-8 {
     margin-top: 5vw;
@@ -6124,12 +6121,18 @@ img {
   }
   .heading.padding.second {
     color: #2525ff;
+    font-size: 9vw;
+    line-height: 8vw;
   }
   .heading.padding.third {
     color: #2525ff;
+    font-size: 9vw;
+    line-height: 8vw;
   }
   .heading.padding.fourth {
     color: #2525ff;
+    font-size: 9vw;
+    line-height: 8vw;
   }
   .heading.padding.backdrop_text {
     z-index: 1;
@@ -6162,6 +6165,8 @@ img {
   }
   .grid-10.hero_grid {
     background-color: transparent;
+    -webkit-transform: perspective(0px) rotateX(0deg) rotateY(-2deg) rotateZ(0deg);
+    transform: perspective(0px) rotateX(0deg) rotateY(-2deg) rotateZ(0deg);
   }
   .case-link {
     position: relative;
@@ -7167,6 +7172,10 @@ img {
     -ms-grid-rows: auto;
     grid-template-rows: auto;
   }
+  .grid-10.hero_grid {
+    -webkit-transform: perspective(0px) rotateX(0deg) rotateY(-2deg) rotateZ(0deg);
+    transform: perspective(0px) rotateX(0deg) rotateY(-2deg) rotateZ(0deg);
+  }
   .imagehero.large {
     position: relative;
     width: 100%;
@@ -7433,7 +7442,7 @@ img {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding: 25vw 3vw 10vw;
+    padding: 10vw 3vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -7556,6 +7565,7 @@ img {
   .paragraph-2.no-reveal.text_loader.right {
     position: relative;
     padding: 20px;
+    background-color: #9c9ea1;
     text-align: right;
   }
   .heading {
@@ -7692,7 +7702,7 @@ img {
     font-weight: 400;
   }
   .heading.padding.body_hdr.reveal.title.slide.small-title {
-    margin-bottom: 0vw;
+    margin-bottom: 2vw;
     padding-top: 2vw;
     font-size: 26px;
     line-height: 34px;
@@ -8033,9 +8043,8 @@ img {
     transform: none;
   }
   .list_link.padding.logo_padding.bg_grey {
-    position: fixed;
+    position: relative;
     width: 100%;
-    background-color: #d1d5db;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -8556,6 +8565,7 @@ img {
   .image_hero.intro_background {
     position: relative;
     display: block;
+    margin-bottom: 30px;
   }
   .column {
     padding-right: 0px;
@@ -8604,7 +8614,7 @@ img {
   }
   .padding_80.intro_header.centered.hero_padding {
     display: block;
-    padding: 30vw 3vw 10vw;
+    padding: 15vw 3vw 10vw;
     grid-column-gap: 3vw;
   }
   .padding_80.intro_header.centered.hero_padding.mask.black_bg {
@@ -8764,6 +8774,7 @@ img {
   }
   .paragraph-2.no-reveal.text_loader.right {
     padding: 20px;
+    background-color: #9c9ea1;
     text-align: right;
   }
   .heading {
@@ -8927,7 +8938,7 @@ img {
     font-weight: 400;
   }
   .heading.padding.body_hdr.reveal.title.slide.small-title {
-    margin-bottom: 0vw;
+    margin-bottom: 2vw;
     padding-top: 2vw;
   }
   .heading.padding.body_hdr.reveal.title.slide.medium-title {
@@ -8967,12 +8978,16 @@ img {
     padding: 0px 0px 0.8vw;
     clear: none;
     direction: ltr;
+    font-size: 80px;
+    line-height: 80px;
     white-space: break-spaces;
   }
   .heading.padding.third {
     margin-top: 0px;
     padding: 0px;
     direction: ltr;
+    font-size: 80px;
+    line-height: 80px;
   }
   .heading.padding.first {
     padding: 0px 0vw 10px 2px;
@@ -8983,6 +8998,8 @@ img {
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 0px 0px 0.8vw;
+    font-size: 80px;
+    line-height: 80px;
   }
   .heading.padding.backdrop_text {
     direction: ltr;
@@ -9362,10 +9379,10 @@ img {
     transform: none;
   }
   .list_link.padding.logo_padding.bg_grey {
-    position: fixed;
+    position: relative;
     z-index: 10;
     width: 100%;
-    background-color: #d1d5db;
+    background-color: #9c9ea1;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -9553,7 +9570,6 @@ img {
     padding: 20px;
   }
   .body_color.grey_bg {
-    background-color: #d1d5db;
     cursor: default;
   }
   .hero_page {
