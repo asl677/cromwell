@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu May 14 2020 15:12:06 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Fri May 15 2020 14:07:40 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ea1ce48bd37677cce1124a3" data-wf-site="5ea1ce48bd3767ec75112498">
 <head>
   <meta charset="utf-8">
@@ -21,13 +21,20 @@
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-35944917-1"></script>
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-35944917-1', {'anonymize_ip': false});</script>
   <style> 
+body {
+  overflow-x: hidden !important;
+  }
 /* Client block */
   .heading.padding {
     word-break: break-word;
   }
 /* JS enabled text intro */
-a {
+a,
+.body_link.no-reveal.secondary.large {
   width: fit-content !important;
+  width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content;    /* Firefox/Gecko */
+  width: -webkit-max-content; /* Chrome */
   /* -moz-transition: all 800ms ease;
   -o-transition: all 800ms ease;
   -webkit-transition: all 800ms ease;
@@ -507,11 +514,11 @@ h1 span {
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script type="text/javascript">
 //Scroll easing
-  if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
+  /*if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
 window.onmousewheel = document.onmousewheel = wheel;
 function wheel(event) {
     var delta = 0;
-    if (event.wheelDelta) delta = event.wheelDelta / 40; //controls the scroll wheel range/speed
+    if (event.wheelDelta) delta = event.wheelDelta / 40; 
     else if (event.detail) delta = -event.detail / 40;
     handle(delta);
     if (event.preventDefault) event.preventDefault();
@@ -544,6 +551,7 @@ if (end == null) {
     }, animationInterval);
   }
 }
+*/
 // Mobile video playback
   //var mobilevideo = document.getElementsByTagName("video");
   //var i;

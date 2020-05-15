@@ -693,7 +693,7 @@ img {
 }
 
 .paragraph-2.no-reveal.text_loader.right {
-  padding: 20px;
+  padding: 10px;
 }
 
 .paragraph-2.no-reveal.nav-link-text {
@@ -4182,9 +4182,9 @@ img {
   z-index: 4;
   overflow: hidden;
   padding: 0vw;
-  -webkit-transform: translate(-8vw, -8vw) rotate(-90deg);
-  -ms-transform: translate(-8vw, -8vw) rotate(-90deg);
-  transform: translate(-8vw, -8vw) rotate(-90deg);
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
   color: rgba(0, 0, 0, 0.6);
   line-height: 2vw;
 }
@@ -4203,9 +4203,9 @@ img {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  -webkit-transform: translate(6vw, 7vw) rotate(90deg);
-  -ms-transform: translate(6vw, 7vw) rotate(90deg);
-  transform: translate(6vw, 7vw) rotate(90deg);
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
 }
 
 .masked {
@@ -5856,9 +5856,9 @@ img {
   .grid-4.grid_hero.right_grid {
     position: fixed;
     overflow: hidden;
-    -webkit-transform: translate(6vw, 7vw) rotate(90deg);
-    -ms-transform: translate(6vw, 7vw) rotate(90deg);
-    transform: translate(6vw, 7vw) rotate(90deg);
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
   }
   .masked {
     display: block;
@@ -5937,6 +5937,9 @@ img {
     padding: 1vw;
     line-height: 1vw;
   }
+  .paragraph-2.no-reveal.text_loader.right {
+    padding: 10px;
+  }
   .heading.padding.body_hdr.reveal.title.slide {
     padding-top: 2vw;
     padding-bottom: 2vw;
@@ -6001,15 +6004,15 @@ img {
   }
   .grid-4.grid_hero.left_grid {
     padding: 0vw;
-    -webkit-transform: translate(-8vw, -8vw) rotate(-90deg);
-    -ms-transform: translate(-8vw, -8vw) rotate(-90deg);
-    transform: translate(-8vw, -8vw) rotate(-90deg);
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
   }
   .grid-4.grid_hero.right_grid {
     overflow: hidden;
-    -webkit-transform: translate(6vw, 6vw) rotate(90deg);
-    -ms-transform: translate(6vw, 6vw) rotate(90deg);
-    transform: translate(6vw, 6vw) rotate(90deg);
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
   }
   .masked {
     padding-bottom: 0vw;
@@ -6117,7 +6120,7 @@ img {
     text-align: left;
   }
   .paragraph-2.no-reveal.text_loader.right {
-    padding: 20px;
+    padding: 10px;
   }
   .heading.padding.second {
     color: #2525ff;
@@ -6159,6 +6162,11 @@ img {
     position: relative;
     display: block;
     overflow: visible;
+  }
+  .grid-4.grid_hero.left_grid {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
   }
   .grid-4.grid_hero.right_grid {
     overflow: hidden;
