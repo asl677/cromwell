@@ -7687,6 +7687,10 @@ img {
     font-size: 36px;
     line-height: 40px;
   }
+  .heading.padding.body_hdr {
+    font-size: 30px;
+    line-height: 30px;
+  }
   .heading.padding.body_hdr.intro {
     line-height: 5vw;
   }
@@ -7761,6 +7765,11 @@ img {
     font-size: 36px;
     line-height: 40px;
     font-weight: 400;
+  }
+  .heading.padding.body_hdr.medium_hdr {
+    margin-top: 3vw;
+    font-size: 20px;
+    line-height: 20px;
   }
   .heading.padding.hdr_inverted {
     padding: 0px;
@@ -8999,6 +9008,10 @@ img {
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
+  }
+  .heading.padding.body_hdr.medium_hdr {
+    font-size: 20px;
+    line-height: 30px;
   }
   .heading.padding.hdr_inverted {
     width: 100%;
