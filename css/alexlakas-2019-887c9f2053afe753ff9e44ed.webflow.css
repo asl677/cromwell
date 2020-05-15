@@ -296,7 +296,7 @@ img {
   overflow: hidden;
   max-width: none;
   margin-bottom: 0px;
-  padding: 4vw;
+  padding: 6vw;
   -webkit-box-pack: start;
   -webkit-justify-content: start;
   -ms-flex-pack: start;
@@ -350,9 +350,10 @@ img {
 }
 
 .padding_80.intro_header.centered.full {
+  z-index: 0;
   display: -ms-grid;
   display: grid;
-  overflow: hidden;
+  overflow: visible;
   margin: 0px 0vw;
   padding: 5vw 10vw;
   grid-auto-flow: column;
@@ -925,7 +926,7 @@ img {
 
 .heading.padding.body_hdr.reveal {
   font-family: 'Montserrat Alternates';
-  font-size: 4vw;
+  font-size: 3vw;
   line-height: 4vw;
   font-weight: 400;
   text-transform: none;
@@ -1054,6 +1055,15 @@ img {
   font-family: Montserrat, sans-serif;
   font-size: 2.5vw;
   line-height: 3vw;
+  letter-spacing: -0.1vw;
+}
+
+.heading.padding.body_hdr.medium_hdr {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  padding-bottom: 0vw;
+  font-size: 2vw;
+  line-height: 2vw;
   letter-spacing: -0.1vw;
 }
 
@@ -1196,14 +1206,28 @@ img {
 }
 
 .grid.client_grid {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
   padding: 0px;
-  -webkit-box-pack: stretch;
-  -webkit-justify-content: stretch;
-  -ms-flex-pack: stretch;
-  justify-content: stretch;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   justify-items: stretch;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
@@ -2744,9 +2768,9 @@ img {
   display: -ms-flexbox;
   display: flex;
   width: auto;
-  margin-top: 1vw;
+  margin-top: 2vw;
   margin-right: 0px;
-  margin-bottom: 0vw;
+  margin-bottom: 0.5vw;
   padding-bottom: 0px;
   float: none;
   clear: none;
@@ -2756,7 +2780,7 @@ img {
   align-items: flex-start;
   -webkit-transition: none 0ms ease;
   transition: none 0ms ease;
-  font-size: 1.8vw;
+  font-size: 2vw;
   line-height: 2vw;
   font-weight: 400;
 }
@@ -3527,6 +3551,10 @@ img {
 .video_wrap.hide {
   display: block;
   padding-bottom: 20px;
+}
+
+.video_wrap.left {
+  margin: 3vw;
 }
 
 .video_wrap.center {
@@ -5900,7 +5928,6 @@ img {
   .client_text {
     -webkit-transform: perspective(50vw);
     transform: perspective(50vw);
-    color: #d1d5db;
   }
   .inner_text {
     position: relative;
@@ -6045,9 +6072,6 @@ img {
   .shape {
     padding: 0vw;
   }
-  .client_text {
-    color: #d1d5db;
-  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -6155,6 +6179,10 @@ img {
     text-decoration: none;
     text-transform: lowercase;
   }
+  .grid.client_grid {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
   .grid.client_grid.space.show_grid._2-col-grid.bg_grey.reveal {
     height: 60vw;
   }
@@ -6219,7 +6247,6 @@ img {
   }
   .client_text {
     position: relative;
-    color: #d1d5db;
   }
   .div-block-11 {
     overflow: visible;
@@ -9041,15 +9068,18 @@ img {
     grid-template-rows: auto auto;
   }
   .grid.client_grid {
-    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 0px;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
