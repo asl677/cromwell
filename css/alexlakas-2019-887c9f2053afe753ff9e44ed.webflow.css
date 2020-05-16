@@ -6158,6 +6158,7 @@ img {
     text-align: left;
   }
   .paragraph-2.no-reveal.text_loader.right {
+    position: relative;
     padding: 10px;
   }
   .heading.padding.second {
@@ -6223,6 +6224,17 @@ img {
     background-color: transparent;
     -webkit-transform: perspective(0px) rotateX(0deg) rotateY(-2deg) rotateZ(0deg);
     transform: perspective(0px) rotateX(0deg) rotateY(-2deg) rotateZ(0deg);
+  }
+  .grid-13 {
+    position: fixed;
+    justify-items: end;
+    -webkit-box-align: end;
+    -webkit-align-items: end;
+    -ms-flex-align: end;
+    align-items: end;
+    -webkit-align-content: end;
+    -ms-flex-line-pack: end;
+    align-content: end;
   }
   .case-link {
     position: relative;
@@ -8938,6 +8950,7 @@ img {
     overflow: visible;
     padding-right: 0vw;
     padding-bottom: 20px;
+    direction: ltr;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0vw;
