@@ -7172,9 +7172,9 @@ img {
     line-height: 2vw;
   }
   .grid-4.grid_hero.right_grid {
-    -webkit-transform: translate(6vw, 9vw) rotate(90deg);
-    -ms-transform: translate(6vw, 9vw) rotate(90deg);
-    transform: translate(6vw, 9vw) rotate(90deg);
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
   }
   .masked {
     overflow: visible;
