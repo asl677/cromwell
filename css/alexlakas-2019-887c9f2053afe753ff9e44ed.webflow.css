@@ -7543,6 +7543,7 @@ img {
   }
   .padding_80.intro_header.centered.full {
     display: block;
+    overflow: hidden;
     padding: 3vw;
     opacity: 1;
   }
@@ -8715,6 +8716,7 @@ img {
     grid-template-rows: auto;
   }
   .padding_80.intro_header.centered.full {
+    overflow: hidden;
     margin-top: 5px;
     padding: 3vw;
     opacity: 1;
