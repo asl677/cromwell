@@ -469,6 +469,7 @@ img {
 
 .padding_80.intro_header.centered.full.client_wrap {
   display: block;
+  overflow: hidden;
   height: 50vw;
   padding: 0vw 3vw;
   grid-column-gap: 10vw;
@@ -1668,6 +1669,7 @@ img {
 }
 
 .grid.client_grid.space.show_grid._2-col-grid.full.black_bg {
+  overflow: hidden;
   height: 40vw;
   background-color: #000;
   -webkit-transform: perspective(20vw);
@@ -6127,6 +6129,9 @@ img {
     -ms-grid-columns: 1.25fr 5fr;
     grid-template-columns: 1.25fr 5fr;
   }
+  .padding_80.intro_header.centered.full.client_wrap {
+    overflow: visible;
+  }
   .padding_80.backdrop {
     position: relative;
     left: 0%;
@@ -6200,6 +6205,9 @@ img {
     display: block;
     overflow: visible;
   }
+  .grid.client_grid.space.show_grid._2-col-grid.full.black_bg {
+    overflow: hidden;
+  }
   .grid-4.grid_hero.left_grid {
     -webkit-transform: none;
     -ms-transform: none;
@@ -6207,6 +6215,9 @@ img {
   }
   .grid-4.grid_hero.right_grid {
     overflow: hidden;
+  }
+  .masked.client_mask {
+    overflow: visible;
   }
   .grid-10.hero_grid {
     background-color: transparent;
