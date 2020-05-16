@@ -4257,7 +4257,7 @@ img {
   position: relative;
   z-index: 1;
   display: block;
-  overflow: visible;
+  overflow: hidden;
   width: auto;
   margin-bottom: 0px;
   padding: 0px 0vw 0vw;
@@ -6240,6 +6240,9 @@ img {
     transform: none;
   }
   .grid-4.grid_hero.right_grid {
+    overflow: hidden;
+  }
+  .masked {
     overflow: hidden;
   }
   .masked.client_mask {

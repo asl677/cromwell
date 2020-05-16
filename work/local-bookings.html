@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sat May 16 2020 17:01:55 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sat May 16 2020 17:27:52 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ea1ce48bd3767618a1124a0" data-wf-site="5ea1ce48bd3767ec75112498">
 <head>
   <meta charset="utf-8">
@@ -513,6 +513,12 @@ h1 span {
   <script src="../js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script type="text/javascript">
+// Offset scroll into views
+ function init() {
+      window.scrollTo(0, 1);
+      window.scrollTo(0, -1);
+  }
+  init()
 // Delay page transition to show animation
 function delay (URL) {
   setTimeout( function() { 
