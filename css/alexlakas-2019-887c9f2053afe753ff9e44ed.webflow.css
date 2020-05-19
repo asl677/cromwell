@@ -682,7 +682,6 @@ img {
   padding-bottom: 0vw;
   color: #1d1d1d;
   line-height: 1.6vw;
-  text-indent: 2vw;
   text-transform: lowercase;
 }
 
@@ -8301,7 +8300,7 @@ img {
     right: 0%;
     bottom: 0%;
     z-index: 4;
-    display: block;
+    display: none;
     width: auto;
     height: auto;
     opacity: 1;
@@ -8917,6 +8916,7 @@ img {
   .paragraph-2.no-reveal.slide.indent {
     font-size: 14px;
     line-height: 20px;
+    text-indent: 0vw;
   }
   .paragraph-2.no-reveal.text_loader {
     position: relative;
@@ -9115,6 +9115,8 @@ img {
     font-weight: 400;
   }
   .heading.padding.body_hdr.medium_hdr {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
     font-size: 20px;
     line-height: 30px;
   }
@@ -9664,7 +9666,7 @@ img {
     line-height: 20px;
   }
   .body_link.no-reveal.secondary.large {
-    margin-top: 3vw;
+    margin-top: 6vw;
     margin-right: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -9714,7 +9716,7 @@ img {
     right: 0%;
     bottom: 0%;
     z-index: 7;
-    display: block;
+    display: none;
     width: auto;
     height: auto;
     opacity: 1;
