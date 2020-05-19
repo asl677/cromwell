@@ -530,6 +530,7 @@ img {
 
 .padding_80.intro_header.centered.half {
   padding-right: 5vw;
+  padding-bottom: 2vw;
   padding-left: 5vw;
 }
 
@@ -730,6 +731,7 @@ img {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+  font-family: Telegraf, sans-serif;
   color: #000;
   line-height: 3.5vw;
   font-weight: 300;
@@ -912,6 +914,7 @@ img {
   border-bottom: 2px none #000;
   background-color: hsla(0, 0%, 100%, 0);
   opacity: 1;
+  font-family: Telegraf, sans-serif;
   color: #000;
   font-size: 2.5vw;
   line-height: 3vw;
@@ -927,10 +930,10 @@ img {
   padding-bottom: 2vw;
   opacity: 1;
   font-family: Montserrat, sans-serif;
-  font-size: 4vw;
-  line-height: 4vw;
+  font-size: 3vw;
+  line-height: 3vw;
   font-weight: 400;
-  letter-spacing: -0.2vw;
+  letter-spacing: -0.1vw;
   text-transform: lowercase;
 }
 
@@ -1085,10 +1088,11 @@ img {
 }
 
 .heading.padding.body_hdr.large_hdr {
+  font-family: Montserrat, sans-serif;
   color: #2525ff;
   font-size: 10vw;
   line-height: 9vw;
-  letter-spacing: -0.4vw;
+  letter-spacing: -0.6vw;
 }
 
 .heading.padding.hdr_inverted {
@@ -2841,6 +2845,7 @@ img {
   align-items: flex-start;
   -webkit-transition: none 0ms ease;
   transition: none 0ms ease;
+  font-family: Telegraf, sans-serif;
   font-size: 2vw;
   line-height: 2vw;
   font-weight: 400;
@@ -5851,6 +5856,12 @@ img {
 .inner_text {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
+}
+
+.slash {
+  position: relative;
+  padding: 5px;
+  color: #2525ff;
 }
 
 @media screen and (min-width: 1280px) {
@@ -10464,7 +10475,7 @@ img {
   }
 }
 
-#w-node-99cf55d9d22d-9511249b {
+#w-node-a95984bdf8bb-9511249b {
   -ms-grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 1;
@@ -10477,7 +10488,7 @@ img {
   align-self: start;
 }
 
-#w-node-99cf55d9d233-9511249b {
+#w-node-a95984bdf8bf-9511249b {
   -ms-grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 1;
@@ -10857,14 +10868,6 @@ img {
 }
 
 @media screen and (min-width: 1920px) {
-  #w-node-99cf55d9d232-9511249b {
-    -ms-grid-column-align: auto;
-    justify-self: auto;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-    -ms-grid-row-align: auto;
-    align-self: auto;
-  }
   #w-node-d2e8f43dc990-f43dc98c {
     -ms-grid-column-align: auto;
     justify-self: auto;
@@ -11031,5 +11034,23 @@ img {
   font-family: 'Helveticaneue';
   src: url('../fonts/HelveticaNeue-Medium.otf') format('opentype');
   font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Telegraf';
+  src: url('../fonts/Telegraf-UltraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Telegraf';
+  src: url('../fonts/Telegraf-UltraBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Telegraf';
+  src: url('../fonts/Telegraf-Regular.otf') format('opentype');
+  font-weight: 400;
   font-style: normal;
 }
