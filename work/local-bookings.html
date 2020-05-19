@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue May 19 2020 02:31:48 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue May 19 2020 19:23:00 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ea1ce48bd3767618a1124a0" data-wf-site="5ea1ce48bd3767ec75112498">
 <head>
   <meta charset="utf-8">
@@ -154,6 +154,7 @@ h1 span {
   width: 100% !important;
   max-width: 100% !important;
   }
+/*
 .heading.padding.link-title::after,
 .body_link::after,
 .body_link2::after {
@@ -190,6 +191,23 @@ h1 span {
     -webkit-transform-origin: left center;
     transform-origin: left center;
   }
+*/
+.body_link.no-reveal.secondary.large::after{
+    content: "\2197";
+    position: relative;
+    transform: scale(.4);
+  	-moz-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease;
+}
+.body_link.no-reveal.secondary.large:hover::after {
+    content: "\2197";
+    padding-left: 10px;
+    position: relative;
+    transform: scale(.8);
+    transform: rotate3d(2, 1, 5, 45deg);
+}
 .twitter #iframe > .btn {
     background-color: rgba(255,255,255,.2) !important;
     /* border: solid 1px rgba(255,255,255,.3); */
