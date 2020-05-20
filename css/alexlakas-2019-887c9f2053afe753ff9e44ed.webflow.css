@@ -472,6 +472,7 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 10vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -700,10 +701,16 @@ img {
 }
 
 .paragraph-2.no-reveal.slide.indent {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
   padding-top: 0vw;
   padding-bottom: 0vw;
   color: #1d1d1d;
   line-height: 1.6vw;
+  text-align: right;
   text-transform: lowercase;
 }
 
@@ -5730,7 +5737,7 @@ img {
 
 .case-link {
   position: relative;
-  overflow: visible;
+  overflow: hidden;
   width: 100%;
   padding: 1vw 0px 0vw;
   box-shadow: none;
@@ -5910,7 +5917,7 @@ img {
   right: 0%;
   bottom: 0%;
   width: 100%;
-  height: 0.5px;
+  height: 1px;
   margin-top: 1vw;
   margin-bottom: 1vw;
   padding: 0px;
@@ -5933,6 +5940,10 @@ img {
     padding-bottom: 5vw;
     grid-column-gap: 16vw;
   }
+  .padding_80.intro_header.centered.full.cases {
+    padding-top: 5vw;
+    padding-bottom: 10vw;
+  }
   .padding_80.intro_header.centered.half {
     margin-top: 0vw;
   }
@@ -5953,6 +5964,14 @@ img {
     text-indent: 3vw;
   }
   .paragraph-2.no-reveal.slide.indent {
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    float: none;
+    clear: none;
+    text-align: right;
     text-indent: 0vw;
   }
   .paragraph-2.no-reveal.text_loader {
@@ -6033,7 +6052,7 @@ img {
   }
   .masked {
     display: block;
-    overflow: visible;
+    overflow: hidden;
     width: 100%;
   }
   .masked.client_mask {
@@ -6308,6 +6327,9 @@ img {
   .paragraph-2.no-reveal.slide {
     text-align: left;
   }
+  .paragraph-2.no-reveal.slide.indent {
+    position: absolute;
+  }
   .paragraph-2.no-reveal.text_loader.right {
     position: relative;
     display: none;
@@ -6461,7 +6483,7 @@ img {
     bottom: 0%;
     overflow: visible;
     width: 100%;
-    height: 0.5px;
+    height: 1px;
     margin-top: 1vw;
     padding: 0px;
     background-color: #000;
@@ -6648,8 +6670,16 @@ img {
     line-height: 1.6vw;
   }
   .paragraph-2.no-reveal.slide {
+    position: relative;
     padding-top: 5px;
     color: #1d1d1d;
+  }
+  .paragraph-2.no-reveal.slide.indent {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
   }
   .paragraph-2.no-reveal.text_loader {
     font-size: 1vw;
@@ -7335,7 +7365,7 @@ img {
     transform: none;
   }
   .masked {
-    overflow: visible;
+    overflow: hidden;
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 0px;
@@ -8464,6 +8494,9 @@ img {
   }
   .body_color {
     padding: 20px;
+  }
+  .body_color.grey_bg {
+    cursor: default;
   }
   .column-9 {
     padding-left: 0px;
@@ -10699,32 +10732,6 @@ img {
   grid-row-end: 2;
 }
 
-#w-node-eb6b9de0cd0e-9de0cd0d {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-row-align: start;
-  align-self: start;
-}
-
-#w-node-eb6b9de0cd12-9de0cd0d {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-row-align: start;
-  align-self: start;
-}
-
 #w-node-e2044a90a670-4a90a66f {
   -ms-grid-column: 1;
   grid-column-start: 1;
@@ -10739,6 +10746,32 @@ img {
 }
 
 #w-node-e2044a90a674-4a90a66f {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+  -ms-grid-row-align: start;
+  align-self: start;
+}
+
+#w-node-eb6b9de0cd0e-9de0cd0d {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+  -ms-grid-row-align: start;
+  align-self: start;
+}
+
+#w-node-eb6b9de0cd12-9de0cd0d {
   -ms-grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 1;

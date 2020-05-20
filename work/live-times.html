@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Wed May 20 2020 00:37:52 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Wed May 20 2020 03:45:28 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ea1ce48bd37672b9611249f" data-wf-site="5ea1ce48bd3767ec75112498">
 <head>
   <meta charset="utf-8">
@@ -192,6 +192,15 @@ h1 span {
     transform-origin: left center;
   }
 */
+.heading.padding.body_hdr.large_hdr::after{
+    content: "\2198";
+    position: relative;
+  	-moz-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease;
+  	font-family: Telegraf, sans-serif; 	
+}
 .body_link.no-reveal.secondary.large::after{
     content: "\2197";
     position: relative;
@@ -200,7 +209,7 @@ h1 span {
     -o-transition: all 400ms ease;
     -webkit-transition: all 400ms ease;
     transition: all 400ms ease;
-  	font-family: Telegraf, sans-serif;
+  	font-family: Telegraf, sans-serif; 	
 }
 .body_link.no-reveal.secondary.large:hover::after {
     content: "\2197";
@@ -390,16 +399,16 @@ h1 span {
           <div class="masked intro_p">
             <ul role="list" class="list_link padding intro_list">
               <li>
-                <p class="paragraph-2 no-reveal slide indent">2016 — UX Lead</p>
+                <p class="paragraph-2 no-reveal slide">2016 — UX Lead</p>
               </li>
             </ul>
           </div>
           <h1 class="heading padding body_hdr">Google needed a home for live local data</h1>
         </div>
-        <p class="paragraph-2 no-reveal slide indent">My role was to work with a writer and motion designer to define a scalable user experience to fit within the existing Local Search framework, including Navigation, Categorical and Chain Searches. The goal was to provide a scalable experience for showcasing Live Crowd data across local listings on Google Search and Maps. Knowing how busy a place is in real time helps users better plan their days in the moment and beyond — and what to expect once they arrive.</p>
+        <p class="paragraph-2 no-reveal slide">My role was to work with a writer and motion designer to define a scalable user experience to fit within the existing Local Search framework, including Navigation, Categorical and Chain Searches. The goal was to provide a scalable experience for showcasing Live Crowd data across local listings on Google Search and Maps. Knowing how busy a place is in real time helps users better plan their days in the moment and beyond — and what to expect once they arrive.</p>
       </div>
       <div id="w-node-d2e8f43dc99d-f43dc98c" class="masked body_reveal">
-        <p class="paragraph-2 no-reveal slide indent">The hypothesis was that we could overlap real time crowd data with historical, providing users with in the moment vs usual estimations for them to compare against, but how? After several explorations, we found that our existing Popular Times feature was the most logical place to start, as it was where we surface crowd volume estimates already.</p>
+        <p class="paragraph-2 no-reveal slide">The hypothesis was that we could overlap real time crowd data with historical, providing users with in the moment vs usual estimations for them to compare against, but how? After several explorations, we found that our existing Popular Times feature was the most logical place to start, as it was where we surface crowd volume estimates already.</p>
       </div>
     </div>
   </div>
@@ -419,7 +428,7 @@ h1 span {
             <h1 class="heading padding body_hdr">Learning that color infers a lot &amp; live data comes with responsibility</h1>
           </div>
         </div>
-        <p class="paragraph-2 no-reveal slide indent">A lot of users were already mistaking usual Popular Times for real-time. Thus, we felt appending to that mental model was a good place to start. Pink provided a neutral, yet urgent color to sit against the varying shades of blue we currently had inside our graph. What it also did was provide a color that could overlay onto other colors like blue and create a clear delineation between the two. </p>
+        <p class="paragraph-2 no-reveal slide">A lot of users were already mistaking usual Popular Times for real-time. Thus, we felt appending to that mental model was a good place to start. Pink provided a neutral, yet urgent color to sit against the varying shades of blue we currently had inside our graph. What it also did was provide a color that could overlay onto other colors like blue and create a clear delineation between the two. </p>
       </div>
     </div>
   </div>
@@ -435,7 +444,7 @@ h1 span {
             <h1 class="heading padding body_hdr">We designed a flexible system where live &amp; estimated info could co-exist</h1>
           </div>
         </div>
-        <p class="paragraph-2 no-reveal slide indent">Ultimately, the first wave of this product was aiming to support over 1M locations around the world, and grow that number year over year, initially covering airports, government establishments, restaurants and venues.Then, yes of course and ultimately, the product was featured on the Tonight Show with Jimmy Fallon.</p>
+        <p class="paragraph-2 no-reveal slide">Ultimately, the first wave of this product was aiming to support over 1M locations around the world, and grow that number year over year, initially covering airports, government establishments, restaurants and venues.Then, yes of course and ultimately, the product was featured on the Tonight Show with Jimmy Fallon.</p>
       </div>
     </div>
   </div>
@@ -456,6 +465,7 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/linkedin-polls&#x27;)" class="body_link no-reveal secondary large">Linkedin Polls</a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Linkedin</p>
+          <p class="paragraph-2 no-reveal slide indent">2020</p>
         </div>
         <div class="divider"></div>
       </div>
@@ -463,6 +473,7 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/linkedin-page-toggle&#x27;)" class="body_link no-reveal secondary large">Posting across Linkedin</a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Linkedin</p>
+          <p class="paragraph-2 no-reveal slide indent">2020</p>
         </div>
         <div class="divider"></div>
       </div>
@@ -470,12 +481,14 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/linkedin-page-toggle&#x27;)" class="body_link no-reveal secondary large">Sharing as a Page </a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Linkedin</p>
+          <p class="paragraph-2 no-reveal slide indent">2020</p>
         </div>
         <div class="divider"></div>
       </div>
       <div class="case-link">
         <div class="masked"><a href="javascript:delay(&#x27;/work/linkedin-visibility&#x27;)" class="body_link no-reveal secondary large">Sharing visibility</a></div>
         <div class="masked">
+          <p class="paragraph-2 no-reveal slide indent">2019</p>
           <p class="paragraph-2 no-reveal slide">Linkedin</p>
         </div>
         <div class="divider"></div>
@@ -484,6 +497,7 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/nav&#x27;)" class="body_link no-reveal secondary large">Modernizing Local Search</a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Google</p>
+          <p class="paragraph-2 no-reveal slide indent">2018</p>
         </div>
         <div class="divider"></div>
       </div>
@@ -491,6 +505,7 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/wait-times&#x27;)" class="body_link no-reveal secondary large">Est. Wait Times</a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Google</p>
+          <p class="paragraph-2 no-reveal slide indent">2018</p>
         </div>
         <div class="divider"></div>
       </div>
@@ -498,6 +513,7 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/live-times&#x27;)" class="body_link no-reveal secondary large">Live Popular Times</a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Google</p>
+          <p class="paragraph-2 no-reveal slide indent">2017</p>
         </div>
         <div class="divider"></div>
       </div>
@@ -505,6 +521,7 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/local-bookings&#x27;)" class="body_link no-reveal secondary large">Local Bookings</a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Google</p>
+          <p class="paragraph-2 no-reveal slide indent">2016</p>
         </div>
         <div class="divider"></div>
       </div>
@@ -512,6 +529,7 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/maps-suggest&#x27;)" class="body_link no-reveal secondary large">One-tap Local Search</a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Google</p>
+          <p class="paragraph-2 no-reveal slide indent">2015</p>
         </div>
         <div class="divider"></div>
       </div>
@@ -519,6 +537,7 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/gmb&#x27;)" class="body_link no-reveal secondary large">Google My Business</a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Google</p>
+          <p class="paragraph-2 no-reveal slide indent">2013</p>
         </div>
         <div class="divider"></div>
       </div>

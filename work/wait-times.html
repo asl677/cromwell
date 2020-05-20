@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Wed May 20 2020 00:37:52 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Wed May 20 2020 03:45:28 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ea1ce48bd376766b31124a1" data-wf-site="5ea1ce48bd3767ec75112498">
 <head>
   <meta charset="utf-8">
@@ -192,6 +192,15 @@ h1 span {
     transform-origin: left center;
   }
 */
+.heading.padding.body_hdr.large_hdr::after{
+    content: "\2198";
+    position: relative;
+  	-moz-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease;
+  	font-family: Telegraf, sans-serif; 	
+}
 .body_link.no-reveal.secondary.large::after{
     content: "\2197";
     position: relative;
@@ -200,7 +209,7 @@ h1 span {
     -o-transition: all 400ms ease;
     -webkit-transition: all 400ms ease;
     transition: all 400ms ease;
-  	font-family: Telegraf, sans-serif;
+  	font-family: Telegraf, sans-serif; 	
 }
 .body_link.no-reveal.secondary.large:hover::after {
     content: "\2197";
@@ -393,16 +402,16 @@ h1 span {
           <div class="masked intro_p">
             <ul role="list" class="list_link padding intro_list">
               <li>
-                <p class="paragraph-2 no-reveal slide indent">2018 — Lead Product Designer</p>
+                <p class="paragraph-2 no-reveal slide">2018 — Lead Product Designer</p>
               </li>
             </ul>
           </div>
           <h1 class="heading padding body_hdr">Live busyness is useful, but users wanted wait times, too</h1>
         </div>
-        <p class="paragraph-2 no-reveal slide indent">Hopefully you&#x27;re familiar with the above feature - Live Popular Times on Google. This was the next installment of that. Working closing with a motion designer and writer, I defined the UI and patterns you see below. The goal was to explore and integrate estimated wait times between local listings on Google Search and Maps.<br></p>
+        <p class="paragraph-2 no-reveal slide">Hopefully you&#x27;re familiar with the above feature - Live Popular Times on Google. This was the next installment of that. Working closing with a motion designer and writer, I defined the UI and patterns you see below. The goal was to explore and integrate estimated wait times between local listings on Google Search and Maps.<br></p>
       </div>
       <div id="w-node-d2e8f43dc99d-f43dc98c" class="masked body_reveal">
-        <p class="paragraph-2 no-reveal slide indent">We ultimately decided to evolve our Popular Times feature into a more interactive and robust product serving a series of visit data: Popular Times, Live Popular Times and estimated wait times. <br></p>
+        <p class="paragraph-2 no-reveal slide">We ultimately decided to evolve our Popular Times feature into a more interactive and robust product serving a series of visit data: Popular Times, Live Popular Times and estimated wait times. <br></p>
       </div>
     </div>
   </div>
@@ -418,7 +427,7 @@ h1 span {
             <h1 class="heading padding body_hdr">Up to the hour location data is sensitive, yet powerful</h1>
           </div>
         </div>
-        <p class="paragraph-2 no-reveal slide indent">This was a min-viable attempt to create a safe and simple yet scalable framework to handle more wait time data as Google&#x27;s machine learning improved and local listing info becomes increasingly available through the various signals gathered over time. I designed the tooltip framework, supporting the various cases between live, historical, and estimated wait durations.<br><br>The sensitivity of this info was also to be considered, as well as how it played a role in decision making between parsing how busy a place was at that very time vs another day of the week. After rounds of research, we also found new ways to allow users to traverse between times as well as focus on the worst case scenario at a glance.</p>
+        <p class="paragraph-2 no-reveal slide">This was a min-viable attempt to create a safe and simple yet scalable framework to handle more wait time data as Google&#x27;s machine learning improved and local listing info becomes increasingly available through the various signals gathered over time. I designed the tooltip framework, supporting the various cases between live, historical, and estimated wait durations.<br><br>The sensitivity of this info was also to be considered, as well as how it played a role in decision making between parsing how busy a place was at that very time vs another day of the week. After rounds of research, we also found new ways to allow users to traverse between times as well as focus on the worst case scenario at a glance.</p>
       </div>
     </div>
   </div>
@@ -434,7 +443,7 @@ h1 span {
             <h1 class="heading padding body_hdr">With worst case scenario proving most scalable</h1>
           </div>
         </div>
-        <p class="paragraph-2 no-reveal slide indent">We learned that a new graph and visual take on it was not only too much work, but didn&#x27;t align with data viz across the evolving Google ecosystem. Words were powerful and also misleading depending on how we articulated the wait of each place. </p>
+        <p class="paragraph-2 no-reveal slide">We learned that a new graph and visual take on it was not only too much work, but didn&#x27;t align with data viz across the evolving Google ecosystem. Words were powerful and also misleading depending on how we articulated the wait of each place. </p>
       </div>
     </div>
   </div>
@@ -452,6 +461,7 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/linkedin-polls&#x27;)" class="body_link no-reveal secondary large">Linkedin Polls</a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Linkedin</p>
+          <p class="paragraph-2 no-reveal slide indent">2020</p>
         </div>
         <div class="divider"></div>
       </div>
@@ -459,6 +469,7 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/linkedin-page-toggle&#x27;)" class="body_link no-reveal secondary large">Posting across Linkedin</a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Linkedin</p>
+          <p class="paragraph-2 no-reveal slide indent">2020</p>
         </div>
         <div class="divider"></div>
       </div>
@@ -466,12 +477,14 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/linkedin-page-toggle&#x27;)" class="body_link no-reveal secondary large">Sharing as a Page </a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Linkedin</p>
+          <p class="paragraph-2 no-reveal slide indent">2020</p>
         </div>
         <div class="divider"></div>
       </div>
       <div class="case-link">
         <div class="masked"><a href="javascript:delay(&#x27;/work/linkedin-visibility&#x27;)" class="body_link no-reveal secondary large">Sharing visibility</a></div>
         <div class="masked">
+          <p class="paragraph-2 no-reveal slide indent">2019</p>
           <p class="paragraph-2 no-reveal slide">Linkedin</p>
         </div>
         <div class="divider"></div>
@@ -480,6 +493,7 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/nav&#x27;)" class="body_link no-reveal secondary large">Modernizing Local Search</a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Google</p>
+          <p class="paragraph-2 no-reveal slide indent">2018</p>
         </div>
         <div class="divider"></div>
       </div>
@@ -487,6 +501,7 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/wait-times&#x27;)" class="body_link no-reveal secondary large">Est. Wait Times</a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Google</p>
+          <p class="paragraph-2 no-reveal slide indent">2018</p>
         </div>
         <div class="divider"></div>
       </div>
@@ -494,6 +509,7 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/live-times&#x27;)" class="body_link no-reveal secondary large">Live Popular Times</a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Google</p>
+          <p class="paragraph-2 no-reveal slide indent">2017</p>
         </div>
         <div class="divider"></div>
       </div>
@@ -501,6 +517,7 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/local-bookings&#x27;)" class="body_link no-reveal secondary large">Local Bookings</a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Google</p>
+          <p class="paragraph-2 no-reveal slide indent">2016</p>
         </div>
         <div class="divider"></div>
       </div>
@@ -508,6 +525,7 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/maps-suggest&#x27;)" class="body_link no-reveal secondary large">One-tap Local Search</a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Google</p>
+          <p class="paragraph-2 no-reveal slide indent">2015</p>
         </div>
         <div class="divider"></div>
       </div>
@@ -515,6 +533,7 @@ h1 span {
         <div class="masked"><a href="javascript:delay(&#x27;/work/gmb&#x27;)" class="body_link no-reveal secondary large">Google My Business</a></div>
         <div class="masked">
           <p class="paragraph-2 no-reveal slide">Google</p>
+          <p class="paragraph-2 no-reveal slide indent">2013</p>
         </div>
         <div class="divider"></div>
       </div>
