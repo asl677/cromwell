@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue May 26 2020 13:46:13 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue May 26 2020 21:11:49 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ec8332dc4dfff468b02477c" data-wf-site="5ec8332dc4dfff439f02477b">
 <head>
   <meta charset="utf-8">
@@ -17,8 +17,17 @@
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
   <style>  
-  html { opacity: 0; transition: opacity 0s ease-out; }
-  html.webflow-loaded { opacity: 1; }
+  html { 
+    opacity: 0; 
+    transition: 
+    opacity 0s ease-out; 
+  }
+  html.webflow-loaded { 
+    opacity: 1; 
+  }
+  body {
+    background: #353535 !important;
+  }
   .w-webflow-badge {
 	display: none !important;
 }
@@ -81,7 +90,7 @@
       </div>
     </div>
     <div class="w-layout-grid grid-1a-up">
-      <div id="w-node-a9bbfc9aa319-fc9aa318" class="mask image-mask"><img src="images/98176283_857512557992167_7418422634985029632_n.jpg" alt="" sizes="(max-width: 479px) 100vw, 40vw" srcset="images/98176283_857512557992167_7418422634985029632_n-p-500.jpeg 500w, images/98176283_857512557992167_7418422634985029632_n-p-800.jpeg 800w, images/98176283_857512557992167_7418422634985029632_n-p-1080.jpeg 1080w" class="img center"></div>
+      <div id="w-node-a9bbfc9aa319-fc9aa318" class="mask image-mask"><img src="images/98176283_857512557992167_7418422634985029632_n.jpg" alt="" sizes="(max-width: 767px) 100vw, 40vw" srcset="images/98176283_857512557992167_7418422634985029632_n-p-500.jpeg 500w, images/98176283_857512557992167_7418422634985029632_n-p-800.jpeg 800w, images/98176283_857512557992167_7418422634985029632_n-p-1080.jpeg 1080w" class="img center"></div>
     </div>
     <div class="w-layout-grid grid-2-up">
       <div class="mask">
@@ -137,9 +146,9 @@
     <div class="w-layout-grid grid-2-up right-aligned">
       <div class="mask">
         <ul role="list" class="list">
-          <li class="paragraph"><a href="#" class="body-link">Dribbble</a></li>
-          <li class="paragraph"><a href="#" class="body-link">Linkedin</a></li>
-          <li class="paragraph"><a href="#" class="body-link">Medium</a></li>
+          <li class="paragraph"><a href="https://dribbble.com/alex2pt0" target="_blank" class="body-link">Dribbble</a></li>
+          <li class="paragraph"><a href="https://www.linkedin.com/in/latenights/" target="_blank" class="body-link">Linkedin</a></li>
+          <li class="paragraph"><a href="https://medium.com/@alexslakas" target="_blank" class="body-link">Medium</a></li>
         </ul>
       </div>
     </div>
@@ -177,8 +186,8 @@ if(typeof window.chrome != "object") {
     window.onmousewheel = document.onmousewheel = wheel;
     function wheel(event) {
         var delta = 0;
-        if (event.wheelDelta) delta = event.wheelDelta / 40; //controls the scroll wheel range/speed
-        else if (event.detail) delta = -event.detail / 40;
+        if (event.wheelDelta) delta = event.wheelDelta / 25; //controls the scroll wheel range/speed
+        else if (event.detail) delta = -event.detail / 25;
         handle(delta);
         if (event.preventDefault) event.preventDefault();
         event.returnValue = false;
@@ -187,12 +196,12 @@ if(typeof window.chrome != "object") {
     var end = null;
     var interval = null;
     function handle(delta) {
-        var animationInterval = 30; //controls the scroll animation after scroll is done
-      var scrollSpeed = 30; //controls the scroll animation after scroll is done
+        var animationInterval = 25; //controls the scroll animation after scroll is done
+      var scrollSpeed = 25; //controls the scroll animation after scroll is done
     if (end == null) {
       end = $(window).scrollTop();
       }
-      end -= 20 * delta;
+      end -= 25 * delta;
       goUp = delta > 0;
       if (interval == null) {
         interval = setInterval(function () {

@@ -215,8 +215,8 @@
 }
 
 .grid-1a-up.full-width {
-  padding-right: 0vw;
-  padding-left: 0vw;
+  overflow: visible;
+  padding: 0vw;
   justify-items: stretch;
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
@@ -229,7 +229,7 @@
 .mask {
   position: relative;
   overflow: hidden;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
   text-align: left;
 }
 
@@ -341,6 +341,9 @@
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
+  }
+  .heading.title.hero-hdr {
+    font-weight: 300;
   }
   .paragraph {
     font-size: 12px;
