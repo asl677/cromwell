@@ -340,6 +340,7 @@
   .heading.title.link {
     font-size: 16px;
     line-height: 24px;
+    font-weight: 400;
   }
   .paragraph {
     font-size: 12px;
@@ -389,6 +390,7 @@
   .heading.title.link {
     font-size: 16px;
     line-height: 24px;
+    font-weight: 400;
   }
   .heading.title.hero-hdr {
     font-size: 26px;
