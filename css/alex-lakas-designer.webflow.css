@@ -145,6 +145,10 @@
   max-width: 100%;
 }
 
+.img.column.full {
+  width: 100%;
+}
+
 .heading {
   position: relative;
   margin-top: 0px;
