@@ -353,12 +353,16 @@
     line-height: 24px;
     font-weight: 400;
   }
+  .heading.title.link.footer {
+    font-size: 12px;
+    line-height: 20px;
+  }
   .heading.title.hero-hdr {
     font-weight: 300;
   }
   .paragraph {
     font-size: 12px;
-    line-height: 16px;
+    line-height: 20px;
   }
   .grid-1a-up {
     padding: 0vw;
@@ -375,12 +379,19 @@
     height: auto;
     max-width: 100%;
   }
+  .scroll-bar {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 479px) {
   .grid-2-up {
     display: block;
     padding: 3vw;
+  }
+  .grid-2-up.small-width {
+    padding-right: 5vw;
+    padding-left: 5vw;
   }
   .grid-1-up {
     padding: 4vw;
@@ -397,6 +408,10 @@
     -o-object-fit: cover;
     object-fit: cover;
   }
+  .img.column {
+    width: 40vw;
+    max-width: 100%;
+  }
   .heading.number {
     font-size: 12px;
     line-height: 16px;
@@ -406,13 +421,17 @@
     line-height: 24px;
     font-weight: 400;
   }
+  .heading.title.link.footer {
+    font-size: 12px;
+    line-height: 20px;
+  }
   .heading.title.hero-hdr {
     font-size: 26px;
     line-height: 32px;
   }
   .paragraph {
     font-size: 12px;
-    line-height: 16px;
+    line-height: 20px;
     font-weight: 400;
   }
   .grid-1a-up {
@@ -420,6 +439,9 @@
     padding: 0vw;
     -o-object-fit: cover;
     object-fit: cover;
+  }
+  .mask {
+    margin-top: 10px;
   }
   .mask.vertical {
     position: relative;
@@ -435,6 +457,9 @@
     max-width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
+  }
+  .list {
+    line-height: 20px;
   }
   .header-wrap {
     position: relative;
