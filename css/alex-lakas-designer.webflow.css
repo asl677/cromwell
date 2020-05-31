@@ -297,6 +297,10 @@
   text-decoration: none;
 }
 
+.list-item.hide {
+  display: none;
+}
+
 .scroll-bar {
   position: fixed;
   left: 0%;
@@ -349,8 +353,8 @@
     line-height: 16px;
   }
   .heading.title.link {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 26px;
     font-weight: 400;
   }
   .heading.title.link.footer {
@@ -378,6 +382,9 @@
     width: 100%;
     height: auto;
     max-width: 100%;
+  }
+  .list-item.hide {
+    display: none;
   }
   .scroll-bar {
     display: none;
@@ -417,8 +424,8 @@
     line-height: 16px;
   }
   .heading.title.link {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 26px;
     font-weight: 400;
   }
   .heading.title.link.footer {
@@ -460,6 +467,9 @@
   }
   .list {
     line-height: 20px;
+  }
+  .list-item.hide {
+    display: none;
   }
   .header-wrap {
     position: relative;
