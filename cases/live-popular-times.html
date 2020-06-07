@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sun Jun 07 2020 22:25:09 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sun Jun 07 2020 23:25:42 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ec950fb4966c2419158111d" data-wf-site="5ec8332dc4dfff439f02477b">
 <head>
   <meta charset="utf-8">
@@ -38,25 +38,29 @@
   .heading.title.link {
     word-break: break-word;
   }
-   .heading.title.link::after {
+   .heading.title.link.footer::after {
 	content: "";
     position: absolute;
     bottom: 0;
-    height: 30%;
+    height: 60%;
     /* background: rgba(255,255,255,.2); */
-    background: #FF3D00;
+    background: #0047FF;
     width: 100%;
-    transform-origin: center center;
+    transform-origin: left center;
     transition: transform .5s cubic-bezier(.694,0,.335,1),-webkit-transform .5s cubic-bezier(.694,0,.335,1);
     transform: scaleX(0);
     left: 0;
+    z-index: -1;
 }
-  .heading.title.link:hover::after {    
+  .heading.title.link.footer:hover::after {    
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
-    -webkit-transform-origin: left center;
-    transform-origin: left center;
+    -webkit-transform-origin: right center;
+    transform-origin: right center;
   }
+  /* .heading.title.link.footer:hover {
+     padding-left: 10px;
+  } */
   body::-webkit-scrollbar {
       display: none; // Safari and Chrome
   }
@@ -142,7 +146,7 @@
         </div>
         <div class="mask">
           <ul role="list" class="list">
-            <li class="paragraph"><a href="javascript:delay(&#x27;/cases/linkedin-polls&#x27;)" class="heading title link footer">linkedin polls</a></li>
+            <li class="paragraph"><a href="javascript:delay(&#x27;/cases/linkedin-polls&#x27;)" class="heading title link footer body">linkedin polls</a></li>
             <li class="paragraph"><a href="javascript:delay(&#x27;/cases/local-search&#x27;)" class="heading title link footer">modernizing local search on google</a></li>
             <li class="paragraph"><a href="javascript:delay(&#x27;/cases/wait-times&#x27;)" class="heading title link footer">wait times on google</a></li>
             <li class="paragraph"><a href="javascript:delay(&#x27;/cases/live-popular-times&#x27;)" class="heading title link footer">live popular times</a></li>

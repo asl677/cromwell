@@ -192,10 +192,24 @@
 }
 
 .heading.title.link.footer {
+  padding-left: 0px;
   font-family: Inconsolata, monospace;
   font-size: 1vw;
   line-height: 2vw;
   font-weight: 400;
+}
+
+.heading.title.link.footer:hover {
+  padding-left: 0vw;
+}
+
+.heading.title.link.footer.body {
+  -webkit-transition: padding 700ms cubic-bezier(.725, .015, 0, 1.044);
+  transition: padding 700ms cubic-bezier(.725, .015, 0, 1.044);
+}
+
+.heading.title.link.footer.body:hover {
+  padding-left: 0.3vw;
 }
 
 .heading.title.hero-hdr {
@@ -401,6 +415,9 @@
   }
   .grid-1a-up {
     padding: 0vw;
+  }
+  .mask {
+    padding-bottom: 10px;
   }
   .mask.vertical {
     position: relative;
