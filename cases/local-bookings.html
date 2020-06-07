@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sun Jun 07 2020 21:56:54 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sun Jun 07 2020 22:22:15 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ec950d9518a6e5ef6d42abe" data-wf-site="5ec8332dc4dfff439f02477b">
 <head>
   <meta charset="utf-8">
@@ -62,11 +62,11 @@
   }
   ::-moz-selection { /* Code for Firefox */
     color: white;
-    background: #0015ff;
+    background: rgba(255,255,255,.1);
   }
   ::selection {
     color: white;
-    background: #0015ff;
+    background: rgba(255,255,255,.1);
   }
 </style>
 </head>
@@ -206,8 +206,8 @@ if(typeof window.chrome != "object") {
     window.onmousewheel = document.onmousewheel = wheel;
     function wheel(event) {
         var delta = 0;
-        if (event.wheelDelta) delta = event.wheelDelta / 15; //controls the scroll wheel range/speed
-        else if (event.detail) delta = -event.detail / 15;
+        if (event.wheelDelta) delta = event.wheelDelta / 25; //controls the scroll wheel range/speed
+        else if (event.detail) delta = -event.detail / 25;
         handle(delta);
         if (event.preventDefault) event.preventDefault();
         event.returnValue = false;

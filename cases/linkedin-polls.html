@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Sun Jun 07 2020 21:56:54 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sun Jun 07 2020 22:22:15 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ec9239d518a6e1f7dd32563" data-wf-site="5ec8332dc4dfff439f02477b">
 <head>
   <meta charset="utf-8">
@@ -62,11 +62,11 @@
   }
   ::-moz-selection { /* Code for Firefox */
     color: white;
-    background: #0015ff;
+    background: rgba(255,255,255,.1);
   }
   ::selection {
     color: white;
-    background: #0015ff;
+    background: rgba(255,255,255,.1);
   }
 </style>
 </head>
@@ -126,8 +126,9 @@
     <div class="w-layout-grid grid-1a-up full-width">
       <div class="mask"><img src="../images/thought-catalog-Jnxtlv_Fo14-unsplash.jpg" alt="" sizes="100vw" srcset="../images/thought-catalog-Jnxtlv_Fo14-unsplash-p-1080.jpeg 1080w, ../images/thought-catalog-Jnxtlv_Fo14-unsplash-p-1600.jpeg 1600w, ../images/thought-catalog-Jnxtlv_Fo14-unsplash-p-2000.jpeg 2000w, ../images/thought-catalog-Jnxtlv_Fo14-unsplash-p-2600.jpeg 2600w, ../images/thought-catalog-Jnxtlv_Fo14-unsplash-p-3200.jpeg 3200w" class="img column full"></div>
     </div>
-    <div class="w-layout-grid grid-2-up single-col">
-      <div id="w-node-81c26903009b-6903009a" class="mask"><img src="../images/cases---B3.png" alt="" sizes="(max-width: 479px) 40vw, 26vw" srcset="../images/cases---B3-p-500.png 500w, ../images/cases---B3-p-800.png 800w, ../images/cases---B3-p-1080.png 1080w" class="img column"></div>
+    <div class="w-layout-grid grid-2-up small-width">
+      <div class="mask"><img src="../images/polls-form.png" alt="" class="img column"></div>
+      <div id="w-node-1dab0f30120b-0f301208" class="mask"><img src="../images/cases---B3.png" alt="" sizes="(max-width: 479px) 40vw, 26vw" srcset="../images/cases---B3-p-500.png 500w, ../images/cases---B3-p-800.png 800w, ../images/cases---B3-p-1080.png 1080w" class="img column"></div>
     </div>
     <div class="w-layout-grid grid-2-up right-aligned">
       <div class="mask">
@@ -206,8 +207,8 @@ if(typeof window.chrome != "object") {
     window.onmousewheel = document.onmousewheel = wheel;
     function wheel(event) {
         var delta = 0;
-        if (event.wheelDelta) delta = event.wheelDelta / 15; //controls the scroll wheel range/speed
-        else if (event.detail) delta = -event.detail / 15;
+        if (event.wheelDelta) delta = event.wheelDelta / 25; //controls the scroll wheel range/speed
+        else if (event.detail) delta = -event.detail / 25;
         handle(delta);
         if (event.preventDefault) event.preventDefault();
         event.returnValue = false;
