@@ -478,6 +478,7 @@
     display: none;
   }
   .loader {
+    display: none;
     margin-bottom: 2vw;
     padding-left: 3vw;
     font-size: 20px;
@@ -573,6 +574,7 @@
     position: relative;
   }
   .loader {
+    display: none;
     width: auto;
     margin-bottom: 20px;
     padding-left: 10px;
