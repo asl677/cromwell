@@ -372,9 +372,10 @@
   height: auto;
   margin-bottom: 3vw;
   padding-left: 1vw;
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
+  -webkit-filter: none;
+  filter: none;
   font-family: Montserrat, sans-serif;
+  color: #000;
   font-size: 4vw;
   line-height: 4vw;
   text-transform: lowercase;
