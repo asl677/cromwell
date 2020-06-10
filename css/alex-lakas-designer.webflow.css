@@ -236,11 +236,11 @@
 .heading.title.hero-hdr.intro {
   font-family: Montserrat, sans-serif;
   color: #000;
-  font-size: 5vw;
-  line-height: 5vw;
+  font-size: 8vw;
+  line-height: 8vw;
   font-weight: 400;
   text-align: left;
-  letter-spacing: 0vw;
+  letter-spacing: -0.5vw;
   text-transform: lowercase;
 }
 
@@ -251,6 +251,14 @@
   right: auto;
   bottom: 0%;
   margin-bottom: 1vw;
+}
+
+.heading.title.hero-hdr.body-hdr {
+  font-size: 8vw;
+  line-height: 8vw;
+  font-weight: 400;
+  letter-spacing: -0.5vw;
+  text-transform: lowercase;
 }
 
 .div-block {
@@ -399,6 +407,7 @@
   color: #000;
   font-size: 5vw;
   line-height: 5vw;
+  letter-spacing: -0.5vw;
   text-transform: lowercase;
   -o-object-fit: fill;
   object-fit: fill;
