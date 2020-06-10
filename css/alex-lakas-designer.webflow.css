@@ -178,7 +178,7 @@
 }
 
 .heading.number {
-  color: hsla(14, 0%, 100%, 0.3);
+  color: #000;
   font-size: 1vw;
   line-height: 2vw;
   font-weight: 500;
@@ -498,8 +498,14 @@
     padding-bottom: 10px;
   }
   .mask.vertical {
-    position: relative;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    width: 100%;
     padding: 3vw;
+    background-color: #727272;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -508,6 +514,10 @@
     width: 100%;
     height: auto;
     max-width: 100%;
+  }
+  .body {
+    padding-top: 25vw;
+    background-color: #727272;
   }
   .list-item.hide {
     display: none;
@@ -594,8 +604,9 @@
     margin-top: 10px;
   }
   .mask.vertical {
-    position: relative;
+    position: fixed;
     overflow: visible;
+    margin-top: 0px;
     padding: 3vw;
     -webkit-transform: none;
     -ms-transform: none;
@@ -607,6 +618,9 @@
     max-width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
+  }
+  .body {
+    padding-top: 25vw;
   }
   .list {
     line-height: 20px;
