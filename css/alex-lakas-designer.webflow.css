@@ -470,19 +470,25 @@
     font-weight: 400;
   }
   .heading.title.link.footer {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
   }
   .heading.title.hero-hdr {
     font-weight: 300;
   }
   .heading.title.hero-hdr.intro {
-    font-size: 33px;
-    line-height: 33px;
+    font-size: 40px;
+    line-height: 40px;
   }
   .paragraph {
     font-size: 12px;
     line-height: 20px;
+  }
+  .paragraph.intro {
+    font-size: 14px;
+  }
+  .paragraph.body {
+    font-size: 14px;
   }
   .grid-1a-up {
     padding: 0vw;
@@ -563,13 +569,19 @@
     line-height: 32px;
   }
   .heading.title.hero-hdr.intro {
-    font-size: 33px;
-    line-height: 33px;
+    font-size: 40px;
+    line-height: 40px;
   }
   .paragraph {
     font-size: 12px;
     line-height: 20px;
     font-weight: 400;
+  }
+  .paragraph.intro {
+    font-size: 14px;
+  }
+  .paragraph.body {
+    font-size: 14px;
   }
   .grid-1a-up {
     display: block;
