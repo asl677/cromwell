@@ -205,10 +205,11 @@
 
 .heading.title.link.footer {
   padding-left: 0px;
-  font-family: Inconsolata, monospace;
-  font-size: 1.2vw;
-  line-height: 2vw;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.8vw;
+  line-height: 3vw;
   font-weight: 400;
+  letter-spacing: -0.5px;
 }
 
 .heading.title.link.footer:hover {
@@ -323,9 +324,9 @@
   bottom: auto;
   z-index: 2;
   padding-bottom: 0px;
-  -webkit-transform: translate(1vw, 3vw) rotate(90deg);
-  -ms-transform: translate(1vw, 3vw) rotate(90deg);
-  transform: translate(1vw, 3vw) rotate(90deg);
+  -webkit-transform: translate(1.5vw, 5vw) rotate(90deg);
+  -ms-transform: translate(1.5vw, 5vw) rotate(90deg);
+  transform: translate(1.5vw, 5vw) rotate(90deg);
 }
 
 .mask.image-mask {
@@ -470,8 +471,8 @@
     font-weight: 400;
   }
   .heading.title.link.footer {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 30px;
   }
   .heading.title.hero-hdr {
     font-weight: 300;
@@ -561,8 +562,8 @@
     font-weight: 400;
   }
   .heading.title.link.footer {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 30px;
   }
   .heading.title.hero-hdr {
     font-size: 26px;
