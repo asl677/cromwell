@@ -102,7 +102,7 @@
 .grid-1-up {
   position: relative;
   z-index: 1;
-  padding: 5vh 25vw 5vh 1vw;
+  padding: 5vh 1vw;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   -ms-grid-columns: 1fr;
@@ -331,10 +331,10 @@
   right: 0%;
   bottom: auto;
   z-index: 2;
-  padding-bottom: 0px;
-  -webkit-transform: translate(1.5vw, 5vw) rotate(90deg);
-  -ms-transform: translate(1.5vw, 5vw) rotate(90deg);
-  transform: translate(1.5vw, 5vw) rotate(90deg);
+  padding: 5px 10px 0px;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
 }
 
 .mask.image-mask {
@@ -394,13 +394,25 @@
 .loader {
   position: fixed;
   left: 0%;
-  top: auto;
-  right: auto;
+  top: 0%;
+  right: 0%;
   bottom: 0%;
-  z-index: 4;
+  z-index: -1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   height: auto;
   margin-bottom: 3vw;
   padding-left: 1vw;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-filter: none;
   filter: none;
   font-family: Montserrat, sans-serif;
@@ -411,6 +423,19 @@
   text-transform: lowercase;
   -o-object-fit: fill;
   object-fit: fill;
+}
+
+.loader.logo {
+  position: relative;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 6;
+  display: block;
+  margin-bottom: 0vw;
+  padding-right: 1vw;
+  text-decoration: none;
 }
 
 .image {
@@ -432,6 +457,15 @@
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+}
+
+.logo {
+  font-family: Montserrat, sans-serif;
+  color: #000;
+  font-size: 3vw;
+  line-height: 3vw;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {
