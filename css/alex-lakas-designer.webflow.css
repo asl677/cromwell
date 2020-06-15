@@ -24,7 +24,7 @@
   position: relative;
   display: -ms-grid;
   display: grid;
-  padding: 5vw 1vw;
+  padding: 1vw;
   grid-auto-columns: 1fr;
   grid-column-gap: 1vw;
   grid-row-gap: 0px;
@@ -132,7 +132,7 @@
 
 .grid-2-up.left-aligned {
   display: block;
-  padding: 0vw;
+  padding: 5vw 0vw;
 }
 
 .grid-1-up {
@@ -395,6 +395,9 @@
 
 .mask.image-mask {
   overflow: hidden;
+  -webkit-transform: translate(0vw, 0vw);
+  -ms-transform: translate(0vw, 0vw);
+  transform: translate(0vw, 0vw);
 }
 
 .body {
@@ -517,6 +520,7 @@
 .grid-6-up {
   position: relative;
   overflow: visible;
+  padding-bottom: 5vw;
   grid-column-gap: 0vw;
   grid-row-gap: 0vw;
   -ms-grid-columns: 1fr;
@@ -683,7 +687,7 @@
   }
   .heading.title.link.footer {
     font-size: 20px;
-    line-height: 30px;
+    line-height: 28px;
   }
   .heading.title.hero-hdr {
     font-size: 26px;
@@ -692,6 +696,9 @@
   .heading.title.hero-hdr.intro {
     font-size: 40px;
     line-height: 40px;
+  }
+  .heading.title.hero-hdr.body-hdr {
+    line-height: 9vw;
   }
   .paragraph {
     font-size: 12px;
