@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Jun 11 2020 22:06:14 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Jun 15 2020 16:26:56 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ec950fb4966c2419158111d" data-wf-site="5ec8332dc4dfff439f02477b">
 <head>
   <meta charset="utf-8">
@@ -28,21 +28,22 @@
   }
   html.webflow-loaded { 
     opacity: 1; 
-  } */
+  } 
   body {
     background: #727272 !important;
-  }
+  }*/
   .w-webflow-badge {
 	display: none !important;
 }
   .heading.title.link {
     word-break: break-word;
   }
-   .heading.title.link.footer::after {
+   .heading.title.link::after,
+   .heading.title.link.body::after {
 	content: "";
     position: absolute;
     bottom: 0;
-    height: 60%;
+    height: 100%;
     /* background: rgba(255,255,255,.2); */
     background: #0047FF;
     width: 100%;
@@ -52,7 +53,8 @@
     left: 0;
     z-index: -1;
 }
-  .heading.title.link.footer:hover::after {    
+  .heading.title.link:hover::after,
+  .heading.title.link.body::after {    
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
     -webkit-transform-origin: right center;
@@ -87,7 +89,7 @@
         <div class="mask">
           <h1 class="heading number">00</h1>
         </div>
-        <p class="paragraph intro">Find out if your favorite local watering hole is poppin&#x27; off or not, before you go.</p>
+        <p class="paragraph body">Find out if your favorite local watering hole is poppin&#x27; off or not, before you go.</p>
       </div>
     </div>
   </div>
@@ -99,14 +101,14 @@
       </div>
     </div>
     <div class="w-layout-grid grid-6-up">
-      <div id="w-node-a9bbfc9aa319-fc9aa318" class="mask image-mask"><img src="../images/yiranding-VxC0DMdCh4E-unsplash.jpg" alt="" sizes="(max-width: 767px) 100vw, 40vw" srcset="../images/yiranding-VxC0DMdCh4E-unsplash-p-500.jpeg 500w, ../images/yiranding-VxC0DMdCh4E-unsplash-p-800.jpeg 800w, ../images/yiranding-VxC0DMdCh4E-unsplash-p-1080.jpeg 1080w, ../images/yiranding-VxC0DMdCh4E-unsplash-p-1600.jpeg 1600w, ../images/yiranding-VxC0DMdCh4E-unsplash-p-2000.jpeg 2000w" class="img center intro"></div>
+      <div id="w-node-a9bbfc9aa319-fc9aa318" class="mask image-mask"><img src="../images/fd.jpg" alt="" sizes="(max-width: 767px) 100vw, 40vw" srcset="../images/fd-p-500.jpeg 500w, ../images/fd-p-800.jpeg 800w, ../images/fd-p-1080.jpeg 1080w, ../images/fd-p-1600.jpeg 1600w, ../images/fd-p-2000.jpeg 2000w" class="img center intro"></div>
     </div>
     <div class="w-layout-grid grid-2-up">
       <div class="mask">
         <div class="mask">
           <h1 class="heading number">02</h1>
         </div>
-        <p class="paragraph intro">my role was to work with a writer and motion designer to define a scalable user experience to fit within the existing local search framework, including navigation, categorical and chain searches. the goal was to provide a scalable experience for showcasing live crowd data across local listings on google search and maps. knowing how busy a place is in real time helps users better plan their days in the moment and beyond — and what to expect once they arrive.</p>
+        <p class="paragraph body">my role was to work with a writer and motion designer to define a scalable user experience to fit within the existing local search framework, including navigation, categorical and chain searches. the goal was to provide a scalable experience for showcasing live crowd data across local listings on google search and maps. knowing how busy a place is in real time helps users better plan their days in the moment and beyond — and what to expect once they arrive.</p>
       </div>
     </div>
     <div class="w-layout-grid grid-2-up small-width">
@@ -163,7 +165,7 @@
         <div class="mask">
           <h1 class="heading number">06</h1>
         </div>
-        <p class="paragraph intro">Get the social goods below &amp; lmk if you wanna chat about cool stuff, design &amp; anti-coronavirus things.</p>
+        <p class="paragraph body">Get the social goods below &amp; lmk if you wanna chat about cool stuff, design &amp; anti-coronavirus things.</p>
       </div>
     </div>
   </div>

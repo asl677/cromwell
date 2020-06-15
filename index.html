@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Jun 11 2020 22:06:14 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Jun 15 2020 16:26:56 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ec8332dc4dfff468b02477c" data-wf-site="5ec8332dc4dfff439f02477b">
 <head>
   <meta charset="utf-8">
@@ -10,7 +10,6 @@
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/alex-lakas-designer.webflow.css" rel="stylesheet" type="text/css">
-  <style>@media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="a959303d-5a73-7dd4-18e8-c7ad6470b3f8"] {-webkit-transform:translate3d(0, 10VW, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10VW, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10VW, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10VW, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}}@media (max-width:991px) and (min-width:768px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="a959303d-5a73-7dd4-18e8-c7ad6470b3f8"] {-webkit-transform:translate3d(0, 10VW, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10VW, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10VW, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10VW, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}}</style>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Inconsolata:400,700"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
@@ -27,21 +26,22 @@
   }
   html.webflow-loaded { 
     opacity: 1; 
-  } */
+  } 
   body {
     background: #727272 !important;
-  }
+  }*/
   .w-webflow-badge {
 	display: none !important;
 }
   .heading.title.link {
     word-break: break-word;
   }
-   .heading.title.link.footer::after {
+   .heading.title.link::after,
+   .heading.title.link.body::after {
 	content: "";
     position: absolute;
     bottom: 0;
-    height: 60%;
+    height: 100%;
     /* background: rgba(255,255,255,.2); */
     background: #0047FF;
     width: 100%;
@@ -51,7 +51,8 @@
     left: 0;
     z-index: -1;
 }
-  .heading.title.link.footer:hover::after {    
+  .heading.title.link:hover::after,
+  .heading.title.link.body::after {    
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
     -webkit-transform-origin: right center;
@@ -81,21 +82,13 @@
     </div>
   </div>
   <div>
-    <div class="w-layout-grid grid-2-up">
-      <div class="mask">
-        <div class="mask">
-          <h1 class="heading number">00</h1>
-        </div>
-        <p class="paragraph intro">Hi, I&#x27;m Alex, a passionate and versatile product designer focused on clean and scalable user experiences — working on everything from social gaming to features across Google Search and Maps. </p>
-      </div>
-    </div>
     <div class="w-layout-grid grid-1-up">
       <div class="mask">
         <h1 class="heading number">01</h1>
-        <h1 class="heading title hero-hdr intro">helping others solve problems through design</h1>
+        <h1 class="heading title hero-hdr intro">a product designer for everyone —</h1>
       </div>
     </div>
-    <div data-w-id="a959303d-5a73-7dd4-18e8-c7ad6470b3f8" class="w-layout-grid grid-6-up">
+    <div class="w-layout-grid grid-6-up">
       <div id="w-node-5995bab9f8c5-8b02477c" class="mask image-mask"><img src="images/iosthing.png" srcset="images/iosthing-p-500.png 500w, images/iosthing-p-800.png 800w, images/iosthing-p-1080.png 1080w, images/iosthing.png 1592w" sizes="100vw" alt="" class="img center intro medium"></div>
       <div id="w-node-726fed11a2d0-8b02477c" class="mask image-mask"><img src="images/cases---B3.png" srcset="images/cases---B3-p-500.png 500w, images/cases---B3-p-800.png 800w, images/cases---B3-p-1080.png 1080w, images/cases---B3.png 1506w" sizes="100vw" alt="" class="img center intro small"></div>
       <div id="w-node-264618b8e2b9-8b02477c" class="mask image-mask"><img srcset="images/98176283_857512557992167_7418422634985029632_n-p-500.jpeg 500w, images/98176283_857512557992167_7418422634985029632_n-p-800.jpeg 800w, images/98176283_857512557992167_7418422634985029632_n-p-1080.jpeg 1080w, images/98176283_857512557992167_7418422634985029632_n.jpg 1575w" sizes="(max-width: 767px) 100vw, 40vw" src="images/98176283_857512557992167_7418422634985029632_n.jpg" alt="" class="img center intro large"></div>
@@ -107,7 +100,7 @@
         <div class="mask">
           <h1 class="heading number">02</h1>
         </div>
-        <p class="paragraph intro">From an early age, I&#x27;ve set out to beautify the online world. I&#x27;ve been helping folks out, small and large ever since.</p>
+        <p class="paragraph body">From an early age, I&#x27;ve set out to beautify the online world. I&#x27;ve been helping folks out, small and large ever since.</p>
       </div>
     </div>
     <div class="w-layout-grid grid-2-up">
@@ -119,7 +112,7 @@
         <div class="mask">
           <h1 class="heading number">03</h1>
         </div>
-        <p class="heading title hero-hdr body-hdr">linkedin google ueno nintendo Canon The Air National Guard to name a few</p>
+        <p class="heading title hero-hdr body-hdr">linkedin google ueno nintendo Canon The Air National Guard &amp; GSV labs to name a few</p>
       </div>
     </div>
     <div class="w-layout-grid grid-2-up right-aligned">
@@ -136,10 +129,18 @@
         <p class="paragraph body">Moving into B2B, Google Maps and Linkedin Flagship, I continue to push for clean and scalable design across everything all forms of product design. From mentorship and advocacy, to micro-delightful interaction design, it&#x27;s all part of my style.</p>
       </div>
     </div>
-    <div class="w-layout-grid grid-2-up right-aligned">
+    <div class="w-layout-grid grid-2-up single-col">
       <div class="mask">
         <div class="mask">
           <h1 class="heading number">06</h1>
+        </div>
+        <p class="heading title hero-hdr body-hdr">with work featured on jimmy fallon, the AIGA &amp; tech crunch</p>
+      </div>
+    </div>
+    <div class="w-layout-grid grid-2-up right-aligned">
+      <div class="mask">
+        <div class="mask">
+          <h1 class="heading number">07</h1>
         </div>
         <p class="heading title hero-hdr body-hdr">work</p>
       </div>
@@ -166,9 +167,9 @@
     <div class="w-layout-grid grid-2-up">
       <div class="mask">
         <div class="mask">
-          <h1 class="heading number">07</h1>
+          <h1 class="heading number">08</h1>
         </div>
-        <p class="paragraph intro">Get the social goods below &amp; lmk if you wanna chat about cool stuff, design &amp; anti-coronavirus things.</p>
+        <p class="paragraph body">Get the social goods below &amp; lmk if you wanna chat about cool stuff, design &amp; anti-coronavirus things.</p>
       </div>
     </div>
   </div>

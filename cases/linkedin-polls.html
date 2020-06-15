@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Jun 11 2020 22:06:14 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Jun 15 2020 16:26:56 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ec9239d518a6e1f7dd32563" data-wf-site="5ec8332dc4dfff439f02477b">
 <head>
   <meta charset="utf-8">
@@ -28,21 +28,22 @@
   }
   html.webflow-loaded { 
     opacity: 1; 
-  } */
+  } 
   body {
     background: #727272 !important;
-  }
+  }*/
   .w-webflow-badge {
 	display: none !important;
 }
   .heading.title.link {
     word-break: break-word;
   }
-   .heading.title.link.footer::after {
+   .heading.title.link::after,
+   .heading.title.link.body::after {
 	content: "";
     position: absolute;
     bottom: 0;
-    height: 60%;
+    height: 100%;
     /* background: rgba(255,255,255,.2); */
     background: #0047FF;
     width: 100%;
@@ -52,7 +53,8 @@
     left: 0;
     z-index: -1;
 }
-  .heading.title.link.footer:hover::after {    
+  .heading.title.link:hover::after,
+  .heading.title.link.body::after {    
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
     -webkit-transform-origin: right center;
@@ -87,7 +89,7 @@
         <div class="mask">
           <h1 class="heading number">00</h1>
         </div>
-        <p class="paragraph intro">Some of the best conversations start from questions.</p>
+        <p class="paragraph body">Some of the best conversations start from questions.</p>
       </div>
     </div>
   </div>
@@ -99,19 +101,19 @@
       </div>
     </div>
     <div class="w-layout-grid grid-6-up">
-      <div id="w-node-a9bbfc9aa319-fc9aa318" class="mask image-mask"><img src="../images/tachina-lee--wjk_SSqCE4-unsplash.jpg" alt="" sizes="(max-width: 767px) 100vw, 72vw" srcset="../images/tachina-lee--wjk_SSqCE4-unsplash-p-1080.jpeg 1080w, ../images/tachina-lee--wjk_SSqCE4-unsplash-p-1600.jpeg 1600w, ../images/tachina-lee--wjk_SSqCE4-unsplash-p-2000.jpeg 2000w, ../images/tachina-lee--wjk_SSqCE4-unsplash-p-2600.jpeg 2600w, ../images/tachina-lee--wjk_SSqCE4-unsplash-p-3200.jpeg 3200w" class="img center intro"></div>
+      <div id="w-node-a9bbfc9aa319-fc9aa318" class="mask image-mask"><img src="../images/tachina-lee--wjk_SSqCE4-unsplash.jpg" alt="" sizes="(max-width: 767px) 100vw, 40vw" srcset="../images/tachina-lee--wjk_SSqCE4-unsplash-p-1080.jpeg 1080w, ../images/tachina-lee--wjk_SSqCE4-unsplash-p-1600.jpeg 1600w, ../images/tachina-lee--wjk_SSqCE4-unsplash-p-2000.jpeg 2000w, ../images/tachina-lee--wjk_SSqCE4-unsplash-p-2600.jpeg 2600w, ../images/tachina-lee--wjk_SSqCE4-unsplash-p-3200.jpeg 3200w" class="img center intro"></div>
     </div>
     <div class="w-layout-grid grid-2-up">
       <div class="mask">
         <div class="mask">
           <h1 class="heading number">02</h1>
         </div>
-        <p class="paragraph intro">members across linkedin struggle to gather useful data from their network. many hack the system in order to gather sentiment or opinions on questions they have, typically pertaining to their occupation or career. more often than not, these questions lead to meaningful and engaging conversations.</p>
+        <p class="paragraph body">members across linkedin struggle to gather useful data from their network. many hack the system in order to gather sentiment or opinions on questions they have, typically pertaining to their occupation or career. more often than not, these questions lead to meaningful and engaging conversations.</p>
       </div>
     </div>
     <div class="w-layout-grid grid-2-up small-width">
       <div class="mask"><img src="../images/cases---C2.png" alt="" class="img column"></div>
-      <div id="w-node-1dab0f30120b-0f301208" class="mask"><img src="../images/cases---A4.png" alt="" sizes="(max-width: 479px) 48vw, 31vw" srcset="../images/cases---A4-p-500.png 500w, ../images/cases---A4-p-800.png 800w, ../images/cases---A4-p-1080.png 1080w" class="img column"></div>
+      <div id="w-node-1dab0f30120b-0f301208" class="mask"><img src="../images/cases---A4.png" alt="" sizes="(max-width: 479px) 40vw, 26vw" srcset="../images/cases---A4-p-500.png 500w, ../images/cases---A4-p-800.png 800w, ../images/cases---A4-p-1080.png 1080w" class="img column"></div>
     </div>
     <div class="w-layout-grid grid-2-up right-aligned">
       <div class="mask">
@@ -132,7 +134,7 @@
     </div>
     <div class="w-layout-grid grid-2-up small-width">
       <div class="mask"><img src="../images/polls-form.png" alt="" class="img column"></div>
-      <div id="w-node-1dab0f30120b-0f301208" class="mask"><img src="../images/cases---B3.png" alt="" sizes="(max-width: 479px) 48vw, 31vw" srcset="../images/cases---B3-p-500.png 500w, ../images/cases---B3-p-800.png 800w, ../images/cases---B3-p-1080.png 1080w" class="img column"></div>
+      <div id="w-node-1dab0f30120b-0f301208" class="mask"><img src="../images/cases---B3.png" alt="" sizes="(max-width: 479px) 40vw, 26vw" srcset="../images/cases---B3-p-500.png 500w, ../images/cases---B3-p-800.png 800w, ../images/cases---B3-p-1080.png 1080w" class="img column"></div>
     </div>
     <div class="w-layout-grid grid-2-up right-aligned">
       <div class="mask">
@@ -164,7 +166,7 @@
         <div class="mask">
           <h1 class="heading number">06</h1>
         </div>
-        <p class="paragraph intro">Get the social goods below &amp; lmk if you wanna chat about cool stuff, design &amp; anti-coronavirus things.</p>
+        <p class="paragraph body">Get the social goods below &amp; lmk if you wanna chat about cool stuff, design &amp; anti-coronavirus things.</p>
       </div>
     </div>
   </div>
