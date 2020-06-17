@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Jun 15 2020 19:36:03 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Wed Jun 17 2020 22:35:14 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ec8332dc4dfff468b02477c" data-wf-site="5ec8332dc4dfff439f02477b">
 <head>
   <meta charset="utf-8">
@@ -27,9 +27,10 @@
   html.webflow-loaded { 
     opacity: 1; 
   } 
-  body {
+  */
+  body, html {
     background: #727272 !important;
-  }*/
+  }
   .w-webflow-badge {
 	display: none !important;
 }
@@ -74,7 +75,7 @@
   }
 </style>
 </head>
-<body class="body">
+<body style="opacity:0;display:none" class="body">
   <div class="scroll-bar"></div>
   <div>
     <div class="mask vertical">
@@ -197,7 +198,7 @@ setTimeout( function() {
 $('body').addClass("overflow");
  setTimeout(function() {
     $('body').removeClass("overflow");
- }, 450);
+ }, 900);
 //Scroller easing
 if(typeof window.chrome != "object") {
     // not Chrome
