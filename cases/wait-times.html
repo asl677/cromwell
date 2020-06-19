@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Jun 18 2020 17:19:04 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Fri Jun 19 2020 14:33:52 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ec950ed4966c22e7d581072" data-wf-site="5ec8332dc4dfff439f02477b">
 <head>
   <meta charset="utf-8">
@@ -21,15 +21,14 @@
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-35944917-1"></script>
   <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-35944917-1', {'anonymize_ip': false});</script>
   <style>  
-  /* html { 
+  body { 
     opacity: 0; 
     transition: 
     opacity 0s ease-out; 
   }
-  html.webflow-loaded { 
+  body.webflow-loaded { 
     opacity: 1; 
   } 
-  */
   body, html {
     background: #727272 !important;
   }
@@ -177,7 +176,7 @@
   <script>
 // FAUC fix
  var Webflow = Webflow || [];
- Webflow.push(function() { $('html').addClass('webflow-loaded') });
+ Webflow.push(function() { $('body').addClass('webflow-loaded') });
 // Mobile video playback
   var mobilevideo = document.getElementsByTagName("video");
   var i;
