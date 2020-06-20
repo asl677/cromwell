@@ -357,8 +357,10 @@
 }
 
 .paragraph.body {
+  font-family: Montserrat, sans-serif;
   color: #000;
   font-size: 1.4vw;
+  font-weight: 400;
 }
 
 .paragraph.animate {
@@ -760,6 +762,7 @@
   }
   .heading.title.hero-hdr.body-hdr {
     line-height: 9vw;
+    font-weight: 500;
   }
   .paragraph {
     font-size: 12px;
@@ -814,10 +817,12 @@
   .loader {
     display: none;
     width: auto;
+    margin-top: 0px;
     margin-bottom: 20px;
+    padding-top: 0px;
     padding-left: 10px;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 30px;
+    line-height: 30px;
   }
   .grid-6-up {
     -ms-grid-columns: 1fr;
