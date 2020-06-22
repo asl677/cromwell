@@ -348,6 +348,11 @@
   letter-spacing: -0.2vw;
 }
 
+.heading.title.link.intro {
+  line-height: 3vw;
+  font-weight: 400;
+}
+
 .heading.title.hero-hdr {
   color: #fff;
   font-size: 5vw;
@@ -669,7 +674,7 @@
 }
 
 .grid-3 {
-  padding: 5vw;
+  padding: 0vw 5vw 5vw;
 }
 
 .div-block-3 {
@@ -828,7 +833,7 @@
     padding-top: 15vw;
   }
   .grid-2-up.small-width {
-    padding: 5vw;
+    padding: 0vw 5vw 5vw;
   }
   .grid-2-up.center-width {
     padding-right: 0vw;
@@ -873,6 +878,9 @@
     width: 100%;
     padding: 10px;
   }
+  .heading.title.link.intro {
+    line-height: 3vw;
+  }
   .heading.title.hero-hdr {
     font-size: 26px;
     line-height: 32px;
@@ -905,6 +913,9 @@
     padding: 0vw;
     -o-object-fit: cover;
     object-fit: cover;
+  }
+  .grid-1a-up.full-width {
+    margin-bottom: 10vw;
   }
   .mask {
     margin-top: 0px;
@@ -955,6 +966,7 @@
     grid-template-columns: 1fr;
   }
   .grid-3-up {
+    display: none;
     padding-bottom: 0vw;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
