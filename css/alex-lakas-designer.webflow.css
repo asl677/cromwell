@@ -40,7 +40,6 @@
 }
 
 .grid-2-up.right-aligned {
-  z-index: 3;
   display: -ms-grid;
   display: grid;
   padding: 5vw;
@@ -331,6 +330,7 @@
 }
 
 .heading.title.link.footer.primary {
+  z-index: 4;
   display: block;
   width: 50%;
   margin-top: 0px;
@@ -466,7 +466,9 @@
   position: relative;
   overflow: hidden;
   padding-bottom: 0px;
+  padding-left: 0px;
   text-align: left;
+  list-style-type: none;
 }
 
 .mask.vertical {
@@ -554,7 +556,7 @@
   top: 0%;
   right: 0%;
   bottom: auto;
-  z-index: 1;
+  z-index: 6;
   height: 3px;
   background-color: #fff;
 }
