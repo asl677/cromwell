@@ -699,7 +699,7 @@
 
 @media screen and (max-width: 991px) {
   .grid-2-up {
-    padding: 5vw 10vw;
+    padding: 5vw 3vw;
     grid-column-gap: 1vw;
     grid-row-gap: 1vw;
   }
