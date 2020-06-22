@@ -394,6 +394,7 @@
   font-family: Montserrat, sans-serif;
   color: #000;
   font-size: 1.4vw;
+  line-height: 2.2vw;
   font-weight: 400;
   text-transform: lowercase;
 }
@@ -729,6 +730,7 @@
   .paragraph.body {
     padding-top: 0vw;
     font-size: 14px;
+    font-weight: 500;
   }
   .grid-1a-up {
     padding: 0vw;
@@ -848,6 +850,7 @@
     padding-top: 0vw;
     font-size: 16px;
     line-height: 24px;
+    font-weight: 500;
   }
   .grid-1a-up {
     display: block;
@@ -903,6 +906,7 @@
     grid-template-columns: 1fr;
   }
   .grid-3-up {
+    padding-bottom: 0vw;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
   }
