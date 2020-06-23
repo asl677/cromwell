@@ -13,7 +13,7 @@
 .grid {
   position: relative;
   overflow: visible;
-  padding: 3vw;
+  padding: 5vw;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
@@ -30,7 +30,7 @@
   z-index: 4;
   display: -ms-grid;
   display: grid;
-  padding: 3vw;
+  padding: 5vw;
   grid-auto-columns: 1fr;
   grid-column-gap: 5vw;
   grid-row-gap: 5vw;
@@ -43,7 +43,7 @@
 .grid-2-up.right-aligned {
   display: -ms-grid;
   display: grid;
-  padding: 3vw;
+  padding: 5vw;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -135,7 +135,7 @@
 }
 
 .grid-2-up.single-col.left-text {
-  padding: 3vw;
+  padding: 5vw;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -482,7 +482,7 @@
   right: auto;
   bottom: auto;
   z-index: 5;
-  margin: 2vw 1vw 1vw 0.5vw;
+  margin: 1vw;
   padding: 0px;
   -webkit-transform: none;
   -ms-transform: none;
@@ -704,6 +704,7 @@
 .mask-wrap {
   display: -ms-grid;
   display: grid;
+  margin-top: 5vw;
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -715,7 +716,7 @@
 
 @media screen and (max-width: 991px) {
   .grid-2-up {
-    padding: 5vw 3vw;
+    padding: 5vw;
     grid-column-gap: 1vw;
     grid-row-gap: 1vw;
   }
@@ -724,6 +725,10 @@
   }
   .mask {
     overflow: hidden;
+  }
+  .mask.vertical {
+    margin-top: 1vw;
+    margin-left: 1vw;
   }
   .client-list {
     margin-bottom: 0px;
@@ -774,6 +779,7 @@
   .heading.title.link.footer {
     font-size: 20px;
     line-height: 30px;
+    font-weight: 500;
   }
   .heading.title.link.footer.primary {
     width: 100%;
@@ -781,19 +787,20 @@
   .heading.title.link.intro {
     font-size: 20px;
     line-height: 20px;
+    font-weight: 500;
   }
   .heading.title.hero-hdr {
     font-weight: 300;
   }
   .heading.title.hero-hdr.intro {
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 50px;
+    line-height: 56px;
     font-weight: 500;
   }
   .heading.title.hero-hdr.body-hdr {
     margin-bottom: 0vw;
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 40px;
+    line-height: 46px;
     font-weight: 500;
     letter-spacing: -0.4vw;
   }
@@ -915,6 +922,7 @@
   .heading.title.link.footer {
     font-size: 20px;
     line-height: 28px;
+    font-weight: 500;
   }
   .heading.title.link.footer.primary {
     width: 100%;
@@ -923,6 +931,7 @@
   .heading.title.link.intro {
     font-size: 20px;
     line-height: 20px;
+    font-weight: 500;
   }
   .heading.title.hero-hdr {
     font-size: 26px;
@@ -930,11 +939,11 @@
   }
   .heading.title.hero-hdr.intro {
     font-size: 40px;
-    line-height: 40px;
+    line-height: 46px;
     font-weight: 500;
   }
   .heading.title.hero-hdr.body-hdr {
-    line-height: 10vw;
+    line-height: 40px;
     font-weight: 500;
   }
   .paragraph {
