@@ -744,7 +744,7 @@
 @media screen and (max-width: 767px) {
   .grid-2-up {
     display: block;
-    padding: 3vw;
+    padding: 5vw;
   }
   .grid-2-up.right-aligned {
     display: block;
@@ -755,7 +755,7 @@
     padding-left: 0vw;
   }
   .grid-1-up {
-    padding: 3vw;
+    padding: 5vw;
   }
   .img.right {
     width: 30vw;
@@ -786,7 +786,7 @@
   }
   .heading.title.link.intro {
     font-size: 20px;
-    line-height: 20px;
+    line-height: 30px;
     font-weight: 500;
   }
   .heading.title.hero-hdr {
@@ -813,8 +813,8 @@
   }
   .paragraph.body {
     padding-top: 0vw;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
     font-weight: 500;
   }
   .grid-1a-up {
@@ -832,7 +832,7 @@
     bottom: auto;
     width: 100%;
     margin: 0vw;
-    padding: 3vw;
+    padding: 5vw;
     background-color: #727272;
     -webkit-transform: none;
     -ms-transform: none;
@@ -843,8 +843,11 @@
     height: auto;
     max-width: 100%;
   }
+  .mask.top-mask {
+    margin-bottom: 5vw;
+  }
   .body {
-    padding-top: 25vw;
+    padding-top: 0vw;
     background-color: #727272;
   }
   .list-item.hide {
@@ -875,11 +878,11 @@
   }
   .grid-2-up {
     display: block;
-    padding: 3vw;
+    padding: 5vw;
   }
   .grid-2-up.right-aligned {
     display: block;
-    padding-top: 5vw;
+    padding: 5vw;
   }
   .grid-2-up.small-width {
     padding: 5vw;
@@ -889,7 +892,7 @@
     padding-left: 0vw;
   }
   .grid-1-up {
-    padding: 3vw;
+    padding: 5vw;
   }
   .img.right {
     width: 40vw;
@@ -979,7 +982,7 @@
     position: fixed;
     overflow: visible;
     margin-top: 0px;
-    padding: 3vw;
+    padding: 5vw;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -992,7 +995,7 @@
     object-fit: cover;
   }
   .mask.top-mask {
-    margin-bottom: 10px;
+    margin-bottom: 5vw;
   }
   .body {
     padding-top: 25vw;
