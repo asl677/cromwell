@@ -863,6 +863,9 @@
 }
 
 @media screen and (max-width: 479px) {
+  .grid {
+    display: block;
+  }
   .grid-2-up {
     display: block;
     padding: 3vw;
@@ -1045,6 +1048,7 @@
     position: relative;
   }
   .mask-wrap {
+    display: block;
     margin-top: 6vw;
   }
 }
