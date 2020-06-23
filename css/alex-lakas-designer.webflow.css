@@ -13,6 +13,7 @@
 .grid {
   position: relative;
   overflow: visible;
+  padding: 3vw;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
@@ -445,6 +446,8 @@
 
 .grid-1a-up.full-width {
   overflow: visible;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
   padding: 0vw;
   justify-items: stretch;
   -webkit-box-align: stretch;
@@ -465,6 +468,7 @@
 .mask {
   position: relative;
   overflow: hidden;
+  margin-bottom: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
   text-align: left;
@@ -697,6 +701,18 @@
   margin-left: 0.7vw;
 }
 
+.mask-wrap {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
 @media screen and (max-width: 991px) {
   .grid-2-up {
     padding: 5vw 3vw;
@@ -762,6 +778,10 @@
   .heading.title.link.footer.primary {
     width: 100%;
   }
+  .heading.title.link.intro {
+    font-size: 20px;
+    line-height: 20px;
+  }
   .heading.title.hero-hdr {
     font-weight: 300;
   }
@@ -769,6 +789,13 @@
     font-size: 40px;
     line-height: 40px;
     font-weight: 500;
+  }
+  .heading.title.hero-hdr.body-hdr {
+    margin-bottom: 0vw;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 500;
+    letter-spacing: -0.4vw;
   }
   .paragraph {
     font-size: 12px;
@@ -787,7 +814,8 @@
     padding: 0vw;
   }
   .mask {
-    padding-bottom: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
   .mask.vertical {
     position: fixed;
@@ -829,6 +857,9 @@
   .div-block-4 {
     margin: 2vw;
   }
+  .mask-wrap {
+    margin-top: 6vw;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -838,10 +869,10 @@
   }
   .grid-2-up.right-aligned {
     display: block;
-    padding-top: 15vw;
+    padding-top: 5vw;
   }
   .grid-2-up.small-width {
-    padding: 0vw 5vw 5vw;
+    padding: 5vw;
   }
   .grid-2-up.center-width {
     padding-right: 0vw;
@@ -887,7 +918,8 @@
     padding: 10px;
   }
   .heading.title.link.intro {
-    line-height: 3vw;
+    font-size: 20px;
+    line-height: 20px;
   }
   .heading.title.hero-hdr {
     font-size: 26px;
@@ -926,8 +958,9 @@
     margin-bottom: 10vw;
   }
   .mask {
+    display: block;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     padding-bottom: 0px;
   }
   .mask.vertical {
@@ -945,6 +978,9 @@
     max-width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
+  }
+  .mask.top-mask {
+    margin-bottom: 10px;
   }
   .body {
     padding-top: 25vw;
@@ -1007,6 +1043,9 @@
   }
   .grid-5 {
     position: relative;
+  }
+  .mask-wrap {
+    margin-top: 6vw;
   }
 }
 
