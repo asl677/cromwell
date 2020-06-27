@@ -754,6 +754,10 @@
     display: block;
     padding: 3vw;
   }
+  .grid-2-up.small-width {
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
   .grid-2-up.center-width {
     padding-right: 0vw;
     padding-left: 0vw;
@@ -770,6 +774,12 @@
   .img.center {
     width: 100%;
     max-width: 100%;
+  }
+  .img.column {
+    width: 40vw;
+  }
+  .img.column.hide {
+    display: none;
   }
   .heading.number {
     font-size: 12px;
@@ -789,6 +799,8 @@
     width: 100%;
   }
   .heading.title.link.intro {
+    display: block;
+    margin-bottom: 0vw;
     font-size: 20px;
     line-height: 30px;
     font-weight: 500;
@@ -838,7 +850,6 @@
     width: 100%;
     margin: 0vw;
     padding: 5vw;
-    background-color: #727272;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -870,6 +881,17 @@
     line-height: 46px;
     font-weight: 500;
   }
+  .grid-3-up {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
   .div-block-4 {
     margin: 2vw;
   }
@@ -899,6 +921,9 @@
   }
   .grid-1-up {
     padding: 5vw 5vw 0vw;
+  }
+  .grid-1-up.hero-text {
+    padding-bottom: 10vw;
   }
   .img.right {
     width: 40vw;
@@ -938,6 +963,8 @@
     padding: 10px;
   }
   .heading.title.link.intro {
+    display: block;
+    width: 100%;
     font-size: 20px;
     line-height: 20px;
     font-weight: 500;
@@ -947,13 +974,13 @@
     line-height: 32px;
   }
   .heading.title.hero-hdr.intro {
-    margin-top: 10vw;
-    font-size: 40px;
-    line-height: 46px;
+    margin-top: 15vw;
+    font-size: 50px;
+    line-height: 50px;
     font-weight: 500;
   }
   .heading.title.hero-hdr.body-hdr {
-    line-height: 40px;
+    line-height: 42px;
     font-weight: 500;
   }
   .paragraph {
@@ -977,7 +1004,7 @@
     object-fit: cover;
   }
   .grid-1a-up.full-width {
-    margin-bottom: 10vw;
+    margin-bottom: 3vw;
   }
   .mask {
     display: block;
@@ -990,6 +1017,7 @@
     overflow: visible;
     margin-top: 0px;
     padding: 5vw;
+    background-color: transparent;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -1032,10 +1060,16 @@
     grid-template-columns: 1fr;
   }
   .grid-3-up {
-    display: none;
-    padding-bottom: 0vw;
+    display: -ms-grid;
+    display: grid;
+    padding-bottom: 5vw;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
   .primary-cta {
     width: 100%;
