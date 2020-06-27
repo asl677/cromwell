@@ -488,6 +488,7 @@
   z-index: 5;
   margin: 1vw;
   padding: 0px;
+  background-color: hsla(0, 0%, 44.7%, 0);
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
@@ -765,6 +766,9 @@
   .grid-1-up {
     padding: 5vw 5vw 0vw;
   }
+  .grid-1-up.hero-text {
+    padding-bottom: 10vw;
+  }
   .img.right {
     width: 30vw;
   }
@@ -802,7 +806,7 @@
     display: block;
     margin-bottom: 0vw;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 20px;
     font-weight: 500;
   }
   .heading.title.hero-hdr {
@@ -849,7 +853,8 @@
     bottom: auto;
     width: 100%;
     margin: 0vw;
-    padding: 5vw;
+    padding: 3vw 5vw;
+    background-color: #727272;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -1016,8 +1021,8 @@
     position: fixed;
     overflow: visible;
     margin-top: 0px;
-    padding: 5vw;
-    background-color: transparent;
+    padding: 3vw 5vw 5vw;
+    background-color: #727272;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
