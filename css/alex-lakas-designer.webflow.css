@@ -879,7 +879,7 @@
 .loader-thumb {
   position: absolute;
   display: block;
-  width: 8vw;
+  width: 10vw;
 }
 
 .loader-thumb.one {
