@@ -886,6 +886,26 @@
   position: relative;
 }
 
+.inner-loader-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 991px) {
   .grid-2-up {
     padding: 5vw;
@@ -1018,9 +1038,9 @@
     top: 0%;
     right: auto;
     bottom: auto;
-    width: 100%;
+    width: auto;
     margin: 0vw;
-    padding: 3vw 5vw;
+    padding: 5vw;
     background-color: #727272;
     -webkit-transform: none;
     -ms-transform: none;
@@ -1201,8 +1221,9 @@
   .mask.vertical {
     position: fixed;
     overflow: visible;
+    width: auto;
     margin-top: 0px;
-    padding: 3vw 5vw 5vw;
+    padding: 5vw;
     background-color: #727272;
     -webkit-transform: none;
     -ms-transform: none;
