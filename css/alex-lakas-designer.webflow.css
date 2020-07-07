@@ -1032,8 +1032,8 @@
     font-weight: 400;
   }
   .heading.title.link.footer {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 24px;
     font-weight: 500;
   }
   .heading.title.link.footer.primary {
@@ -1042,8 +1042,8 @@
   .heading.title.link.intro {
     display: inline;
     margin-bottom: 0vw;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 24px;
     font-weight: 500;
   }
   .heading.title.hero-hdr {
@@ -1051,26 +1051,30 @@
   }
   .heading.title.hero-hdr.intro {
     margin-top: 10vw;
-    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-family: Suranna, sans-serif;
+    color: #fff;
     font-size: 50px;
-    line-height: 46px;
+    line-height: 40px;
     font-weight: 400;
     text-align: justify;
-    letter-spacing: -0.3vw;
+    letter-spacing: 0vw;
     text-transform: lowercase;
   }
   .heading.title.hero-hdr.body-hdr {
     margin-bottom: 0vw;
-    font-size: 40px;
-    line-height: 46px;
-    font-weight: 600;
-    letter-spacing: -0.4vw;
+    font-family: Suranna, sans-serif;
+    font-size: 50px;
+    line-height: 40px;
+    font-weight: 400;
+    letter-spacing: 0vw;
   }
   .heading.title.hero-hdr.body-hdr.client-list {
-    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-family: Suranna, sans-serif;
+    font-size: 50px;
+    line-height: 40px;
     font-weight: 400;
     text-align: justify;
-    letter-spacing: -0.3vw;
+    letter-spacing: 0vw;
   }
   .paragraph {
     font-size: 12px;
@@ -1081,7 +1085,7 @@
   }
   .paragraph.body {
     padding-top: 0vw;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     font-weight: 500;
     text-align: justify;
@@ -1248,27 +1252,31 @@
   }
   .heading.title.hero-hdr.intro {
     margin-top: 10vw;
+    margin-bottom: 5vw;
     font-family: Suranna, sans-serif;
-    color: #000;
-    font-size: 50px;
-    line-height: 40px;
+    color: #fff;
+    font-size: 60px;
+    line-height: 50px;
     font-weight: 400;
     text-align: center;
     letter-spacing: -0.1vw;
   }
   .heading.title.hero-hdr.body-hdr {
     font-family: Suranna, sans-serif;
+    color: #fff;
     font-size: 50px;
     line-height: 40px;
     font-weight: 400;
+    letter-spacing: 0vw;
   }
   .heading.title.hero-hdr.body-hdr.client-list {
     font-family: Suranna, sans-serif;
-    color: #000;
+    color: #fff;
     font-size: 50px;
     line-height: 40px;
     font-weight: 400;
     text-align: justify;
+    letter-spacing: 0vw;
   }
   .paragraph {
     font-size: 12px;
@@ -1302,7 +1310,7 @@
     overflow: hidden;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
   }
   .mask.vertical {
     position: fixed;
