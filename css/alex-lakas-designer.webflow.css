@@ -13,7 +13,7 @@
 .grid {
   position: relative;
   overflow: visible;
-  padding: 5vw 5vw 10vw;
+  padding: 5vw;
   -webkit-box-pack: stretch;
   -webkit-justify-content: stretch;
   -ms-flex-pack: stretch;
@@ -33,7 +33,7 @@
 
 .grid.hero {
   padding-top: 15vw;
-  padding-bottom: 0vw;
+  padding-bottom: 2vw;
 }
 
 .grid-2 {
@@ -223,7 +223,7 @@
 .grid-1-up {
   position: relative;
   z-index: 1;
-  padding: 5vw 5vw 0vw;
+  padding: 2vw 5vw;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   -ms-grid-columns: 1fr;
@@ -471,6 +471,7 @@
 }
 
 .paragraph.body {
+  padding-bottom: 0vw;
   background-color: hsla(0, 0%, 44.7%, 0);
   font-family: Montserrat, sans-serif;
   color: #000;
@@ -615,6 +616,7 @@
 
 .body {
   padding-top: 0vw;
+  padding-bottom: 5vw;
   background-color: #8d8a82;
   color: #6e6e6e;
 }
@@ -837,7 +839,7 @@
   position: relative;
   display: -ms-grid;
   display: grid;
-  margin-top: 5vw;
+  margin-top: 8vw;
   -webkit-box-pack: stretch;
   -webkit-justify-content: stretch;
   -ms-flex-pack: stretch;
