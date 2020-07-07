@@ -30,6 +30,7 @@
 }
 
 .grid.hero {
+  padding-top: 15vw;
   padding-bottom: 0vw;
 }
 
@@ -223,7 +224,10 @@
 }
 
 .grid-1-up.hero-text {
+  position: absolute;
   padding-top: 5vw;
+  padding-right: 10vw;
+  padding-left: 10vw;
 }
 
 .img {
@@ -387,13 +391,13 @@
 }
 
 .heading.title.hero-hdr.intro {
-  font-family: Montserrat, sans-serif;
+  font-family: Suranna, sans-serif;
   color: #000;
-  font-size: 8vw;
+  font-size: 9vw;
   line-height: 7vw;
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
-  letter-spacing: -0.5vw;
+  letter-spacing: -0.1vw;
   text-transform: lowercase;
 }
 
@@ -407,19 +411,25 @@
 }
 
 .heading.title.hero-hdr.body-hdr {
-  color: #fff;
-  font-size: 5vw;
-  line-height: 5.5vw;
+  font-family: Suranna, sans-serif;
+  color: #000;
+  font-size: 9vw;
+  line-height: 7vw;
   font-weight: 500;
-  letter-spacing: -0.3vw;
+  text-align: justify;
+  letter-spacing: -0.1vw;
   text-transform: lowercase;
 }
 
 .heading.title.hero-hdr.body-hdr.client-list {
   padding-bottom: 20px;
+  font-family: Suranna, sans-serif;
   color: #000;
-  font-size: 8vw;
+  font-size: 9vw;
   line-height: 7vw;
+  font-weight: 400;
+  text-align: justify;
+  letter-spacing: -0.1vw;
 }
 
 .div-block {
@@ -581,7 +591,8 @@
 
 .body {
   padding-top: 0vw;
-  background-color: #222;
+  background-color: #444;
+  color: #6e6e6e;
 }
 
 .strikethrough {
@@ -901,7 +912,7 @@
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
-  background-color: #222;
+  background-color: #444;
 }
 
 .loader-thumb {
@@ -934,6 +945,14 @@
   object-fit: cover;
 }
 
+.section-top {
+  margin-top: 10vw;
+}
+
+.grid-6 {
+  padding-top: 10vw;
+}
+
 @media screen and (max-width: 991px) {
   .grid-2-up {
     padding: 5vw;
@@ -962,6 +981,9 @@
 }
 
 @media screen and (max-width: 767px) {
+  .grid.hero {
+    padding-top: 5vw;
+  }
   .grid-2-up {
     display: block;
     padding: 5vw;
@@ -978,11 +1000,11 @@
     padding-left: 0vw;
   }
   .grid-1-up {
-    padding: 5vw 5vw 0vw;
+    padding: 10vw 5vw 0vw;
   }
   .grid-1-up.hero-text {
-    padding-top: 10vw;
-    padding-bottom: 10vw;
+    position: relative;
+    padding: 5vw;
   }
   .img.right {
     width: 30vw;
@@ -1029,16 +1051,26 @@
   }
   .heading.title.hero-hdr.intro {
     margin-top: 10vw;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     font-size: 50px;
     line-height: 46px;
-    font-weight: 600;
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: -0.3vw;
+    text-transform: lowercase;
   }
   .heading.title.hero-hdr.body-hdr {
     margin-bottom: 0vw;
     font-size: 40px;
     line-height: 46px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: -0.4vw;
+  }
+  .heading.title.hero-hdr.body-hdr.client-list {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-weight: 400;
+    text-align: justify;
+    letter-spacing: -0.3vw;
   }
   .paragraph {
     font-size: 12px;
@@ -1052,6 +1084,7 @@
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
+    text-align: justify;
   }
   .grid-1a-up {
     padding: 0vw;
@@ -1069,7 +1102,7 @@
     width: 100%;
     margin: 0vw;
     padding: 5vw;
-    background-color: #222;
+    background-color: #444;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -1084,7 +1117,7 @@
   }
   .body {
     padding-top: 0vw;
-    background-color: #222;
+    background-color: #444;
   }
   .list-item.hide {
     display: none;
@@ -1129,6 +1162,9 @@
     display: -ms-flexbox;
     display: flex;
   }
+  .animated-loader {
+    background-color: #444;
+  }
   .loader-thumb {
     width: 10vw;
   }
@@ -1137,6 +1173,9 @@
 @media screen and (max-width: 479px) {
   .grid {
     display: block;
+  }
+  .grid.hero {
+    padding-top: 5vw;
   }
   .grid-2-up {
     display: block;
@@ -1157,8 +1196,8 @@
     padding: 5vw 5vw 0vw;
   }
   .grid-1-up.hero-text {
-    padding-top: 10vw;
-    padding-bottom: 10vw;
+    position: relative;
+    padding: 10vw 5vw 5vw;
   }
   .img.right {
     width: 40vw;
@@ -1189,8 +1228,8 @@
     font-weight: 400;
   }
   .heading.title.link.footer {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 14px;
+    line-height: 24px;
     font-weight: 500;
   }
   .heading.title.link.footer.primary {
@@ -1199,7 +1238,7 @@
   }
   .heading.title.link.intro {
     display: inline;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 20px;
     font-weight: 500;
   }
@@ -1209,13 +1248,27 @@
   }
   .heading.title.hero-hdr.intro {
     margin-top: 10vw;
-    font-size: 40px;
-    line-height: 36px;
-    font-weight: 600;
+    font-family: Suranna, sans-serif;
+    color: #000;
+    font-size: 50px;
+    line-height: 40px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: -0.1vw;
   }
   .heading.title.hero-hdr.body-hdr {
-    line-height: 42px;
-    font-weight: 500;
+    font-family: Suranna, sans-serif;
+    font-size: 50px;
+    line-height: 40px;
+    font-weight: 400;
+  }
+  .heading.title.hero-hdr.body-hdr.client-list {
+    font-family: Suranna, sans-serif;
+    color: #000;
+    font-size: 50px;
+    line-height: 40px;
+    font-weight: 400;
+    text-align: justify;
   }
   .paragraph {
     font-size: 12px;
@@ -1227,9 +1280,13 @@
   }
   .paragraph.body {
     padding-top: 0vw;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     font-weight: 500;
+    text-align: justify;
+  }
+  .paragraph.p-grid {
+    line-height: 24px;
   }
   .grid-1a-up {
     display: block;
@@ -1242,9 +1299,10 @@
   }
   .mask {
     display: block;
+    overflow: hidden;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
   }
   .mask.vertical {
     position: fixed;
@@ -1252,7 +1310,7 @@
     width: 100%;
     margin-top: 0px;
     padding: 5vw;
-    background-color: #222;
+    background-color: #444;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -1269,7 +1327,7 @@
   }
   .body {
     padding-top: 0vw;
-    background-color: #222;
+    background-color: #444;
   }
   .list {
     line-height: 20px;
@@ -1349,6 +1407,7 @@
   }
   .animated-loader {
     display: none;
+    background-color: #444;
   }
   .loader-thumb {
     width: 18vw;
