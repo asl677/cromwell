@@ -94,9 +94,9 @@
   grid-template-rows: auto;
   border-top: 0.5px none #000;
   border-bottom: 0.5px none #000;
-  -webkit-transform: translate(7vw, -8vw) rotate(90deg);
-  -ms-transform: translate(7vw, -8vw) rotate(90deg);
-  transform: translate(7vw, -8vw) rotate(90deg);
+  -webkit-transform: translate(6vw, -8vw) rotate(90deg);
+  -ms-transform: translate(6vw, -8vw) rotate(90deg);
+  transform: translate(6vw, -8vw) rotate(90deg);
 }
 
 .grid-2-up.small-width {
@@ -1042,6 +1042,7 @@
 
 .heart {
   font-size: 6vw;
+  line-height: 5vw;
   font-weight: 400;
 }
 
@@ -1065,6 +1066,9 @@
   }
   .grid-2-up.right-aligned {
     padding-bottom: 0vw;
+    -webkit-transform: translate(6vw, -8vw) rotate(90deg);
+    -ms-transform: translate(6vw, -8vw) rotate(90deg);
+    transform: translate(6vw, -8vw) rotate(90deg);
   }
   .heading.title.link.footer {
     line-height: 2vw;
@@ -1123,7 +1127,7 @@
     padding: 5vw;
   }
   .grid-1-up {
-    padding: 10vw 5vw 0vw;
+    padding: 5vw 5vw 0vw;
   }
   .grid-1-up.hero-text {
     position: relative;
@@ -1180,8 +1184,8 @@
     margin-top: 10vw;
     font-family: Suranna, sans-serif;
     color: #000;
-    font-size: 60px;
-    line-height: 50px;
+    font-size: 70px;
+    line-height: 60px;
     font-weight: 400;
     text-align: justify;
     letter-spacing: 0vw;
@@ -1189,10 +1193,11 @@
   }
   .heading.title.hero-hdr.body-hdr {
     margin-bottom: 0vw;
+    padding-bottom: 10px;
     font-family: Suranna, sans-serif;
     color: #000;
-    font-size: 60px;
-    line-height: 50px;
+    font-size: 44px;
+    line-height: 40px;
     font-weight: 400;
     text-align: justify;
     letter-spacing: 0vw;
@@ -1200,8 +1205,8 @@
   .heading.title.hero-hdr.body-hdr.client-list {
     font-family: Suranna, sans-serif;
     color: #000;
-    font-size: 60px;
-    line-height: 50px;
+    font-size: 44px;
+    line-height: 40px;
     font-weight: 400;
     text-align: left;
     letter-spacing: 0vw;
@@ -1222,7 +1227,7 @@
     text-indent: 0vw;
   }
   .paragraph.p-grid {
-    display: inline;
+    display: inline-block;
   }
   .grid-1a-up {
     padding: 0vw;
@@ -1309,7 +1314,7 @@
   }
   .thumbnail {
     overflow: visible;
-    width: 16px;
+    width: 20px;
     margin: 5px 10px 10px;
     float: none;
     clear: none;
@@ -1319,6 +1324,17 @@
   }
   .loader-thumb {
     width: 10vw;
+  }
+  .heart {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .vertical-center {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
 }
 
@@ -1440,8 +1456,8 @@
     margin-bottom: 5vw;
     font-family: Suranna, sans-serif;
     color: #000;
-    font-size: 60px;
-    line-height: 50px;
+    font-size: 70px;
+    line-height: 60px;
     font-weight: 400;
     text-align: justify;
     letter-spacing: -0.1vw;
@@ -1449,8 +1465,8 @@
   .heading.title.hero-hdr.body-hdr {
     font-family: Suranna, sans-serif;
     color: #000;
-    font-size: 60px;
-    line-height: 50px;
+    font-size: 44px;
+    line-height: 40px;
     font-weight: 400;
     text-align: left;
     letter-spacing: 0vw;
@@ -1458,8 +1474,8 @@
   .heading.title.hero-hdr.body-hdr.client-list {
     font-family: Suranna, sans-serif;
     color: #000;
-    font-size: 60px;
-    line-height: 50px;
+    font-size: 44px;
+    line-height: 40px;
     font-weight: 400;
     text-align: left;
     letter-spacing: 0vw;
@@ -1650,8 +1666,8 @@
     right: 0%;
     bottom: 0%;
     display: inline-block;
-    width: 16px;
-    margin: 5px 10px;
+    width: 20px;
+    margin: 0px 10px;
     float: none;
     clear: none;
     text-decoration: none;
@@ -1666,7 +1682,8 @@
   .heart {
     position: relative;
     display: inline-block;
-    font-size: 40px;
+    font-size: 30px;
+    line-height: 30px;
     text-align: left;
   }
   .vertical-center {
@@ -1674,6 +1691,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 5px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
