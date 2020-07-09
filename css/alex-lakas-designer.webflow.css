@@ -1350,7 +1350,7 @@
     width: 100%;
   }
   .heading.title.link.footer.client {
-    display: block;
+    display: inline-block;
     margin-right: 0vw;
     margin-left: 0vw;
     padding-top: 5px;
@@ -1698,7 +1698,7 @@
     padding: 10px;
   }
   .heading.title.link.footer.client {
-    display: block;
+    display: inline;
     padding-top: 0vw;
     padding-bottom: 0vw;
     float: none;
