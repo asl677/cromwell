@@ -1285,8 +1285,8 @@
     display: block;
     margin-right: 0vw;
     margin-left: 0vw;
-    padding-top: 0vw;
-    padding-bottom: 0vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 18px;
     line-height: 20px;
     font-weight: 400;
@@ -1467,6 +1467,7 @@
     display: flex;
   }
   .thumbnail {
+    display: none;
     overflow: visible;
     width: 20px;
     margin: 0px 0px 0px 10px;
@@ -1485,10 +1486,7 @@
     line-height: 30px;
   }
   .vertical-center {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -1894,7 +1892,7 @@
     top: auto;
     right: 0%;
     bottom: 0%;
-    display: inline-block;
+    display: none;
     width: 20px;
     margin: 5px 10px;
     float: none;
@@ -1917,12 +1915,11 @@
     text-align: left;
   }
   .vertical-center {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
