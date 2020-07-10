@@ -96,9 +96,9 @@
   grid-template-rows: auto;
   border-top: 0.5px none #000;
   border-bottom: 0.5px none #000;
-  -webkit-transform: translate(6vw, -9vw) rotate(90deg);
-  -ms-transform: translate(6vw, -9vw) rotate(90deg);
-  transform: translate(6vw, -9vw) rotate(90deg);
+  -webkit-transform: translate(7vw, -9vw) rotate(90deg);
+  -ms-transform: translate(7vw, -9vw) rotate(90deg);
+  transform: translate(7vw, -9vw) rotate(90deg);
 }
 
 .grid-2-up.small-width {
