@@ -439,7 +439,7 @@
   color: #000;
   font-size: 1.2vw;
   line-height: 2.2vw;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: -0.5px;
   cursor: none;
 }
@@ -453,7 +453,7 @@
 }
 
 .heading.title.hero-hdr.intro {
-  font-family: Suranna, sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #000;
   font-size: 9vw;
   line-height: 7vw;
@@ -473,11 +473,11 @@
 }
 
 .heading.title.hero-hdr.body-hdr {
-  font-family: Suranna, sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #000;
   font-size: 9vw;
-  line-height: 7vw;
-  font-weight: 500;
+  line-height: 8vw;
+  font-weight: 400;
   text-align: center;
   letter-spacing: -0.1vw;
   text-transform: lowercase;
@@ -486,10 +486,10 @@
 .heading.title.hero-hdr.body-hdr.client-list {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-family: Suranna, sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #000;
   font-size: 9vw;
-  line-height: 7vw;
+  line-height: 8vw;
   font-weight: 400;
   text-align: center;
   letter-spacing: -0.1vw;
@@ -501,10 +501,11 @@
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
-  font-family: Suranna, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 6vw;
   line-height: 5vw;
-  font-style: italic;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .div-block {
@@ -688,7 +689,7 @@
 .body {
   padding-top: 0vw;
   padding-bottom: 5vw;
-  background-color: #8d8a82;
+  background-color: #727272;
   color: #6e6e6e;
   cursor: none;
 }
@@ -1063,7 +1064,7 @@
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
-  background-color: #8d8a82;
+  background-color: #727272;
 }
 
 .loader-thumb {
@@ -1193,8 +1194,15 @@
   .heading.title.link.footer.client {
     z-index: 0;
   }
+  .heading.title.link.intro {
+    font-weight: 500;
+  }
   .body {
+    background-color: #727272;
     cursor: none;
+  }
+  .animated-loader {
+    background-color: #727272;
   }
   .cursor-wrapper {
     z-index: 0;
@@ -1335,6 +1343,9 @@
   .img.column {
     width: 40vw;
   }
+  .img.column.full {
+    margin-bottom: 20px;
+  }
   .img.column.hide {
     display: none;
   }
@@ -1363,7 +1374,7 @@
     padding-bottom: 5px;
     font-size: 18px;
     line-height: 20px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: -0.5px;
   }
   .heading.title.link.intro {
@@ -1378,10 +1389,9 @@
   }
   .heading.title.hero-hdr.intro {
     margin-top: 10vw;
-    font-family: Suranna, sans-serif;
     color: #000;
-    font-size: 70px;
-    line-height: 54px;
+    font-size: 60px;
+    line-height: 60px;
     font-weight: 400;
     text-align: left;
     letter-spacing: 0vw;
@@ -1390,26 +1400,25 @@
   .heading.title.hero-hdr.body-hdr {
     margin-bottom: 0vw;
     padding-bottom: 10px;
-    font-family: Suranna, sans-serif;
     color: #000;
     font-size: 50px;
-    line-height: 44px;
+    line-height: 54px;
     font-weight: 400;
     text-align: left;
     letter-spacing: 0vw;
   }
   .heading.title.hero-hdr.body-hdr.client-list {
-    font-family: Suranna, sans-serif;
     color: #000;
     font-size: 50px;
-    line-height: 44px;
+    line-height: 54px;
     font-weight: 400;
     text-align: left;
     letter-spacing: 0vw;
   }
   .heading.title.subtext {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 500;
   }
   .paragraph {
     font-size: 12px;
@@ -1461,7 +1470,7 @@
     width: 100%;
     margin: 0vw;
     padding: 5vw;
-    background-color: #8d8a82;
+    background-color: #727272;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -1477,7 +1486,7 @@
   .body {
     padding-top: 0vw;
     padding-bottom: 0vw;
-    background-color: #8d8a82;
+    background-color: #727272;
   }
   .list {
     display: -ms-grid;
@@ -1549,7 +1558,7 @@
     clear: none;
   }
   .animated-loader {
-    background-color: #8d8a82;
+    background-color: #727272;
   }
   .loader-thumb {
     width: auto;
@@ -1576,10 +1585,7 @@
     text-align: left;
   }
   .cursor-wrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
   }
 }
 
@@ -1614,7 +1620,7 @@
     position: relative;
     display: block;
     margin-bottom: 0vw;
-    padding: 5vw;
+    padding: 5vw 5vw 10vw;
     grid-auto-columns: 1fr;
     grid-column-gap: 0vw;
     grid-row-gap: 0px;
@@ -1679,6 +1685,9 @@
     width: 40vw;
     max-width: 100%;
   }
+  .img.column.full {
+    margin-bottom: 0px;
+  }
   .img.column.hide {
     display: none;
   }
@@ -1713,7 +1722,7 @@
     -ms-flex: 0 auto;
     flex: 0 auto;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     text-align: left;
     letter-spacing: -0.5px;
   }
@@ -1730,36 +1739,34 @@
   .heading.title.hero-hdr.intro {
     margin-top: 10vw;
     margin-bottom: 5vw;
-    font-family: Suranna, sans-serif;
     color: #000;
-    font-size: 70px;
-    line-height: 54px;
+    line-height: 50px;
     font-weight: 400;
     text-align: left;
     letter-spacing: -0.1vw;
   }
   .heading.title.hero-hdr.body-hdr {
-    font-family: Suranna, sans-serif;
+    font-family: Montserrat, sans-serif;
     color: #000;
     font-size: 50px;
-    line-height: 40px;
+    line-height: 50px;
     font-weight: 400;
     text-align: left;
     letter-spacing: 0vw;
   }
   .heading.title.hero-hdr.body-hdr.client-list {
-    font-family: Suranna, sans-serif;
     color: #000;
     font-size: 50px;
-    line-height: 40px;
+    line-height: 50px;
     font-weight: 400;
     text-align: left;
     letter-spacing: 0vw;
     text-transform: lowercase;
   }
   .heading.title.subtext {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
   }
   .paragraph {
     display: block;
@@ -1843,7 +1850,7 @@
     width: 100%;
     margin-top: 0px;
     padding: 5vw;
-    background-color: #8d8a82;
+    background-color: #727272;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
@@ -1861,7 +1868,6 @@
   .body {
     padding-top: 0vw;
     padding-bottom: 0vw;
-    background-color: #8d8a82;
     cursor: none;
   }
   .list {
@@ -1982,7 +1988,7 @@
   }
   .animated-loader {
     display: none;
-    background-color: #8d8a82;
+    background-color: #727272;
   }
   .loader-thumb {
     width: 18vw;
@@ -2012,10 +2018,7 @@
   }
   .cursor-wrapper {
     z-index: -1;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     grid-auto-columns: 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
