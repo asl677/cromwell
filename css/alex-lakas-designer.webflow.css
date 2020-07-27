@@ -17,6 +17,13 @@ body {
   line-height: 20px;
 }
 
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 38px;
+  line-height: 44px;
+}
+
 .grid {
   position: relative;
   overflow: visible;
@@ -344,7 +351,6 @@ body {
   color: #000;
   font-size: 8vw;
   line-height: 8vw;
-  font-weight: 400;
   text-transform: lowercase;
 }
 
@@ -532,8 +538,16 @@ body {
   background-color: hsla(0, 0%, 44.7%, 0);
 }
 
+.heading.body-text {
+  font-weight: 500;
+}
+
 .heading.body-text.large.small {
   text-decoration: none;
+}
+
+.heading.body-text.intro {
+  font-weight: 500;
 }
 
 .div-block {
@@ -1132,11 +1146,6 @@ body {
   padding-top: 10vw;
 }
 
-.heart {
-  font-size: 8vw;
-  font-weight: 500;
-}
-
 .vertical-center {
   position: relative;
   display: inline-block;
@@ -1211,11 +1220,26 @@ body {
   border-radius: 50%;
 }
 
+.mask-thumb.small {
+  overflow: hidden;
+  width: 2vw;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.mask-thumb.large {
+  overflow: hidden;
+}
+
 @media screen and (min-width: 1440px) {
   .grid-2-up.right-aligned {
     -webkit-transform: translate(6vw, -9vw) rotate(90deg);
     -ms-transform: translate(6vw, -9vw) rotate(90deg);
     transform: translate(6vw, -9vw) rotate(90deg);
+  }
+  .img.center.intro {
+    width: 36vw;
   }
   .heading.title.link.footer.client {
     z-index: 0;
@@ -1229,6 +1253,15 @@ body {
   .heading.body.large {
     background-color: rgba(37, 20, 20, 0);
   }
+  .heading.body-text {
+    font-weight: 500;
+  }
+  .heading.body-text.large {
+    font-weight: 500;
+  }
+  .heading.body-text.intro {
+    font-weight: 500;
+  }
   .body {
     background-color: #727272;
     cursor: none;
@@ -1240,7 +1273,7 @@ body {
     background-color: #727272;
   }
   .heart {
-    font-size: 8vw;
+    line-height: 7vw;
     font-weight: 500;
   }
   .cursor-wrapper {
@@ -1253,6 +1286,22 @@ body {
   }
   .cursor-circle {
     border-color: #fff;
+  }
+  .mask-thumb {
+    overflow: hidden;
+  }
+  .mask-thumb.small {
+    width: 2vw;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .thumb.small {
+    position: relative;
+    width: 2vw;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
   }
 }
 
@@ -1270,6 +1319,9 @@ body {
   }
   .heading.title.link.footer {
     line-height: 2vw;
+  }
+  .heading.body-text.large {
+    font-weight: 500;
   }
   .mask {
     overflow: hidden;
@@ -1634,6 +1686,9 @@ body {
     text-align: left;
   }
   .cursor-wrapper {
+    display: none;
+  }
+  .mask-thumb.small {
     display: none;
   }
 }
@@ -2103,6 +2158,9 @@ body {
   }
   .cursor-dot {
     border-radius: 100%;
+  }
+  .mask-thumb.small {
+    display: none;
   }
 }
 
