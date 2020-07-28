@@ -543,6 +543,7 @@ h1 {
 }
 
 .heading.body-text.large.small {
+  font-weight: 400;
   text-decoration: none;
 }
 
@@ -1259,6 +1260,9 @@ h1 {
   .heading.body-text.large {
     font-weight: 500;
   }
+  .heading.body-text.large.small {
+    font-weight: 400;
+  }
   .heading.body-text.intro {
     font-weight: 500;
   }
@@ -1517,6 +1521,9 @@ h1 {
   .heading.body-text.large.small {
     font-size: 16px;
     line-height: 24px;
+  }
+  .heading.body-text.large.small.link {
+    line-height: 40px;
   }
   .paragraph {
     font-size: 16px;
@@ -1895,6 +1902,9 @@ h1 {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
+  }
+  .heading.body-text.large.small.link {
+    line-height: 30px;
   }
   .paragraph {
     display: block;
