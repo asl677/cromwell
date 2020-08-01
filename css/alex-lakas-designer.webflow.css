@@ -1233,6 +1233,10 @@ h1 {
   overflow: hidden;
 }
 
+.mask-thumb.large.video {
+  width: 100%;
+}
+
 @media screen and (min-width: 1440px) {
   .grid-2-up.right-aligned {
     -webkit-transform: translate(6vw, -9vw) rotate(90deg);
@@ -1299,6 +1303,9 @@ h1 {
     margin-right: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
+  }
+  .mask-thumb.large.video {
+    width: 100%;
   }
   .thumb.small {
     position: relative;
@@ -2171,6 +2178,10 @@ h1 {
   }
   .mask-thumb.small {
     display: none;
+  }
+  .mask-thumb.large {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 
