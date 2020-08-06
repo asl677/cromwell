@@ -1060,6 +1060,9 @@ p {
     -ms-transform: translate(0vw, 7vw) rotate(-90deg);
     transform: translate(0vw, 7vw) rotate(-90deg);
   }
+  .mask-wrap {
+    margin-bottom: 5vw;
+  }
   .thumbnail {
     margin: 0vw 1vw 1vw;
   }
