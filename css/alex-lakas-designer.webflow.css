@@ -59,6 +59,7 @@ p {
   z-index: 4;
   display: -ms-grid;
   display: grid;
+  overflow: hidden;
   padding: 5vw;
   grid-auto-columns: 1fr;
   grid-column-gap: 5vw;
@@ -608,7 +609,7 @@ p {
 
 .body {
   padding-top: 0vw;
-  padding-bottom: 5vw;
+  padding-bottom: 0vw;
   cursor: none;
 }
 
