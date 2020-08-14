@@ -767,6 +767,7 @@ p {
   display: block;
   overflow: visible;
   margin-top: 5vw;
+  margin-bottom: 2vw;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -1069,7 +1070,7 @@ p {
     transform: translate(0vw, 7vw) rotate(-90deg);
   }
   .mask-wrap {
-    margin-bottom: 5vw;
+    margin-bottom: 0vw;
   }
   .thumbnail {
     margin: 0vw 1vw 1vw;
