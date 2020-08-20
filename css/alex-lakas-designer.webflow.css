@@ -413,6 +413,10 @@ p {
   cursor: none;
 }
 
+.heading.body-text.large.title {
+  color: #fff;
+}
+
 .heading.body-text.intro {
   font-size: 8vw;
   line-height: 7.7vw;
@@ -538,7 +542,7 @@ p {
 }
 
 .grid-1a-up.full-width {
-  overflow: visible;
+  overflow: hidden;
   margin-top: 3vw;
   margin-bottom: 3vw;
   padding: 0vw;
@@ -602,9 +606,6 @@ p {
 
 .mask.image-mask {
   overflow: visible;
-  -webkit-transform: translate(0vw, 0vw);
-  -ms-transform: translate(0vw, 0vw);
-  transform: translate(0vw, 0vw);
 }
 
 .body {
@@ -1070,7 +1071,7 @@ p {
     transform: translate(0vw, 7vw) rotate(-90deg);
   }
   .mask-wrap {
-    margin-bottom: 0vw;
+    margin-bottom: 5vw;
   }
   .thumbnail {
     margin: 0vw 1vw 1vw;
