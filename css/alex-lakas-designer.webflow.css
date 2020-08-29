@@ -610,7 +610,7 @@ p {
 
 .body {
   padding-top: 0vw;
-  padding-bottom: 0vw;
+  padding-bottom: 4vw;
   cursor: none;
 }
 
@@ -1133,6 +1133,9 @@ p {
   .mask.vertical {
     margin-top: 1vw;
     margin-left: 1vw;
+  }
+  .body {
+    padding-bottom: 10vw;
   }
   .client-list {
     margin-bottom: 0px;
