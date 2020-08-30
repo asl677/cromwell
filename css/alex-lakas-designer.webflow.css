@@ -1000,8 +1000,8 @@ p {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background-color: #fff;
   box-shadow: none;
@@ -1175,8 +1175,8 @@ p {
     display: flex;
   }
   .cursor-dot {
-    width: 6px;
-    height: 6px;
+    width: 10px;
+    height: 10px;
   }
 }
 
