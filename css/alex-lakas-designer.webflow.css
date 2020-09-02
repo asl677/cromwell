@@ -266,6 +266,12 @@ p {
   filter: none;
 }
 
+.img.center.half {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
 .img.column.full {
   overflow: visible;
   width: 100%;
@@ -553,6 +559,15 @@ p {
   align-items: stretch;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+}
+
+.grid-1a-up.double {
+  overflow: hidden;
+  padding: 5vw 0vw;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .mask {
