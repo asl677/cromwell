@@ -1979,16 +1979,19 @@ p {
   src: url('../fonts/Telegraf-UltraLight.otf') format('opentype');
   font-weight: 200;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Telegraf';
   src: url('../fonts/Telegraf-UltraBold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Telegraf';
   src: url('../fonts/Telegraf-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
+  font-display: auto;
 }
