@@ -623,6 +623,10 @@ p {
   overflow: visible;
 }
 
+.mask.top-mask {
+  text-align: left;
+}
+
 .body {
   padding-top: 0vw;
   padding-bottom: 4vw;
