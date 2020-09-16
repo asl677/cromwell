@@ -1312,6 +1312,10 @@ p {
     line-height: 40px;
     font-weight: 500;
   }
+  .heading.body-text.large.small.link.list-link {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
   .paragraph {
     font-size: 16px;
     line-height: 24px;
@@ -1654,6 +1658,9 @@ p {
     font-size: 16px;
     line-height: 30px;
     font-weight: 500;
+  }
+  .heading.body-text.large.small.link.list-link {
+    margin-top: 5vw;
   }
   .heading.body-text.intro {
     font-size: 40px;
