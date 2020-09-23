@@ -285,6 +285,10 @@ p {
   object-fit: cover;
 }
 
+.img.full {
+  width: 100%;
+}
+
 .heading {
   position: relative;
   margin-top: 0px;
@@ -1050,6 +1054,14 @@ p {
 
 .mask-thumb.large.video {
   width: 100%;
+}
+
+.full-width-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
 }
 
 @media screen and (min-width: 1440px) {
@@ -1970,6 +1982,15 @@ p {
 }
 
 #w-node-81c26903009b-6903009a {
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-c1817a2db0c8-7a2db0c7 {
   -ms-grid-column-align: center;
   justify-self: center;
   -webkit-align-self: center;
