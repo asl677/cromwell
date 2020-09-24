@@ -425,6 +425,8 @@ p {
 
 .heading.body-text.large.title {
   color: #fff;
+  font-size: 7vw;
+  line-height: 7vw;
 }
 
 .heading.body-text.intro {
@@ -553,8 +555,8 @@ p {
 
 .grid-1a-up.full-width {
   overflow: hidden;
-  margin-top: 3vw;
-  margin-bottom: 3vw;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
   padding: 0vw;
   justify-items: stretch;
   -webkit-box-align: stretch;
@@ -1217,7 +1219,7 @@ p {
     justify-items: start;
   }
   .grid.hero {
-    padding: 0vw;
+    padding: 0vw 5vw;
   }
   .grid-2-up {
     display: block;
@@ -1259,7 +1261,7 @@ p {
     max-width: 100%;
   }
   .img.column {
-    width: 40vw;
+    width: 42vw;
   }
   .img.column.full {
     margin-bottom: 20px;
@@ -1318,15 +1320,25 @@ p {
   .heading.body-text.large.small {
     margin-bottom: 0vw;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 30px;
+    font-weight: 400;
   }
   .heading.body-text.large.small.link {
-    line-height: 40px;
+    font-size: 26px;
+    line-height: 30px;
     font-weight: 500;
   }
   .heading.body-text.large.small.link.list-link {
     margin-top: 5vw;
     margin-bottom: 5vw;
+  }
+  .heading.body-text.large.title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .heading.body-text.intro {
+    font-size: 40px;
+    line-height: 50px;
   }
   .paragraph {
     font-size: 16px;
@@ -1342,6 +1354,7 @@ p {
   }
   .paragraph.p-grid {
     display: block;
+    line-height: 26px;
   }
   .paragraph.header {
     display: block;
@@ -1350,6 +1363,11 @@ p {
   }
   .grid-1a-up {
     padding: 0vw;
+  }
+  .grid-1a-up.full-width {
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    padding: 5vw;
   }
   .mask {
     display: inline;
@@ -1515,7 +1533,7 @@ p {
     grid-template-rows: auto;
   }
   .grid.hero {
-    padding: 0vw;
+    padding: 0vw 5vw;
   }
   .grid-2-up {
     display: -ms-grid;
@@ -1591,7 +1609,7 @@ p {
     object-fit: cover;
   }
   .img.column {
-    width: 40vw;
+    width: 42vw;
     max-width: 100%;
   }
   .img.column.full {
@@ -1663,16 +1681,21 @@ p {
   }
   .heading.body-text.large.small {
     font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
+    line-height: 30px;
+    font-weight: 400;
   }
   .heading.body-text.large.small.link {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
     font-weight: 500;
   }
   .heading.body-text.large.small.link.list-link {
     margin-top: 5vw;
+    font-weight: 500;
+  }
+  .heading.body-text.large.title {
+    font-size: 40px;
+    line-height: 40px;
   }
   .heading.body-text.intro {
     font-size: 40px;
@@ -1752,7 +1775,9 @@ p {
     object-fit: cover;
   }
   .grid-1a-up.full-width {
-    margin-bottom: 3vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    padding: 5vw;
   }
   .mask {
     display: inline;
@@ -1930,12 +1955,11 @@ p {
   }
   .mask-thumb.small {
     display: inline-block;
-    width: 20px;
+    width: 25px;
     margin-left: 3vw;
   }
   .mask-thumb.large {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 0px;
   }
 }
 
