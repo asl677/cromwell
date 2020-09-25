@@ -1058,6 +1058,10 @@ p {
   width: 100%;
 }
 
+.mask-thumb.large.left.full {
+  width: auto;
+}
+
 .full-width-image {
   display: block;
   width: 100%;
@@ -1988,6 +1992,11 @@ p {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
+}
+
+#w-node-1dab0f301209-0f301208 {
+  -ms-grid-column-align: center;
+  justify-self: center;
 }
 
 #w-node-1dab0f30120b-0f301208 {
