@@ -120,7 +120,7 @@ p {
   display: grid;
   overflow: hidden;
   width: 100%;
-  padding: 5vw 15vw;
+  padding: 7vw 10vw;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -143,10 +143,10 @@ p {
   align-content: center;
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
-  grid-column-gap: 6vw;
-  grid-row-gap: 6vw;
-  -ms-grid-columns: 1fr;
-  grid-template-columns: 1fr;
+  grid-column-gap: 0vw;
+  grid-row-gap: 0vw;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -413,6 +413,7 @@ p {
   font-size: 1.2vw;
   line-height: 2.2vw;
   text-align: left;
+  text-decoration: none;
 }
 
 .heading.body-text.large.small.link {
@@ -1075,6 +1076,28 @@ p {
   margin-bottom: 5vw;
 }
 
+.grid-7 {
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+}
+
+.text.right {
+  position: fixed;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 4;
+  display: block;
+  padding: 1vw;
+}
+
+.grid-8 {
+  padding-left: 1vw;
+}
+
 @media screen and (min-width: 1440px) {
   .grid-2-up.right-aligned {
     -webkit-transform: translate(6vw, -9vw) rotate(90deg);
@@ -1575,7 +1598,8 @@ p {
     transform: none;
   }
   .grid-2-up.small-width {
-    padding: 5vw;
+    padding: 0vw 5vw 5vw;
+    grid-column-gap: 4vw;
   }
   .grid-2-up.single-col {
     -webkit-box-orient: vertical;
@@ -1970,6 +1994,9 @@ p {
   .mask-thumb.large {
     margin: 0px;
   }
+  .text.right {
+    display: none;
+  }
 }
 
 #w-node-19d4baa52e68-baa52e67 {
@@ -1999,17 +2026,7 @@ p {
   align-self: center;
 }
 
-#w-node-1dab0f301209-0f301208 {
-  -ms-grid-column-align: center;
-  justify-self: center;
-}
-
 #w-node-1dab0f30120b-0f301208 {
-  -ms-grid-column-align: center;
-  justify-self: center;
-}
-
-#w-node-ade63a591dbd-3a591dba {
   -ms-grid-column-align: center;
   justify-self: center;
 }
@@ -2028,6 +2045,11 @@ p {
   align-self: center;
 }
 
+#w-node-ade63a591dbd-3a591dba {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
 #w-node-c1817a2db0c8-7a2db0c7 {
   -ms-grid-column-align: center;
   justify-self: center;
@@ -2035,6 +2057,13 @@ p {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
+}
+
+@media screen and (min-width: 1440px) {
+  #w-node-ade63a591dbb-3a591dba {
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
 }
 
 @media screen and (max-width: 991px) {
