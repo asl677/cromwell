@@ -1170,6 +1170,7 @@ p {
 
 .theme.dark:hover {
   padding: 0px;
+  background-color: #fff;
 }
 
 @media screen and (min-width: 1440px) {
