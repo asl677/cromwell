@@ -1081,6 +1081,7 @@ p {
   height: auto;
   margin-top: 5vw;
   margin-bottom: 5vw;
+  padding-left: 1vw;
 }
 
 .grid-7 {
@@ -1265,6 +1266,10 @@ p {
 
   .mask-thumb.large.video {
     width: 100%;
+  }
+
+  .full-width-image {
+    padding: 5vw;
   }
 }
 
@@ -2243,7 +2248,7 @@ p {
   align-self: center;
 }
 
-#w-node-1aa24b4b8cb5-fa9e86e5 {
+#cases.w-node-1aa24b4b8cb5-fa9e86e5 {
   -ms-grid-column-align: stretch;
   justify-self: stretch;
   -webkit-align-self: center;
@@ -2302,7 +2307,7 @@ p {
 }
 
 @media screen and (max-width: 991px) {
-  #w-node-1aa24b4b8cb5-fa9e86e5 {
+  #cases.w-node-1aa24b4b8cb5-fa9e86e5 {
     -ms-grid-column-align: stretch;
     justify-self: stretch;
   }
