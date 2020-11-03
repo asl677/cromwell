@@ -1748,7 +1748,10 @@ p {
   }
 
   .grid.hero {
-    padding: 0vw 5vw;
+    overflow: hidden;
+    width: 100%;
+    padding: 6vw;
+    border-radius: 15px;
   }
 
   .grid-2-up {
@@ -1836,6 +1839,13 @@ p {
   .img.center.full {
     overflow: hidden;
     border-radius: 8px;
+  }
+
+  .img.center.intro {
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 15px;
   }
 
   .img.column {
@@ -2066,6 +2076,11 @@ p {
     transform: translate(0vw, 0vw);
     -o-object-fit: cover;
     object-fit: cover;
+  }
+
+  .mask.image-mask.hero {
+    display: block;
+    padding: 0vw;
   }
 
   .mask.top-mask {
