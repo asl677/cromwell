@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Tue Nov 03 2020 17:14:33 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="5ec950ed4966c22e7d581072" data-wf-site="5ec8332dc4dfff439f02477b">
+<head>
+  <meta charset="utf-8">
+  <title>Wait Times</title>
+  <meta content="Wait Times" property="og:title">
+  <meta content="Wait Times" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="../css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="../css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="../css/alex-lakas-designer.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Inconsolata:400,700","DM Serif Text:regular,italic","Suranna:regular"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="../images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../images/webclip.png" rel="apple-touch-icon">
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-35944917-1"></script>
+  <script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-35944917-1', {'anonymize_ip': false});</script>
+  <style>  
+  body { 
+    opacity: 0; 
+    transition: opacity 0s ease-out; 
+    overflow-x: hidden;
+  }
+  body.webflow-loaded { 
+    opacity: 1; 
+  } 
+  .cursor-dot {
+  border-radius: 50px !important;
+  }
+/*  body, html {
+    background: #222 !important;
+  }
+*/
+  .w-webflow-badge {
+	display: none !important;
+}
+  .heading.title.hero-hdr.intro {
+    word-break: break-word;
+  }
+  a {
+    transition: color 0.5s ease;
+  }
+  a:hover {
+    color: #fff !important;
+  }
+   a.heading.body-text.large.small::after,
+   .heading.title.link.intro::after {
+	content: "";
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    /* background: rgba(255,255,255,.2); */
+    background: #321bff;
+    width: 100%;
+    transform-origin: left center;
+    transition: transform .5s cubic-bezier(.694,0,.335,1),-webkit-transform .5s cubic-bezier(.694,0,.335,1);
+    transform: scaleX(0);
+    left: 0;
+    z-index: -1;
+}
+  a.heading.body-text.large.small:hover::after,
+   .heading.title.link.intro:hover::after {    
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: right center;
+    transform-origin: right center;
+  }
+  /* .heading.title.link.footer:hover {
+     padding-left: 10px;
+  } */
+  body::-webkit-scrollbar {
+      display: none; // Safari and Chrome
+  }
+  ::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: rgba(255,255,255,.1);
+  }
+  ::selection {
+    color: white;
+    background: rgba(255,255,255,.1);
+  }
+</style>
+</head>
+<body class="body">
+  <div class="scroll-bar"></div>
+  <div class="cursor-wrapper">
+    <div class="cursor-dot"></div>
+    <div class="cursor-circle"></div>
+  </div>
+  <div class="animated-loader">
+    <div data-w-id="64eefa19-51aa-4082-4d3e-6a0623241451" class="inner-loader-wrapper">
+      <div class="hide-block"><img src="../images/polls-exp-K.png" data-w-id="b2cb3d23-82b9-b622-3f1a-b65ba1ce4317" sizes="100vw" srcset="../images/polls-exp-K-p-500.png 500w, ../images/polls-exp-K.png 750w" alt="" class="loader-thumb t1"><img src="../images/videos-in-maps-10.gif" alt="" class="loader-thumb t2"><img src="../images/polls-exp-K.png" data-w-id="97d47f29-4ad4-6d8d-ee77-569a1265b4b4" sizes="100vw" srcset="../images/polls-exp-K-p-500.png 500w, ../images/polls-exp-K.png 750w" alt="" class="loader-thumb t3"><img src="../images/cases---D1.png" data-w-id="43b534c9-4140-6b3e-af5b-48a7f599e1eb" sizes="100vw" srcset="../images/cases---D1-p-500.png 500w, ../images/cases---D1-p-800.png 800w, ../images/cases---D1-p-1080.png 1080w, ../images/cases---D1.png 1506w" alt="" class="loader-thumb t4"><img src="../images/mod-up.png" data-w-id="77730172-0d77-0929-ac55-dd51f49cb0b4" sizes="100vw" srcset="../images/mod-up-p-500.png 500w, ../images/mod-up-p-800.png 800w, ../images/mod-up-p-1080.png 1080w, ../images/mod-up.png 1506w" alt="" class="loader-thumb t5"><img src="../images/ezgif.com-optimize-1.gif" data-w-id="77730172-0d77-0929-ac55-dd51f49cb0b5" alt="" class="loader-thumb t6"><img src="../images/freemanbusy.png" data-w-id="77730172-0d77-0929-ac55-dd51f49cb0b7" sizes="100vw" srcset="../images/freemanbusy-p-500.png 500w, ../images/freemanbusy-p-800.png 800w, ../images/freemanbusy-p-1080.png 1080w, ../images/freemanbusy.png 1506w" alt="" class="loader-thumb t7"><img src="../images/gmb-final.gif" data-w-id="77730172-0d77-0929-ac55-dd51f49cb0b6" alt="" class="loader-thumb t8"><img src="../images/cases-B.png" data-w-id="77730172-0d77-0929-ac55-dd51f49cb0b9" sizes="100vw" srcset="../images/cases-B-p-500.png 500w, ../images/cases-B-p-800.png 800w, ../images/cases-B-p-1080.png 1080w, ../images/cases-B.png 1506w" alt="" class="loader-thumb t9"><img src="../images/linkedin-toggle.gif" data-w-id="77730172-0d77-0929-ac55-dd51f49cb0ba" alt="" class="loader-thumb t10"></div>
+      <h1 class="heading body-text loader">just a sec</h1>
+    </div>
+  </div>
+  <div data-w-id="ddaae4cf-8ca8-6114-0eef-e61ef8720281" class="mask vertical div-block-3 div-block-4 div-block-5">
+    <div class="header-wrap"><a href="javascript:delay(&#x27;/&#x27;)" class="heading title link intro">alex lakas</a></div>
+  </div>
+  <div>
+    <div class="w-layout-grid grid-1-up hero-text">
+      <div class="mask">
+        <h1 class="heading number">01</h1>
+        <h1 class="heading body-text intro">avoid the lines with google&#x27;s estimated wait times</h1>
+      </div>
+    </div>
+    <div class="w-layout-grid grid hero grid-6">
+      <div id="w-node-a9bbfc9aa319-fc9aa318" class="mask image-mask hero"><img src="../images/jesse-bowser-3YYEpyl13u4-unsplash.jpg" alt="" sizes="(max-width: 479px) 88vw, (max-width: 767px) 90vw, (max-width: 1439px) 50vw, 36vw" srcset="../images/jesse-bowser-3YYEpyl13u4-unsplash-p-500.jpeg 500w, ../images/jesse-bowser-3YYEpyl13u4-unsplash-p-800.jpeg 800w, ../images/jesse-bowser-3YYEpyl13u4-unsplash-p-1080.jpeg 1080w, ../images/jesse-bowser-3YYEpyl13u4-unsplash-p-1600.jpeg 1600w, ../images/jesse-bowser-3YYEpyl13u4-unsplash-p-2000.jpeg 2000w, ../images/jesse-bowser-3YYEpyl13u4-unsplash-p-2600.jpeg 2600w" class="img center intro"></div>
+    </div>
+    <div class="w-layout-grid grid-2-up">
+      <div class="mask">
+        <p class="heading body-text large small">hopefully you&#x27;re familiar with live popular times on google. this was the next installment of that. working closing with a motion designer and writer, i defined the ui and patterns you see below. the goal was to explore and integrate estimated wait times between local listings on google search and maps.</p>
+      </div>
+    </div>
+    <div class="w-layout-grid grid-2-up small-width">
+      <div class="mask-thumb large left-2"><img loading="lazy" src="../images/cases-G.png" alt="" class="img column"></div>
+      <div id="w-node-1dab0f30120b-0f301208" class="mask-thumb large right"><img loading="lazy" src="../images/freemanbusylive_1.png" alt="" sizes="(max-width: 479px) 42vw, (max-width: 767px) 40vw, 26vw" srcset="../images/freemanbusylive_1-p-500.png 500w, ../images/freemanbusylive_1-p-800.png 800w, ../images/freemanbusylive_1-p-1080.png 1080w" class="img column"></div>
+    </div>
+    <div class="w-layout-grid grid-2-up">
+      <div class="mask top-mask">
+        <p class="heading body-text large small">we ultimately decided to evolve our popular times feature into a more interactive and robust product serving a series of visit data: popular times, live popular times and estimated wait times.<br><br>this was a min-viable attempt to create a safe and simple yet scalable framework to handle more wait time data as google&#x27;s machine learning improved and local listing info becomes increasingly available through the various signals gathered over time.<br></p>
+      </div>
+      <div class="mask">
+        <p class="heading body-text large small"> i designed the tooltip framework, supporting the various cases between live, historical, and estimated wait durations.<br><br>the sensitivity of this info was also to be considered, as well as how it played a role in decision making between parsing how busy a place was at that very time vs another day of the week. after rounds of research, we also found new ways to allow users to traverse between times as well as focus on the worst case scenario at a glance.<br><br>we learned that a new graph and visual take on it was not only too much work, but didn&#x27;t align with data viz across the evolving google ecosystem. words were powerful and also misleading depending on how we articulated the wait of each place.</p>
+      </div>
+    </div>
+    <div class="w-layout-grid grid-1a-up full-width">
+      <div class="mask-thumb large left"><img loading="lazy" src="../images/hal-gatewood-Nzb4LBsctyQ-unsplash-1.jpg" alt="" sizes="(max-width: 767px) 90vw, 94vw" srcset="../images/hal-gatewood-Nzb4LBsctyQ-unsplash-1-p-500.jpeg 500w, ../images/hal-gatewood-Nzb4LBsctyQ-unsplash-1-p-1080.jpeg 1080w, ../images/hal-gatewood-Nzb4LBsctyQ-unsplash-1-p-1600.jpeg 1600w, ../images/hal-gatewood-Nzb4LBsctyQ-unsplash-1-p-2000.jpeg 2000w" class="img column full"></div>
+    </div>
+    <div class="w-layout-grid grid-2-up single-col">
+      <div id="w-node-81c26903009b-6903009a" class="mask-thumb large left full"><img src="../images/freemanbusylive-copy.png" alt="" sizes="(max-width: 479px) 42vw, (max-width: 767px) 40vw, 26vw" srcset="../images/freemanbusylive-copy-p-500.png 500w, ../images/freemanbusylive-copy-p-800.png 800w, ../images/freemanbusylive-copy-p-1080.png 1080w" class="img column"></div>
+    </div>
+    <div id="cases" class="w-layout-grid grid">
+      <div class="mask">
+        <p class="heading body-text large title">cases</p>
+      </div>
+      <div id="w-node-1aa24b4b8cb5-fa9e86e5" class="mask-wrap">
+        <ul role="list" class="mask">
+          <li class="paragraph p-grid">
+            <div class="vertical-center"><a href="javascript:delay(&#x27;/cases/linkedin-polls&#x27;)" class="heading body-text large small link">linkedin polls</a><img src="../images/text-14pt-copy.png" sizes="(max-width: 479px) 25px, (max-width: 767px) 30px, (max-width: 991px) 2vw, (max-width: 1439px) 3vw, 2vw" srcset="../images/text-14pt-copy-p-500.png 500w, ../images/text-14pt-copy.png 750w" alt="" class="mask-thumb small"></div>
+          </li>
+          <li class="paragraph p-grid">
+            <div class="vertical-center"><a href="javascript:delay(&#x27;/cases/linkedin-sharing&#x27;)" class="heading body-text large small link">Sharing across Linkedin</a><img src="../images/li-3.png" sizes="(max-width: 479px) 25px, (max-width: 767px) 30px, (max-width: 991px) 2vw, (max-width: 1439px) 3vw, 2vw" srcset="../images/li-3-p-500.png 500w, ../images/li-3-p-800.png 800w, ../images/li-3-p-1080.png 1080w, ../images/li-3.png 1506w" alt="" class="mask-thumb small"></div>
+          </li>
+          <li class="paragraph p-grid">
+            <div class="vertical-center"><a href="javascript:delay(&#x27;/cases/linkedin-visibility&#x27;)" class="heading body-text large small link">share as a page</a><img src="../images/linkedin-toggle.gif" alt="" class="mask-thumb small"></div>
+          </li>
+          <li class="paragraph p-grid">
+            <div class="vertical-center"><a href="javascript:delay(&#x27;/cases/local-search&#x27;)" class="heading body-text large small link">Modernize local search</a><img src="../images/nav_search-4.gif" alt="" class="mask-thumb small"></div>
+          </li>
+          <li class="paragraph p-grid">
+            <div class="vertical-center"><a href="javascript:delay(&#x27;/cases/wait-times&#x27;)" class="heading body-text large small link">est. wait times</a><img src="../images/freemanbusylive_1.png" sizes="(max-width: 479px) 25px, (max-width: 767px) 30px, (max-width: 991px) 2vw, (max-width: 1439px) 3vw, 2vw" srcset="../images/freemanbusylive_1-p-500.png 500w, ../images/freemanbusylive_1-p-800.png 800w, ../images/freemanbusylive_1-p-1080.png 1080w, ../images/freemanbusylive_1.png 1506w" alt="" class="mask-thumb small"></div>
+          </li>
+          <li class="paragraph p-grid">
+            <div class="vertical-center"><a href="javascript:delay(&#x27;/cases/live-popular-times&#x27;)" class="heading body-text large small link">live popular times</a><img src="../images/freemanbusylive.png" sizes="(max-width: 479px) 25px, (max-width: 767px) 30px, (max-width: 991px) 2vw, (max-width: 1439px) 3vw, 2vw" srcset="../images/freemanbusylive-p-500.png 500w, ../images/freemanbusylive-p-800.png 800w, ../images/freemanbusylive-p-1080.png 1080w, ../images/freemanbusylive.png 1506w" alt="" class="mask-thumb small"></div>
+          </li>
+          <li class="paragraph p-grid">
+            <div class="vertical-center"><a href="javascript:delay(&#x27;/cases/local-bookings&#x27;)" class="heading body-text large small link">local bookings</a><img src="../images/booking.gif" alt="" class="mask-thumb small"></div>
+          </li>
+          <li class="paragraph p-grid">
+            <div class="vertical-center"><a href="javascript:delay(&#x27;/cases/videos-in-maps&#x27;)" class="heading body-text large small link">videos on Google Maps</a><img src="../images/videoss.gif" alt="" class="mask-thumb small"></div>
+          </li>
+          <li class="paragraph p-grid">
+            <div class="vertical-center"><a href="javascript:delay(&#x27;/cases/maps-search&#x27;)" class="heading body-text large small link">one tap maps</a><img src="../images/ezgif.com-optimize-1.gif" alt="" class="mask-thumb small"></div>
+          </li>
+          <li class="paragraph p-grid">
+            <div class="vertical-center"><a href="javascript:delay(&#x27;/cases/google-my-business&#x27;)" class="heading body-text large small link">google my business</a><img src="../images/gmb-final.gif" alt="" class="mask-thumb small"></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="w-layout-grid grid-2-up right-aligned">
+    <div id="w-node-19d4baa52e68-baa52e67" class="mask">
+      <ul role="list" class="list">
+        <li class="paragraph"><a href="https://dribbble.com/alex2pt0" target="_blank" class="heading title link intro">Dribbble</a></li>
+        <li class="paragraph"><a href="https://www.linkedin.com/in/latenights/" target="_blank" class="heading title link intro">Linkedin</a></li>
+        <li class="paragraph"><a href="https://medium.com/@alexslakas" target="_blank" class="heading title link intro">Medium</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-w-id="a3154112-29c4-14a4-d0d0-b54eb81f4d60" class="w-layout-grid grid-2-up centered">
+    <div class="mask">
+      <p class="heading title link intro">c — 2020</p>
+    </div>
+  </div>
+  <div class="w-layout-grid text right grid-8">
+    <div class="mask"><a href="#cases" class="heading body-text large small">Casesss</a></div>
+  </div>
+  <div class="theme-bar">
+    <div class="theme light"></div>
+    <div class="theme dark"></div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5ec8332dc4dfff439f02477b" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="../js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script>
+// FAUC fix
+ var Webflow = Webflow || [];
+ Webflow.push(function() { $('body').addClass('webflow-loaded') });
+// Mobile video playback
+  var mobilevideo = document.getElementsByTagName("video");
+  var i;
+  for (i = 0; i < mobilevideo.length; i++) {
+  mobilevideo[i].setAttribute("playsinline", "");
+}
+// Delay page transition to show animation
+function delay (URL) {
+setTimeout( function() { 
+  window.location = URL }
+     , 400 );
+}
+// Add and remove body color transition property after page is done loading
+$('body').addClass("overflow");
+ setTimeout(function() {
+    $('body').removeClass("overflow");
+ }, 300);
+//Scroller easing
+if(typeof window.chrome != "object") {
+    // not Chrome
+} else {
+    // it's Chrome (or some fork of Chromium)
+     if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
+    window.onmousewheel = document.onmousewheel = wheel;
+    function wheel(event) {
+        var delta = 0;
+        if (event.wheelDelta) delta = event.wheelDelta / 25; //controls the scroll wheel range/speed
+        else if (event.detail) delta = -event.detail / 25;
+        handle(delta);
+        if (event.preventDefault) event.preventDefault();
+        event.returnValue = false;
+    }
+    var goUp = true;
+    var end = null;
+    var interval = null;
+    function handle(delta) {
+        var animationInterval = 15; //controls the scroll animation after scroll is done
+      var scrollSpeed = 15; //controls the scroll animation after scroll is done
+    if (end == null) {
+      end = $(window).scrollTop();
+      }
+      end -= 15 * delta;
+      goUp = delta > 0;
+      if (interval == null) {
+        interval = setInterval(function () {
+          var scrollTop = $(window).scrollTop();
+          var step = Math.round((end - scrollTop) / scrollSpeed);
+          if (scrollTop <= 0 || 
+              scrollTop >= $(window).prop("scrollHeight") - $(window).height() ||
+              goUp && step > -1 || 
+              !goUp && step < 1 ) {
+            clearInterval(interval);
+            interval = null;
+            end = null;
+          }
+          $(window).scrollTop(scrollTop + step );
+        }, animationInterval);
+      }
+    }
+}
+</script>
+</body>
+</html>
