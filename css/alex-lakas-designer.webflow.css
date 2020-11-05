@@ -249,6 +249,7 @@ p {
 .grid-1-up.center-bg {
   position: fixed;
   z-index: -1;
+  opacity: 0.3;
 }
 
 .img {
@@ -458,10 +459,12 @@ p {
 }
 
 .heading.body-text.intro.bg-intro {
+  margin-top: 30vw;
   margin-bottom: 0vw;
-  color: hsla(0, 0%, 100%, 0.12);
+  opacity: 1;
+  color: #fff;
   font-size: 17vw;
-  line-height: 15vw;
+  line-height: 13vw;
 }
 
 .heading.body-text.loader {
@@ -1210,6 +1213,11 @@ p {
 }
 
 @media screen and (min-width: 1280px) {
+  .heading.body-text.intro.bg-intro {
+    font-size: 15vw;
+    line-height: 13vw;
+  }
+
   .mask-thumb.large.left {
     width: 80%;
   }
@@ -1346,8 +1354,8 @@ p {
 
   .heading.body-text.intro.bg-intro {
     margin-bottom: 0vw;
-    font-size: 20vw;
-    line-height: 18vw;
+    font-size: 18vw;
+    line-height: 15vw;
   }
 
   .mask {
