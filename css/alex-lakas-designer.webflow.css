@@ -1230,6 +1230,10 @@ p {
     transform: translate(6vw, -9vw) rotate(90deg);
   }
 
+  .grid-1-up.center-bg {
+    opacity: 0.2;
+  }
+
   .img.center.intro {
     width: 42vw;
   }
