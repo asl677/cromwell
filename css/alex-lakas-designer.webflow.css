@@ -249,6 +249,7 @@ p {
 .grid-1-up.center-bg {
   position: fixed;
   z-index: -1;
+  display: none;
   opacity: 0.3;
 }
 
