@@ -1214,13 +1214,25 @@ p {
 }
 
 @media screen and (min-width: 1280px) {
+  .img.full {
+    position: relative;
+  }
+
+  .heading.body-text.large.small {
+    margin-bottom: 0vw;
+  }
+
   .heading.body-text.intro.bg-intro {
     font-size: 15vw;
     line-height: 13vw;
   }
 
   .mask-thumb.large.left {
-    width: 80%;
+    position: relative;
+  }
+
+  .full-width-image {
+    position: relative;
   }
 }
 
