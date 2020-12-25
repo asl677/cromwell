@@ -257,7 +257,6 @@ p {
   position: relative;
   display: block;
   width: 26vw;
-  border-radius: 15px;
   text-align: center;
 }
 
@@ -280,7 +279,7 @@ p {
 .img.center.intro {
   width: 50vw;
   max-width: 50vw;
-  border-radius: 15px;
+  border-radius: 0px;
   -webkit-filter: none;
   filter: none;
 }
@@ -289,10 +288,6 @@ p {
   width: 100%;
   height: auto;
   max-width: 100%;
-}
-
-.img.column {
-  border-radius: 0px;
 }
 
 .img.column.full {
@@ -657,10 +652,6 @@ p {
   -ms-transform-origin: 0% 0%;
   transform-origin: 0% 0%;
   font-size: 14px;
-}
-
-.mask.image-mask {
-  border-radius: 15px;
 }
 
 .mask.top-mask {
@@ -1076,21 +1067,17 @@ p {
   border-radius: 50%;
 }
 
-.mask-thumb {
-  border-radius: 3px;
-}
-
 .mask-thumb.small {
   overflow: hidden;
   width: 2.5vw;
   margin-right: 1vw;
   margin-bottom: 1.5vw;
   margin-left: 1vw;
+  border-radius: 0px;
 }
 
 .mask-thumb.large {
   overflow: hidden;
-  border-radius: 15px;
 }
 
 .mask-thumb.large.video {
@@ -1099,7 +1086,6 @@ p {
 
 .mask-thumb.large.left {
   width: 100%;
-  border-radius: 15px;
 }
 
 .mask-thumb.large.left.full {
@@ -1507,7 +1493,6 @@ p {
 
   .img.column {
     width: 40vw;
-    border-radius: 8px;
   }
 
   .img.column.full {
@@ -1823,7 +1808,7 @@ p {
   }
 
   .mask-thumb.large.left {
-    border-radius: 10px;
+    border-radius: 0px;
   }
 
   .full-width-image {
@@ -1936,6 +1921,8 @@ p {
   .img.center {
     width: 100%;
     max-width: 100%;
+    -webkit-filter: none;
+    filter: none;
     -o-object-fit: cover;
     object-fit: cover;
   }
@@ -1949,17 +1936,18 @@ p {
     overflow: hidden;
     width: 100%;
     max-width: 100%;
-    border-radius: 8px;
+    border-radius: 0px;
   }
 
   .img.column {
     width: 42vw;
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 0px;
   }
 
   .img.column.full {
     margin-bottom: 0px;
+    border-radius: 0px;
   }
 
   .img.column.hide {
@@ -2189,7 +2177,7 @@ p {
   .mask.image-mask.hero {
     display: block;
     padding: 0vw;
-    border-radius: 10px;
+    border-radius: 0px;
   }
 
   .mask.top-mask {
@@ -2359,15 +2347,16 @@ p {
     display: inline-block;
     width: 25px;
     margin-left: 3vw;
-    border-radius: 2px;
+    border-radius: 0px;
   }
 
   .mask-thumb.large {
     margin: 0px;
+    border-radius: 0px;
   }
 
   .mask-thumb.large.right {
-    border-radius: 10px;
+    border-radius: 0px;
   }
 
   .mask-thumb.large.right.hide {
@@ -2375,11 +2364,15 @@ p {
   }
 
   .mask-thumb.large.left {
-    border-radius: 10px;
+    border-radius: 0px;
+  }
+
+  .mask-thumb.large.left.full {
+    border-radius: 0px;
   }
 
   .mask-thumb.large.left-2 {
-    border-radius: 10px;
+    border-radius: 0px;
   }
 
   .full-width-image {
