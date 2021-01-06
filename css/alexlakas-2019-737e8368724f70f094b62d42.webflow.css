@@ -2554,6 +2554,7 @@ img {
   text-decoration: none;
   text-transform: none;
   background-clip: border-box;
+  cursor: none;
 }
 
 .body_link.no-reveal.secondary:hover {
@@ -2606,6 +2607,12 @@ img {
 
 .body_link.no-reveal.secondary.more {
   display: none;
+}
+
+.body_link.no-reveal.secondary.large {
+  margin-top: 2vw;
+  font-size: 3vw;
+  line-height: 4vw;
 }
 
 .body_link.no-reveal.primary {
@@ -5552,7 +5559,7 @@ img {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  z-index: 5;
+  z-index: 2;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
