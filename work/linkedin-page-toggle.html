@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Wed Jan 06 2021 00:54:31 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Wed Jan 06 2021 03:48:11 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ea1ce5e58100cd047c31033" data-wf-site="5ea1ce5e58100c2285c31029">
 <head>
   <meta charset="utf-8">
@@ -22,6 +22,9 @@
   <style>
   body, html {
    cursor: none !important; 
+  }
+  a.body_link {
+     mix-blend-mode: difference;
   }
   /*
 .reveal.w-inline-block:before,
@@ -412,6 +415,49 @@
   $('body').hide();
   $(window).scrollTop(0);
 });
+  //Scroller easing
+if(typeof window.chrome != "object") {
+    // not Chrome
+} else {
+    // it's Chrome (or some fork of Chromium)
+     if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
+    window.onmousewheel = document.onmousewheel = wheel;
+    function wheel(event) {
+        var delta = 0;
+        if (event.wheelDelta) delta = event.wheelDelta / 25; //controls the scroll wheel range/speed
+        else if (event.detail) delta = -event.detail / 25;
+        handle(delta);
+        if (event.preventDefault) event.preventDefault();
+        event.returnValue = false;
+    }
+    var goUp = true;
+    var end = null;
+    var interval = null;
+    function handle(delta) {
+        var animationInterval = 15; //controls the scroll animation after scroll is done
+      var scrollSpeed = 15; //controls the scroll animation after scroll is done
+    if (end == null) {
+      end = $(window).scrollTop();
+      }
+      end -= 15 * delta;
+      goUp = delta > 0;
+      if (interval == null) {
+        interval = setInterval(function () {
+          var scrollTop = $(window).scrollTop();
+          var step = Math.round((end - scrollTop) / scrollSpeed);
+          if (scrollTop <= 0 || 
+              scrollTop >= $(window).prop("scrollHeight") - $(window).height() ||
+              goUp && step > -1 || 
+              !goUp && step < 1 ) {
+            clearInterval(interval);
+            interval = null;
+            end = null;
+          }
+          $(window).scrollTop(scrollTop + step );
+        }, animationInterval);
+      }
+    }
+}
 </script>
 </body>
 </html>
