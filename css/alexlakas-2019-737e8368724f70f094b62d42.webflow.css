@@ -7068,7 +7068,7 @@ img {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 100vh;
+    height: 80vh;
     padding-top: 25vw;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -8455,7 +8455,7 @@ img {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 100vh;
+    height: 82vh;
     margin-bottom: 1vw;
     padding: 15vw 7vw 7vw;
     -webkit-box-orient: horizontal;
@@ -8786,7 +8786,8 @@ img {
   }
 
   .heading.padding.second.white {
-    font-size: 30px;
+    padding-bottom: 0px;
+    font-size: 33px;
     line-height: 40px;
     letter-spacing: -1px;
   }
@@ -9748,7 +9749,7 @@ img {
   .grid-4.grid_hero.left {
     position: fixed;
     width: 100%;
-    padding: 4vw;
+    padding: 4vw 4vw 4vw 7vw;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
