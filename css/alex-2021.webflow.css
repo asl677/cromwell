@@ -108,6 +108,7 @@ h1 {
 
 .heading.black.medium.link {
   margin-left: 20px;
+  cursor: none;
 }
 
 .heading.white {
