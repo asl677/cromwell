@@ -153,6 +153,10 @@ h1 {
   margin-top: 0px;
 }
 
+.mask.right-nav {
+  z-index: 7;
+}
+
 .video {
   overflow: hidden;
   padding: 3vw;
@@ -197,6 +201,7 @@ h1 {
 }
 
 .cursor-dot {
+  position: relative;
   left: 0%;
   top: 0%;
   right: 0%;
@@ -246,6 +251,11 @@ h1 {
   cursor: none;
 }
 
+.link-wrap {
+  position: relative;
+  float: right;
+}
+
 @media screen and (min-width: 1440px) {
   .section.body.hero {
     padding-right: 10vw;
@@ -274,12 +284,12 @@ h1 {
 
 @media screen and (max-width: 991px) {
   .cursor-dot {
-    width: 6px;
-    height: 6px;
+    width: 3vw;
+    height: 3vw;
   }
 
   .cursor-wrapper {
-    z-index: 0;
+    z-index: 2;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -326,7 +336,10 @@ h1 {
   }
 
   .cursor-wrapper {
-    display: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
