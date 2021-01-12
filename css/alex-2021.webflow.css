@@ -13,6 +13,7 @@
 h1 {
   margin-top: 0px;
   margin-bottom: 0px;
+  color: #000;
   font-size: 38px;
   line-height: 44px;
   font-weight: 700;
@@ -213,10 +214,7 @@ h1 {
   right: 0%;
   bottom: 0%;
   z-index: 2;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -260,6 +258,10 @@ h1 {
     padding-left: 3vw;
   }
 
+  .heading.black.medium.body {
+    margin-bottom: 2vw;
+  }
+
   .video {
     padding-right: 10vw;
     padding-left: 10vw;
@@ -282,6 +284,43 @@ h1 {
 }
 
 @media screen and (max-width: 767px) {
+  .heading.black {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .heading.black.medium.link {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .heading.black.medium.logo {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .heading.black.medium.body {
+    margin-bottom: 2vw;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .heading.white {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .body.black {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .body.white {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
   .cursor-wrapper {
     display: none;
   }
@@ -339,7 +378,16 @@ h1 {
     position: relative;
     float: right;
     clear: right;
+    line-height: 22px;
     text-align: right;
+  }
+
+  .heading.black.medium.logo {
+    line-height: 22px;
+  }
+
+  .heading.black.medium.body {
+    margin-bottom: 5vw;
   }
 
   .heading.white {
