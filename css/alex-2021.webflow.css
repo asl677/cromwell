@@ -388,9 +388,38 @@ h1 {
 }
 
 @media screen and (max-width: 767px) {
+  .section.body.hero {
+    height: 100%;
+    padding-top: 10vw;
+  }
+
+  .grid._2-up {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .grid._2-up.intro {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
   .heading.black {
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 36px;
   }
 
   .heading.black.medium.link {
@@ -404,14 +433,25 @@ h1 {
   }
 
   .heading.black.medium.body {
-    margin-bottom: 2vw;
+    margin-bottom: 0vw;
     font-size: 20px;
     line-height: 26px;
+  }
+
+  .heading.black.numbers {
+    width: 100%;
+    font-size: 36px;
+    line-height: 46px;
   }
 
   .heading.white {
     font-size: 36px;
     line-height: 36px;
+  }
+
+  .heading.numbers.white {
+    width: 100%;
+    line-height: 40px;
   }
 
   .body.black {
@@ -425,15 +465,37 @@ h1 {
     line-height: 20px;
   }
 
+  .grid-vertical.numbers-grid {
+    width: 100%;
+  }
+
+  .mask {
+    height: auto;
+  }
+
+  .mask.numbers-mask {
+    width: 100%;
+  }
+
+  .mask.numbers-mask.hero-number {
+    width: 100%;
+    margin-left: 0vw;
+  }
+
+  .thumbnail {
+    width: 100%;
+  }
+
   .cursor-wrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
+  }
+
+  .body-3 {
+    cursor: auto;
   }
 
   .image-2 {
-    width: 40vw;
+    width: 60vw;
   }
 }
 
@@ -445,7 +507,7 @@ h1 {
 
   .section.body.hero {
     height: 100%;
-    padding: 6vw;
+    padding: 5vw 6vw 6vw;
   }
 
   .grid._2-up {
@@ -488,7 +550,7 @@ h1 {
 
   .heading.black {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 36px;
   }
 
   .heading.black.medium {
@@ -515,12 +577,18 @@ h1 {
   .heading.black.numbers {
     position: relative;
     width: 100%;
+    font-size: 36px;
+    line-height: 40px;
   }
 
   .heading.white {
     margin-bottom: 10px;
     font-size: 36px;
     line-height: 36px;
+  }
+
+  .heading.numbers.white {
+    line-height: 46px;
   }
 
   .body.black {
@@ -540,6 +608,7 @@ h1 {
 
   .mask {
     overflow: hidden;
+    height: auto;
   }
 
   .mask.numbers-mask {
@@ -553,6 +622,10 @@ h1 {
 
   .video {
     padding: 6vw;
+  }
+
+  .thumbnail {
+    width: 100%;
   }
 
   .cursor-dot {
@@ -569,7 +642,7 @@ h1 {
   }
 
   .image-2 {
-    width: 40vw;
+    width: 60vw;
   }
 }
 
