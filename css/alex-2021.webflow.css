@@ -216,6 +216,7 @@ h1 {
 .image {
   position: relative;
   display: block;
+  padding: 3vw;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -276,7 +277,7 @@ h1 {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  z-index: 6;
+  z-index: 10;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -373,13 +374,24 @@ h1 {
 }
 
 @media screen and (max-width: 991px) {
+  .video {
+    position: relative;
+    z-index: 11;
+    cursor: none;
+  }
+
+  .image {
+    width: 100%;
+    padding: 3vw;
+  }
+
   .cursor-dot {
     width: 3vw;
     height: 3vw;
   }
 
   .cursor-wrapper {
-    z-index: 2;
+    z-index: 10;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
