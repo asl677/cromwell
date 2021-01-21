@@ -421,6 +421,16 @@ h1 {
   }
 }
 
+@media screen and (min-width: 1920px) {
+  .grid._2-up.slim {
+    padding: 0vw;
+  }
+
+  .image {
+    padding: 3vw 10vw;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .video {
     position: relative;
@@ -723,6 +733,7 @@ h1 {
 
   .link-wrap {
     height: 6vw;
+    margin-right: 10px;
   }
 
   .image-2 {
