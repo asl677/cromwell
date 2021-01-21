@@ -28,7 +28,6 @@ h1 {
   z-index: 5;
   width: 100%;
   padding: 3vw;
-  background-color: #fff;
 }
 
 .section.body.outer-space {
@@ -108,12 +107,23 @@ h1 {
 }
 
 .heading.black.medium.link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-left: 20px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
   cursor: none;
 }
 
 .heading.black.medium.link:hover {
-  color: #0706ff;
+  position: relative;
+}
+
+.heading.black.medium.link.left {
+  position: relative;
+  margin-left: 0px;
 }
 
 .heading.white {
@@ -137,6 +147,7 @@ h1 {
 .body.black {
   margin-top: 10px;
   margin-bottom: auto;
+  color: #000;
   font-size: 1.5vw;
   line-height: 2.5vw;
 }
@@ -266,6 +277,9 @@ h1 {
   bottom: 0%;
   width: 3vw;
   height: 3vw;
+  border-style: none;
+  border-width: 0.5vw;
+  border-color: #fff;
   border-radius: 50%;
   background-color: #0706ff;
   box-shadow: none;
@@ -311,7 +325,9 @@ h1 {
 
 .link-wrap {
   position: relative;
-  float: right;
+  overflow: hidden;
+  height: 3vw;
+  float: left;
 }
 
 .loader-wrap {
@@ -343,8 +359,25 @@ h1 {
   filter: invert(100%);
 }
 
+.scroll-bar {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 0;
+  width: 0vw;
+  height: 100vh;
+  background-color: #0706ff;
+}
+
 @media screen and (min-width: 1440px) {
   .section.body.hero {
+    padding-right: 10vw;
+    padding-left: 10vw;
+  }
+
+  .section.body.big-grid {
     padding-right: 10vw;
     padding-left: 10vw;
   }
@@ -359,6 +392,10 @@ h1 {
     padding-left: 3vw;
   }
 
+  .grid._2-up.slim {
+    padding: 0vw;
+  }
+
   .heading.black.medium.body {
     margin-bottom: 2vw;
   }
@@ -370,6 +407,17 @@ h1 {
   .video {
     padding-right: 10vw;
     padding-left: 10vw;
+  }
+
+  .image {
+    padding: 3vw 10vw;
+  }
+
+  .cursor-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -508,6 +556,10 @@ h1 {
 
   .image-2 {
     width: 60vw;
+  }
+
+  .scroll-bar {
+    display: none;
   }
 }
 
