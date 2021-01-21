@@ -554,6 +554,10 @@ h1 {
     cursor: auto;
   }
 
+  .link-wrap {
+    height: 5vw;
+  }
+
   .image-2 {
     width: 60vw;
   }
@@ -624,10 +628,11 @@ h1 {
 
   .heading.black.medium.link {
     position: relative;
+    margin-left: 0px;
     float: right;
     clear: right;
     line-height: 22px;
-    text-align: right;
+    text-align: left;
   }
 
   .heading.black.medium.logo {
@@ -675,6 +680,13 @@ h1 {
     height: auto;
   }
 
+  .mask.right-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
   .mask.numbers-mask {
     width: 100%;
   }
@@ -692,6 +704,10 @@ h1 {
     width: 100%;
   }
 
+  .grid-nav {
+    display: block;
+  }
+
   .cursor-dot {
     border-radius: 100%;
   }
@@ -703,6 +719,10 @@ h1 {
 
   .body-3 {
     cursor: auto;
+  }
+
+  .link-wrap {
+    height: 6vw;
   }
 
   .image-2 {
