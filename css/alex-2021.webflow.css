@@ -327,6 +327,11 @@ h1 {
   transform: translate(-70vw, 0px);
 }
 
+.load-block.full {
+  width: 100vh;
+  height: 100vh;
+}
+
 .cursor-dot {
   position: relative;
   left: 0%;
@@ -670,7 +675,7 @@ h1 {
 
   .section.body.hero {
     height: 100%;
-    padding: 5vw 6vw 6vw;
+    padding: 0vw;
   }
 
   .grid._2-up {
