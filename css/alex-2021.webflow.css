@@ -35,8 +35,13 @@ h1 {
 }
 
 .section.body.hero {
+  display: none;
   height: 100vh;
   padding: 9vw 3vw 3vw;
+}
+
+.section.body.hero-2 {
+  padding-top: 10vh;
 }
 
 .grid {
