@@ -761,7 +761,8 @@ h1 {
     margin-left: 0px;
     float: right;
     clear: right;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 24px;
     text-align: left;
   }
 
@@ -875,6 +876,15 @@ h1 {
     position: relative;
     width: 100%;
     margin-bottom: 0vw;
+  }
+
+  .loader-wrap {
+    display: none;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
 
   .image-2 {
