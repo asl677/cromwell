@@ -663,6 +663,12 @@ h1 {
     width: 100%;
   }
 
+  .load-block.black {
+    -webkit-transform: translate(-100vw, 0px);
+    -ms-transform: translate(-100vw, 0px);
+    transform: translate(-100vw, 0px);
+  }
+
   .cursor-wrapper {
     display: -webkit-box;
     display: -webkit-flex;
