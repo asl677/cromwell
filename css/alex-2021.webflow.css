@@ -370,7 +370,10 @@ h1 {
   right: 0%;
   bottom: 0%;
   z-index: 10;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -836,6 +839,10 @@ h1 {
 
   .thumbnail {
     width: 100%;
+  }
+
+  .image {
+    padding: 5vw;
   }
 
   .grid-nav {
