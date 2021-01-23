@@ -895,8 +895,8 @@ h1 {
   }
 
   .heading.black {
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 50px;
+    line-height: 50px;
   }
 
   .heading.black.medium {
@@ -925,8 +925,8 @@ h1 {
   .heading.black.numbers {
     position: relative;
     width: 100%;
-    font-size: 18px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 26px;
   }
 
   .heading.white {
@@ -1044,6 +1044,10 @@ h1 {
 
   .loader-wrap {
     display: none;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     grid-auto-columns: 1fr;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
