@@ -48,6 +48,19 @@ h1 {
   padding: 9vw 3vw 3vw;
 }
 
+.section.body.big-grid {
+  display: -ms-grid;
+  display: grid;
+  padding-left: 0px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 3vw;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
 .section.body.hero-2 {
   position: relative;
   display: -webkit-box;
@@ -324,7 +337,7 @@ h1 {
 
 .video {
   overflow: hidden;
-  padding: 3vw;
+  padding: 0vw 3vw;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -600,8 +613,8 @@ h1 {
   }
 
   .section.body.big-grid {
-    padding-right: 15vw;
-    padding-left: 15vw;
+    padding-right: 0vw;
+    padding-left: 0vw;
   }
 
   .section.body.hero-2 {
@@ -751,9 +764,12 @@ h1 {
 }
 
 @media screen and (max-width: 991px) {
+  .section.body.hero-2 {
+    height: 50vh;
+  }
+
   .video {
     position: relative;
-    z-index: 11;
     cursor: none;
   }
 
@@ -807,12 +823,17 @@ h1 {
   }
 
   .heading.black {
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 50px;
+    line-height: 60px;
   }
 
   .heading.black.medium.link {
     font-size: 16px;
+    line-height: 30px;
+  }
+
+  .heading.black.medium.link.left.w--current {
+    font-size: 20px;
     line-height: 30px;
   }
 
@@ -829,8 +850,8 @@ h1 {
 
   .heading.black.numbers {
     width: 100%;
-    font-size: 36px;
-    line-height: 46px;
+    font-size: 18px;
+    line-height: 24px;
   }
 
   .heading.white {
@@ -884,6 +905,10 @@ h1 {
     width: 100%;
   }
 
+  .thumbnail.narrow {
+    width: 50vw;
+  }
+
   .load-block.black {
     -webkit-transform: translate(-100vw, 0px);
     -ms-transform: translate(-100vw, 0px);
@@ -917,7 +942,7 @@ h1 {
 @media screen and (max-width: 479px) {
   .section.header {
     position: relative;
-    padding: 6vw;
+    padding: 3vw;
   }
 
   .section.header.footer {
@@ -939,7 +964,6 @@ h1 {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding: 10vw 6vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -webkit-flex-direction: column-reverse;
@@ -980,7 +1004,7 @@ h1 {
 
   .heading.black {
     font-size: 50px;
-    line-height: 50px;
+    line-height: 60px;
   }
 
   .heading.black.medium {
@@ -1078,10 +1102,6 @@ h1 {
     width: auto;
   }
 
-  .video {
-    padding: 6vw;
-  }
-
   .thumbnail {
     width: 100%;
   }
@@ -1092,6 +1112,10 @@ h1 {
 
   .image {
     padding: 5vw;
+  }
+
+  .image.grid {
+    padding: 0vw 15vw;
   }
 
   .grid-nav {
