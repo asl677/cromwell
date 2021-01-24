@@ -150,7 +150,7 @@ h1 {
 }
 
 .heading.black {
-  line-height: 83%;
+  line-height: 90%;
 }
 
 .heading.black.medium {
@@ -343,7 +343,7 @@ h1 {
 }
 
 .thumbnail.narrow {
-  width: 30vw;
+  width: 28vw;
 }
 
 .image {
@@ -579,7 +579,6 @@ h1 {
 
   .heading.black.medium.body {
     margin-bottom: 2vw;
-    font-size: 1.5vw;
     line-height: 2.5vw;
   }
 
@@ -798,11 +797,17 @@ h1 {
     padding-top: 10vw;
   }
 
+  .section.body.hero-2 {
+    height: auto;
+  }
+
   .grid._2-up {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -webkit-flex-direction: column-reverse;
@@ -823,12 +828,11 @@ h1 {
   }
 
   .heading.black {
-    font-size: 50px;
-    line-height: 60px;
+    line-height: 100%;
   }
 
   .heading.black.medium.link {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
   }
 
@@ -956,7 +960,7 @@ h1 {
   }
 
   .section.body.hero-2 {
-    height: auto;
+    height: 85vh;
   }
 
   .grid._2-up {
@@ -964,6 +968,7 @@ h1 {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    height: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -webkit-flex-direction: column-reverse;
@@ -1003,8 +1008,7 @@ h1 {
   }
 
   .heading.black {
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 30px;
   }
 
   .heading.black.medium {
@@ -1017,8 +1021,8 @@ h1 {
     margin-left: 0px;
     float: right;
     clear: right;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 30px;
     text-align: left;
   }
 
@@ -1148,7 +1152,7 @@ h1 {
   }
 
   .link-wrap {
-    height: 22px;
+    height: 24px;
     margin-right: 10px;
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
@@ -1207,13 +1211,6 @@ h1 {
 }
 
 #w-node-c53de46c8ccf-fbd25f1e {
-  -webkit-align-self: end;
-  -ms-flex-item-align: end;
-  -ms-grid-row-align: end;
-  align-self: end;
-}
-
-#w-node-d7517e675e8a-fbd25f1e {
   -webkit-align-self: end;
   -ms-flex-item-align: end;
   -ms-grid-row-align: end;
