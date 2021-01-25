@@ -477,7 +477,7 @@ h1 {
 .link-wrap {
   position: relative;
   overflow: hidden;
-  height: 3vw;
+  height: 2.5vw;
   float: left;
 }
 
@@ -763,10 +763,6 @@ h1 {
 }
 
 @media screen and (max-width: 991px) {
-  .section.body.hero-2 {
-    height: 50vh;
-  }
-
   .video {
     position: relative;
     cursor: none;
@@ -795,10 +791,6 @@ h1 {
   .section.body.hero {
     height: 100%;
     padding-top: 10vw;
-  }
-
-  .section.body.hero-2 {
-    height: auto;
   }
 
   .grid._2-up {
@@ -931,7 +923,7 @@ h1 {
   }
 
   .link-wrap {
-    height: 5vw;
+    height: 24px;
   }
 
   .image-2 {
@@ -960,7 +952,7 @@ h1 {
   }
 
   .section.body.hero-2 {
-    height: 85vh;
+    height: auto;
   }
 
   .grid._2-up {
@@ -968,7 +960,6 @@ h1 {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -webkit-flex-direction: column-reverse;
@@ -1009,6 +1000,7 @@ h1 {
 
   .heading.black {
     font-size: 30px;
+    line-height: 34px;
   }
 
   .heading.black.medium {
@@ -1021,13 +1013,19 @@ h1 {
     margin-left: 0px;
     float: right;
     clear: right;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 28px;
     text-align: left;
   }
 
   .heading.black.medium.link.left {
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .heading.black.medium.link.left.w--current {
+    font-size: 22px;
+    line-height: 28px;
   }
 
   .heading.black.medium.logo {
@@ -1036,6 +1034,8 @@ h1 {
 
   .heading.black.medium.body {
     margin-bottom: 5vw;
+    font-size: 22px;
+    line-height: 28px;
   }
 
   .heading.black.numbers {
@@ -1148,6 +1148,7 @@ h1 {
   }
 
   .body-3 {
+    text-transform: lowercase;
     cursor: auto;
   }
 
