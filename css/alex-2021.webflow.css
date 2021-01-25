@@ -780,10 +780,6 @@ h1 {
 
   .cursor-wrapper {
     z-index: 10;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
   }
 }
 
