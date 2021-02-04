@@ -1091,12 +1091,11 @@ h1 {
   .heading.black.medium.link.left {
     font-size: 20px;
     line-height: 26px;
+    cursor: auto;
   }
 
   .heading.black.medium.link.left.w--current {
     width: 100%;
-    font-size: 22px;
-    line-height: 28px;
   }
 
   .heading.black.medium.logo {
@@ -1206,14 +1205,16 @@ h1 {
   .image.image-grid {
     display: -ms-grid;
     display: grid;
+    padding-right: 25vw;
+    padding-left: 25vw;
     justify-items: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
     grid-auto-columns: 1fr;
-    grid-column-gap: 25vw;
-    grid-row-gap: 25vw;
+    grid-column-gap: 30vw;
+    grid-row-gap: 15vw;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: auto auto auto auto;
@@ -1251,7 +1252,7 @@ h1 {
   }
 
   .link-wrap {
-    overflow: visible;
+    overflow: hidden;
     height: 24px;
     margin-right: 10px;
     -webkit-box-flex: 0;
