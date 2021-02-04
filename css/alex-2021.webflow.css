@@ -1204,6 +1204,7 @@ h1 {
   }
 
   .link-wrap {
+    overflow: visible;
     width: 100%;
     height: 24px;
     margin-right: 10px;
