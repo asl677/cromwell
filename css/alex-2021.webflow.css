@@ -249,8 +249,8 @@ h1 {
   grid-row-gap: 1vw;
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
-  -ms-grid-rows: auto auto;
-  grid-template-rows: auto auto;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
 }
 
 .grid-vertical.intro {
@@ -349,6 +349,10 @@ h1 {
 
 .thumbnail.narrow.video {
   width: 26vw;
+}
+
+.thumbnail.icons {
+  padding: 10vw;
 }
 
 .image {
@@ -1109,6 +1113,11 @@ h1 {
     line-height: 20px;
   }
 
+  .grid-vertical {
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+
   .grid-vertical.numbers-grid {
     width: 100%;
   }
@@ -1150,6 +1159,10 @@ h1 {
 
   .thumbnail.narrow {
     width: 100%;
+  }
+
+  .thumbnail.icons {
+    padding: 10vw 0vw;
   }
 
   .image {
