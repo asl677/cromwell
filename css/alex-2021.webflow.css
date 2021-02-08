@@ -471,7 +471,7 @@ h1 {
 }
 
 .load-block.black {
-  background-color: #dfdfdf;
+  background-color: #ebebeb;
   -webkit-transform: translate(-100vw, 0px);
   -ms-transform: translate(-100vw, 0px);
   transform: translate(-100vw, 0px);
@@ -591,9 +591,8 @@ h1 {
   top: 0%;
   right: 0%;
   bottom: auto;
-  z-index: 5;
+  z-index: 7;
   width: 0vw;
-  height: 1vw;
   background-color: #0706ff;
 }
 
@@ -1428,10 +1427,10 @@ h1 {
 }
 
 #w-node-68f6314c3165-fbd25f1e {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  -ms-grid-row-align: start;
+  align-self: start;
 }
 
 #w-node-68f6314c3166-fbd25f1e {
