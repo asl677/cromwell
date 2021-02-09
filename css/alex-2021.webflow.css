@@ -613,7 +613,7 @@ h1 {
   bottom: auto;
   z-index: 7;
   width: 0vw;
-  background-color: #0706ff;
+  background-color: #000;
 }
 
 .inline-link {
