@@ -647,7 +647,7 @@ h1 {
   right: 0%;
   bottom: 0%;
   z-index: 12;
-  width: 0.5vw;
+  width: 0.2vw;
   height: 10vh;
   border-radius: 20px;
   background-color: #000;
@@ -1406,6 +1406,7 @@ h1 {
   }
 
   .grid-vertical.numbers-grid {
+    overflow: hidden;
     width: 100%;
   }
 
@@ -1632,21 +1633,21 @@ h1 {
   align-self: end;
 }
 
-#w-node-_4be32dc1-2343-e1cd-fc73-8734ce449bc6-fbd25f1e {
+#w-node-_0b2050d9-a8ba-a9eb-e4f9-15244285368a-fbd25f1e {
   -webkit-align-self: end;
   -ms-flex-item-align: end;
   -ms-grid-row-align: end;
   align-self: end;
 }
 
-#w-node-de25d77b-db32-af1b-60c1-68e65d3192b9-fbd25f1e {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+#w-node-_0b2050d9-a8ba-a9eb-e4f9-152442853692-fbd25f1e {
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  -ms-grid-row-align: start;
+  align-self: start;
 }
 
-#w-node-de25d77b-db32-af1b-60c1-68e65d3192ba-fbd25f1e {
+#w-node-_0b2050d9-a8ba-a9eb-e4f9-152442853693-fbd25f1e {
   -webkit-align-self: end;
   -ms-flex-item-align: end;
   -ms-grid-row-align: end;
@@ -1744,7 +1745,7 @@ h1 {
     align-self: center;
   }
 
-  #w-node-de25d77b-db32-af1b-60c1-68e65d3192b9-fbd25f1e {
+  #w-node-_0b2050d9-a8ba-a9eb-e4f9-152442853692-fbd25f1e {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
@@ -1788,7 +1789,7 @@ h1 {
     align-self: center;
   }
 
-  #w-node-de25d77b-db32-af1b-60c1-68e65d3192b9-fbd25f1e {
+  #w-node-_0b2050d9-a8ba-a9eb-e4f9-152442853692-fbd25f1e {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
