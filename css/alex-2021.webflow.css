@@ -659,13 +659,16 @@ h1 {
   overflow: hidden;
   height: 2.5vw;
   float: left;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
   color: #000;
   text-decoration: none;
   cursor: none;
 }
 
 .link-wrap.w--current {
-  text-decoration: underline;
+  border-bottom: 1px solid #000;
+  text-decoration: none;
 }
 
 .link-wrap.fixed {
@@ -1681,7 +1684,9 @@ h1 {
   }
 
   .link-wrap.w--current {
-    text-decoration: underline;
+    height: 22px;
+    border-bottom: 1px solid #000;
+    text-decoration: none;
   }
 
   .link-wrap.fixed {
