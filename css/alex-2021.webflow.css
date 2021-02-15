@@ -884,7 +884,7 @@ h1 {
   }
 
   .section.body.hero-2 {
-    height: 95vh;
+    height: 80vh;
   }
 
   .grid._2-up {
@@ -949,6 +949,7 @@ h1 {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    height: 80vh;
     padding-top: 0vw;
     -webkit-box-align: center;
     -webkit-align-items: center;
