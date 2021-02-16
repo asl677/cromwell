@@ -1128,6 +1128,10 @@ h1 {
     padding-top: 10vw;
   }
 
+  .section.body.hero-2 {
+    height: 60vh;
+  }
+
   .grid._2-up {
     display: -ms-grid;
     display: grid;
@@ -1248,11 +1252,14 @@ h1 {
   }
 
   .mask.right-nav.sections-nav {
-    width: auto;
+    width: 50%;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
   }
 
   .mask.right-nav.hide {
