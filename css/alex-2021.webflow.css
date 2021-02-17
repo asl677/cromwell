@@ -527,7 +527,7 @@ h1 {
 }
 
 .thumbnail.semi-wide {
-  width: 70vw;
+  width: 65vw;
 }
 
 .image {
@@ -793,7 +793,7 @@ h1 {
 }
 
 .image-thumb {
-  width: 100%;
+  width: 65vw;
 }
 
 .video-wrap {
@@ -832,7 +832,7 @@ h1 {
 }
 
 .loader-embed {
-  width: 20vw;
+  width: 250px;
   height: auto;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -912,6 +912,10 @@ h1 {
 }
 
 @media screen and (min-width: 1280px) {
+  .section.body.big-grid {
+    justify-items: center;
+  }
+
   .video {
     padding-right: 10vw;
     padding-left: 10vw;
@@ -1879,9 +1883,13 @@ h1 {
     width: 60vw;
   }
 
+  .image-thumb {
+    width: 100vw;
+  }
+
   .loader-embed {
     position: relative;
-    width: 70%;
+    width: 60%;
     font-size: 20px;
     line-height: 30px;
   }
