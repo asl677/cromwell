@@ -1494,16 +1494,17 @@ h1 {
   }
 
   .grid._2-up.slim {
-    display: -ms-grid;
-    display: grid;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 10vw;
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
     grid-auto-columns: 1fr;
-    grid-column-gap: 6vw;
-    grid-row-gap: 6vw;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto;
@@ -1516,6 +1517,7 @@ h1 {
     display: -ms-flexbox;
     display: flex;
     padding-top: 5vw;
+    padding-bottom: 5vh;
     grid-auto-columns: 1fr;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -1689,7 +1691,7 @@ h1 {
     width: auto;
     margin-top: 0vw;
     margin-bottom: 0vw;
-    padding: 5vw;
+    padding: 5vw 0vw 5vw 5vw;
   }
 
   .mask.right-nav.hide {
@@ -1746,6 +1748,10 @@ h1 {
     padding: 0vw;
   }
 
+  .thumbnail.semi-wide {
+    width: 100vw;
+  }
+
   .image {
     padding: 5vw;
   }
@@ -1779,9 +1785,18 @@ h1 {
   }
 
   .image.image-grid.small {
+    display: -ms-grid;
+    display: grid;
     width: 100%;
     padding: 25vw;
     grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 19vw;
+    grid-row-gap: 10vw;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
   }
 
   .grid-nav {
