@@ -68,7 +68,7 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   height: 60vh;
-  padding-top: 0vw;
+  padding-top: 5vw;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
