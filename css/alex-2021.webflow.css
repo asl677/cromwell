@@ -256,6 +256,7 @@ h1 {
   margin-left: 0px;
   color: #000;
   font-weight: 400;
+  text-align: center;
 }
 
 .heading.black.medium.link.white {
@@ -539,6 +540,13 @@ h1 {
   height: auto;
 }
 
+.thumbnail.video.mock-video {
+  overflow: visible;
+  width: 22vw;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
 .image {
   position: relative;
   display: block;
@@ -563,6 +571,9 @@ h1 {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 .image.image-grid {
@@ -1615,7 +1626,7 @@ h1 {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
-    text-align: left;
+    text-align: center;
     cursor: auto;
   }
 
@@ -1807,6 +1818,10 @@ h1 {
     width: 100vw;
   }
 
+  .thumbnail.video.mock-video {
+    width: 50vw;
+  }
+
   .image {
     padding: 5vw;
   }
@@ -1821,6 +1836,9 @@ h1 {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
   }
 
   .image.image-grid {
