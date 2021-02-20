@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Feb 19 2021 14:33:37 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sat Feb 20 2021 17:07:50 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ffb31bb4d19bf79fbd25f1e" data-wf-site="5ffb31bb4d19bfcd94d25f1d">
 <head>
   <meta charset="utf-8">
@@ -80,9 +80,9 @@
     .w-background-video {
         position: relative;
         /* overflow: hidden; */
-        width: 50vmax;
+        /* width: 50vmax; */
         /* color: white; */
-        height: 50vmax;
+        height: 34vmax;
     }
     .cursor-wrapper {pointer-events: none;}
     .w-webflow-badge {
@@ -92,44 +92,46 @@
   body::-webkit-scrollbar {
     display: none;
   }
+  html {
+    overflow-x: hidden !important;
+    }
   /* Hide scrollbar for IE, Edge and Firefox */
   body {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     background-color: #e4dfdb;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 </style>
 </head>
-<body style="background-color:rgb(255,255,255)" class="body-3">
+<body style="background-color:rgb(0,0,0)" class="body-3">
   <div style="opacity:0" class="cover">
     <div style="-webkit-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="cursor-wrapper">
       <div class="cursor-dot"></div>
       <div class="cursor-circle"></div>
     </div>
-    <div id="top" style="opacity:0;-webkit-transform:translate3d(0, -30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -30px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="section header">
+    <div class="header">
       <div class="w-layout-grid grid-nav">
         <div class="mask">
-          <div class="load-block black"></div>
           <a href="http://www.alexlakas.com" target="_blank" class="link-wrap w-inline-block">
             <div class="load-block black"></div>
             <p class="heading black medium link left">alex lakas<br>go home<br></p>
           </a>
         </div>
         <div id="w-node-d0df8359-baf3-e4d1-41c6-9c19a66b0ede-fbd25f1e" class="mask right-nav sections-nav">
-          <a href="#01" id="w-node-link-block-fbd25f1e" class="link-wrap w-inline-block">
+          <a href="#section-one" id="w-node-link-block-fbd25f1e" class="link-wrap w-inline-block">
             <div class="load-block black"></div>
             <p class="heading black medium link left">01<br>home<br></p>
           </a>
-          <a href="#02" class="link-wrap w-inline-block">
+          <a href="#section-two" class="link-wrap w-inline-block">
             <div class="load-block black"></div>
             <p class="heading black medium link left">02<br>about<br></p>
           </a>
-          <a href="#03" class="link-wrap w-inline-block">
+          <a href="#section-three" class="link-wrap w-inline-block">
             <div class="load-block black"></div>
             <p class="heading black medium link left">03<br>work<br></p>
           </a>
-          <a href="#04" class="link-wrap w-inline-block">
+          <a href="#section-4" class="link-wrap w-inline-block">
             <div class="load-block black"></div>
             <p class="heading black medium link left">04<br>more<br></p>
           </a>
@@ -150,35 +152,9 @@
         </div>
       </div>
     </div>
-    <div class="section body hero">
-      <div class="mask skew">
-        <div class="load-block full"></div>
-        <div class="w-layout-grid grid _2-up intro">
-          <div class="link-wrap fixed">
-            <a href="#one" class="heading black medium link white">let&#x27;s go<br>let&#x27;s go</a>
-          </div>
-          <div id="w-node-_4dda0f7a-2346-68bc-1fed-89327fc159cd-fbd25f1e" class="w-layout-grid grid-vertical">
-            <div id="w-node-_80f3441c-4d4c-9f43-11f4-addf796c087c-fbd25f1e" class="mask">
-              <div class="load-block white-block"></div>
-              <h1 class="heading white">designing with folks like –––––– linkedin / google / ueno / aiga / maybe you</h1>
-            </div>
-            <div class="mask">
-              <div class="load-block white-block"></div>
-              <p class="body white">Hey there. Hello and welcome to the show.<a href="#01" class="inline-link"></a>
-              </p>
-            </div>
-          </div>
-          <div id="w-node-_8cfc7363-ca53-858c-8e86-c53de46c8cce-fbd25f1e" class="w-layout-grid grid-vertical numbers-grid">
-            <div id="w-node-_8cfc7363-ca53-858c-8e86-c53de46c8ccf-fbd25f1e" class="mask numbers-mask hero-number">
-              <div class="load-block white-block"></div>
-              <h1 class="heading numbers white">01<br></h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="01" class="section body hero-2">
-      <div id="one" style="opacity:0;-webkit-transform:translate3d(0, 10vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="w-layout-grid grid _2-up slim">
+    <div id="section-one" class="section body hero-2">
+      <div id="top" class="fake-top"></div>
+      <div style="opacity:0;-webkit-transform:translate3d(0, 6vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 6vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 6vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 6vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="w-layout-grid grid _2-up slim">
         <div class="w-layout-grid grid-vertical text-block">
           <div id="w-node-_8fee6ee0-9f38-7708-a008-ae126f0c0dcc-fbd25f1e" class="mask">
             <div class="load-block black"></div>
@@ -193,41 +169,116 @@
         </div>
       </div>
     </div>
-    <div id="015" data-w-id="bff86a92-f58d-b21a-a2e9-aecd1c613cb8" style="opacity:0;-webkit-transform:translate3d(0, 10vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 10vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 10vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 10vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="section body big-grid">
+    <div data-w-id="bff86a92-f58d-b21a-a2e9-aecd1c613cb8" style="opacity:0;-webkit-transform:translate3d(0, 6vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 6vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 6vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 6vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="section body big-grid">
       <div id="w-node-_50a78bcb-6d4a-32df-0417-d4f77c2b4f6c-7c2b4f6c" class="video slim-video">
         <div class="mask">
-          <div class="load-block black"></div><img src="images/car3d-2.png" loading="lazy" data-w-id="50a78bcb-6d4a-32df-0417-d4f77c2b4f6f" alt="" class="thumbnail">
+          <div class="load-block black"></div><img src="images/car3d-2.png" loading="eager" alt="" class="thumbnail scale">
+        </div>
+        <div class="mask">
+          <div class="load-block black"></div>
+          <div class="rotate-wrap">
+            <div class="plus-wrap hide">
+              <p class="heading small rotate plus">+<br></p>
+            </div>
+            <p class="heading small rotate">Conceptual 3D modeling</p>
+          </div>
         </div>
       </div>
     </div>
-    <div id="02" class="section body">
+    <div id="section-two" class="section body">
       <div class="w-layout-grid grid _2-up tall">
-        <div class="w-layout-grid grid-vertical">
+        <div id="w-node-_0b2050d9-a8ba-a9eb-e4f9-152442853689-fbd25f1e" class="w-layout-grid grid-vertical">
           <div id="w-node-_0b2050d9-a8ba-a9eb-e4f9-15244285368a-fbd25f1e" class="mask">
             <div class="load-block black"></div>
-            <h1 class="heading black">15 years of apps, websites &amp; products</h1>
+            <h1 class="heading black">15 years of apps, websites, products &amp; more</h1>
           </div>
           <div class="mask">
             <div class="load-block black"></div>
-            <p class="heading small">from social apps to google maps, i’ve found myself polishing up the internet for just over a decade now, and still continuing to grow from it. This means a career full of marrying r&amp;d with product, stakeholders, and researchers. I also help teams expand their toolkits by educating them on effective design process and workflow. When not at a computer I enjoy mixed media, hands on crafts, as well as mechanical and software engineering projects.<br><br>+ visual, user experience &amp; interaction design<br>+ story telling &amp; ux strategy<br>+ rapid prototyping &amp; systems advocate<br>+ mentorship &amp; teaching<br>+ research &amp; product planning<br>+ responsive &amp; visual development<br>+ aspirational motion &amp; 3d<br></p>
+            <p class="heading small">from social apps to google maps, i’ve found myself polishing up the internet for just over a decade now, and still continuing to grow from it. This means a career full of marrying r&amp;d with product, stakeholders, and data. I also help teams expand their toolkits by educating them on effective design process and workflow. When not at a computer I enjoy mixed media, hands on crafts, as well as mechanical and software engineering projects.<br></p>
+          </div>
+          <div class="mask">
+            <div class="load-block black"></div>
+            <div class="rotate-wrap">
+              <div class="plus-wrap">
+                <p class="heading small rotate plus">+<br></p>
+              </div>
+              <p class="heading small rotate">User experience design<br></p>
+            </div>
+            <div class="rotate-wrap">
+              <div class="plus-wrap">
+                <p class="heading small rotate plus">+<br></p>
+              </div>
+              <p class="heading small rotate">interaction design<br></p>
+            </div>
+            <div class="rotate-wrap">
+              <div class="plus-wrap">
+                <p class="heading small rotate plus">+<br></p>
+              </div>
+              <p class="heading small rotate">Story telling &amp; strategy<br></p>
+            </div>
+            <div class="rotate-wrap">
+              <div class="plus-wrap">
+                <p class="heading small rotate plus">+<br></p>
+              </div>
+              <p class="heading small rotate">prototyping &amp; systems advocate<br></p>
+            </div>
+            <div class="rotate-wrap">
+              <div class="plus-wrap">
+                <p class="heading small rotate plus">+<br></p>
+              </div>
+              <p class="heading small rotate">mentorship<br></p>
+            </div>
+            <div class="rotate-wrap">
+              <div class="plus-wrap">
+                <p class="heading small rotate plus">+<br></p>
+              </div>
+              <p class="heading small rotate">research &amp; planning<br></p>
+            </div>
+            <div class="rotate-wrap">
+              <div class="plus-wrap">
+                <p class="heading small rotate plus">+<br></p>
+              </div>
+              <p class="heading small rotate">webflow development<br></p>
+            </div>
+            <div class="rotate-wrap">
+              <div class="plus-wrap">
+                <p class="heading small rotate plus">+<br></p>
+              </div>
+              <p class="heading small rotate">motion enthusiast<br></p>
+            </div>
+            <div class="rotate-wrap">
+              <div class="plus-wrap hide">
+                <p class="heading small rotate plus">+<br></p>
+              </div>
+              <p class="heading small rotate">Cross-collaboration<br></p>
+            </div>
           </div>
         </div>
-        <div id="w-node-_0b2050d9-a8ba-a9eb-e4f9-152442853692-fbd25f1e" class="w-layout-grid grid-vertical numbers-grid">
-          <div id="w-node-_0b2050d9-a8ba-a9eb-e4f9-152442853693-fbd25f1e" class="mask numbers-mask">
+        <div id="w-node-d517f9c4-496f-657a-0846-46c04659c468-fbd25f1e" class="w-layout-grid grid-vertical numbers-grid">
+          <div id="w-node-d517f9c4-496f-657a-0846-46c04659c469-fbd25f1e" class="mask numbers-mask">
             <div class="load-block black"></div>
             <h1 class="heading numbers black">02<br></h1>
           </div>
         </div>
       </div>
     </div>
-    <div id="015" class="section body big-grid">
+    <div class="section body">
       <div id="w-node-_50a78bcb-6d4a-32df-0417-d4f77c2b4f6c-7c2b4f6c" class="video slim-video">
         <div class="mask">
-          <div class="load-block black"></div><img src="images/IMG_0799.jpg" loading="lazy" data-w-id="50a78bcb-6d4a-32df-0417-d4f77c2b4f6f" alt="" sizes="(max-width: 767px) 90vw, (max-width: 1919px) 40vw, 33vw" srcset="images/IMG_0799-p-500.jpeg 500w, images/IMG_0799-p-800.jpeg 800w" class="thumbnail">
+          <div class="load-block black"></div><img src="images/shot-by-curt-4NI5MJAcXWY-unsplash.jpg" loading="eager" alt="" sizes="(max-width: 479px) 90vw, (max-width: 1919px) 50vw, 30vw" srcset="images/shot-by-curt-4NI5MJAcXWY-unsplash-p-1080.jpeg 1080w, images/shot-by-curt-4NI5MJAcXWY-unsplash-p-1600.jpeg 1600w, images/shot-by-curt-4NI5MJAcXWY-unsplash-p-2000.jpeg 2000w, images/shot-by-curt-4NI5MJAcXWY-unsplash-p-2600.jpeg 2600w, images/shot-by-curt-4NI5MJAcXWY-unsplash-p-3200.jpeg 3200w" class="thumbnail scale">
+        </div>
+        <div class="mask">
+          <div class="load-block black"></div>
+          <div class="rotate-wrap">
+            <div class="plus-wrap hide">
+              <p class="heading small rotate plus">+<br></p>
+            </div>
+            <p class="heading small rotate">currently working from venice, ca</p>
+          </div>
         </div>
       </div>
     </div>
-    <div id="03" class="section body">
+    <div id="section-three" class="section body">
       <div class="w-layout-grid grid _2-up">
         <div class="w-layout-grid grid-vertical">
           <div id="w-node-b0eb6ccd-52e8-8d82-4e66-82931d3150f4-fbd25f1e" class="mask">
@@ -266,7 +317,7 @@
           </div>
         </div>
       </div>
-      <div class="image grid">
+      <div id="w-node-_1416c05f-d987-b08a-f2bb-643cd5d057ea-fbd25f1e" class="video slim-video">
         <div class="mask">
           <div class="load-block black"></div>
           <div data-poster-url="videos/linkedin-sharing-demo-poster-00001.jpg" data-video-urls="videos/linkedin-sharing-demo-transcode.mp4,videos/linkedin-sharing-demo-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="thumbnail video mock-video w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;videos/linkedin-sharing-demo-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
@@ -367,7 +418,7 @@
           </div>
         </div>
       </div>
-      <div class="image grid">
+      <div class="video slim-video">
         <div class="mask">
           <div class="load-block black"></div>
           <div data-poster-url="https://uploads-ssl.webflow.com/5ffb31bb4d19bfcd94d25f1d/602f353145d1b008183f0d4b_local-search-demo 8-poster-00001.jpg" data-video-urls="https://uploads-ssl.webflow.com/5ffb31bb4d19bfcd94d25f1d/602f353145d1b008183f0d4b_local-search-demo 8-transcode.mp4,https://uploads-ssl.webflow.com/5ffb31bb4d19bfcd94d25f1d/602f353145d1b008183f0d4b_local-search-demo 8-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="thumbnail video mock-video w-background-video w-background-video-atom"><video autoplay="" loop="" style="background-image:url(&quot;https://uploads-ssl.webflow.com/5ffb31bb4d19bfcd94d25f1d/602f353145d1b008183f0d4b_local-search-demo 8-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
@@ -403,7 +454,7 @@
         </div>
       </div>
     </div>
-    <div id="04" class="section body">
+    <div id="section-4" class="section body">
       <div class="w-layout-grid grid _2-up">
         <div class="w-layout-grid grid-vertical">
           <div id="w-node-_191788d4-9e65-4696-62ec-0e0833fdfb5f-fbd25f1e" class="mask">
@@ -519,7 +570,7 @@
         </div>
       </div>
     </div>
-    <div id="05" class="section body">
+    <div class="section body">
       <div class="w-layout-grid grid _1-up">
         <div class="w-layout-grid grid-vertical divider">
           <div id="w-node-_34d2051d-eb94-563f-8585-43b50f94ba75-fbd25f1e" class="mask">
@@ -529,12 +580,6 @@
           <div class="mask">
             <div class="load-block black"></div>
             <p class="heading small">Okay, that&#x27;s all for now. Should you be interested in working together or just wanna talk shop, I&#x27;m always down for a real or virtual coffee –– so feel free to reach out via Linkedin to learn more.<br></p>
-          </div>
-          <div class="mask">
-            <a href="https://www.linkedin.com/in/latenights/" target="_blank" class="link-wrap w-inline-block">
-              <div class="load-block black"></div>
-              <p class="heading black medium link left">get in touch<br>let&#x27;s go<br></p>
-            </a>
           </div>
         </div>
       </div>
