@@ -40,9 +40,9 @@ h1 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 70vh;
+  height: 60vh;
   padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -94,7 +94,7 @@ h1 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 5vw 15vw;
+  padding: 5vw;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -225,7 +225,7 @@ h1 {
   display: flex;
   width: auto;
   padding-top: 0px;
-  padding-bottom: 0.5vw;
+  padding-bottom: 0.4vw;
   clear: none;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -318,6 +318,11 @@ h1 {
 
 .grid-vertical.divider {
   width: 60vw;
+  justify-items: start;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .mask {
@@ -437,6 +442,11 @@ h1 {
   grid-template-columns: 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
+}
+
+.video.slim-video.greyscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .thumbnail {
@@ -702,7 +712,7 @@ h1 {
   right: 0%;
   bottom: 0%;
   z-index: 12;
-  width: 0.2vw;
+  width: 0.3vw;
   height: 10vh;
   border-radius: 20px;
   background-color: #000;
@@ -1978,6 +1988,11 @@ h1 {
   align-self: end;
 }
 
+#w-node-bdee67b7-9462-9dba-d24c-f3c5cbb0df16-fbd25f1e {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
 #w-node-b0eb6ccd-52e8-8d82-4e66-82931d3150f4-fbd25f1e {
   -webkit-align-self: end;
   -ms-flex-item-align: end;
@@ -2025,13 +2040,6 @@ h1 {
   align-self: end;
 }
 
-#w-node-_34d2051d-eb94-563f-8585-43b50f94ba75-fbd25f1e {
-  -webkit-align-self: end;
-  -ms-flex-item-align: end;
-  -ms-grid-row-align: end;
-  align-self: end;
-}
-
 #w-node-grid-2-fbd25f1e {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -2055,14 +2063,14 @@ h1 {
   justify-self: start;
 }
 
-#w-node-_50a78bcb-6d4a-32df-0417-d4f77c2b4f6c-7c2b4f6c {
-  -ms-grid-column-align: center;
-  justify-self: center;
-}
-
 #w-node-f580ade3-ea52-e7a4-5113-579fc876dc85-c876dc84 {
   -ms-grid-column-align: start;
   justify-self: start;
+}
+
+#w-node-_50a78bcb-6d4a-32df-0417-d4f77c2b4f6c-7c2b4f6c {
+  -ms-grid-column-align: center;
+  justify-self: center;
 }
 
 @media screen and (min-width: 1920px) {
