@@ -401,14 +401,16 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  -webkit-transform: translate(5vw, 0px);
-  -ms-transform: translate(5vw, 0px);
-  transform: translate(5vw, 0px);
+  -webkit-transform: translate(6vw, 0px);
+  -ms-transform: translate(6vw, 0px);
+  transform: translate(6vw, 0px);
   text-align: center;
 }
 
 .mask.right-nav.hide {
   width: auto;
+  grid-auto-flow: column;
+  grid-auto-columns: 0.5fr;
   grid-column-gap: 2vw;
   grid-row-gap: 0px;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -2073,6 +2075,13 @@ h1 {
   -ms-flex-item-align: start;
   -ms-grid-row-align: start;
   align-self: start;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+}
+
+#w-node-_6de59131-ad55-7d7b-e53d-ed05063ea5da-fbd25f1e {
   -webkit-box-ordinal-group: 1;
   -webkit-order: 0;
   -ms-flex-order: 0;
