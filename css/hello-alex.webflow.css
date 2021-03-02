@@ -664,8 +664,8 @@ h1 {
   overflow: hidden;
   width: auto;
   height: 2.5vw;
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
+  -webkit-transition: none 0ms ease;
+  transition: none 0ms ease;
   color: #000;
   text-align: center;
   text-decoration: none;
