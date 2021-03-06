@@ -408,11 +408,13 @@ h1 {
 }
 
 .mask.right-nav.hide {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: auto;
   grid-auto-flow: column;
-  grid-auto-columns: 0.5fr;
-  grid-column-gap: 2vw;
-  grid-row-gap: 0px;
+  grid-auto-columns: 0.7fr;
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -1516,9 +1518,9 @@ h1 {
   }
 
   .hover-strip {
-    -webkit-transform: translate(0px, 5vw);
-    -ms-transform: translate(0px, 5vw);
-    transform: translate(0px, 5vw);
+    -webkit-transform: translate(0px, 6vw);
+    -ms-transform: translate(0px, 6vw);
+    transform: translate(0px, 6vw);
   }
 }
 
@@ -1537,7 +1539,7 @@ h1 {
 
   .section.body.hero-2 {
     height: auto;
-    padding: 10vh 0vw 0vw;
+    padding: 25vh 0vw 0vw;
   }
 
   .grid._2-up {
