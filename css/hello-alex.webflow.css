@@ -401,9 +401,9 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  -webkit-transform: translate(6vw, 0px);
-  -ms-transform: translate(6vw, 0px);
-  transform: translate(6vw, 0px);
+  -webkit-transform: translate(9vw, 0px);
+  -ms-transform: translate(9vw, 0px);
+  transform: translate(9vw, 0px);
   text-align: center;
 }
 
