@@ -1566,7 +1566,7 @@ h1 {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 15vw;
+    padding-top: 5vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -webkit-flex-direction: column-reverse;
