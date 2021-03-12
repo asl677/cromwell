@@ -1683,7 +1683,7 @@ h1 {
 
   .heading.small {
     margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-bottom: 4vw;
     font-size: 16px;
     line-height: 24px;
     text-align: left;
@@ -1698,6 +1698,8 @@ h1 {
 
   .heading.small.rotate {
     position: relative;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
     font-size: 16px;
   }
 
