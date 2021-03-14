@@ -527,7 +527,7 @@ h1 {
 }
 
 .thumbnail {
-  width: 40vw;
+  width: 60vw;
 }
 
 .thumbnail.narrow {
@@ -543,7 +543,6 @@ h1 {
 
 .thumbnail.scale {
   position: relative;
-  width: 60vw;
 }
 
 .image {
